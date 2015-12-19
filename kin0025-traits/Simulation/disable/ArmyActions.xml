@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <ArmyAction_Siege Name="ArmyActionSiege" ExperienceReward="0">
+    <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">ClassArmy/MovementCapacitySail</PathPrerequisite>
+<!--	<CustomCost resource="BoosterGeneratorIndustry" Instant="true"> 1 </CustomCost> -->
+  <!-- Cost- Stockpile per turn? Stockpile per owned city? Tremendous amount of gold? -->
+	<CustomCost resource="dust" Instant="true"> ( 1 / ( $Property(ClassEmpire/CurrentTurn) ) ) * $Property(ClassEmpire/MilitaryUpkeep) </CustomCost>
+  </ArmyAction_Siege>
+  
+
+  <ArmyAction_Siege Name="ArmyActionSiege2" ExperienceReward="0">
+    <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">ClassArmy/MovementCapacitySail</PathPrerequisite>
+<!--	<CustomCost resource="BoosterGeneratorIndustry" Instant="true"> 1 </CustomCost> -->
+  <!-- Cost- Stockpile per turn? Stockpile per owned city? Tremendous amount of gold? -->
+	<CustomCost resource="dust" Instant="true">$Property(ClassEmpire/MilitaryUpkeep) </CustomCost>
+  </ArmyAction_Siege>
+ 
+  <ArmyAction_Siege Name="ArmyActionSiege3" ExperienceReward="0">
+    <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">ClassArmy/MovementCapacitySail</PathPrerequisite>
+<!--	<CustomCost resource="BoosterGeneratorIndustry" Instant="true"> 1 </CustomCost> -->
+  <!-- Cost- Stockpile per turn? Stockpile per owned city? Tremendous amount of gold? -->
+	<CustomCost resource="dust" Instant="true">$Property(ClassEmpire/CurrentTurn)</CustomCost>
+  </ArmyAction_Siege>
+ 
+  <ArmyAction_Siege Name="ArmyActionSiege4" ExperienceReward="0">
+    <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">ClassArmy/MovementCapacitySail</PathPrerequisite>
+<!--	<CustomCost resource="BoosterGeneratorIndustry" Instant="true"> 1 </CustomCost> -->
+  <!-- Cost- Stockpile per turn? Stockpile per owned city? Tremendous amount of gold? -->
+	<CustomCost resource="dust" Instant="true"> 1 / $Property(ClassEmpire/CurrentTurn)</CustomCost>
+  </ArmyAction_Siege>
+   
+</Datatable>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Unit1: Infantry -->
+  <GuiElement Name="FactionTraitCustomBrokenLordsUnit1">
+    <Title>%UnitBrokenLordsInfantryTitle</Title>
+    <Description>%UnitBrokenLordsInfantryDescription</Description>
+  </GuiElement>
+
+  <!-- Unit2: Cavalry -->
+  <GuiElement Name="FactionTraitCustomBrokenLordsUnit2">
+    <Title>%UnitBrokenLordsCavalryTitle</Title>
+    <Description>%UnitBrokenLordsCavalryDescription</Description>
+  </GuiElement>
+
+  <!-- Unit3: Black Bishop -->
+  <GuiElement Name="FactionTraitCustomBrokenLordsUnit3">
+    <Title>%UnitBrokenLordsBlackBishopTitle</Title>
+    <Description>%UnitBrokenLordsBlackBishopDescription</Description>
+  </GuiElement>
+
+  <!-- Unit1: Dekari Ranger -->
+  <GuiElement Name="FactionTraitCustomMadFairiesUnit1">
+    <Title>%UnitMadFairiesArcherTitle</Title>
+    <Description>%UnitMadFairiesArcherDescription</Description>
+  </GuiElement>
+
+  <!-- Unit2: Ayache Shaman -->
+  <GuiElement Name="FactionTraitCustomMadFairiesUnit2">
+    <Title>%UnitMadFairiesShamanTitle</Title>
+    <Description>%UnitMadFairiesShamanDescription</Description>
+  </GuiElement>
+
+  <!-- Unit3: Tenei Walker -->
+  <GuiElement Name="FactionTraitCustomMadFairiesUnit3">
+    <Title>%UnitMadFairiesForestSpiritTitle</Title>
+    <Description>%UnitMadFairiesForestSpiritDescription</Description>
+  </GuiElement>
+
+  <!-- Unit1: Marine -->
+  <GuiElement Name="FactionTraitCustomVaultersUnit1">
+    <Title>%UnitVaultersMarineTitle</Title>
+    <Description>%UnitVaultersMarineDescription</Description>
+  </GuiElement>
+
+  <!-- Unit2: Dawn Officer -->
+  <GuiElement Name="FactionTraitCustomVaultersUnit2">
+    <Title>%UnitVaultersDawnOfficerTitle</Title>
+    <Description>%UnitVaultersDawnOfficerDescription</Description>
+  </GuiElement>
+
+  <!-- Unit3: Titan -->
+  <GuiElement Name="FactionTraitCustomVaultersUnit3">
+    <Title>%UnitVaultersTitanTitle</Title>
+    <Description>%UnitVaultersTitanDescription</Description>
+  </GuiElement>
+
+
+  <!-- Unit1: Necrohunter -->
+  <GuiElement Name="FactionTraitCustomNecrophagesUnit1">
+    <Title>%UnitNecrophagesNecrohunterTitle</Title>
+    <Description>%UnitNecrophagesNecrohunterDescription</Description>
+  </GuiElement>
+
+  <!-- Unit2: Zombat -->
+  <GuiElement Name="FactionTraitCustomNecrophagesUnit2">
+    <Title>%UnitNecrophagesZombatTitle</Title>
+    <Description>%UnitNecrophagesZombatDescription</Description>
+  </GuiElement>
+
+  <!-- Unit3: Lichbug -->
+  <GuiElement Name="FactionTraitCustomNecrophagesUnit3">
+    <Title>%UnitNecrophagesLichbugTitle</Title>
+    <Description>%UnitNecrophagesLichbugDescription</Description>
+  </GuiElement>
+
+  <!-- Unit1: Battle Mage -->
+  <GuiElement Name="FactionTraitCustomRageWizardsUnit1">
+    <Title>%UnitRageWizardsBattleMageTitle</Title>
+    <Description>%UnitRageWizardsBattleMageDescription</Description>
+  </GuiElement>
+
+  <!-- Unit2: Witch -->
+  <GuiElement Name="FactionTraitCustomRageWizardsUnit2">
+    <Title>%UnitRageWizardsWitchTitle</Title>
+    <Description>%UnitRageWizardsWitchDescription</Description>
+  </GuiElement>
+
+  <!-- Unit3: Phoenix -->
+  <GuiElement Name="FactionTraitCustomRageWizardsUnit3">
+    <Title>%UnitRageWizardsPhoenixTitle</Title>
+    <Description>%UnitRageWizardsPhoenixDescription</Description>
+  </GuiElement>
+
+  <!-- Unit1: Dervish -->
+  <GuiElement Name="FactionTraitCustomRovingClansUnit1">
+    <Title>%UnitRovingClansDervishTitle</Title>
+    <Description>%UnitRovingClansDervishDescription</Description>
+  </GuiElement>
+
+  <!-- Unit2: Kassai -->
+  <GuiElement Name="FactionTraitCustomRovingClansUnit2">
+    <Title>%UnitRovingClansKassaiTitle</Title>
+    <Description>%UnitRovingClansKassaiDescription</Description>
+  </GuiElement>
+
+  <!-- Unit3: Berzerk -->
+  <GuiElement Name="FactionTraitCustomRovingClansUnit3">
+    <Title>%UnitRovingClansBerzerkTitle</Title>
+    <Description>%UnitRovingClansBerzerkDescription</Description>
+  </GuiElement>
+
+  <!-- Unit1: Drakkenling -->
+  <GuiElement Name="FactionTraitCustomDrakkensUnit1">
+    <Title>%UnitDrakkensDrakkenlingTitle</Title>
+    <Description>%UnitDrakkensDrakkenlingDescription</Description>
+  </GuiElement>
+
+  <!-- Unit2: Wyvern -->
+  <GuiElement Name="FactionTraitCustomDrakkensUnit2">
+    <Title>%UnitDrakkensWyvernTitle</Title>
+    <Description>%UnitDrakkensWyvernDescription</Description>
+  </GuiElement>
+
+  <!-- Unit3: Ancient Dragon -->
+  <GuiElement Name="FactionTraitCustomDrakkensUnit3">
+    <Title>%UnitDrakkensAncientDragonTitle</Title>
+    <Description>%UnitDrakkensAncientDragonDescription</Description>
+  </GuiElement>
+
+
+  <!-- Unit1: Preacher -->
+  <GuiElement Name="FactionTraitCustomCultistsUnit1">
+    <Title>%UnitCultistsPreacherTitle</Title>
+    <Description>%UnitCultistsPreacherDescription</Description>
+  </GuiElement>
+
+  <!-- Unit2: Fanatic -->
+  <GuiElement Name="FactionTraitCustomCultistsUnit2">
+    <Title>%UnitCultistsFanaticTitle</Title>
+    <Description>%UnitCultistsFanaticDescription</Description>
+  </GuiElement>
+
+  <!-- Unit3: Nameless Guard -->
+  <GuiElement Name="FactionTraitCustomCultistsUnit3">
+    <Title>%UnitCultistsNamelessGuardTitle</Title>
+    <Description>%UnitCultistsNamelessGuardDescription</Description>
+  </GuiElement>
+  
+  <!-- Unit1: Drakkenling -->
+  <GuiElement Name="FactionTraitDrazariUnit1">
+    <Title>%UnitDrakkensDrakkenlingTitle</Title>
+    <Description>%UnitDrakkensDrakkenlingDescription</Description>
+  </GuiElement>
+
+  <!-- Unit2: Wyvern -->
+  <GuiElement Name="FactionTraitDrazariUnit2">
+    <Title>%UnitDrakkensWyvernTitle</Title>
+    <Description>%UnitDrakkensWyvernDescription</Description>
+  </GuiElement>
+
+  <!-- Unit3: Ancient Dragon -->
+  <GuiElement Name="FactionTraitDrazariUnit3">
+    <Title>%UnitDrakkensAncientDragonTitle</Title>
+    <Description>%UnitDrakkensAncientDragonDescription</Description>
+  </GuiElement>
+  <GuiElement Name="FactionTraitExpansionApproval">
+    <Title>%FactionTraitExpansionApprovalTitle</Title>
+    <Description>%FactionTraitExpansionApprovalDescription</Description>
+  </GuiElement>
+  <GuiElement Name="FactionTraitStrategicPower">
+    <Title>%FactionTraitStrategicPowerTitle</Title>
+    <Description>%FactionTraitStrategicPowerDescription</Description>
+  </GuiElement>
+    <GuiElement Name="FactionTraitDrazariMainQuest">
+    <Title>%FactionTraitVaultersMainQuestTitle</Title>
+    <Description>%FactionTraitVaultersMainQuestDescription</Description>
+  </GuiElement> 
+  <GuiElement Name="FactionTraitDiplomacyStart">
+    <Title>%FactionTraitDiplomacyStartTitle</Title>
+    <Description>%FactionTraitDiplomacyStartDescription</Description>
+  </GuiElement> 
+ <!-- Family Filters -->  
+    <GuiElement Name="CustomTraitFamilyFilterUnits">
+    <Title>%CustomTraitFamilyFilterUnitsTitle</Title>
+    <Description>%CustomTraitFamilyFilterUnitsDescription</Description>
+  </GuiElement>
+</Datatable>

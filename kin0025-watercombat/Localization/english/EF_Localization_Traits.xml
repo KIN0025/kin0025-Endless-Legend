@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<LocalizationPair Name="%CityImprovementApprovalBuilding">Legal System</LocalizationPair>
+	<LocalizationPair Name="%CityImprovementApprovalBuildingDescription">A strong legal system eases disapproval that citizens have of other cities. Citizens stop hating other cities, and so other cities are more likely to approve of those expansions as well.</LocalizationPair>
+	<LocalizationPair Name="%NegotiationFilterCitiesTitle">Cities</LocalizationPair>
+	<LocalizationPair Name="%NegotiationFilterCitiesDescription">Show Cities only.
+ 
+Cities can be traded in the following cases:
+ 
+War status
+ - You are proposing a truce treaty.
+ 
+Peace status
+ - You are proposing an alliance treaty.
+
+Alliance status
+ - Anytime.</LocalizationPair>
+	<LocalizationPair Name="%CustomTraitFamilyFilterUnitsTitle">Custom Units</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitExpansionApprovalTitle">Legal System</LocalizationPair>  <LocalizationPair Name="%FactionTraitExpansionApprovalTitle">Legal System</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitExpansionApprovalDescription">A structure that removes the effects of expansion disapproval from the city it is built in.</LocalizationPair>
+  <LocalizationPair Name="%CustomTraitFamilyFilterUnitsDescription">Custom Units from other factions. Only 1 unit per tier may be added.</LocalizationPair>  
+   <LocalizationPair Name="%FactionTraitStrategicPowerTitle">Strategic Power</LocalizationPair>  
+   <LocalizationPair Name="%FactionTraitStrategicPowerDescription">Doubles the income of strategic resources in exchange for all income of the strategic resource.</LocalizationPair>  
+    <LocalizationPair Name="%FactionTraitDiplomacyStartTitle">Diplomatic Knowledge</LocalizationPair>  
+   <LocalizationPair Name="%FactionTraitDiplomacyStartDescription">Grants the use of peace at 5x the cost, and alliance at 10x, from the start of the game.</LocalizationPair>  
+</Datatable>

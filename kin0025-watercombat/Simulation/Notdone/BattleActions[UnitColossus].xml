@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- ############################################################################################################################################ -->
+  <!-- ############################################################################################################################################ -->
+  <!-- #################################    BATTLE ACTIONS WITH THE VISUAL DATA AND SPECIFIC GAMEPLAY   ########################################### -->
+  <!-- ############################################################################################################################################ -->
+  <!-- ############################################################################################################################################ -->
+
+
+  <!-- ===================================== WATER COLOSSUS ======================================== -->
+  <BattleActionUnit Name="BattleActionUnitAbilityTsunamiCharging" Type="Move">
+  <InterpreterPrerequisite Inverted="false">$Count(ClassUnit,UnitAbilityActiveChargeDescriptor) ge 1</InterpreterPrerequisite>
+    <BattleEffects TargetsFilter="Initiator Alive">
+      <!-- TO BE REPLACED: use the Broken Lord VFX -->
+      <BattleEffect_Void Name="BattleActionUnitAbilityTsunamiChargeUp" />
+    </BattleEffects>
+  </BattleActionUnit>
+  
+  <!-- ===================================== DUST COLOSSUS ======================================== -->
+  <BattleActionUnit Name="BattleActionUnitColossusDustAttackDefensePassive" Defensible="false" TerrainConsideration="Range" Type="Attack Defense Support">
+    <BattleEffects TargetsFilter="Target Alive">
+      <BattleEffect_Void Name="BattleEffectTriggerData" />
+    </BattleEffects>
+    <BattleActionData>
+      <Projectile AssetPath="Prefabs/Effects/Projectiles/Pr_Colossus_Dust_01" RangeRestriction="LongRange" Speed="10" Trajectory="parabolic" AccelerationDistance="0.5" SpeedReductionFactorMax="0.5" Angle="5" OriginBoneName="RightHand" TargetBoneName="Hips"  ProgressionRatioBeforeFadeOut="0.85">
+        <ImpactFx>Pr_Colossus_Dust_01_Hit</ImpactFx>
+      </Projectile>
+      <Projectile AssetPath="Prefabs/Effects/Projectiles/Pr_Colossus_Dust_01" RangeRestriction="CloseRange" Speed="10" Trajectory="linear" AccelerationDistance="0.5" SpeedReductionFactorMax="0.5" OriginBoneName="RightHand" TargetBoneName="Hips"  ProgressionRatioBeforeFadeOut="0.85">
+        <ImpactFx>Pr_Colossus_Dust_01_Hit</ImpactFx>
+      </Projectile>
+    </BattleActionData>
+  </BattleActionUnit>
+
+  <!-- ===================================== FIRE COLOSSUS ======================================== --> 
+  <BattleActionUnit Name="BattleActionUnitColossusFireAttackDefensePassive" Defensible="false" TerrainConsideration="Range" Type="Attack Defense Support">
+    <BattleEffects TargetsFilter="Target Alive">
+      <BattleEffect_Void Name="BattleEffectTriggerData" />
+    </BattleEffects>
+    <BattleActionData>
+      <Projectile AssetPath="Prefabs/Effects/Projectiles/Pr_Colossus_Fire_01" RangeRestriction="LongRange" Speed="5" Trajectory="parabolic" AccelerationDistance="0.5" SpeedReductionFactorMax="0.5" Angle="40" OriginBoneName="Left_5" TargetBoneName="Hips"  ProgressionRatioBeforeFadeOut="0.85">
+        <ImpactFx>Pr_Colossus_Fire_01_Hit</ImpactFx>
+      </Projectile>
+      <Projectile AssetPath="Prefabs/Effects/Projectiles/Pr_Colossus_Fire_01" RangeRestriction="CloseRange" Speed="5" Trajectory="linear" AccelerationDistance="0.5" SpeedReductionFactorMax="0.5" OriginBoneName="Left_5" TargetBoneName="Hips"  ProgressionRatioBeforeFadeOut="0.85">
+        <ImpactFx>Pr_Colossus_Fire_01_Hit</ImpactFx>
+      </Projectile>
+    </BattleActionData>
+  </BattleActionUnit> 
+  
+  
+
+  
+</Datatable>

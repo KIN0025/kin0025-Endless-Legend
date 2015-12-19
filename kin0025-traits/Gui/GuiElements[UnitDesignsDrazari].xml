@@ -1,0 +1,1492 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- ################################################### -->
+  <!-- ############### BROKEN LORDS UNITS ################ -->
+  <!-- ################################################### -->
+
+  <!-- BROKEN LORDS BLACK BISHOP -->
+  <GuiElement Name="FactionAffinityUnitDesignBrokenLordsBlackBishop">
+    <Title>%UnitBrokenLordsBlackBishopTitle</Title>
+    <Description>%UnitBrokenLordsBlackBishopDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitBrokenLordsBlackBishopSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitBrokenLordsBlackBishopLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- BROKEN LORDS CAVALRY -->
+  <GuiElement Name="FactionAffinityUnitDesignBrokenLordsCavalry">
+    <Title>%UnitBrokenLordsCavalryTitle</Title>
+    <Description>%UnitBrokenLordsCavalryDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitBrokenLordsCavalrySmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitBrokenLordsCavalryLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- BROKEN LORDS INFANTRY -->  
+  <GuiElement Name="FactionAffinityUnitDesignBrokenLordsInfantry">
+    <Title>%UnitBrokenLordsInfantryTitle</Title>
+    <Description>%UnitBrokenLordsInfantryDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitBrokenLordsInfantrySmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitBrokenLordsInfantryLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- BROKEN LORDS SETTLER -->
+  <GuiElement Name="FactionAffinityUnitDesignBrokenLordsSettler">
+    <Title>%UnitSettlerTitle</Title>
+    <Description>%UnitSettlerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitBrokenLordsSettlerSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitBrokenLordsSettlerLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- BROKEN LORDS MILITIA ERA1 [HIDDEN] -->  
+  <GuiElement Name="FactionAffinityUnitDesignBrokenLordsMilitiaEra1">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitBrokenLordsMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitBrokenLordsMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- BROKEN LORDS MILITIA ERA2 [HIDDEN] -->  
+  <GuiElement Name="FactionAffinityUnitDesignBrokenLordsMilitiaEra2">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitBrokenLordsMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitBrokenLordsMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- BROKEN LORDS MILITIA ERA3 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignBrokenLordsMilitiaEra3">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitBrokenLordsMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitBrokenLordsMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- BROKEN LORDS MILITIA ERA4 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignBrokenLordsMilitiaEra4">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitBrokenLordsMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitBrokenLordsMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- BROKEN LORDS MILITIA ERA5 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignBrokenLordsMilitiaEra5">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitBrokenLordsMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitBrokenLordsMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- BROKEN LORDS MILITIA ERA6 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignBrokenLordsMilitiaEra6">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitBrokenLordsMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitBrokenLordsMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ################################################### -->
+  <!-- ############### MAD FAIRIES UNITS ################# -->
+  <!-- ################################################### -->
+  
+  <!--  MAD FAIRIES FOREST SPIRIT  -->  
+  <GuiElement Name="FactionAffinityUnitDesignMadFairiesForestSpirit">
+    <Title>%UnitMadFairiesForestSpiritTitle</Title>
+    <Description>%UnitMadFairiesForestSpiritDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMadFairiesForestSpiritSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMadFairiesForestSpiritLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- MAD FAIRIES SHAMAN  -->
+  <GuiElement Name="FactionAffinityUnitDesignMadFairiesShaman">
+    <Title>%UnitMadFairiesShamanTitle</Title>
+    <Description>%UnitMadFairiesShamanDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMadFairiesShamanSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMadFairiesShamanLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- MAD FAIRIES ARCHER -->
+  <GuiElement Name="FactionAffinityUnitDesignMadFairiesArcher">
+    <Title>%UnitMadFairiesArcherTitle</Title>
+    <Description>%UnitMadFairiesArcherDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMadFairiesArcherSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMadFairiesArcherLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- MAD FAIRIES SETTLER -->
+  <GuiElement Name="FactionAffinityUnitDesignMadFairiesSettler">
+    <Title>%UnitSettlerTitle</Title>
+    <Description>%UnitSettlerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMadFairiesSettlerSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMadFairiesSettlerLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- MAD FAIRIES MILITIA ERA1 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignMadFairiesMilitiaEra1">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMadFairiesMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMadFairiesMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- MAD FAIRIES MILITIA ERA2 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignMadFairiesMilitiaEra2">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMadFairiesMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMadFairiesMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- MAD FAIRIES MILITIA ERA3 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignMadFairiesMilitiaEra3">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMadFairiesMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMadFairiesMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- MAD FAIRIES MILITIA ERA4 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignMadFairiesMilitiaEra4">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMadFairiesMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMadFairiesMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- MAD FAIRIES MILITIA ERA5 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignMadFairiesMilitiaEra5">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMadFairiesMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMadFairiesMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+  
+  <!-- MAD FAIRIES MILITIA ERA6 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignMadFairiesMilitiaEra6">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMadFairiesMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMadFairiesMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ################################################### -->
+  <!-- ############### RAGE WIZARDS UNITS ################ -->
+  <!-- ################################################### -->
+  
+  <!-- RAGE WIZARDS BATTLEMAGE -->
+  <GuiElement Name="FactionAffinityUnitDesignRageWizardsBattleMage">
+    <Title>%UnitRageWizardsBattleMageTitle</Title>
+    <Description>%UnitRageWizardsBattleMageDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitRageWizardsBattleMageSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRageWizardsBattleMageLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- RAGE WIZARDS PHOENIX -->  
+  <GuiElement Name="FactionAffinityUnitDesignRageWizardsPhoenix">
+    <Title>%UnitRageWizardsPhoenixTitle</Title>
+    <Description>%UnitRageWizardsPhoenixDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitRageWizardsPhoenixSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRageWizardsPhoenixLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- RAGE WIZARDS WITCH -->
+  <GuiElement Name="FactionAffinityUnitDesignRageWizardsWitch">
+    <Title>%UnitRageWizardsWitchTitle</Title>
+    <Description>%UnitRageWizardsWitchDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitRageWizardsWitchSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRageWizardsWitchLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- RAGE WIZARDS SETTLER -->
+  <GuiElement Name="FactionAffinityUnitDesignRageWizardsSettler">
+    <Title>%UnitSettlerTitle</Title>
+    <Description>%UnitSettlerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitRageWizardsSettlerSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRageWizardsSettlerLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- RAGE WIZARDS MILITIA ERA1 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignRageWizardsMilitiaEra1">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitRageWizardsMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRageWizardsMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- RAGE WIZARDS MILITIA ERA2 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignRageWizardsMilitiaEra2">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitRageWizardsMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRageWizardsMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- RAGE WIZARDS MILITIA ERA3 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignRageWizardsMilitiaEra3">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitRageWizardsMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRageWizardsMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- RAGE WIZARDS MILITIA ERA4 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignRageWizardsMilitiaEra4">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitRageWizardsMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRageWizardsMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- RAGE WIZARDS MILITIA ERA5 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignRageWizardsMilitiaEra5">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitRageWizardsMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRageWizardsMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- RAGE WIZARDS MILITIA ERA6 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignRageWizardsMilitiaEra6">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitRageWizardsMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRageWizardsMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ################################################### -->
+  <!-- ############### NECROPHAGES UNITS ################# -->
+  <!-- ################################################### -->
+  
+  <!-- NECROPHAGES NECROHUNTER -->
+  <GuiElement Name="FactionAffinityUnitDesignNecrophagesNecrohunter">
+    <Title>%UnitNecrophagesNecrohunterTitle</Title>
+    <Description>%UnitNecrophagesNecrohunterDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitNecrophagesNecrohunterSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitNecrophagesNecrohunterLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- NECROPHAGES ZOMBAT -->
+  <GuiElement Name="FactionAffinityUnitDesignNecrophagesZombat">
+    <Title>%UnitNecrophagesZombatTitle</Title>
+    <Description>%UnitNecrophagesZombatDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitNecrophagesZombatSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitNecrophagesZombatLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- NECROPHAGES LICHBUG -->
+  <GuiElement Name="FactionAffinityUnitDesignNecrophagesLichbug">
+    <Title>%UnitNecrophagesLichbugTitle</Title>
+    <Description>%UnitNecrophagesLichbugDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitNecrophagesLichbugSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitNecrophagesLichbugLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- NECROPHAGES SETTLER -->
+  <GuiElement Name="FactionAffinityUnitDesignNecrophagesSettler">
+    <Title>%UnitSettlerTitle</Title>
+    <Description>%UnitSettlerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitNecrophagesSettlerSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitNecrophagesSettlerLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- NECROPHAGES MILITIA ERA1 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignNecrophagesMilitiaEra1">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitNecrophagesMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitNecrophagesMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- NECROPHAGES MILITIA ERA2 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignNecrophagesMilitiaEra2">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitNecrophagesMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitNecrophagesMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- NECROPHAGES MILITIA ERA3 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignNecrophagesMilitiaEra3">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitNecrophagesMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitNecrophagesMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- NECROPHAGES MILITIA ERA4 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignNecrophagesMilitiaEra4">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitNecrophagesMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitNecrophagesMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- NECROPHAGES MILITIA ERA5 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignNecrophagesMilitiaEra5">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitNecrophagesMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitNecrophagesMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- NECROPHAGES MILITIA ERA6 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignNecrophagesMilitiaEra6">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitNecrophagesMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitNecrophagesMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ################################################### -->
+  <!-- ################# VAULTERS UNITS ################## -->
+  <!-- ################################################### -->
+  
+  <!-- VAULTERS MARINE --> 
+  <GuiElement Name="FactionAffinityUnitDesignVaultersMarine">
+    <Title>%UnitVaultersMarineTitle</Title>
+    <Description>%UnitVaultersMarineDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitVaultersMarineSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitVaultersMarineLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- VAULTERS DAWN OFFICER -->
+  <GuiElement Name="FactionAffinityUnitDesignVaultersDawnOfficer">
+    <Title>%UnitVaultersDawnOfficerTitle</Title>
+    <Description>%UnitVaultersDawnOfficerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitVaultersDawnOfficerSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitVaultersDawnOfficerLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- VAULTERS TITAN -->
+  <GuiElement Name="FactionAffinityUnitDesignVaultersTitan">
+    <Title>%UnitVaultersTitanTitle</Title>
+    <Description>%UnitVaultersTitanDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitVaultersTitanSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitVaultersTitanLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- VAULTERS SETTLERS  -->
+  <GuiElement Name="FactionAffinityUnitDesignVaultersSettler">
+    <Title>%UnitSettlerTitle</Title>
+    <Description>%UnitSettlerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitVaultersSettlerSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitVaultersSettlerLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- VAULTERS MILITIA ERA1 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignVaultersMilitiaEra1">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitVaultersMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitVaultersMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- VAULTERS MILITIA ERA2 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignVaultersMilitiaEra2">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitVaultersMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitVaultersMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- VAULTERS MILITIA ERA3 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignVaultersMilitiaEra3">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitVaultersMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitVaultersMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- VAULTERS MILITIA ERA4 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignVaultersMilitiaEra4">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitVaultersMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitVaultersMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- VAULTERS MILITIA ERA5 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignVaultersMilitiaEra5">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitVaultersMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitVaultersMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- VAULTERS MILITIA ERA6 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignVaultersMilitiaEra6">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitVaultersMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitVaultersMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ################################################### -->
+  <!-- ############### ROVING CLANS UNITS ################ -->
+  <!-- ################################################### -->
+  
+  <!-- ROVING CLANS DERVISH --> 
+  <GuiElement Name="FactionAffinityUnitDesignRovingClansDervish">
+    <Title>%UnitRovingClansDervishTitle</Title>
+    <Description>%UnitRovingClansDervishDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitRovingClansDervishSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRovingClansDervishLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- ROVING CLANS KASSAI -->
+  <GuiElement Name="FactionAffinityUnitDesignRovingClansKassai">
+    <Title>%UnitRovingClansKassaiTitle</Title>
+    <Description>%UnitRovingClansKassaiDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitRovingClansKassaiSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRovingClansKassaiLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- ROVING CLANS BERZERK -->
+  <GuiElement Name="FactionAffinityUnitDesignRovingClansBerzerk">
+    <Title>%UnitRovingClansBerzerkTitle</Title>
+    <Description>%UnitRovingClansBerzerkDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitRovingClansBerzerkSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRovingClansBerzerkLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- ROVING CLANS SETTLERS  -->
+  <GuiElement Name="FactionAffinityUnitDesignRovingClansSettler">
+    <Title>%UnitSettlerTitle</Title>
+    <Description>%UnitSettlerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitRovingClansSettlerSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRovingClansSettlerLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- ROVING CLANS MILITIA ERA1 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignRovingClansMilitiaEra1">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitRovingClansMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRovingClansMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- ROVING CLANS MILITIA ERA2 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignRovingClansMilitiaEra2">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitRovingClansMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRovingClansMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- ROVING CLANS MILITIA ERA3 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignRovingClansMilitiaEra3">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitRovingClansMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRovingClansMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- ROVING CLANS MILITIA ERA4 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignRovingClansMilitiaEra4">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitRovingClansMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRovingClansMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- ROVING CLANS MILITIA ERA5 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignRovingClansMilitiaEra5">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitRovingClansMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRovingClansMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- ROVING CLANS MILITIA ERA6 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignRovingClansMilitiaEra6">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitRovingClansMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRovingClansMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- ROVING CLANS SCARAB [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignRovingClansScarab">
+    <Title>%UnitRovingClansScarabTitle</Title>
+    <Description>%UnitRovingClansScarabDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitRovingClansScarabSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRovingClansScarabLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ################################################### -->
+  <!-- ################# DRAKKENS UNITS ################## -->
+  <!-- ################################################### -->
+  
+  <!-- DRAKKENS DRAKKENLING -->
+  <GuiElement Name="FactionAffinityUnitDesignDrakkensDrakkenling">
+    <Title>%UnitDrakkensDrakkenlingTitle</Title>
+    <Description>%UnitDrakkensDrakkenlingDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensDrakkenlingSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensDrakkenlingLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- DRAKKENS WYVERN -->
+  <GuiElement Name="FactionAffinityUnitDesignDrakkensWyvern">
+    <Title>%UnitDrakkensWyvernTitle</Title>
+    <Description>%UnitDrakkensWyvernDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensWyvernSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensWyvernLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- DRAKKENS ANCIEN DRAGON -->
+  <GuiElement Name="FactionAffinityUnitDesignDrakkensAncientDragon">
+    <Title>%UnitDrakkensAncientDragonTitle</Title>
+    <Description>%UnitDrakkensAncientDragonDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensAncientDragonSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensAncientDragonLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- DRAKKENS SETTLER -->
+  <GuiElement Name="FactionAffinityUnitDesignDrakkensSettler">
+    <Title>%UnitSettlerTitle</Title>
+    <Description>%UnitSettlerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensSettlerSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensSettlerLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- DRAKKENS MILITIA ERA1 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignDrakkensMilitiaEra1">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- DRAKKENS MILITIA ERA2 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignDrakkensMilitiaEra2">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- DRAKKENS MILITIA ERA3 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignDrakkensMilitiaEra3">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- DRAKKENS MILITIA ERA4 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignDrakkensMilitiaEra4">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- DRAKKENS MILITIA ERA5 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignDrakkensMilitiaEra5">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- DRAKKENS MILITIA ERA6 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignDrakkensMilitiaEra6">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ################################################### -->
+  <!-- ################# CULTISTS UNITS ################## -->
+  <!-- ################################################### -->
+  
+  <!-- CULTISTS PREACHER -->
+  <GuiElement Name="FactionAffinityUnitDesignCultistsPreacher">
+    <Title>%UnitCultistsPreacherTitle</Title>
+    <Description>%UnitCultistsPreacherDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitCultistsPreacherSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitCultistsPreacherLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- CULTISTS FANATIC -->
+  <GuiElement Name="FactionAffinityUnitDesignCultistsFanatic">
+    <Title>%UnitCultistsFanaticTitle</Title>
+    <Description>%UnitCultistsFanaticDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitCultistsFanaticSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitCultistsFanaticLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- CULTISTS NAMELESS GUARD -->
+  <GuiElement Name="FactionAffinityUnitDesignCultistsNamelessGuard">
+    <Title>%UnitCultistsNamelessGuardTitle</Title>
+    <Description>%UnitCultistsNamelessGuardDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitCultistsNamelessGuardSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitCultistsNamelessGuardLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- CULTISTS SETTLER -->
+  <GuiElement Name="FactionAffinityUnitDesignCultistsSettler">
+    <Title>%UnitSettlerTitle</Title>
+    <Description>%UnitSettlerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitCultistsSettlerSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitCultistsSettlerLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- CULTISTS MILITIA ERA1 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignCultistsMilitiaEra1">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitCultistsMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitCultistsMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- CULTISTS MILITIA ERA2 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignCultistsMilitiaEra2">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitCultistsMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitCultistsMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- CULTISTS MILITIA ERA3 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignCultistsMilitiaEra3">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitCultistsMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitCultistsMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- CULTISTS MILITIA ERA4 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignCultistsMilitiaEra4">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitCultistsMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitCultistsMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- CULTISTS MILITIA ERA5 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignCultistsMilitiaEra5">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitCultistsMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitCultistsMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- CULTISTS MILITIA ERA6 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignCultistsMilitiaEra6">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitCultistsMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitCultistsMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  
+
+  <!-- ########################################## -->
+  <!-- ##########       MEZARI       ########## -->
+  <!-- ########################################## -->
+
+  <!-- MEZARI MARINE -->
+  <GuiElement Name="FactionAffinityUnitDesignMezariMarine">
+    <Title>%UnitVaultersMarineTitle</Title>
+    <Description>%UnitVaultersMarineDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMezariMarineSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMezariMarineLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- MEZARI DAWN OFFICER -->
+  <GuiElement Name="FactionAffinityUnitDesignMezariDawnOfficer">
+    <Title>%UnitVaultersDawnOfficerTitle</Title>
+    <Description>%UnitVaultersDawnOfficerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMezariDawnOfficerSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMezariDawnOfficerLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- MEZARI TITAN -->
+  <GuiElement Name="FactionAffinityUnitDesignMezariTitan">
+    <Title>%UnitVaultersTitanTitle</Title>
+    <Description>%UnitVaultersTitanDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMezariTitanSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMezariTitanLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- MEZARI SETTLER -->
+  <GuiElement Name="FactionAffinityUnitDesignMezariSettler">
+    <Title>%UnitSettlerTitle</Title>
+    <Description>%UnitSettlerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMezariSettlerSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMezariSettlerLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- MEZARI MILITIA ERA1 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignyMezariMilitiaEra1">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMezariMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMezariMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- MEZARI MILITIA ERA2 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignyMezariMilitiaEra2">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMezariMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMezariMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- MEZARI MILITIA ERA3 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignyMezariMilitiaEra3">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMezariMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMezariMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- MEZARI MILITIA ERA4 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignyMezariMilitiaEra4">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMezariMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMezariMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- MEZARI MILITIA ERA5 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignyMezariMilitiaEra5">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMezariMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMezariMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- MEZARI MILITIA ERA6 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignyMezariMilitiaEra6">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMezariMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMezariMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+  
+  
+  
+  <!-- ################################################### -->
+  <!-- ################ TUTORIAL UNITS ################### -->
+  <!-- ################################################### -->
+
+  <!-- TUTORIAL UNIT1 -->
+  <GuiElement Name="FactionAffinityUnitDesignTutorialUnit1">
+    <Title>%UnitVaultersMarineTitle</Title>
+    <Description>%UnitVaultersMarineDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMezariMarineSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMezariMarineLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- TUTORIAL UNIT2 -->
+  <GuiElement Name="FactionAffinityUnitDesignTutorialUnit2">
+    <Title>%UnitVaultersDawnOfficerTitle</Title>
+    <Description>%UnitVaultersDawnOfficerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMezariDawnOfficerSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMezariDawnOfficerLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- TUTORIAL UNIT3 -->
+  <GuiElement Name="FactionAffinityUnitDesignTutorialUnit3">
+    <Title>%UnitVaultersTitanTitle</Title>
+    <Description>%UnitVaultersTitanDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMezariTitanSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMezariTitanLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- VAULTERS TUTORIAL SETTLERS  -->
+  <GuiElement Name="FactionAffinityUnitDesignTutorialSettler">
+    <Title>%UnitSettlerTitle</Title>
+    <Description>%UnitSettlerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitVaultersSettlerSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitVaultersSettlerLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- VAULTERS TUTORIAL MILITIA ERA1 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignTutorialMilitiaEra1">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMezariMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMezariMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- VAULTERS TUTORIAL MILITIA ERA2 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignTutorialMilitiaEra2">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMezariMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMezariMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- VAULTERS TUTORIAL MILITIA ERA3 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignTutorialMilitiaEra3">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMezariMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMezariMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- VAULTERS TUTORIAL MILITIA ERA4 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignTutorialMilitiaEra4">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMezariMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMezariMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- VAULTERS TUTORIAL MILITIA ERA5 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignTutorialMilitiaEra5">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMezariMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMezariMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- VAULTERS TUTORIAL MILITIA ERA6 [HIDDEN] -->
+  <GuiElement Name="FactionAffinityUnitDesignTutorialMilitiaEra6">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitMezariMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMezariMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ######################################################### -->
+  <!-- ################ URCES GIANT OGRE UNITS ################# -->
+  <!-- ######################################################### -->
+
+  <GuiElement Name="FactionAffinityUnitDesignUrcesGiantOgre">
+    <Title>%UnitUrcesGiantOgreTitle</Title>
+    <Description>%UnitUrcesGiantOgreDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitUrcesGiantOgreSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitUrcesGiantOgreLarge" />
+    </Icons>
+  </GuiElement>
+  
+  <GuiElement Name="FactionAffinityUnitDesignUrcesGiantOgre#Mace">
+    <Title>%UnitUrcesGiantOgreTitle</Title>
+    <Description>%UnitUrcesGiantOgreDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitUrcesGiantOgreSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitUrcesGiantOgreLarge" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionAffinityUnitDesignUrcesGiantOgre#Tutorial">
+    <Title>%UnitUrcesGiantOgreTitle</Title>
+    <Description>%UnitUrcesGiantOgreDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitUrcesGiantOgreSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitUrcesGiantOgreLarge" />
+    </Icons>
+  </GuiElement>
+
+
+  <!-- ######################################################### -->
+  <!-- ################## ERYCIS HYDRA  UNITS ################## -->
+  <!-- ######################################################### -->
+
+  <GuiElement Name="FactionAffinityUnitDesignErycisHydra">
+    <Title>%UnitErycisHydraTitle</Title>
+    <Description>%UnitErycisHydraDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitErycisHydraSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitErycisHydraLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ######################################################### -->
+  <!-- ################## CERATAN DRIDER UNITS ################# -->
+  <!-- ######################################################### --> 
+
+  <GuiElement Name="FactionAffinityUnitDesignCeratanDrider">
+    <Title>%UnitCeratanDriderTitle</Title>
+    <Description>%UnitCeratanDriderDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitCeratanDriderSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitCeratanDriderLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ############################################################# -->
+  <!-- #################### KAZANJI DEVIL UNITS #################### -->
+  <!-- ############################################################# -->
+
+  <GuiElement Name="FactionAffinityUnitDesignKazanjiDevil">
+    <Title>%UnitKazanjiDevilTitle</Title>
+    <Description>%UnitKazanjiDevilDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitKazanjiDevilSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitKazanjiDevilLarge" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionAffinityUnitDesignKazanjiDevil#Axe">
+    <Title>%UnitKazanjiDevilTitle</Title>
+    <Description>%UnitKazanjiDevilDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitKazanjiDevilSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitKazanjiDevilLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ############################################################# -->
+  <!-- ##################### BOS CENTAUR UNITS ##################### -->
+  <!-- ############################################################# -->
+  
+  <GuiElement Name="FactionAffinityUnitDesignBosCentaur">
+    <Title>%UnitBosCentaurTitle</Title>
+    <Description>%UnitBosCentaurDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitBosCentaurSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitBosCentaurLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ############################################################# -->
+  <!-- ##################### SILICS GOLEM UNITS #################### -->
+  <!-- ############################################################# -->
+
+  <GuiElement Name="FactionAffinityUnitDesignSilicsGolem">
+    <Title>%UnitSilicsGolemTitle</Title>
+    <Description>%UnitSilicsGolemDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitSilicsGolemSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitSilicsGolemLarge" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionAffinityUnitDesignSilicsGolem#Mace">
+    <Title>%UnitSilicsGolemTitle</Title>
+    <Description>%UnitSilicsGolemDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitSilicsGolemSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitSilicsGolemLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ############################################################# -->
+  <!-- ##################### DELVERS DWARF UNITS ################### -->
+  <!-- ############################################################# -->
+
+  <GuiElement Name="FactionAffinityUnitDesignDelversDwarf">
+    <Title>%UnitDelversDwarfTitle</Title>
+    <Description>%UnitDelversDwarfDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDelversDwarfSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDelversDwarfLarge" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionAffinityUnitDesignDelversDwarf#Mace">
+    <Title>%UnitDelversDwarfTitle</Title>
+    <Description>%UnitDelversDwarfDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDelversDwarfSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDelversDwarfLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ############################################################# -->
+  <!-- ############### SISTERS OF MERCY JUSTICERE UNITS ############ -->
+  <!-- ############################################################# -->
+
+  <GuiElement Name="FactionAffinityUnitDesignSistersOfMercyJusticere">
+    <Title>%UnitSistersOfMercyJusticereTitle</Title>
+    <Description>%UnitSistersOfMercyJusticereDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitSistersOfMercyJusticereSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitSistersOfMercyJusticereLarge" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionAffinityUnitDesignSistersOfMercyJusticere#Spear">
+    <Title>%UnitSistersOfMercyJusticereTitle</Title>
+    <Description>%UnitSistersOfMercyJusticereDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitSistersOfMercyJusticereSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitSistersOfMercyJusticereLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ############################################################# -->
+  <!-- #################### HAUNTS SPECTER UNITS ################### -->
+  <!-- ############################################################# -->
+
+  <GuiElement Name="FactionAffinityUnitDesignHauntsSpecter">
+    <Title>%UnitHauntsSpecterTitle</Title>
+    <Description>%UnitHauntsSpecterDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitHauntsSpecterSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitHauntsSpecterLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ############################################################# -->
+  <!-- ###################### JOTUS ETTIN UNITS #################### -->
+  <!-- ############################################################# -->
+
+  <GuiElement Name="FactionAffinityUnitDesignJotusEttin">
+    <Title>%UnitJotusEttinTitle</Title>
+    <Description>%UnitJotusEttinDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitJotusEttinSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitJotusEttinLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ############################################################# -->
+  <!-- ####################### HURNAS ORC UNITS #################### -->
+  <!-- ############################################################# -->
+
+  <GuiElement Name="FactionAffinityUnitDesignHurnasOrc">
+    <Title>%UnitHurnasOrcTitle</Title>
+    <Description>%UnitHurnasOrcDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitHurnasOrcSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitHurnasOrcLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ############################################################# -->
+  <!-- ################### GAURAN MINOTAUR UNITS ################### -->
+  <!-- ############################################################# -->
+
+  <GuiElement Name="FactionAffinityUnitDesignGauranMinotaur">
+    <Title>%UnitGauranMinotaurTitle</Title>
+    <Description>%UnitGauranMinotaurDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitGauranMinotaurSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitGauranMinotaurLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ############################################################# -->
+  <!-- ################### BIRDHIVE HARPY UNITS #################### -->
+  <!-- ############################################################# -->
+
+  <GuiElement Name="FactionAffinityUnitDesignBirdhiveHarpy">
+    <Title>%UnitBirdhiveHarpyTitle</Title>
+    <Description>%UnitBirdhiveHarpyDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitBirdhiveHarpySmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitBirdhiveHarpyLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ############################################################# -->
+  <!-- ################# GELDIRUS ICE WARG UNITS ################### -->
+  <!-- ############################################################# -->
+
+  <GuiElement Name="FactionAffinityUnitDesignGeldirusIceWarg">
+    <Title>%UnitGeldirusIceWargTitle</Title>
+    <Description>%UnitGeldirusIceWargDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitGeldirusIceWargSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitGeldirusIceWargLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ############################################################# -->
+  <!-- ############### EYELESS ONES CAECATOR UNITS ################# -->
+  <!-- ############################################################# -->
+
+  <GuiElement Name="FactionAffinityUnitDesignEyelessOnesCaecator">
+    <Title>%UnitEyelessOnesCaecatorTitle</Title>
+    <Description>%UnitEyelessOnesCaecatorDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitEyelessOnesCaecatorSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitEyelessOnesCaecatorLarge" />
+    </Icons>
+  </GuiElement>
+
+
+
+  <!-- ############################################################# -->
+  <!-- ############### DORGESHI BURDEKI UNITS ################# -->
+  <!-- ############################################################# -->
+
+  <GuiElement Name="FactionAffinityUnitDesignDorgeshiBurdeki">
+    <Title>%UnitDorgeshiBurdekiTitle</Title>
+    <Description>%UnitDorgeshiBurdekiDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDorgeshiBurdekiSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDorgeshiBurdekiLarge" />
+    </Icons>
+  </GuiElement>
+
+  
+  <!-- ############################################################# -->
+  <!-- ############# TASKOL GOLEM VICTORY QUEST UNITS ############## -->
+  <!-- ############################################################# -->
+
+  <GuiElement Name="FactionAffinityUnitDesignTaskolGolemVictoryQuest">
+    <Title>%UnitTaskolGolemTitle</Title>
+    <Description>%UnitTaskolGolemDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitTaskolGolemSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitTaskolGolemLarge" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionAffinityUnitDesignTaskolGolemVictoryQuest#Mace">
+    <Title>%UnitTaskolGolemTitle</Title>
+    <Description>%UnitTaskolGolemDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitTaskolGolemSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitTaskolGolemLarge" />
+    </Icons>
+  </GuiElement>
+  <!-- ################################################### -->
+  <!-- ################# Drazari UNITS ################## -->
+  <!-- ################################################### -->
+  
+  <!-- Drazari DRAKKENLING -->
+  <GuiElement Name="UnitDesignDrazariDrakkenling">
+    <Title>%UnitDrakkensDrakkenlingTitle</Title>
+    <Description>%UnitDrakkensDrakkenlingDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensDrakkenlingSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensDrakkenlingLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Drazari WYVERN -->
+  <GuiElement Name="UnitDesignDrazariWyvern">
+    <Title>%UnitDrakkensWyvernTitle</Title>
+    <Description>%UnitDrakkensWyvernDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensWyvernSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensWyvernLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Drazari ANCIEN DRAGON -->
+  <GuiElement Name="UnitDesignDrazariAncientDragon">
+    <Title>%UnitDrakkensAncientDragonTitle</Title>
+    <Description>%UnitDrakkensAncientDragonDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensAncientDragonSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensAncientDragonLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Drazari SETTLER -->
+  <GuiElement Name="UnitDesignDrazariSettler">
+    <Title>%UnitSettlerTitle</Title>
+    <Description>%UnitSettlerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensSettlerSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensSettlerLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Drazari MILITIA ERA1 [HIDDEN] -->
+  <GuiElement Name="UnitDesignDrazariMilitiaEra1">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Drazari MILITIA ERA2 [HIDDEN] -->
+  <GuiElement Name="UnitDesignDrazariMilitiaEra2">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Drazari MILITIA ERA3 [HIDDEN] -->
+  <GuiElement Name="UnitDesignDrazariMilitiaEra3">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Drazari MILITIA ERA4 [HIDDEN] -->
+  <GuiElement Name="UnitDesignDrazariMilitiaEra4">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Drazari MILITIA ERA5 [HIDDEN] -->
+  <GuiElement Name="UnitDesignDrazariMilitiaEra5">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Drazari MILITIA ERA6 [HIDDEN] -->
+  <GuiElement Name="UnitDesignDrazariMilitiaEra6">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+</Datatable>
+

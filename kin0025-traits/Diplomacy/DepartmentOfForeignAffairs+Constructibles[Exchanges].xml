@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<!-- City exchanges -->
+
+	<DiplomaticTermCityExchangeDefinition Name="TruceNegotiationCityDeal" PropositionMethod="Negotiation" Category="City" Alignment="Neutral">
+		<DiplomaticContractContainsTermPrerequisite Flags="Prerequisite,Discard">WarToTruce</DiplomaticContractContainsTermPrerequisite>
+		<DiplomaticRelationStateEmpirePrerequisite Flags="Prerequisite,Discard" Responsible="EmpireWhichProvides">
+			<PathPrerequisite Inverted="true">EmpireTypeMajor,FactionTraitCultists9</PathPrerequisite>
+		</DiplomaticRelationStateEmpirePrerequisite>
+		<DiplomaticRelationStateEmpirePrerequisite Flags="Prerequisite,Discard" Responsible="EmpireWhichReceives">
+			<PathPrerequisite Inverted="true">EmpireTypeMajor,FactionTraitCultists9</PathPrerequisite>
+		</DiplomaticRelationStateEmpirePrerequisite>
+		<DiplomaticCustomCost Responsible="EmpireWhichProposes" ResourceName="EmpirePoint">6 * (($Property(EmpireTypeMajor:EmpireScaleFactor) + $Property(ClassEmpire:CurrentEra)) / 1.5) * $Property(ClassEmpire:GameSpeedMultiplier)</DiplomaticCustomCost>
+	</DiplomaticTermCityExchangeDefinition>
+
+	<DiplomaticTermCityExchangeDefinition Name="PeaceToAllianceNegotiationCityDeal" PropositionMethod="Negotiation" Category="City">
+		<DiplomaticContractContainsTermPrerequisite Flags="Prerequisite,Discard">PeaceToAlliance</DiplomaticContractContainsTermPrerequisite>
+			<DiplomaticRelationStateEmpirePrerequisite Flags="Prerequisite,Discard" Responsible="EmpireWhichProvides">
+			<PathPrerequisite Inverted="true">EmpireTypeMajor,FactionTraitCultists9</PathPrerequisite>
+		</DiplomaticRelationStateEmpirePrerequisite>
+		<DiplomaticRelationStateEmpirePrerequisite Flags="Prerequisite,Discard" Responsible="EmpireWhichReceives">
+			<PathPrerequisite Inverted="true">EmpireTypeMajor,FactionTraitCultists9</PathPrerequisite>
+		</DiplomaticRelationStateEmpirePrerequisite>
+		<DiplomaticCustomCost Responsible="EmpireWhichProposes" ResourceName="EmpirePoint">12 * (($Property(EmpireTypeMajor:EmpireScaleFactor) + $Property(ClassEmpire:CurrentEra)) / 1.5) * $Property(ClassEmpire:GameSpeedMultiplier)</DiplomaticCustomCost>
+	</DiplomaticTermCityExchangeDefinition>
+
+	<DiplomaticTermCityExchangeDefinition Name="AllianceCityDeal" PropositionMethod="Negotiation" Category="City" Alignment="Neutral">
+		<DiplomaticRelationStatePrerequisite Flags="Prerequisite,Discard">DiplomaticRelationStateAlliance</DiplomaticRelationStatePrerequisite>
+		<DiplomaticRelationStateEmpirePrerequisite Flags="Prerequisite,Discard" Responsible="EmpireWhichProvides">
+			<PathPrerequisite Inverted="true">EmpireTypeMajor,FactionTraitCultists9</PathPrerequisite>
+		</DiplomaticRelationStateEmpirePrerequisite>
+		<DiplomaticRelationStateEmpirePrerequisite Flags="Prerequisite,Discard" Responsible="EmpireWhichReceives">
+			<PathPrerequisite Inverted="true">EmpireTypeMajor,FactionTraitCultists9</PathPrerequisite>
+		</DiplomaticRelationStateEmpirePrerequisite>
+		<DiplomaticCustomCost Responsible="EmpireWhichProposes" ResourceName="EmpirePoint">6 * (($Property(EmpireTypeMajor:EmpireScaleFactor) + $Property(ClassEmpire:CurrentEra)) / 1.5) * $Property(ClassEmpire:GameSpeedMultiplier)</DiplomaticCustomCost>
+	</DiplomaticTermCityExchangeDefinition>
+
+</Datatable>

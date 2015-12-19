@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- This file contains the definition of all the City Improvements (Region buildings, Boosters and Units are in other files) -->
+
+  <CityImprovementDefinition Name="CityImprovementExpansionApproval"                     SubCategory="SubCategoryFood">
+    <Cost ResourceName="Production">250</Cost>
+	 <CustomCost ResourceName="Production">(50 * $Property(../ClassEmpire:EmpireScaleFactor))</CustomCost>
+    <SimulationDescriptorReference Name="CityImprovementExpansionApproval" />
+	<PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitExpansionApproval</PathPrerequisite>
+    <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassCity/CityImprovementExpansionApproval</PathPrerequisite>
+  </CityImprovementDefinition>
+</Datatable>

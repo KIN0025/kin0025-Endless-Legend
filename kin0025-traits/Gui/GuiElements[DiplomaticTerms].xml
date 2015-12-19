@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- City Negotiations -->
+  
+  <DiplomaticTermGuiElement Name="AllianceCityDeal">
+    <Title>%DiplomaticTermNegotiationCityDealTitle</Title>
+    <Description>%DiplomaticTermNegotiationCityDealDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="CategoryCityImprovementSmall" />
+    </Icons>
+  </DiplomaticTermGuiElement>
+
+  <DiplomaticTermGuiElement Name="PeaceToColdWarStart">
+    <Title>%DiplomaticTermPeaceToColdWarTitle</Title>
+    <Description>%DiplomaticTermPeaceToColdWarDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="CategoryTreatyDeclarationSD" />
+    </Icons>
+    <PriceModifierCategory>Affinity</PriceModifierCategory>
+    <PriceModifierCategory>RelationStateChaos</PriceModifierCategory>
+  </DiplomaticTermGuiElement>
+  
+  <DiplomaticTermGuiElement Name="AllianceToColdWarStart">
+    <Title>%DiplomaticTermAllianceToColdWarTitle</Title>
+    <Description>%DiplomaticTermAllianceToColdWarDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="CategoryTreatyDeclarationSD" />
+    </Icons>
+    <PriceModifierCategory>Affinity</PriceModifierCategory>
+    <PriceModifierCategory>RelationStateChaos</PriceModifierCategory>
+  </DiplomaticTermGuiElement>
+  
+  <DiplomaticTermGuiElement Name="PeaceToWarStart">
+    <Title>%DiplomaticTermPeaceToWarTitle</Title>
+    <Description>%DiplomaticTermPeaceToWarDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="CategoryTreatyDeclarationSD" />
+    </Icons>
+    <PriceModifierCategory>Affinity</PriceModifierCategory>
+    <PriceModifierCategory>RelationStateChaos</PriceModifierCategory>
+  </DiplomaticTermGuiElement>
+  
+  <DiplomaticTermGuiElement Name="AllianceToWarStart">
+    <Title>%DiplomaticTermAllianceToWarTitle</Title>
+    <Description>%DiplomaticTermAllianceToWarDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="CategoryTreatyDeclarationSD" />
+    </Icons>
+    <PriceModifierCategory>Affinity</PriceModifierCategory>
+    <PriceModifierCategory>RelationStateChaos</PriceModifierCategory>
+  </DiplomaticTermGuiElement>
+
+  <DiplomaticTermGuiElement Name="ColdWarToPeaceStart">
+    <Title>%DiplomaticTermColdWarToPeaceTitle</Title>
+    <Description>%DiplomaticTermColdWarToPeaceDescription</Description>
+    <Icons>
+      <Icon Path="CategoryTreatyNegotiationSD" Size="Small" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%DiplomaticTermColdWarToPeaceTooltipEffect</EffectOverride>
+    </TooltipElement>
+    <PriceModifierCategory>Affinity</PriceModifierCategory>
+    <PriceModifierCategory>RelationStateChaos</PriceModifierCategory>
+  </DiplomaticTermGuiElement>
+
+  <DiplomaticTermGuiElement Name="AllianceToPeaceStart">
+    <Title>%DiplomaticTermAllianceToPeaceTitle</Title>
+    <Description>%DiplomaticTermAllianceToPeaceDescription</Description>
+    <Icons>
+      <Icon Path="CategoryTreatyNegotiationSD" Size="Small" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%DiplomaticTermAllianceToPeaceTooltipEffect</EffectOverride>
+    </TooltipElement>
+    <PriceModifierCategory>Affinity</PriceModifierCategory>
+    <PriceModifierCategory>RelationStateChaos</PriceModifierCategory>
+  </DiplomaticTermGuiElement>
+
+  <DiplomaticTermGuiElement Name="ColdWarToAllianceStart">
+    <Title>%DiplomaticTermColdWarToAllianceTitle</Title>
+    <Description>%DiplomaticTermColdWarToAllianceDescription</Description>
+    <Icons>
+      <Icon Path="CategoryTreatyNegotiationSD" Size="Small" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%DiplomaticTermColdWarToAllianceTooltipEffect</EffectOverride>
+    </TooltipElement>
+    <PriceModifierCategory>Affinity</PriceModifierCategory>
+    <PriceModifierCategory>RelationStateChaos</PriceModifierCategory>
+  </DiplomaticTermGuiElement>
+
+  <DiplomaticTermGuiElement Name="PeaceToAllianceStart">
+    <Title>%DiplomaticTermPeaceToAllianceTitle</Title>
+    <Description>%DiplomaticTermPeaceToAllianceDescription</Description>
+    <Icons>
+      <Icon Path="CategoryTreatyNegotiationSD" Size="Small" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%DiplomaticTermPeaceToAllianceTooltipEffect</EffectOverride>
+    </TooltipElement>
+    <PriceModifierCategory>Affinity</PriceModifierCategory>
+    <PriceModifierCategory>RelationStateChaos</PriceModifierCategory>
+  </DiplomaticTermGuiElement>
+
+
+</Datatable>

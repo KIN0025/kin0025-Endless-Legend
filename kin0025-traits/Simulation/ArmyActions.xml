@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+ 
+  <ArmyAction_Siege Name="ArmyActionSiege" ExperienceReward="0">
+    <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">ClassArmy/MovementCapacitySail</PathPrerequisite>
+  <!-- Cost- Stockpile per turn? Stockpile per owned city? Tremendous amount of gold? -->
+<CustomCost ResourceName="EmpireMoney" Instant="true">4 * $Property(ClassEmpire/MilitaryUpkeep)</CustomCost> 
+<CustomCost ResourceName="EmpirePoint" Instant="true">4 * $Property(ClassEmpire/MilitaryUpkeep)</CustomCost>
+  </ArmyAction_Siege>
+   
+</Datatable>

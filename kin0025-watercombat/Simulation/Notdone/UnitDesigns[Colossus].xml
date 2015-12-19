@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- ################################################################################################################################################## -->
+  <!-- #########################################   PREMADE UNIT DESIGN WHICH CAN BE CALL BY OTHER XMLS  ################################################# -->
+  <!-- ########    - Those units can be useful for the Quest, and  Minor Faction. It still can be used to generate units from a city improvement ######## -->
+  <!-- ################################################################################################################################################## -->
+
+
+  <!-- ################################################### -->
+  <!-- ################# COLOSSUS UNITS ################## -->
+  <!-- ################################################### -->
+
+  <!-- COLOSSUS EARTH -->
+  <UnitDesign Name="UnitDesignColossusEarth#1"                      Model="0990100">
+    <UnitBodyDefinitionReference Name="UnitBodyColossusEarth" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../EmpireTypeMajor</PathPrerequisite>
+    <Tags>Colossus</Tags>
+  </UnitDesign>
+
+  <!-- COLOSSUS FIRE -->
+  <UnitDesign Name="UnitDesignColossusFire#1"                      Model="0990200">
+    <UnitBodyDefinitionReference Name="UnitBodyColossusFire" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../EmpireTypeMajor</PathPrerequisite>
+    <Tags>Colossus</Tags>
+  </UnitDesign>
+
+  <!-- COLOSSUS WATER -->
+  <UnitDesign Name="UnitDesignColossusWater#1"                      Model="0990300">
+    <UnitBodyDefinitionReference Name="UnitBodyColossusWater" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../EmpireTypeMajor</PathPrerequisite>
+    <Tags>Colossus</Tags>
+  </UnitDesign>
+
+  <!-- COLOSSUS AIR -->
+  <UnitDesign Name="UnitDesignColossusAir#1"                      Model="0990400">
+    <UnitBodyDefinitionReference Name="UnitBodyColossusAir" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../EmpireTypeMajor</PathPrerequisite>
+    <Tags>Colossus</Tags>
+  </UnitDesign>
+
+  <!-- COLOSSUS DUST -->
+  <UnitDesign Name="UnitDesignColossusDust#1"                      Model="0990500">
+    <UnitBodyDefinitionReference Name="UnitBodyColossusDust" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../EmpireTypeMajor</PathPrerequisite>
+    <Tags>Colossus</Tags>
+  </UnitDesign>
+
+  <!-- COLOSSUS DUST QUEST -->
+  <UnitDesign Name="UnitDesignColossusDustQuest#1"                 Model="0990600">
+    <UnitBodyDefinitionReference Name="UnitBodyColossusDustQuest" />
+  </UnitDesign>
+ 
+</Datatable>

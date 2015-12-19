@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <ArmyAction_Attack Name="ArmyActionAttackWater">
+    <PathPrerequisite Flags="Prerequisite,Discard">ClassArmy/MovementCapacitySail</PathPrerequisite>
+    <Cost ResourceName="ActionPoint" Instant="true">1</Cost>
+  </ArmyAction_Attack>
+
+
+</Datatable>

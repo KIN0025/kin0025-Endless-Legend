@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- UNIT Type -->
+
+  <SimulationDescriptor Name="CustomMappingUnitBodyBrokenLordsInfantry" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="18"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="46"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="10"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="22"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="140"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="CustomMappingUnitBodyBrokenLordsCavalry" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="28"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="34"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="26"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="28"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="108"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="CustomMappingUnitBodyBrokenLordsBlackBishop" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="8"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="28"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="6"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="30"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="132"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+    <SimulationDescriptor Name="CustomMappingUnitBodyMadFairiesArcher" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="42"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="14"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="34"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="22"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="60"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="CustomMappingUnitBodyMadFairiesShaman" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="8"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="30"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="30"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="10"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="36"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="CustomMappingUnitBodyMadFairiesForestSpirit" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="22"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="46"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="18"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="32"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="180"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+   <SimulationDescriptor Name="CustomMappingUnitBodyRageWizardsBattleMage" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="36"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="20"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="16"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="40"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="92"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="CustomMappingUnitBodyRageWizardsWitch" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="36"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="18"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="20"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="24"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="60"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="CustomMappingUnitBodyRageWizardsPhoenix" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="38"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="34"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="30"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="34"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="132"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="CustomMappingUnitBodyNecrophagesNecrohunter" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="22"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="34"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="30"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="24"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="100"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="CustomMappingUnitBodyNecrophagesZombat" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="36"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="36"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="30"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="36"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="124"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="CustomMappingUnitBodyNecrophagesLichbug" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="10"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="32"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="26"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="22"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="52"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+ <SimulationDescriptor Name="CustomMappingUnitBodyVaultersMarine" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="38"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="18"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="20"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="34"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="68"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="CustomMappingUnitBodyVaultersDawnOfficer" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="18"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="34"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="32"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="22"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="116"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="CustomMappingUnitBodyVaultersTitan" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="24"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="50"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="14"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="30"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="156"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="CustomMappingUnitBodyRovingClansDervish" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="20"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="34"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="36"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="24"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="100"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="CustomMappingUnitBodyRovingClansKassai" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="32"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="30"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="26"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="20"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="92"/>
+
+      <SimulationModifierDescriptor       TargetProperty="MaximumMovement"            Operation="Addition"  Value="3"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="CustomMappingUnitBodyRovingClansBerzerk" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="38"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="34"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="34"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="40"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="108"/>
+
+      <SimulationModifierDescriptor       TargetProperty="MaximumMovement"            Operation="Addition"  Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+   <SimulationDescriptor Name="CustomMappingUnitBodyCultistsPreacher" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="8"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="28"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="26"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="14"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="36"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="CustomMappingUnitBodyCultistsFanatic" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="20"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="30"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="30"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="22"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="124"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="CustomMappingUnitBodyCultistsNamelessGuard" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="46"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="20"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="24"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="32"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="84"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  
+<SimulationDescriptor Name="CustomMappingUnitBodyDrakkensDrakkenling" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="22"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="42"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="18"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="22"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="124"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="CustomMappingUnitBodyDrakkensWyvern" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="34"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="26"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="22"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="38"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="100"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="CustomMappingUnitBodyDrakkensAncientDragon" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="12"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="38"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="34"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="28"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="132"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>+
+  <SimulationDescriptor Name="CustomMappingUnitBodyDrakkensSettler" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="10"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="5"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="16"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="6"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="24"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="CustomMappingUnitBodyDrakkensMilitia" Type="CustomMapping">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeAttack"        Operation="Addition"  Value="32"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDefense"       Operation="Addition"  Value="16"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeInitiative"    Operation="Addition"  Value="10"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseAttributeDamage"        Operation="Addition"  Value="10"/>
+      <SimulationModifierDescriptor       TargetProperty="BaseMaximumHealth"          Operation="Addition"  Value="56"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  
+</Datatable>

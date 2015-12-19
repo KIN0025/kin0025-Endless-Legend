@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="ItemDefinitions.xsl"?>
+
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- ################################ -->
+  <!-- #######  COLOSSUS WEAPON  ###### -->
+  <!-- ################################ -->
+
+  <!-- ########## Gios: Earth Colossus ########### -->
+
+  <!--Earth Colossus Iron Weapon-->
+  <ItemDefinition Name="ItemColossusEarthIron" SubCategory="SubCategoryColossusWeapon">
+    <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
+    <DownloadableContentPrerequisite Flags="Prerequisite,Discard">WondersAndColossiPack</DownloadableContentPrerequisite>
+    <SimulationDescriptorReference Name="ItemCategoryWeapon" />
+    <SimulationDescriptorReference Name="ItemClassColossusEarth" />
+    <SimulationDescriptorReference Name="ItemMaterialIron" />
+    <SimulationDescriptorReference Name="ColossusOnly" />
+    <Slot Name="MainHand;OffHand"/>
+    <Tags>NeverObsolete</Tags>
+    <PathPrerequisite Flags="Prerequisite,SlotPrerequisite,Discard" Inverted="false">../ClassUnit,UnitTypeColossus,ItemSlotColossusEarth</PathPrerequisite>
+    <SimulationDescriptorReference Name="ItemAttributesItemColossusEarthIron"/>
+    <UnitAbilityReference Name="UnitAbilitySharpSense" Level="2"/>
+    <Cost ResourceName="Production">40</Cost>
+  </ItemDefinition>
+
+  <!--Earth Colossus Glassteel (50%), Adamantian (30%), Mithrite (20%)  Weapon-->
+  <ItemDefinition Name="ItemColossusEarthStrategic235" SubCategory="SubCategoryColossusWeapon">
+    <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
+    <DownloadableContentPrerequisite Flags="Prerequisite,Discard">WondersAndColossiPack</DownloadableContentPrerequisite>
+    <SimulationDescriptorReference Name="ItemCategoryWeapon" />
+    <SimulationDescriptorReference Name="ItemClassColossusEarth" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic235" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic2" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic3" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic5" />
+    <SimulationDescriptorReference Name="ColossusOnly" />
+    <Slot Name="MainHand;OffHand"/>
+    <PathPrerequisite Flags="Prerequisite,SlotPrerequisite,Discard" Inverted="false">../ClassUnit,UnitTypeColossus,ItemSlotColossusEarth</PathPrerequisite>
+    <SimulationDescriptorReference Name="ItemAttributesItemColossusEarthStrategic235"/>
+    <UnitAbilityReference Name="UnitAbilityRangeSlayer" Level="3"/>
+    <Cost ResourceName="Production">100</Cost>
+    <CustomCost ResourceName="Strategic2" Instant="true">10 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryCommon)</CustomCost>
+    <CustomCost ResourceName="Strategic3" Instant="true">6 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryUncommon)</CustomCost>
+    <CustomCost ResourceName="Strategic5" Instant="true">4 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryRare)</CustomCost>
+  </ItemDefinition>
+
+  <!--Earth Colossus Titanium (50%), Palladian (30%), Hyperium (20%)  Weapon-->
+  <ItemDefinition Name="ItemColossusEarthStrategic146" SubCategory="SubCategoryColossusWeapon">
+    <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
+    <DownloadableContentPrerequisite Flags="Prerequisite,Discard">WondersAndColossiPack</DownloadableContentPrerequisite>
+    <SimulationDescriptorReference Name="ItemCategoryWeapon" />
+    <SimulationDescriptorReference Name="ItemClassColossusEarth" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic146" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic1" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic4" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic6" />
+    <SimulationDescriptorReference Name="ColossusOnly" />
+    <Slot Name="MainHand;OffHand"/>
+    <PathPrerequisite Flags="Prerequisite,SlotPrerequisite,Discard" Inverted="false">../ClassUnit,UnitTypeColossus,ItemSlotColossusEarth</PathPrerequisite>
+    <SimulationDescriptorReference Name="ItemAttributesItemColossusEarthStrategic146"/>
+    <UnitAbilityReference Name="UnitAbilityCircularAttackStrikeBack"/>
+    <Cost ResourceName="Production">100</Cost>
+    <CustomCost ResourceName="Strategic1" Instant="true">10 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryCommon)</CustomCost>
+    <CustomCost ResourceName="Strategic4" Instant="true">6 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryUncommon)</CustomCost>
+    <CustomCost ResourceName="Strategic6" Instant="true">4 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryRare)</CustomCost>
+  </ItemDefinition>
+
+  <!-- ########## Fire Colossus ########### -->
+
+  <!--Fire Colossus Iron Weapon-->
+  <ItemDefinition Name="ItemColossusFireIron" SubCategory="SubCategoryColossusWeapon">
+    <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
+    <DownloadableContentPrerequisite Flags="Prerequisite,Discard">WondersAndColossiPack</DownloadableContentPrerequisite>
+    <SimulationDescriptorReference Name="ItemCategoryWeapon" />
+    <SimulationDescriptorReference Name="ItemClassColossusFire" />
+    <SimulationDescriptorReference Name="ItemMaterialIron" />
+    <SimulationDescriptorReference Name="ColossusOnly" />
+    <Slot Name="MainHand;OffHand"/>
+    <Tags>NeverObsolete</Tags>
+    <PathPrerequisite Flags="Prerequisite,SlotPrerequisite,Discard" Inverted="false">../ClassUnit,UnitTypeColossus,ItemSlotColossusFire</PathPrerequisite>
+    <SimulationDescriptorReference Name="ItemAttributesItemColossusFireIron"/>
+    <UnitAbilityReference Name="UnitAbilityWarriorSlayer" Level="3"/>
+    <Cost ResourceName="Production">40</Cost>
+  </ItemDefinition>
+
+  <!--Fire Colossus Glassteel (50%), Palladian (30%), Hyperium (20%)  Weapon-->
+  <ItemDefinition Name="ItemColossusFireStrategic246" SubCategory="SubCategoryColossusWeapon">
+    <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
+    <DownloadableContentPrerequisite Flags="Prerequisite,Discard">WondersAndColossiPack</DownloadableContentPrerequisite>
+    <SimulationDescriptorReference Name="ItemCategoryWeapon" />
+    <SimulationDescriptorReference Name="ItemClassColossusFire" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic246" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic2" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic4" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic6" />
+    <SimulationDescriptorReference Name="ColossusOnly" />
+    <Slot Name="MainHand;OffHand"/>
+    <PathPrerequisite Flags="Prerequisite,SlotPrerequisite,Discard" Inverted="false">../ClassUnit,UnitTypeColossus,ItemSlotColossusFire</PathPrerequisite>
+    <SimulationDescriptorReference Name="ItemAttributesItemColossusFireStrategic246"/>
+    <UnitAbilityReference Name="UnitAbilityPrecision" Level="2"/>
+    <Cost ResourceName="Production">100</Cost>
+    <CustomCost ResourceName="Strategic2" Instant="true">10 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryCommon)</CustomCost>
+    <CustomCost ResourceName="Strategic4" Instant="true">6 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryUncommon)</CustomCost>
+    <CustomCost ResourceName="Strategic6" Instant="true">4 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryRare)</CustomCost>
+  </ItemDefinition>
+
+  <!--Fire Colossus Titanium (50%), Adamantian (30%), Mithrite (20%)  Weapon-->
+  <ItemDefinition Name="ItemColossusFireStrategic135" SubCategory="SubCategoryColossusWeapon">
+    <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
+    <DownloadableContentPrerequisite Flags="Prerequisite,Discard">WondersAndColossiPack</DownloadableContentPrerequisite>
+    <SimulationDescriptorReference Name="ItemCategoryWeapon" />
+    <SimulationDescriptorReference Name="ItemClassColossusFire" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic135" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic1" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic3" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic5" />
+    <SimulationDescriptorReference Name="ColossusOnly" />
+    <Slot Name="MainHand;OffHand"/>
+    <PathPrerequisite Flags="Prerequisite,SlotPrerequisite,Discard" Inverted="false">../ClassUnit,UnitTypeColossus,ItemSlotColossusFire</PathPrerequisite>
+    <SimulationDescriptorReference Name="ItemAttributesItemColossusFireStrategic135"/>
+    <Cost ResourceName="Production">100</Cost>
+    <CustomCost ResourceName="Strategic1" Instant="true">10 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryCommon)</CustomCost>
+    <CustomCost ResourceName="Strategic3" Instant="true">6 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryUncommon)</CustomCost>
+    <CustomCost ResourceName="Strategic5" Instant="true">4 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryRare)</CustomCost>
+    <UnitAbilityReference Name="UnitAbilityWoodBurner"/>
+  </ItemDefinition>
+
+  <!-- ########## Water Colossus ########### -->
+
+  <!--Water Colossus Iron Weapon-->
+  <ItemDefinition Name="ItemColossusWaterIron" SubCategory="SubCategoryColossusWeapon">
+    <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
+    <DownloadableContentPrerequisite Flags="Prerequisite,Discard">WondersAndColossiPack</DownloadableContentPrerequisite>
+    <SimulationDescriptorReference Name="ItemCategoryWeapon" />
+    <SimulationDescriptorReference Name="ItemClassColossusWater" />
+    <SimulationDescriptorReference Name="ItemMaterialIron" />
+    <SimulationDescriptorReference Name="ColossusOnly" />
+    <Slot Name="MainHand;OffHand"/>
+    <Tags>NeverObsolete</Tags>
+    <PathPrerequisite Flags="Prerequisite,SlotPrerequisite,Discard" Inverted="false">../ClassUnit,UnitTypeColossus,ItemSlotColossusWater</PathPrerequisite>
+    <SimulationDescriptorReference Name="ItemAttributesItemColossusWaterIron"/>
+    <Cost ResourceName="Production">40</Cost>
+    <UnitAbilityReference Name="UnitAbilityFlyingSlayer" Level="3"/>
+  </ItemDefinition>
+
+  <!--Water Colossus Glassteel (50%), Adamantian (20%), Hyperium (30%)  Weapon-->
+  <ItemDefinition Name="ItemColossusWaterStrategic236" SubCategory="SubCategoryColossusWeapon">
+    <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
+    <DownloadableContentPrerequisite Flags="Prerequisite,Discard">WondersAndColossiPack</DownloadableContentPrerequisite>
+    <SimulationDescriptorReference Name="ItemCategoryWeapon" />
+    <SimulationDescriptorReference Name="ItemClassColossusWater" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic236" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic2" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic3" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic6" />
+    <SimulationDescriptorReference Name="ColossusOnly" />
+    <Slot Name="MainHand;OffHand"/>
+    <PathPrerequisite Flags="Prerequisite,SlotPrerequisite,Discard" Inverted="false">../ClassUnit,UnitTypeColossus,ItemSlotColossusWater</PathPrerequisite>
+    <SimulationDescriptorReference Name="ItemAttributesItemColossusWaterStrategic236"/>
+    <Cost ResourceName="Production">100</Cost>
+    <CustomCost ResourceName="Strategic2" Instant="true">10 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryCommon)</CustomCost>
+    <CustomCost ResourceName="Strategic3" Instant="true">6 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryUncommon)</CustomCost>
+    <CustomCost ResourceName="Strategic6" Instant="true">4 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryRare)</CustomCost>
+    <UnitAbilityReference Name="UnitAbilityWarriorSlayer" Level="3"/>
+  </ItemDefinition>
+
+  <!--Water Colossus Titanium (50%), Palladian (20%), Mithrite (30%)  Weapon-->
+  <ItemDefinition Name="ItemColossusWaterStrategic145" SubCategory="SubCategoryColossusWeapon">
+    <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
+    <DownloadableContentPrerequisite Flags="Prerequisite,Discard">WondersAndColossiPack</DownloadableContentPrerequisite>
+    <SimulationDescriptorReference Name="ItemCategoryWeapon" />
+    <SimulationDescriptorReference Name="ItemClassColossusWater" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic145" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic1" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic4" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic5" />
+    <SimulationDescriptorReference Name="ColossusOnly" />
+    <Slot Name="MainHand;OffHand"/>
+    <PathPrerequisite Flags="Prerequisite,SlotPrerequisite,Discard" Inverted="false">../ClassUnit,UnitTypeColossus,ItemSlotColossusWater</PathPrerequisite>
+    <SimulationDescriptorReference Name="ItemAttributesItemColossusWaterStrategic145"/>
+    <Cost ResourceName="Production">100</Cost>
+    <CustomCost ResourceName="Strategic1" Instant="true">10 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryCommon)</CustomCost>
+    <CustomCost ResourceName="Strategic4" Instant="true">6 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryUncommon)</CustomCost>
+    <CustomCost ResourceName="Strategic5" Instant="true">4 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryRare)</CustomCost>
+    <UnitAbilityReference Name="UnitAbilityDamagingCharge"/>
+  </ItemDefinition>
+
+  <!-- ########## Atmos: Air Colossus ########### -->
+
+  <!--Air Colossus Iron Weapon-->
+  <ItemDefinition Name="ItemColossusAirIron" SubCategory="SubCategoryColossusWeapon">
+    <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
+    <DownloadableContentPrerequisite Flags="Prerequisite,Discard">WondersAndColossiPack</DownloadableContentPrerequisite>
+    <SimulationDescriptorReference Name="ItemCategoryWeapon" />
+    <SimulationDescriptorReference Name="ItemClassColossusAir" />
+    <SimulationDescriptorReference Name="ItemMaterialIron" />
+    <SimulationDescriptorReference Name="ColossusOnly" />
+    <Slot Name="MainHand;OffHand"/>
+    <Tags>NeverObsolete</Tags>
+    <PathPrerequisite Flags="Prerequisite,SlotPrerequisite,Discard" Inverted="false">../ClassUnit,UnitTypeColossus,ItemSlotColossusAir</PathPrerequisite>
+    <SimulationDescriptorReference Name="ItemAttributesItemColossusAirIron"/>
+    <UnitAbilityReference Name="UnitAbilityKnightSlayer" Level="3"/>
+    <Cost ResourceName="Production">40</Cost>
+  </ItemDefinition>
+
+  <!--Air Colossus Glassteel (50%), Palladian (20%), Mithrite (30%)  Weapon-->
+  <ItemDefinition Name="ItemColossusAirStrategic245" SubCategory="SubCategoryColossusWeapon">
+    <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
+    <DownloadableContentPrerequisite Flags="Prerequisite,Discard">WondersAndColossiPack</DownloadableContentPrerequisite>
+    <SimulationDescriptorReference Name="ItemCategoryWeapon" />
+    <SimulationDescriptorReference Name="ItemClassColossusAir" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic245" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic2" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic4" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic5" />
+    <SimulationDescriptorReference Name="ColossusOnly" />
+    <UnitAbilityReference Name="UnitAbilityStun" Level="3"/>
+    <Slot Name="MainHand;OffHand"/>
+    <PathPrerequisite Flags="Prerequisite,SlotPrerequisite,Discard" Inverted="false">../ClassUnit,UnitTypeColossus,ItemSlotColossusAir</PathPrerequisite>
+    <SimulationDescriptorReference Name="ItemAttributesItemColossusAirStrategic245"/>
+    <Cost ResourceName="Production">100</Cost>
+    <CustomCost ResourceName="Strategic2" Instant="true">10 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryCommon)</CustomCost>
+    <CustomCost ResourceName="Strategic3" Instant="true">6 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryUncommon)</CustomCost>
+    <CustomCost ResourceName="Strategic5" Instant="true">4 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryRare)</CustomCost>
+  </ItemDefinition>
+
+  <!--Air Colossus Titanium (50%), Adamatian (20%), Hyperium (30%)  Weapon-->
+  <ItemDefinition Name="ItemColossusAirStrategic136" SubCategory="SubCategoryColossusWeapon">
+    <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
+    <DownloadableContentPrerequisite Flags="Prerequisite,Discard">WondersAndColossiPack</DownloadableContentPrerequisite>
+    <SimulationDescriptorReference Name="ItemCategoryWeapon" />
+    <SimulationDescriptorReference Name="ItemClassColossusAir" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic136" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic1" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic3" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic6" />
+    <SimulationDescriptorReference Name="ColossusOnly" />
+    <Slot Name="MainHand;OffHand"/>
+    <PathPrerequisite Flags="Prerequisite,SlotPrerequisite,Discard" Inverted="false">../ClassUnit,UnitTypeColossus,ItemSlotColossusAir</PathPrerequisite>
+    <SimulationDescriptorReference Name="ItemAttributesItemColossusAirStrategic136"/>
+    <UnitAbilityReference Name="UnitAbilitySweepStrikeBack" Level="3"/>
+    <Cost ResourceName="Production">100</Cost>
+    <CustomCost ResourceName="Strategic1" Instant="true">10 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryCommon)</CustomCost>
+    <CustomCost ResourceName="Strategic3" Instant="true">6 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryUncommon)</CustomCost>
+    <CustomCost ResourceName="Strategic6" Instant="true">4 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryRare)</CustomCost>
+  </ItemDefinition>
+
+  <!-- ########## Dust Colossus ########### -->
+
+  <!--Dust Colossus Iron Weapon-->
+  <ItemDefinition Name="ItemColossusDustIron" SubCategory="SubCategoryColossusWeapon">
+    <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
+    <DownloadableContentPrerequisite Flags="Prerequisite,Discard">WondersAndColossiPack</DownloadableContentPrerequisite>
+    <SimulationDescriptorReference Name="ItemCategoryWeapon" />
+    <SimulationDescriptorReference Name="ItemClassColossusDust" />
+    <SimulationDescriptorReference Name="ItemMaterialIron" />
+    <SimulationDescriptorReference Name="ColossusOnly" />
+    <Slot Name="MainHand;OffHand"/>
+    <Tags>NeverObsolete</Tags>
+    <PathPrerequisite Flags="Prerequisite,SlotPrerequisite,Discard" Inverted="false">../ClassUnit,UnitTypeColossus,ItemSlotColossusDust</PathPrerequisite>
+    <SimulationDescriptorReference Name="ItemAttributesItemColossusDustIron"/>
+    <UnitAbilityReference Name="UnitAbilitySpeedUp"/>
+    <Cost ResourceName="Production">40</Cost>
+  </ItemDefinition>
+
+  <!--Dust Colossus Titanium (40%), Glassteel (40%), Palladian(20%)  Weapon-->
+  <ItemDefinition Name="ItemColossusDustStrategic124" SubCategory="SubCategoryColossusWeapon">
+    <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
+    <DownloadableContentPrerequisite Flags="Prerequisite,Discard">WondersAndColossiPack</DownloadableContentPrerequisite>
+    <SimulationDescriptorReference Name="ItemCategoryWeapon" />
+    <SimulationDescriptorReference Name="ItemClassColossusDust" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic124" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic1" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic2" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic4" />
+    <SimulationDescriptorReference Name="ColossusOnly" />
+    <Slot Name="MainHand;OffHand"/>
+    <PathPrerequisite Flags="Prerequisite,SlotPrerequisite,Discard" Inverted="false">../ClassUnit,UnitTypeColossus,ItemSlotColossusDust</PathPrerequisite>
+    <SimulationDescriptorReference Name="ItemAttributesItemColossusDustStrategic124"/>
+    <UnitAbilityReference Name="UnitAbilityIncreasedFire" Level="2"/>
+    <Cost ResourceName="Production">100</Cost>
+    <CustomCost ResourceName="Strategic1" Instant="true">10 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryCommon)</CustomCost>
+    <CustomCost ResourceName="Strategic2" Instant="true">6 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryCommon)</CustomCost>
+    <CustomCost ResourceName="Strategic4" Instant="true">4 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryUncommon)</CustomCost>
+  </ItemDefinition>
+
+  <!--Dust Colossus Titanium (40%), Glassteel (40%), Adamantian (20%)  Weapon-->
+  <ItemDefinition Name="ItemColossusDustStrategic123" SubCategory="SubCategoryColossusWeapon">
+    <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
+    <DownloadableContentPrerequisite Flags="Prerequisite,Discard">WondersAndColossiPack</DownloadableContentPrerequisite>
+    <SimulationDescriptorReference Name="ItemCategoryWeapon" />
+    <SimulationDescriptorReference Name="ItemClassColossusDust" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic123" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic1" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic2" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic3" />
+    <SimulationDescriptorReference Name="ColossusOnly" />
+    <Slot Name="MainHand;OffHand"/>
+    <PathPrerequisite Flags="Prerequisite,SlotPrerequisite,Discard" Inverted="false">../ClassUnit,UnitTypeColossus,ItemSlotColossusDust</PathPrerequisite>
+    <SimulationDescriptorReference Name="ItemAttributesItemColossusDustStrategic123"/>
+    <UnitAbilityReference Name="UnitAbilityHeal"/>
+    <Cost ResourceName="Production">100</Cost>
+    <CustomCost ResourceName="Strategic1" Instant="true">10 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryCommon)</CustomCost>
+    <CustomCost ResourceName="Strategic2" Instant="true">6 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryCommon)</CustomCost>
+    <CustomCost ResourceName="Strategic3" Instant="true">4 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryUncommon)</CustomCost>
+  </ItemDefinition>
+  
+  
+  <!-- ################################ -->
+  <!-- ########   GEMSTONES    ######## -->
+  <!-- ################################ -->
+
+  <ItemDefinition Name="ItemGemstoneAttackStrategic234" SubCategory="SubCategoryGemstone">
+    <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryAccessory"/>
+    <SimulationDescriptorReference Name="ItemCategoryAccessory" />
+    <SimulationDescriptorReference Name="ItemClassAccessory" />
+    <Slot Name="Accessory"/>
+    <SimulationDescriptorReference Name="ItemAttributesGemstoneAttackStrategic234" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic2" />
+    <SimulationDescriptorReference Name="ColossusOnly" />
+    <PathPrerequisite Flags="Prerequisite,Discard" Inverted="true">../ClassUnit/ItemAttributesGemstoneAttackStrategic234</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard,SlotPrerequisite" Inverted="false">../ClassUnit,ItemSlotColossus</PathPrerequisite>
+    <UnitAbilityReference Name="UnitAbilitySharedWisdom"/>
+    <Cost ResourceName="Production">60</Cost>
+    <CustomCost ResourceName="Strategic2" Instant="true">12 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryCommon)</CustomCost>
+  </ItemDefinition>
+
+  <ItemDefinition Name="ItemGemstoneDefenseStrategic123" SubCategory="SubCategoryGemstone">
+    <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryAccessory"/>
+    <SimulationDescriptorReference Name="ItemCategoryAccessory" />
+    <SimulationDescriptorReference Name="ItemClassAccessory" />
+    <Slot Name="Accessory"/>
+    <SimulationDescriptorReference Name="ItemAttributesGemstoneDefenseStrategic123" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic1" />
+    <SimulationDescriptorReference Name="ColossusOnly" />
+    <PathPrerequisite Flags="Prerequisite,Discard" Inverted="true">../ClassUnit/ItemAttributesGemstoneDefenseStrategic123</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard,SlotPrerequisite" Inverted="false">../ClassUnit,ItemSlotColossus</PathPrerequisite>
+    <UnitAbilityReference Name="UnitAbilityIntimidationAura"/>
+    <Cost ResourceName="Production">60</Cost>
+    <CustomCost ResourceName="Strategic1" Instant="true">12 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryCommon)</CustomCost>
+  </ItemDefinition>
+
+  <ItemDefinition Name="ItemGemstoneHealthStrategic124" SubCategory="SubCategoryGemstone">
+    <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryAccessory"/>
+    <SimulationDescriptorReference Name="ItemCategoryAccessory" />
+    <SimulationDescriptorReference Name="ItemClassAccessory" />
+    <Slot Name="Accessory"/>
+    <SimulationDescriptorReference Name="ItemAttributesGemstoneHealthStrategic124" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic3" />
+    <SimulationDescriptorReference Name="ColossusOnly" />
+    <PathPrerequisite Flags="Prerequisite,Discard" Inverted="true">../ClassUnit/ItemAttributesGemstoneHealthStrategic124</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard,SlotPrerequisite" Inverted="false">../ClassUnit,ItemSlotColossus</PathPrerequisite>
+    <UnitAbilityReference Name="UnitAbilityDeathOrGlory" Level="2"/>
+    <Cost ResourceName="Production">60</Cost>
+    <CustomCost ResourceName="Strategic3" Instant="true">12 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryCommon)</CustomCost>
+  </ItemDefinition>
+
+  <ItemDefinition Name="ItemGemstoneDamageStrategic134" SubCategory="SubCategoryGemstone">
+    <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryAccessory"/>
+    <SimulationDescriptorReference Name="ItemCategoryAccessory" />
+    <SimulationDescriptorReference Name="ItemClassAccessory" />
+    <Slot Name="Accessory"/>
+    <SimulationDescriptorReference Name="ItemAttributesGemstoneDamageStrategic134" />
+    <SimulationDescriptorReference Name="ItemMaterialStrategic4" />
+    <SimulationDescriptorReference Name="ColossusOnly" />
+    <PathPrerequisite Flags="Prerequisite,Discard" Inverted="true">../ClassUnit/ItemAttributesGemstoneDamageStrategic134</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard,SlotPrerequisite" Inverted="false">../ClassUnit,ItemSlotColossus</PathPrerequisite>
+    <UnitAbilityReference Name="UnitAbilityFreeCounter"/>
+    <Cost ResourceName="Production">60</Cost>
+    <CustomCost ResourceName="Strategic4" Instant="true">12 * $Property(../EmpireTypeMajor:ItemStrategicMasteryCostFactor) * $Property(../EmpireTypeMajor:ReductionCostFromMasteryCommon)</CustomCost>
+  </ItemDefinition>
+
+</Datatable>

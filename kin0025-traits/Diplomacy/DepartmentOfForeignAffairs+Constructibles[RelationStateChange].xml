@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- 
+  DiplomaticCustomCost
+    Attributes
+      - Responsible: The responsible of the cost (empire that must pay it). It can be one of the following value: EmpireWhichProposes, EmpireWhichProvides or EmpireWhichReceives.
+      - Resource name: The resource name of the cost (see the Simulation/RessourceDefinition.xml to have a list of the available resources, it must be empire resource).
+    
+    Content
+      Inpreter formula used to define the cost amount. The following variables are set in the interpreter context and can be used with the syntax $(variableName):
+      - AffinityRelationScore
+      - RelationStateChaosScore
+      - DiscussionChaosScore
+      - ForceRelationStateChaosScore
+  -->
+  <!-- Cheap Traits -->
+ 
+  <!-- PEACE -->
+  <DiplomaticTermDiplomaticRelationStateDefinition Name="ColdWarToPeaceStart" PropositionMethod="Negotiation" ApplicationMethod="Symetric" Category="Treaty" SubCategory="SubCategoryDiplomaticTerm" Alignment="Good">
+    <SimulationDescriptorReference Name="ColdWarToPeace" />
+    <DiplomaticRelationStatePrerequisite Flags="Prerequisite,Discard">DiplomaticRelationStateColdWar</DiplomaticRelationStatePrerequisite>
+    <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology" Inverted="true">TechnologyDiplomacyPeace</TechnologyPrerequisite>
+	  
+    <DiplomaticRelationStateEmpirePrerequisite Flags="Prerequisite,Discard" Responsible="EmpireWhichProvides">
+      <PathPrerequisite Inverted="true">EmpireTypeMajor,FactionTraitNecrophages5</PathPrerequisite>
+	  <PathPrerequisite>EmpireTypeMajor,FactionTraitDiplomacyStart</PathPrerequisite>
+    </DiplomaticRelationStateEmpirePrerequisite>
+    
+    <DiplomaticRelationStateEmpirePrerequisite Flags="Prerequisite,Discard" Responsible="EmpireWhichReceives">
+      <PathPrerequisite Inverted="true">EmpireTypeMajor,FactionTraitNecrophages5</PathPrerequisite>
+    </DiplomaticRelationStateEmpirePrerequisite>
+   
+    <DiplomaticCustomCost Responsible="EmpireWhichProposes" ResourceName="EmpirePoint">30 * ((($Property(EmpireTypeMajor:EmpireScaleFactor) + ($Property(ClassEmpire:CurrentEra) - $(AffinityRelationScore)) + $(RelationStateChaosScore)) max 1) / 1.5) * $Property(ClassEmpire:GameSpeedMultiplier) * $Property(ClassEmpire:DiplomaticTermsFactor)</DiplomaticCustomCost>
+
+    <DiplomaticRelationStateReference>DiplomaticRelationStatePeace</DiplomaticRelationStateReference>
+  </DiplomaticTermDiplomaticRelationStateDefinition>
+
+  <DiplomaticTermDiplomaticRelationStateDefinition Name="AllianceToPeaceStart" PropositionMethod="Declaration" ApplicationMethod="Symetric" Category="Treaty" SubCategory="SubCategoryDiplomaticTerm" Alignment="Bad">
+    <SimulationDescriptorReference Name="AllianceToPeace" />
+    <DiplomaticContractContainsTermPrerequisite Inverted="true" Flags="Prerequisite,Discard">MapEmbargo</DiplomaticContractContainsTermPrerequisite>
+    <DiplomaticContractContainsTermPrerequisite Inverted="true" Flags="Prerequisite,Discard">VisionAndMapEmbargo</DiplomaticContractContainsTermPrerequisite>
+    <DiplomaticContractContainsTermPrerequisite Inverted="true" Flags="Prerequisite,Discard">VisionEmbargo</DiplomaticContractContainsTermPrerequisite>
+    <DiplomaticRelationStatePrerequisite Flags="Prerequisite,Discard">DiplomaticRelationStateAlliance</DiplomaticRelationStatePrerequisite>
+    <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology" Inverted="true" >TechnologyDiplomacyPeace</TechnologyPrerequisite>
+
+    <DiplomaticCustomCost Responsible="EmpireWhichProposes" ResourceName="EmpirePoint" CanBeConvertedToPeacePoint="false">50 * ((($Property(EmpireTypeMajor:EmpireScaleFactor) + $Property(ClassEmpire:CurrentEra) + $(AffinityRelationScore) + $(RelationStateChaosScore) + $(RelationDuration)) max 1) / 1.5) * $Property(ClassEmpire:GameSpeedMultiplier) * $Property(ClassEmpire:DiplomaticTermsFactor)</DiplomaticCustomCost>
+
+    <DiplomaticRelationStateReference>DiplomaticRelationStatePeace</DiplomaticRelationStateReference>
+  </DiplomaticTermDiplomaticRelationStateDefinition>
+
+  
+
+  <!-- ALLIANCE -->
+  <DiplomaticTermDiplomaticRelationStateDefinition Name="ColdWarToAllianceStart" PropositionMethod="Negotiation" ApplicationMethod="Symetric" Category="Treaty" SubCategory="SubCategoryDiplomaticTerm" Alignment="Good">
+    <SimulationDescriptorReference Name="ColdWarToAlliance" />
+    <DiplomaticRelationStatePrerequisite Flags="Prerequisite,Discard">DiplomaticRelationStateColdWar</DiplomaticRelationStatePrerequisite>
+    <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology" Inverted="true">TechnologyDiplomacyAlliance</TechnologyPrerequisite>
+
+    <DiplomaticCustomCost Responsible="EmpireWhichProposes" ResourceName="EmpirePoint">100 * ((($Property(EmpireTypeMajor:EmpireScaleFactor) + ($Property(ClassEmpire:CurrentEra) - $(AffinityRelationScore)) + $(RelationStateChaosScore)) max 1) / 1.5) * $Property(ClassEmpire:GameSpeedMultiplier) * $Property(ClassEmpire:DiplomaticTermsFactor)</DiplomaticCustomCost>
+
+    <DiplomaticRelationStateEmpirePrerequisite Flags="Prerequisite,Discard" Responsible="EmpireWhichProvides">
+		<PathPrerequisite Inverted="true">EmpireTypeMajor,FactionTraitNecrophages5</PathPrerequisite>
+		<PathPrerequisite>EmpireTypeMajor,FactionTraitDiplomacyStart</PathPrerequisite>
+    </DiplomaticRelationStateEmpirePrerequisite>
+
+    <DiplomaticRelationStateEmpirePrerequisite Flags="Prerequisite,Discard" Responsible="EmpireWhichReceives">
+      <PathPrerequisite Inverted="true">EmpireTypeMajor,FactionTraitNecrophages5</PathPrerequisite>
+    </DiplomaticRelationStateEmpirePrerequisite>
+
+    <DiplomaticRelationStateReference>DiplomaticRelationStateAlliance</DiplomaticRelationStateReference>
+  </DiplomaticTermDiplomaticRelationStateDefinition>
+
+  <DiplomaticTermDiplomaticRelationStateDefinition Name="PeaceToAllianceStart" PropositionMethod="Negotiation" ApplicationMethod="Symetric" Category="Treaty" SubCategory="SubCategoryDiplomaticTerm" Alignment="Good">
+    <SimulationDescriptorReference Name="PeaceToAlliance" />
+    <DiplomaticRelationStatePrerequisite Flags="Prerequisite,Discard">DiplomaticRelationStatePeace</DiplomaticRelationStatePrerequisite>
+    <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology" Inverted="true">TechnologyDiplomacyAlliance</TechnologyPrerequisite>
+
+    <DiplomaticCustomCost Responsible="EmpireWhichProposes" ResourceName="EmpirePoint">80 * ((($Property(EmpireTypeMajor:EmpireScaleFactor) + ($Property(ClassEmpire:CurrentEra) - $(AffinityRelationScore)) + $(RelationStateChaosScore)) max 1) / 1.5) * $Property(ClassEmpire:GameSpeedMultiplier) * $Property(ClassEmpire:DiplomaticTermsFactor)</DiplomaticCustomCost>
+
+    <DiplomaticRelationStateReference>DiplomaticRelationStateAlliance</DiplomaticRelationStateReference>
+  </DiplomaticTermDiplomaticRelationStateDefinition>
+
+  <!-- DRAKKEN PEACE DECLARATION -->
+  <DiplomaticTermDiplomaticRelationStateDefinition Name="ColdWarToPeaceDeclaration" PropositionMethod="Declaration" ApplicationMethod="Symetric" Category="Treaty" SubCategory="SubCategoryDiplomaticTerm" Alignment="Bad">
+    <SimulationDescriptorReference Name="ColdWarToPeaceDeclaration" />
+    <DiplomaticRelationStatePrerequisite Flags="Prerequisite,Discard">DiplomaticRelationStateColdWar</DiplomaticRelationStatePrerequisite>
+    <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyDiplomacyPeace</TechnologyPrerequisite>
+
+    <DiplomaticRelationStateEmpirePrerequisite Flags="Prerequisite,Discard" Responsible="EmpireWhichProvides">
+      <PathPrerequisite Inverted="true">EmpireTypeMajor,FactionTraitNecrophages5</PathPrerequisite>
+    </DiplomaticRelationStateEmpirePrerequisite>
+
+    <DiplomaticRelationStateEmpirePrerequisite Flags="Prerequisite,Discard" Responsible="EmpireWhichReceives">
+      <PathPrerequisite Inverted="true">EmpireTypeMajor,FactionTraitNecrophages5</PathPrerequisite>
+    </DiplomaticRelationStateEmpirePrerequisite>
+
+    <DiplomaticRelationStateEmpirePrerequisite Flags="Prerequisite,Discard" Responsible="EmpireWhichProvides">
+      <PathPrerequisite>EmpireTypeMajor,FactionTraitDrakkens6</PathPrerequisite>
+    </DiplomaticRelationStateEmpirePrerequisite>
+
+    <DiplomaticCustomCost Responsible="EmpireWhichProposes" ResourceName="EmpirePoint" CanBeConvertedToPeacePoint="false" >26 * ((($Property(EmpireTypeMajor:EmpireScaleFactor) + ($Property(ClassEmpire:CurrentEra) + $(AffinityRelationScore)) + $(RelationStateChaosScore) + $(ForceRelationStateChaosScore)) max 1) / 1.5) * $Property(ClassEmpire:GameSpeedMultiplier) * $Property(ClassEmpire:DiplomaticTermsFactor)</DiplomaticCustomCost>
+
+    <DiplomaticRelationStateReference>DiplomaticRelationStatePeace</DiplomaticRelationStateReference>
+  </DiplomaticTermDiplomaticRelationStateDefinition>
+  
+  <!-- DRAKKEN ALLIANCE DECLARATION -->
+  <DiplomaticTermDiplomaticRelationStateDefinition Name="ColdWarToAllianceDeclaration" PropositionMethod="Declaration" ApplicationMethod="Symetric" Category="Treaty" SubCategory="SubCategoryDiplomaticTerm" Alignment="Bad">
+    <SimulationDescriptorReference Name="ColdWarToAllianceDeclaration" />
+    <DiplomaticRelationStatePrerequisite Flags="Prerequisite,Discard">DiplomaticRelationStateColdWar</DiplomaticRelationStatePrerequisite>
+    <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyDiplomacyAlliance</TechnologyPrerequisite>
+
+    <DiplomaticCustomCost Responsible="EmpireWhichProposes" ResourceName="EmpirePoint" CanBeConvertedToPeacePoint="false">36 * ((($Property(EmpireTypeMajor:EmpireScaleFactor) + ($Property(ClassEmpire:CurrentEra) + $(AffinityRelationScore)) + $(RelationStateChaosScore) + $(ForceRelationStateChaosScore)) max 1) / 1.5) * $Property(ClassEmpire:GameSpeedMultiplier) * $Property(ClassEmpire:DiplomaticTermsFactor)</DiplomaticCustomCost>
+
+    <DiplomaticRelationStateEmpirePrerequisite Flags="Prerequisite,Discard" Responsible="EmpireWhichProvides">
+      <PathPrerequisite Inverted="true">EmpireTypeMajor,FactionTraitNecrophages5</PathPrerequisite>
+    </DiplomaticRelationStateEmpirePrerequisite>
+
+    <DiplomaticRelationStateEmpirePrerequisite Flags="Prerequisite,Discard" Responsible="EmpireWhichReceives">
+      <PathPrerequisite Inverted="true">EmpireTypeMajor,FactionTraitNecrophages5</PathPrerequisite>
+    </DiplomaticRelationStateEmpirePrerequisite>
+
+    <DiplomaticRelationStateEmpirePrerequisite Flags="Prerequisite,Discard" Responsible="EmpireWhichProvides">
+      <PathPrerequisite>EmpireTypeMajor,FactionTraitDrakkens6</PathPrerequisite>
+    </DiplomaticRelationStateEmpirePrerequisite>
+
+    <DiplomaticRelationStateReference>DiplomaticRelationStateAlliance</DiplomaticRelationStateReference>
+  </DiplomaticTermDiplomaticRelationStateDefinition>
+
+  <DiplomaticTermDiplomaticRelationStateDefinition Name="PeaceToAllianceDeclaration" PropositionMethod="Declaration" ApplicationMethod="Symetric" Category="Treaty" SubCategory="SubCategoryDiplomaticTerm" Alignment="Bad">
+    <SimulationDescriptorReference Name="PeaceToAllianceDeclaration" />
+    <DiplomaticRelationStatePrerequisite Flags="Prerequisite,Discard">DiplomaticRelationStatePeace</DiplomaticRelationStatePrerequisite>
+    <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyDiplomacyAlliance</TechnologyPrerequisite>
+
+    <DiplomaticCustomCost Responsible="EmpireWhichProposes" ResourceName="EmpirePoint" CanBeConvertedToPeacePoint="false" >34 * ((($Property(EmpireTypeMajor:EmpireScaleFactor) + ($Property(ClassEmpire:CurrentEra) - $(AffinityRelationScore)) + $(RelationStateChaosScore) + $(ForceRelationStateChaosScore)) max 1) / 1.5) * $Property(ClassEmpire:GameSpeedMultiplier) * $Property(ClassEmpire:DiplomaticTermsFactor)</DiplomaticCustomCost>
+
+    <DiplomaticRelationStateEmpirePrerequisite Flags="Prerequisite,Discard" Responsible="EmpireWhichProvides">
+      <PathPrerequisite>EmpireTypeMajor,FactionTraitDrakkens6</PathPrerequisite>
+    </DiplomaticRelationStateEmpirePrerequisite>
+    
+    <DiplomaticRelationStateReference>DiplomaticRelationStateAlliance</DiplomaticRelationStateReference>
+  </DiplomaticTermDiplomaticRelationStateDefinition>
+   
+   <!-- DRAKKEN TRUCE DECLARATION -->
+  <DiplomaticTermDiplomaticRelationStateDefinition Name="WarToTruceDeclaration" PropositionMethod="Declaration" ApplicationMethod="Symetric" Category="Treaty" SubCategory="SubCategoryDiplomaticTerm" Alignment="Neutral">
+    <DiplomaticRelationStatePrerequisite Flags="Prerequisite,Discard">DiplomaticRelationStateWar</DiplomaticRelationStatePrerequisite>
+
+    <DiplomaticRelationStateEmpirePrerequisite Flags="Prerequisite,Discard" Responsible="EmpireWhichProvides">
+      <PathPrerequisite>EmpireTypeMajor,FactionTraitDrakkens6</PathPrerequisite>
+    </DiplomaticRelationStateEmpirePrerequisite>
+
+    <DiplomaticCustomCost Responsible="EmpireWhichProposes" ResourceName="EmpirePoint" CanBeConvertedToPeacePoint="false">28 * (($Property(EmpireTypeMajor:EmpireScaleFactor) + $Property(ClassEmpire:CurrentEra) + $(RelationStateChaosScore) + $(ForceRelationStateChaosScore)) / 1.5) * $Property(ClassEmpire:GameSpeedMultiplier) * $Property(ClassEmpire:DiplomaticTermsFactor)</DiplomaticCustomCost>
+
+    <DiplomaticRelationStateReference>DiplomaticRelationStateTruce</DiplomaticRelationStateReference>
+  </DiplomaticTermDiplomaticRelationStateDefinition>
+
+</Datatable>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://Drazariw.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://Drazariw.w3.org/2001/XMLSchema">
+  
+  <!-- Quest Chapter 1 -->
+  <QuestGuiElement Name="MainQuestDrazari-Chapter1">
+    <Title>%MainQuestDrazari-Chapter1Title</Title>
+    <Description>%MainQuestDrazari-Chapter1Description</Description>
+    <Objective>%MainQuestDrazari-Chapter1Objective</Objective>
+    <Outcome>%MainQuestDrazari-Chapter1Outcome</Outcome>
+    <Icons>
+      <Icon Path="Gui/DynamicBitmaps/Quests/QuestDrazari1" Size="Small" />
+    </Icons>
+    <Steps>
+      <Step Name="MainQuestDrazari-Chapter1-Step1">%MainQuestDrazari-Chapter1-Step1</Step>
+    </Steps>
+  </QuestGuiElement>
+
+  <!-- Quest Chapter 2 -->
+  <QuestGuiElement Name="MainQuestDrazari-Chapter2">
+    <Title>%MainQuestDrazari-Chapter2Title</Title>
+    <Description>%MainQuestDrazari-Chapter2Description</Description>
+    <Objective>%MainQuestDrazari-Chapter2Objective</Objective>
+    <Outcome>%MainQuestDrazari-Chapter2Outcome</Outcome>
+    <Icons>
+      <Icon Path="Gui/DynamicBitmaps/Quests/QuestDrazari2" Size="Small" />
+    </Icons>
+    <Steps>
+      <Step Name="MainQuestDrazari-Chapter2-Step1">%MainQuestDrazari-Chapter2-Step1</Step>
+      <Step Name="MainQuestDrazari-Chapter2-Step1">%MainQuestDrazari-Chapter2-Step2</Step>
+    </Steps>
+  </QuestGuiElement>
+
+  <!-- Quest Chapter 2Alt -->
+  <QuestGuiElement Name="MainQuestDrazari-Chapter2Alt">
+    <Title>%MainQuestDrazari-Chapter2AltTitle</Title>
+    <Description>%MainQuestDrazari-Chapter2AltDescription</Description>
+    <Objective>%MainQuestDrazari-Chapter2AltObjective</Objective>
+    <Outcome>%MainQuestDrazari-Chapter2AltOutcome</Outcome>
+    <Icons>
+      <Icon Path="Gui/DynamicBitmaps/Quests/QuestDrazari2" Size="Small" />
+    </Icons>
+    <Steps>
+      <Step Name="MainQuestDrazari-Chapter2Alt-Step1">%MainQuestDrazari-Chapter2Alt-Step1</Step>
+      <Step Name="MainQuestDrazari-Chapter2Alt-Step1">%MainQuestDrazari-Chapter2Alt-Step2</Step>
+      <Step Name="MainQuestDrazari-Chapter2Alt-Step1">%MainQuestDrazari-Chapter2Alt-Step3</Step>
+    </Steps>
+  </QuestGuiElement>
+
+  <!-- Quest Chapter 3 -->
+  <QuestGuiElement Name="MainQuestDrazari-Chapter3">
+    <Title>%MainQuestDrazari-Chapter3Title</Title>
+    <Description>%MainQuestDrazari-Chapter3Description</Description>
+    <Objective>%MainQuestDrazari-Chapter3Objective</Objective>
+    <Outcome>%MainQuestDrazari-Chapter3Outcome</Outcome>
+    <Icons>
+      <Icon Path="Gui/DynamicBitmaps/Quests/QuestDrazari3" Size="Small" />
+    </Icons>
+    <Steps>
+      <Step Name="MainQuestDrazari-Chapter3-Step1">%MainQuestDrazari-Chapter3-Step1</Step>
+      <Step Name="MainQuestDrazari-Chapter3-Step2">%MainQuestDrazari-Chapter3-Step2</Step>
+    </Steps>
+  </QuestGuiElement>
+
+  <!-- Quest Chapter 4 -->
+  <QuestGuiElement Name="MainQuestDrazari-Chapter4">
+    <Title>%MainQuestDrazari-Chapter4Title</Title>
+    <Description>%MainQuestDrazari-Chapter4Description</Description>
+    <Objective>%MainQuestDrazari-Chapter4Objective</Objective>
+    <Outcome>%MainQuestDrazari-Chapter4Outcome</Outcome>
+    <Icons>
+      <Icon Path="Gui/DynamicBitmaps/Quests/QuestDrazari4" Size="Small" />
+    </Icons>
+    <Steps>
+      <Step Name="MainQuestDrazari-Chapter4-Step1">%MainQuestDrazari-Chapter4-Step1</Step>
+      <Step Name="MainQuestDrazari-Chapter4-Step2">%MainQuestDrazari-Chapter4-Step2</Step>
+    </Steps>
+  </QuestGuiElement>
+
+  <!-- Quest Chapter 5 -->
+  <QuestGuiElement Name="MainQuestDrazari-Chapter5">
+    <Title>%MainQuestDrazari-Chapter5Title</Title>
+    <Description>%MainQuestDrazari-Chapter5Description</Description>
+    <Objective>%MainQuestDrazari-Chapter5Objective</Objective>
+    <Outcome>%MainQuestDrazari-Chapter5Outcome</Outcome>
+    <Icons>
+      <Icon Path="Gui/DynamicBitmaps/Quests/QuestDrazari5" Size="Small" />
+    </Icons>
+    <Steps>
+      <Step Name="MainQuestDrazari-Chapter5-Step1">%MainQuestDrazari-Chapter5-Step1</Step>
+      <Step Name="MainQuestDrazari-Chapter5-Step2">%MainQuestDrazari-Chapter5-Step2</Step>
+      <Step Name="MainQuestDrazari-Chapter5-Step3">%MainQuestDrazari-Chapter5-Step3</Step>
+    </Steps>
+  </QuestGuiElement>
+
+  <!-- Quest Chapter 6 -->
+  <QuestGuiElement Name="MainQuestDrazari-Chapter6">
+    <Title>%MainQuestDrazari-Chapter6Title</Title>
+    <Description>%MainQuestDrazari-Chapter6Description</Description>
+    <Objective>%MainQuestDrazari-Chapter6Objective</Objective>
+    <Outcome>%MainQuestDrazari-Chapter6Outcome</Outcome>
+    <Icons>
+      <Icon Path="Gui/DynamicBitmaps/Quests/QuestDrazari6" Size="Small" />
+    </Icons>
+    <Steps>
+      <Step Name="MainQuestDrazari-Chapter6-Step1">%MainQuestDrazari-Chapter6-Step1</Step>
+      <Step Name="MainQuestDrazari-Chapter6-Step2">%MainQuestDrazari-Chapter6-Step2</Step>
+    </Steps>
+  </QuestGuiElement>
+
+  <!-- Quest Chapter 6Alt -->
+  <QuestGuiElement Name="MainQuestDrazari-Chapter6Alt">
+    <Title>%MainQuestDrazari-Chapter6AltTitle</Title>
+    <Description>%MainQuestDrazari-Chapter6AltDescription</Description>
+    <Objective>%MainQuestDrazari-Chapter6AltObjective</Objective>
+    <Outcome>%MainQuestDrazari-Chapter6AltOutcome</Outcome>
+    <Icons>
+      <Icon Path="Gui/DynamicBitmaps/Quests/QuestDrazari6" Size="Small" />
+    </Icons>
+    <Steps>
+      <Step Name="MainQuestDrazari-Chapter6Alt-Step1">%MainQuestDrazari-Chapter6Alt-Step1</Step>
+      <Step Name="MainQuestDrazari-Chapter6Alt-Step2">%MainQuestDrazari-Chapter6Alt-Step2</Step>
+    </Steps>
+  </QuestGuiElement>
+
+  <!-- Quest Chapter 7 -->
+  <QuestGuiElement Name="MainQuestDrazari-Chapter7">
+    <Title>%MainQuestDrazari-Chapter7Title</Title>
+    <Description>%MainQuestDrazari-Chapter7Description</Description>
+    <Objective>%MainQuestDrazari-Chapter7Objective</Objective>
+    <Outcome>%MainQuestDrazari-Chapter7Outcome</Outcome>
+    <Icons>
+      <Icon Path="Gui/DynamicBitmaps/Quests/QuestDrazari7" Size="Small" />
+    </Icons>
+    <Steps>
+      <Step Name="MainQuestDrazari-Chapter7-Step1">%MainQuestDrazari-Chapter7-Step1</Step>
+    </Steps>
+  </QuestGuiElement>
+
+  <!-- Quest Chapter 7Alt -->
+  <QuestGuiElement Name="MainQuestDrazari-Chapter7Alt">
+    <Title>%MainQuestDrazari-Chapter7AltTitle</Title>
+    <Description>%MainQuestDrazari-Chapter7AltDescription</Description>
+    <Objective>%MainQuestDrazari-Chapter7AltObjective</Objective>
+    <Outcome>%MainQuestDrazari-Chapter7AltOutcome</Outcome>
+    <Icons>
+      <Icon Path="Gui/DynamicBitmaps/Quests/QuestDrazari7" Size="Small" />
+    </Icons>
+    <Steps>
+      <Step Name="MainQuestDrazari-Chapter7Alt-Step1">%MainQuestDrazari-Chapter7Alt-Step1</Step>
+    </Steps>
+  </QuestGuiElement>
+
+  <!-- Quest Chapter 8 -->
+  <QuestGuiElement Name="MainQuestDrazari-Chapter8">
+    <Title>%MainQuestDrazari-Chapter8Title</Title>
+    <Description>%MainQuestDrazari-Chapter8Description</Description>
+    <Objective>%MainQuestDrazari-Chapter8Objective</Objective>
+    <Outcome>%MainQuestDrazari-Chapter8Outcome</Outcome>
+    <Icons>
+      <Icon Path="Gui/DynamicBitmaps/Quests/QuestDrazari8" Size="Small" />
+    </Icons>
+    <Steps>
+      <Step Name="MainQuestDrazari-Chapter8-Step1">%MainQuestDrazari-Chapter8-Step1</Step>
+      <Step Name="MainQuestDrazari-Chapter8-Step2">%MainQuestDrazari-Chapter8-Step2</Step>
+      <Step Name="MainQuestDrazari-Chapter8-Step1">%MainQuestDrazari-Chapter8-Step3</Step>
+    </Steps>
+  </QuestGuiElement>
+  
+</Datatable>

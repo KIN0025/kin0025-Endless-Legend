@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+ <TechnologyDefinition  Name="TechnologyDefinitionDrazariUnit2" TechnologyFlags="Affinity">
+    <SimulationDescriptorReference Name="TechnologyDrazariUnit2"/>
+    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra1"/>
+    <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra1</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">EmpireTypeMajor,AffinityDrazari</PathPrerequisite>
+    <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost) * $Property(EmpireTypeMajor/ClassResearch:Era1CostMultiplier)</CustomCost>
+  </TechnologyDefinition>
+   <TechnologyDefinition  Name="TechnologyDefinitionDrazariUnit3" TechnologyFlags="Affinity">
+    <SimulationDescriptorReference Name="TechnologyDrazariUnit3" />
+    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra2" />
+    <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost)* $Property(EmpireTypeMajor/ClassResearch:Era2CostMultiplier)</CustomCost>
+    <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra2</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">EmpireTypeMajor,AffinityDrazari</PathPrerequisite>
+  </TechnologyDefinition>
+
+</Datatable>

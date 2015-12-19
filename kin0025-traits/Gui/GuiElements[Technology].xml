@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!-- Era 1 -->
+  <!-- Empire bonus: Weapon Common Tier 1 -->
+  <TechnologyGuiElement Name="TechnologyDefinitionWeaponCommonTier1" X="-40" Y="-240">
+    <Title>%TechnologyDefinitionWeaponCommonTier1Title</Title>
+    <Description>%TechnologyDefinitionWeaponCommonTier1Description</Description>
+    <Icons DefaultSize="">
+      <Icon Path="GUI/AtlasedBitmaps/Improvements/Empire/TechnologyWeaponCommonTier1Small" Size="Small" />
+      <Icon Path="GUI/DynamicBitmaps/Improvements/Empire/TechnologyWeaponCommonTier1Large" Size="Large" />
+    </Icons>
+    <TechnologyEraReference Name="TechnologyEraDefinition1" />
+  </TechnologyGuiElement>
+  
+  <!-- Empire bonus: Armour Common Tier 1 -->
+  <TechnologyGuiElement Name="TechnologyDefinitionArmorCommonTier1" X="40" Y="-240">
+    <Title>%TechnologyDefinitionArmorCommonTier1Title</Title>
+    <Description>%TechnologyDefinitionArmorCommonTier1Description</Description>
+    <Icons DefaultSize="">
+      <Icon Path="GUI/AtlasedBitmaps/Improvements/Empire/TechnologyArmorCommonTier1Small" Size="Small" />
+      <Icon Path="GUI/DynamicBitmaps/Improvements/Empire/TechnologyArmorCommonTier1Large" Size="Large" />
+    </Icons>
+    <TechnologyEraReference Name="TechnologyEraDefinition1" />
+  </TechnologyGuiElement>
+
+  <!-- Era 2 -->  
+    <!-- Empire bonus: Weapon Common Tier 2 -->
+  <TechnologyGuiElement Name="TechnologyDefinitionWeaponCommonTier2" X="-40" Y="-240">
+    <Title>%TechnologyDefinitionWeaponCommonTier2Title</Title>
+    <Description>%TechnologyDefinitionWeaponCommonTier2Description</Description>
+    <Icons DefaultSize="">
+      <Icon Path="GUI/AtlasedBitmaps/Improvements/Empire/TechnologyWeaponCommonTier2Small" Size="Small" />
+      <Icon Path="GUI/DynamicBitmaps/Improvements/Empire/TechnologyWeaponCommonTier2Large" Size="Large" />
+    </Icons>
+    <TechnologyEraReference Name="TechnologyEraDefinition2" />
+  </TechnologyGuiElement>
+
+  <!-- Empire bonus: Armour Common Tier 2 -->
+  <TechnologyGuiElement Name="TechnologyDefinitionArmorCommonTier2" X="40" Y="-240">
+    <Title>%TechnologyDefinitionArmorCommonTier2Title</Title>
+    <Description>%TechnologyDefinitionArmorCommonTier2Description</Description>
+    <Icons DefaultSize="">
+      <Icon Path="GUI/AtlasedBitmaps/Improvements/Empire/TechnologyArmorCommonTier2Small" Size="Small" />
+      <Icon Path="GUI/DynamicBitmaps/Improvements/Empire/TechnologyArmorCommonTier2Large" Size="Large" />
+    </Icons>
+    <TechnologyEraReference Name="TechnologyEraDefinition2" />
+  </TechnologyGuiElement>
+  
+<!-- Era 3 -->
+  <!-- Empire bonus: Weapon Common Tier 3 -->
+  <TechnologyGuiElement Name="TechnologyDefinitionWeaponCommonTier3" X="-120" Y="-200">
+    <Title>%TechnologyDefinitionWeaponCommonTier3Title</Title>
+    <Description>%TechnologyDefinitionWeaponCommonTier3Description</Description>
+    <Icons DefaultSize="">
+      <Icon Path="GUI/AtlasedBitmaps/Improvements/Empire/TechnologyWeaponCommonTier3Small" Size="Small" />
+      <Icon Path="GUI/DynamicBitmaps/Improvements/Empire/TechnologyWeaponCommonTier3Large" Size="Large" />
+    </Icons>
+    <TechnologyEraReference Name="TechnologyEraDefinition3" />
+  </TechnologyGuiElement>
+
+  <!-- Empire bonus: Armor Common Tier 3 -->
+  <TechnologyGuiElement Name="TechnologyDefinitionArmorCommonTier3" X="120" Y="-200">
+    <Title>%TechnologyDefinitionArmorCommonTier3Title</Title>
+    <Description>%TechnologyDefinitionArmorCommonTier3Description</Description>
+    <Icons DefaultSize="">
+      <Icon Path="GUI/AtlasedBitmaps/Improvements/Empire/TechnologyArmorCommonTier3Small" Size="Small" />
+      <Icon Path="GUI/DynamicBitmaps/Improvements/Empire/TechnologyArmorCommonTier3Large" Size="Large" />
+    </Icons>
+    <TechnologyEraReference Name="TechnologyEraDefinition3" />
+  </TechnologyGuiElement>
+
+   <!-- Empire bonus: Weapon Uncommon Tier 1 -->
+  <TechnologyGuiElement Name="TechnologyDefinitionWeaponUncommonTier1" X="-40" Y="-240">
+    <Title>%TechnologyDefinitionWeaponUncommonTier1Title</Title>
+    <Description>%TechnologyDefinitionWeaponUncommonTier1Description</Description>
+    <Icons DefaultSize="">
+      <Icon Path="GUI/AtlasedBitmaps/Improvements/Empire/TechnologyWeaponUncommonTier1Small" Size="Small" />
+      <Icon Path="GUI/DynamicBitmaps/Improvements/Empire/TechnologyWeaponUncommonTier1Large" Size="Large" />
+    </Icons>
+    <TechnologyEraReference Name="TechnologyEraDefinition3" />
+  </TechnologyGuiElement>
+
+  <!-- Empire bonus: Armor Uncommon Tier 1 -->
+  <TechnologyGuiElement Name="TechnologyDefinitionArmorUncommonTier1" X="40" Y="-240">
+    <Title>%TechnologyDefinitionArmorUncommonTier1Title</Title>
+    <Description>%TechnologyDefinitionArmorUncommonTier1Description</Description>
+    <Icons DefaultSize="">
+      <Icon Path="GUI/AtlasedBitmaps/Improvements/Empire/TechnologyArmorUncommonTier1Small" Size="Small" />
+      <Icon Path="GUI/DynamicBitmaps/Improvements/Empire/TechnologyArmorUncommonTier1Large" Size="Large" />
+    </Icons>
+    <TechnologyEraReference Name="TechnologyEraDefinition3" />
+  </TechnologyGuiElement>
+ 
+<!-- Era 4 -->
+  <!-- Empire bonus: Weapon Uncommon Tier 2 -->
+  <TechnologyGuiElement Name="TechnologyDefinitionWeaponUncommonTier2" X="-40" Y="-240">
+    <Title>%TechnologyDefinitionWeaponUncommonTier2Title</Title>
+    <Description>%TechnologyDefinitionWeaponUncommonTier2Description</Description>
+    <Icons DefaultSize="">
+      <Icon Path="GUI/AtlasedBitmaps/Improvements/Empire/TechnologyWeaponUncommonTier2Small" Size="Small" />
+      <Icon Path="GUI/DynamicBitmaps/Improvements/Empire/TechnologyWeaponUncommonTier2Large" Size="Large" />
+    </Icons>
+    <TechnologyEraReference Name="TechnologyEraDefinition4" />
+  </TechnologyGuiElement>
+
+  <!-- Empire bonus: Armor Uncommon Tier 2 -->
+  <TechnologyGuiElement Name="TechnologyDefinitionArmorUncommonTier2" X="40" Y="-240">
+    <Title>%TechnologyDefinitionArmorUncommonTier2Title</Title>
+    <Description>%TechnologyDefinitionArmorUncommonTier2Description</Description>
+    <Icons DefaultSize="">
+      <Icon Path="GUI/AtlasedBitmaps/Improvements/Empire/TechnologyArmorUncommonTier2Small" Size="Small" />
+      <Icon Path="GUI/DynamicBitmaps/Improvements/Empire/TechnologyArmorUncommonTier2Large" Size="Large" />
+    </Icons>
+    <TechnologyEraReference Name="TechnologyEraDefinition4" />
+  </TechnologyGuiElement>
+ 
+ <!-- Empire bonus: Weapon Rare Tier 1 -->
+  <TechnologyGuiElement Name="TechnologyDefinitionWeaponRareTier1" X="-120" Y="-220">
+    <Title>%TechnologyDefinitionWeaponRareTier1Title</Title>
+    <Description>%TechnologyDefinitionWeaponRareTier1Description</Description>
+    <Icons DefaultSize="">
+      <Icon Path="GUI/AtlasedBitmaps/Improvements/Empire/TechnologyWeaponRareTier1Small" Size="Small" />
+      <Icon Path="GUI/DynamicBitmaps/Improvements/Empire/TechnologyWeaponRareTier1Large" Size="Large" />
+    </Icons>
+    <TechnologyEraReference Name="TechnologyEraDefinition4" />
+  </TechnologyGuiElement>
+
+  <!-- Empire bonus: Armor Rare Tier 1 -->
+  <TechnologyGuiElement Name="TechnologyDefinitionArmorRareTier1" X="120" Y="-220">
+    <Title>%TechnologyDefinitionArmorRareTier1Title</Title>
+    <Description>%TechnologyDefinitionArmorRareTier1Description</Description>
+    <Icons DefaultSize="">
+      <Icon Path="GUI/AtlasedBitmaps/Improvements/Empire/TechnologyArmorRareTier1Small" Size="Small" />
+      <Icon Path="GUI/DynamicBitmaps/Improvements/Empire/TechnologyArmorRareTier1Large" Size="Large" />
+    </Icons>
+    <TechnologyEraReference Name="TechnologyEraDefinition4" />
+  </TechnologyGuiElement>
+ 
+<!-- Era 5 -->
+  <!-- Empire bonus: Weapon Uncommon Tier 3 -->
+  <TechnologyGuiElement Name="TechnologyDefinitionWeaponUncommonTier3" X="-120" Y="-200">
+    <Title>%TechnologyDefinitionWeaponUncommonTier3Title</Title>
+    <Description>%TechnologyDefinitionWeaponUncommonTier3Description</Description>
+    <Icons DefaultSize="">
+      <Icon Path="GUI/AtlasedBitmaps/Improvements/Empire/TechnologyWeaponUncommonTier3Small" Size="Small" />
+      <Icon Path="GUI/DynamicBitmaps/Improvements/Empire/TechnologyWeaponUncommonTier3Large" Size="Large" />
+    </Icons>
+    <TechnologyEraReference Name="TechnologyEraDefinition5" />
+  </TechnologyGuiElement>
+
+  <!-- Empire bonus: Armor Uncommon Tier 3 -->
+  <TechnologyGuiElement Name="TechnologyDefinitionArmorUncommonTier3" X="120" Y="-200">
+    <Title>%TechnologyDefinitionArmorUncommonTier3Title</Title>
+    <Description>%TechnologyDefinitionArmorUncommonTier3Description</Description>
+    <Icons DefaultSize="">
+      <Icon Path="GUI/AtlasedBitmaps/Improvements/Empire/TechnologyArmorUncommonTier3Small" Size="Small" />
+      <Icon Path="GUI/DynamicBitmaps/Improvements/Empire/TechnologyArmorUncommonTier3Large" Size="Large" />
+    </Icons>
+    <TechnologyEraReference Name="TechnologyEraDefinition5" />
+  </TechnologyGuiElement>
+  
+  <!-- Empire bonus: Equipment Rare Tier 2 -->
+  <TechnologyGuiElement Name="TechnologyDefinitionWeaponRareTier2" X="-40" Y="-240">
+    <Title>%TechnologyDefinitionWeaponRareTier2Title</Title>
+    <Description>%TechnologyDefinitionWeaponRareTier2Description</Description>
+    <Icons DefaultSize="">
+      <Icon Path="GUI/AtlasedBitmaps/Improvements/Empire/TechnologyWeaponRareTier2Small" Size="Small" />
+      <Icon Path="GUI/DynamicBitmaps/Improvements/Empire/TechnologyWeaponRareTier2Large" Size="Large" />
+    </Icons>
+    <TechnologyEraReference Name="TechnologyEraDefinition5" />
+  </TechnologyGuiElement>
+
+  <!-- Empire bonus: Armor Rare Tier 2 -->
+  <TechnologyGuiElement Name="TechnologyDefinitionArmorRareTier2" X="40" Y="-240">
+    <Title>%TechnologyDefinitionArmorRareTier2Title</Title>
+    <Description>%TechnologyDefinitionArmorRareTier2Description</Description>
+    <Icons DefaultSize="">
+      <Icon Path="GUI/AtlasedBitmaps/Improvements/Empire/TechnologyArmorRareTier2Small" Size="Small" />
+      <Icon Path="GUI/DynamicBitmaps/Improvements/Empire/TechnologyArmorRareTier2Large" Size="Large" />
+    </Icons>
+    <TechnologyEraReference Name="TechnologyEraDefinition5" />
+  </TechnologyGuiElement>
+<!-- Era 6 -->
+  <!-- Empire bonus: Weapon Rare Tier 3 -->
+  <TechnologyGuiElement Name="TechnologyDefinitionWeaponRareTier3" X="-40" Y="-240">
+    <Title>%TechnologyDefinitionWeaponRareTier3Title</Title>
+    <Description>%TechnologyDefinitionWeaponRareTier3Description</Description>
+    <Icons DefaultSize="">
+      <Icon Path="GUI/AtlasedBitmaps/Improvements/Empire/TechnologyWeaponRareTier3Small" Size="Small" />
+      <Icon Path="GUI/DynamicBitmaps/Improvements/Empire/TechnologyWeaponRareTier3Large" Size="Large" />
+    </Icons>
+    <TechnologyEraReference Name="TechnologyEraDefinition6" />
+  </TechnologyGuiElement>
+
+  <!-- Empire bonus: Armor Rare Tier 3 -->
+  <TechnologyGuiElement Name="TechnologyDefinitionArmorRareTier3" X="40" Y="-240">
+    <Title>%TechnologyDefinitionArmorRareTier3Title</Title>
+    <Description>%TechnologyDefinitionArmorRareTier3Description</Description>
+    <Icons DefaultSize="">
+      <Icon Path="GUI/AtlasedBitmaps/Improvements/Empire/TechnologyArmorRareTier3Small" Size="Small" />
+      <Icon Path="GUI/DynamicBitmaps/Improvements/Empire/TechnologyArmorRareTier3Large" Size="Large" />
+    </Icons>
+    <TechnologyEraReference Name="TechnologyEraDefinition6" />
+  </TechnologyGuiElement>  
+
+   <!-- Drazari Faction unit#2 -->
+  <TechnologyGuiElement Name="TechnologyDefinitionDrazariUnit2" X="-40" Y="-100">
+    <Title>%UnitDrakkensWyvernTitle</Title>
+    <Description>%UnitDrakkensWyvernDescription</Description>
+    <Icons DefaultSize="">
+      <Icon Path="GUI/AtlasedBitmaps/Units/UnitDrakkensWyvernSmall" Size="Small" />
+      <Icon Path="GUI/DynamicBitmaps/Units/UnitDrakkensWyvernLarge" Size="Large" />
+    </Icons>
+    <TechnologyEraReference Name="TechnologyEraDefinition1" />
+  </TechnologyGuiElement>
+  <!-- Drazari Faction Unit #3 -->
+    <TechnologyGuiElement Name="TechnologyDefinitionDrazariUnit3" X="-40" Y="-100">
+    <Title>%UnitDrakkensAncientDragonTitle</Title>
+    <Description>%UnitDrakkensAncientDragonDescription</Description>
+    <Icons DefaultSize="">
+      <Icon Path="GUI/AtlasedBitmaps/Units/UnitDrakkensAncientDragonSmall" Size="Small" />
+      <Icon Path="GUI/DynamicBitmaps/Units/UnitDrakkensAncientDragonLarge" Size="Large" />
+    </Icons>
+    <TechnologyEraReference Name="TechnologyEraDefinition2" />
+  </TechnologyGuiElement>
+ 
+</Datatable>

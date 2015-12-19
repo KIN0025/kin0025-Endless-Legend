@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  
+  <SimulationDescriptor Name="CityImprovementExpansionApproval" Type="CityImprovement">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="EmpireExpansionDisapproval"       Operation="Percent"   Value="-1.00" Path="../ClassCity"/>
+           <SimulationModifierDescriptor TargetProperty="CityApproval"               Operation="Addition"  Value="10"  Path="./ClassCity"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+</Datatable>

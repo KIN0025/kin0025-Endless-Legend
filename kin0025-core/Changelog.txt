@@ -1,0 +1,11 @@
+v1.0.0
+Initial Release
+v1.1.0
+-Removed faction points cost of additional units.
+-Rebalanced Cost of Custom units to require strategic resources respective to their tier level.
+-Fixed Diplomacy Trait.
+-Preliminary AI support added for structures and tech- weapons tech not yet implemented.
+v1.1.1
+-Bug Fixes
+v2.0.0
+-Split mod up into sections

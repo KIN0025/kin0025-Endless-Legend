@@ -1,0 +1,22 @@
+Technology:
+-TechnologyDefinitionDrazariUnit2
+-TechnologyDefinitionDrazariUnit3
+Units:
+-Custom Units
+-UnitDesignDrazariDrakkenling
+-UnitDesignDrazariWyvern
+-UnitDesignDrazariAncientDragon
+-UnitDesignDrazariSettler
+-UnitDesignDrazariMilitiaEra1
+-UnitDesignDrazariMilitiaEra2
+-UnitDesignDrazariMilitiaEra3
+-UnitDesignDrazariMilitiaEra4
+-UnitDesignDrazariMilitiaEra5
+-UnitDesignDrazariMilitiaEra6
+Structures:
+-CityImprovementExpansionApproval
+Traits:
+-Unit Traits
+-FactionTraitExpansionApproval
+-FactionTraitDiplomacyStart
+-FactionTraitStrategicPower

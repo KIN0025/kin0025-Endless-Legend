@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <GuiElement Name="CityImprovementExpansionApproval">
+    <Title>%CityImprovementApprovalBuilding</Title>
+    <Description>%CityImprovementApprovalBuildingDescription</Description>
+   <Icons>
+      <Icon Size="Small" Path="Gui/AtlasedBitmaps/Improvements/City/CityImprovementApproval5Small" />
+      <Icon Size="Large" Path="Gui/DynamicBitmaps/Improvements/City/CityImprovementApproval5Large" />
+    </Icons>
+  </GuiElement>
+
+
+
+</Datatable>

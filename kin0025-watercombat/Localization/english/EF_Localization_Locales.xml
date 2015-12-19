@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+   <!-- World Gen -->
+  <LocalizationPair Name="%WorldGeneratorOptionWorldSizeVeryTinyTitle">Very Tiny</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionWorldSizeVeryTinyDescription"> 40x20 world map. </LocalizationPair>
+
+  <LocalizationPair Name="%WorldGeneratorOptionRegionSizeMicroscopicTitle">Microscopic</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionRegionSizeMicroscopicDescription"> 20 tiles per region. </LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionRegionSizeMinusculeTitle">Minuscule</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionRegionSizeMinusculeDescription"> 30 tiles per region. </LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionRegionSizeVeryTinyTitle">Very Tiny</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionRegionSizeVeryTinyDescription"> 40 tiles per region. </LocalizationPair>
+  
+  
+  <LocalizationPair Name="%WorldGeneratorOptionIslandsOddsVeryManyTitle">Very Many</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionIslandsOddsVeryManyDescription">Very many islands. </LocalizationPair>
+  
+  
+  <LocalizationPair Name="%WorldGeneratorOptionLakeOddsManyBigTitle">Many Big</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLakeOddsManyBigDescription">Maximum lake presence, similar to many, but with a minimum size of 5 instead of 2. </LocalizationPair>
+  
+  
+  <LocalizationPair Name="%WorldGeneratorOptionRiversEverywhereTitle">Everywhere</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionRiversEverywhereDescription">Maximum number of rivers able to appear at any elevation. </LocalizationPair>
+  
+  
+  <LocalizationPair Name="%WorldGeneratorOptionRidgesAndCliffsHugeTitle">Huge</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionRidgesAndCliffsHugeDescription">Few, but huge mountains will appear on the map. Increases maximum map height by about 50%.</LocalizationPair>
+  
+  
+  
+  <LocalizationPair Name="%WorldGeneratorOptionEmpireSpawnBetterStartingRegionCloseTitle">FIDS Close</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionEmpireSpawnBetterStartingRegionCloseDescription">Focuses on better starting regions, but with players generally closer when possible.</LocalizationPair>
+  
+  <LocalizationPair Name="%WorldGeneratorOptionEmpireSpawnBetterStartingRegionChaoticDistanceTitle">FIDS Chaotic Distance</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionEmpireSpawnBetterStartingRegionChaoticDistanceDescription">Focuses on better starting regions, with no preference for player distance.</LocalizationPair>
+  
+  <LocalizationPair Name="%WorldGeneratorOptionEmpireSpawnWorseStartingRegionChaoticDistanceTitle">Bad FIDS Chaotic Distance</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionEmpireSpawnWorseStartingRegionChaoticDistanceDescription">Focuses on worse starting regions, with no preference for player distance. Good for a challenge, or for a slower start to the game. </LocalizationPair>
+  
+  <LocalizationPair Name="%WorldGeneratorOptionEmpireSpawnCustomTitle">Custom</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionEmpireSpawnCustomDescription">Custom. Use the Spawn FIDS Weight, Spawn Shape Weight, and Spawn Far Weight. </LocalizationPair>
+  
+  
+  
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeightTitle">Spawn FIDS Weight</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeightDescription"> Importance of good racial starting FIDS. Higher is better, negative is bad, and small is varied. </LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight-2Title">-2</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight-2Description"> -2.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight-1Title">-1</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight-1Description"> -1.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight-0.5Title">-0.5</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight-0.5Description"> -0.5.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight0Title">0</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight0Description"> 0.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight0.5Title">0.5</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight0.5Description"> 0.5.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight1Title">1</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight1Description"> 1.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight2Title">2</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight2Description"> 2.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight3Title">3</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight3Description"> 3.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight4Title">4</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight4Description"> 4.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight5Title">5</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight5Description"> 5.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight6Title">6</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight6Description"> 6.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight10Title">10</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight10Description"> 10.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight15Title">15</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight15Description"> 15.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight20Title">20</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeight20Description"> 20.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeightRandomTitle">Random</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFIDSWeightRandomDescription"> Random.</LocalizationPair>
+  
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeightTitle">Spawn Shape Weight</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeightDescription"> Honestly don't know yet. Might(?) be related to good biome and rivers. </LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight-2Title">-2</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight-2Description"> -2.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight-1Title">-1</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight-1Description"> -1.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight-0.5Title">-0.5</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight-0.5Description"> -0.5.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight0Title">0</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight0Description"> 0.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight0.5Title">0.5</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight0.5Description"> 0.5.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight1Title">1</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight1Description"> 1.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight2Title">2</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight2Description"> 2.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight3Title">3</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight3Description"> 3.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight4Title">4</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight4Description"> 4.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight5Title">5</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight5Description"> 5.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight6Title">6</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight6Description"> 6.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight10Title">10</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight10Description"> 10.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight15Title">15</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight15Description"> 15.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight20Title">20</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeight20Description"> 20.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeightRandomTitle">Random</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnShapeWeightRandomDescription"> Random.</LocalizationPair>
+  
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeightTitle">Spawn Far Weight</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeightDescription">Importance of spawning far. Higher numbers increase distance, negative numbers decrease distances, small numbers allow more variety.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight-2Title">-2</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight-2Description"> -2.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight-1Title">-1</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight-1Description"> -1.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight-0.5Title">-0.5</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight-0.5Description"> -0.5.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight0Title">0</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight0Description"> 0.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight0.5Title">0.5</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight0.5Description"> 0.5.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight1Title">1</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight1Description"> 1.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight2Title">2</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight2Description"> 2.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight3Title">3</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight3Description"> 3.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight4Title">4</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight4Description"> 4.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight5Title">5</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight5Description"> 5.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight6Title">6</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight6Description"> 6.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight10Title">10</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight10Description"> 10.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight15Title">15</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight15Description"> 15.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight20Title">20</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeight20Description"> 20.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeightRandomTitle">Random</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionSpawnFarWeightRandomDescription"> Random.</LocalizationPair>
+  
+  
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResourcesTitle">Regional Resource Maximum</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResourcesDescription">How many strategic and luxury resources total are allowed in a single region. 4-6 is normal depending on the map size.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources2Title">2</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources2Description"> 2.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources3Title">3</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources3Description"> 3.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources4Title">4</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources4Description"> 4.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources5Title">5</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources5Description"> 5.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources6Title">6</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources6Description"> 6.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources7Title">7</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources7Description"> 7.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources8Title">8</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources8Description"> 8.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources9Title">9</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources9Description"> 9.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources10Title">10</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources10Description"> 10.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources15Title">15</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources15Description"> 15.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources20Title">20</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources20Description"> 20.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources25Title">25</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResources25Description"> 25.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResourcesRandomTitle">Random</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionMaxRegionalResourcesRandomDescription"> Random.</LocalizationPair>
+  
+  
+  
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundanceTitle">Strategic Resource Abundance</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundanceDescription">Percentage of strategic resource appearance compared to normal. So 50 is half as much as normal, and 200 is twice as much as normal.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance25Title">25</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance25Description"> 25.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance50Title">50</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance50Description"> 50.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance70Title">70 - Few</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance70Description"> 70. This is the "Few" setting. </LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance100Title">100</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance100Description"> 100.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance120Title">120 - Normal</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance120Description"> 120. This is the "Normal" setting. </LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance150Title">150</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance150Description"> 150.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance200Title">200 - Many</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance200Description"> 200. This is the "Many" setting. </LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance300Title">300</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance300Description"> 300.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance400Title">400</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance400Description"> 400.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance500Title">500</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance500Description"> 500.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance600Title">600</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance600Description"> 600.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance1000Title">1000</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance1000Description"> 1000.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance5000Title">5000</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundance500Description"> 5000.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundanceRandomTitle">Random</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionStrategicResourceAbundanceRandomDescription"> Random.</LocalizationPair>
+  
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundanceTitle">Luxury Resource Abundance</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundanceDescription">Percentage of luxury resource appearance compared to normal. So 50 is half as much as normal, and 200 is twice as much as normal.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance25Title">25</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance25Description"> 25.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance50Title">50</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance50Description"> 50.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance70Title">70 - Few</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance70Description"> 70. This is the "Few" setting. </LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance100Title">100</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance100Description"> 100.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance120Title">120 - Normal</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance120Description"> 120. This is the "Normal" setting. </LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance150Title">150</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance150Description"> 150.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance200Title">200 - Many</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance200Description"> 200. This is the "Many" setting. </LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance300Title">300</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance300Description"> 300.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance400Title">400</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance400Description"> 400.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance500Title">500</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance500Description"> 500.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance600Title">600</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance600Description"> 600.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance1000Title">1000</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance1000Description"> 1000.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance5000Title">5000</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundance500Description"> 5000.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundanceRandomTitle">Random</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionLuxuryResourceAbundanceRandomDescription"> Random.</LocalizationPair>
+  
+  
+  
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOddsTitle">Anomaly Abundance</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOddsDescription">Percentage of strategic resource appearance compared to normal. So 50 is half as much as normal, and 200 is twice as much as normal.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds25Title">25</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds25Description"> 25.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds50Title">50</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds50Description"> 50.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds70Title">70 - Few</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds70Description"> 70. This is the "Few" setting. </LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds100Title">100</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds100Description"> 100.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds120Title">120 - Normal</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds120Description"> 120. This is the "Normal" setting. </LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds150Title">150</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds150Description"> 150.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds200Title">200 - Many</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds200Description"> 200. This is the "Many" setting. </LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds300Title">300</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds300Description"> 300.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds400Title">400</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds400Description"> 400.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds500Title">500</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds500Description"> 500.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds600Title">600</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds600Description"> 600.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds1000Title">1000</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds1000Description"> 1000.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds5000Title">5000</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOdds500Description"> 5000.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOddsRandomTitle">Random</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorOptionAnomalyOddsRandomDescription"> Random.</LocalizationPair>
+ 
+</Datatable>

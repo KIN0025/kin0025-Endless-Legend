@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <LocalizationPair Name="%FactionDrazari">Drazari</LocalizationPair>
+ <LocalizationPair Name="%FactionDrakkensDescription">An ancient and venerable race, the scholars of the Drakken prize lore, history, and wisdom above all things. Few in number but exceedingly powerful, they do not seek war but rather relationships, information, and knowledge. Faction histories, artifacts, and ruins are highly prized by the Drakken while wealth, military power, and advanced technology are viewed as insignificant.</LocalizationPair>
+  <LocalizationPair Name="%AffinityDrakkensVictoryType">Main Victory Type: Diplomatic</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrakkensArmyCaption">Weyr</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrakkensArmyTitle1">Scale</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrakkensArmyTitle2">Claw</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrakkensArmyTitle3">Fang</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrakkensArmyTitle4">Tail</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrakkensArmyTitle5">Wing</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrakkensArmyTitle6">Barb</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrakkensArmyTitle7">Bone</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrakkensArmyTitle8">Ridge</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrakkensArmyTitle9">Horn</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrakkensArmyTitle10">Eye</LocalizationPair>
+  <LocalizationPair Name="%AILeaderAffinityDrakkens0">Chandwara</LocalizationPair>
+  <LocalizationPair Name="%AILeaderAffinityDrakkens1">Reyap</LocalizationPair>
+  <LocalizationPair Name="%AILeaderAffinityDrakkens2">Angratad</LocalizationPair>
+  <LocalizationPair Name="%AILeaderAffinityDrakkens3">Pukopi</LocalizationPair>
+  <LocalizationPair Name="%AILeaderAffinityDrakkens4">Samutanda</LocalizationPair>
+  <LocalizationPair Name="%AILeaderAffinityDrakkens5">Theramanya</LocalizationPair>
+  <LocalizationPair Name="%AILeaderAffinityDrakkens6">Shaosisli</LocalizationPair>
+  <LocalizationPair Name="%AILeaderAffinityDrakkens7">Uratewatan</LocalizationPair>
+	<LocalizationPair Name="%FactionDrazariTitle">Drazari</LocalizationPair>
+	<LocalizationPair Name="%FactionDrazariDescription">Drazari are a custom faction, with Vaulters traits but Drakken units. They have no faction quest, so their custom factions get more points to spend, lacking an avenue for victory that way.</LocalizationPair>
+  <LocalizationPair Name="%AffinityDrazariVictoryType">Main Victory Type: Science</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrazariArmyCaption">Weyr</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrazariArmyTitle1">Scale</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrazariArmyTitle2">Claw</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrazariArmyTitle3">Fang</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrazariArmyTitle4">Tail</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrazariArmyTitle5">Wing</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrazariArmyTitle6">Barb</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrazariArmyTitle7">Bone</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrazariArmyTitle8">Ridge</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrazariArmyTitle9">Horn</LocalizationPair>
+  <LocalizationPair Name="%FactionAffinityDrazariArmyTitle10">Eye</LocalizationPair>
+  <LocalizationPair Name="%AILeaderAffinityDrazari0">Chandwara</LocalizationPair>
+  <LocalizationPair Name="%AILeaderAffinityDrazari1">Reyap</LocalizationPair>
+  <LocalizationPair Name="%AILeaderAffinityDrazari2">Angratad</LocalizationPair>
+  <LocalizationPair Name="%AILeaderAffinityDrazari3">Pukopi</LocalizationPair>
+  <LocalizationPair Name="%AILeaderAffinityDrazari4">Samutanda</LocalizationPair>
+  <LocalizationPair Name="%AILeaderAffinityDrazari5">Theramanya</LocalizationPair>
+  <LocalizationPair Name="%AILeaderAffinityDrazari6">Shaosisli</LocalizationPair>
+  <LocalizationPair Name="%AILeaderAffinityDrazari7">Uratewatan</LocalizationPair>
+  <LocalizationPair Name="%FactionDrazariTitle">Drazari</LocalizationPair>
+  
+  <LocalizationPair Name="%UnitDrazariDrazarilingTitle">Drazariling</LocalizationPair>
+  <LocalizationPair Name="%UnitDrazariDrazarilingDescription">Though it does not fly, a Drazariling's agility and sharp reflexes still make it a frightening melee opponent.</LocalizationPair>
+  <LocalizationPair Name="%UnitDrazariWyvernTitle">Wyvern</LocalizationPair>
+  <LocalizationPair Name="%UnitDrazariWyvernDescription">The scout and 'eyes' of the faction. Wyverns are used to patrol the skies near Drazari cities, warning of enemies. </LocalizationPair>
+  <LocalizationPair Name="%UnitDrazariAncientDragonTitle">Ancient</LocalizationPair>
+  <LocalizationPair Name="%UnitDrazariAncientDragonDescription">Sage and solemn, the Ancient is seldom found outside the halls and towers of Drazari cities. When it is, it generally means that a lot of enemies are going to die.</LocalizationPair>
+  <LocalizationPair Name="%DrazariFactionOnlyTooltipEffect">Can be equipped by Drazari faction only</LocalizationPair>
+  <LocalizationPair Name="%DrazariHeroesOnlyTooltipEffect">Can be equipped by Drazari heroes only</LocalizationPair>
+  <LocalizationPair Name="%CityImprovementApprovalBuilding">Legal System</LocalizationPair>
+  <LocalizationPair Name="%CityImprovementApprovalBuildingDescription">A strong legal system eases disapproval that citizens have of other cities. Citizens stop hating other cities, and so other cities are more likely to approve of those expansions as well.</LocalizationPair>
+  	<LocalizationPair Name="%NegotiationFilterCitiesTitle">Cities</LocalizationPair>
+	<LocalizationPair Name="%NegotiationFilterCitiesDescription">Show Cities only.
+ 
+Cities can be traded in the following cases:
+ 
+War status
+ - You are proposing a truce treaty.
+ 
+Peace status
+ - You are proposing an alliance treaty.
+
+Alliance status
+ - Anytime.</LocalizationPair>
+
+  
+</Datatable>

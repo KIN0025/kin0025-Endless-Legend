@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ 
+  <ExtendedGuiElement Name="AffinityMappingDrazari">
+    <Title>%AffinityMappingDrakkensTitle</Title>
+    <Description>%AffinityMappingDrakkensDescription</Description>
+    <Icons>
+      <Icon Size="Leader" Path="Gui/DynamicBitmaps/Factions/majorFactionDrakkensLeader" />
+      <Icon Size="Mood" Path="Gui/DynamicBitmaps/Factions/majorFactionDrakkensMood" />
+      <Icon Size="MoodScore" Path="Gui/DynamicBitmaps/Factions/majorFactionDrakkensMoodScore" />
+      <Icon Size="MoodDefeat" Path="Gui/DynamicBitmaps/Factions/majorFactionDrakkensMoodDefeat" />
+      <Icon Size="MoodVictory" Path="Gui/DynamicBitmaps/Factions/majorFactionDrakkensMoodVictory" />
+      <Icon Size="AmbassadorLarge" Path="Gui/DynamicBitmaps/Factions/MajorFactionDrakkensAmbassadorLarge" />
+      <Icon Size="NegotiationLarge" Path="Gui/DynamicBitmaps/Factions/AmbassadorBackdropDrakkens" />
+      <Icon Size="NegotiationEmptyLarge" Path="Gui/DynamicBitmaps/Factions/AmbassadorBackdropDrakkensEmpty" />
+      <Icon Size="LogoSmall" Path="Gui/AtlasedBitmaps/Factions/majorFactionDrakkensLogoSmall" />
+      <Icon Size="LogoLarge" Path="Gui/DynamicBitmaps/Factions/majorFactionDrakkensLogoLarge" />
+    </Icons>
+    <SymbolString>\7795\</SymbolString>
+  </ExtendedGuiElement>
+  </Datatable>

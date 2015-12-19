@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- ################################################################################################################################################## -->
+  <!-- #########################################   PREMADE UNIT DESIGN WHICH CAN BE CALL BY OTHER XMLS  ################################################# -->
+  <!-- ########    - Those units can be useful for the Quest, and  Minor Faction. It still can be used to generate units from a city improvement ######## -->
+  <!-- ################################################################################################################################################## -->
+
+  <!-- ######################################################### -->
+  <!-- ################## EYELESS ONES  UNITS ################## -->
+  <!-- ######################################################### -->
+
+  <!-- Default Unit Design proposed to Player when unlocking the Body -->
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#1"                    Model="1150100">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../ClassEmpire,EmpireTypeMajor/EmpireTypeMinor,AffinityEyelessOnes</PathPrerequisite>
+  </UnitDesign>
+  
+  <!-- Used by the Minor Faction tribes to create village armies and roaming armies -->
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#MinorEmpireEra1"      Model="1150111">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Minor,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityEyelessOnes</PathPrerequisite>
+    <Tags>Era1</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemStaff2IronTier1#1" />
+      <Slot Name="OffHand"                         ItemName="ItemStaff2IronTier1#1" />
+      <Slot Name="Head"                            ItemName=""                     />
+      <Slot Name="Torso"                           ItemName=""                     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#MinorEmpireEra2"      Model="1150112">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Minor,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityEyelessOnes</PathPrerequisite>
+    <Tags>Era2</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemStaff2IronTier2#1" />
+      <Slot Name="OffHand"                         ItemName="ItemStaff2IronTier2#1" />
+      <Slot Name="Head"                            ItemName=""                     />
+      <Slot Name="Torso"                           ItemName=""                     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#MinorEmpireEra3"      Model="1150113">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Minor,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityEyelessOnes</PathPrerequisite>
+    <Tags>Era3</Tags>
+   <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemStaff2IronTier3#1" />
+      <Slot Name="OffHand"                         ItemName="ItemStaff2IronTier3#1" />
+      <Slot Name="Head"                            ItemName=""                     />
+      <Slot Name="Torso"                           ItemName=""                     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+     <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+     <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#MinorEmpireEra4"      Model="1150114">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Minor,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityEyelessOnes</PathPrerequisite>
+    <Tags>Era4</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemStaff2DustTier1#1" />
+      <Slot Name="OffHand"                         ItemName="ItemStaff2DustTier1#1" />
+      <Slot Name="Head"                            ItemName=""                     />
+      <Slot Name="Torso"                           ItemName=""                     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#MinorEmpireEra5"      Model="1150115">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Minor,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityEyelessOnes</PathPrerequisite>
+    <Tags>Era5</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemStaff2DustTier2#1" />
+      <Slot Name="OffHand"                         ItemName="ItemStaff2DustTier2#1" />
+      <Slot Name="Head"                            ItemName=""                     />
+      <Slot Name="Torso"                           ItemName=""                     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#MinorEmpireEra6"      Model="1150116">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Minor,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityEyelessOnes</PathPrerequisite>
+    <Tags>Era6</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemStaff2DustTier3#1" />
+      <Slot Name="OffHand"                         ItemName="ItemStaff2DustTier3#1" />
+      <Slot Name="Head"                            ItemName=""                     />
+      <Slot Name="Torso"                           ItemName=""                     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+
+  <!-- Used by the Minor Faction neutral tribes to inject units through he Market Place -->
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#MercenaryEra1"        Model="1150121">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityEyelessOnes,Mercenary</PathPrerequisite>
+    <Tags>Era1</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemStaff2IronTier1#1" />
+      <Slot Name="OffHand"                         ItemName="ItemStaff2IronTier1#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadIronTier1"    />
+      <Slot Name="Torso"                           ItemName="ItemTorsoIronTier1"   />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#MercenaryEra2"        Model="1150122">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityEyelessOnes,Mercenary</PathPrerequisite>
+    <Tags>Era2</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemStaff2IronTier2#1" />
+      <Slot Name="OffHand"                         ItemName="ItemStaff2IronTier2#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadIronTier2"    />
+      <Slot Name="Torso"                           ItemName="ItemTorsoIronTier2"   />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#MercenaryEra3"        Model="1150123">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityEyelessOnes,Mercenary</PathPrerequisite>
+    <Tags>Era3</Tags>
+   <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemStaff2IronTier3#1" />
+      <Slot Name="OffHand"                         ItemName="ItemStaff2IronTier3#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadIronTier3"    />
+      <Slot Name="Torso"                           ItemName="ItemTorsoIronTier3"   />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+     <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+     <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#MercenaryEra4"        Model="1150124">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityEyelessOnes,Mercenary</PathPrerequisite>
+    <Tags>Era4</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemStaff2DustTier1#1" />
+      <Slot Name="OffHand"                         ItemName="ItemStaff2DustTier1#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadDustTier1"    />
+      <Slot Name="Torso"                           ItemName="ItemTorsoDustTier1"   />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#MercenaryEra5"        Model="1150125">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityEyelessOnes,Mercenary</PathPrerequisite>
+    <Tags>Era5</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemStaff2DustTier2#1" />
+      <Slot Name="OffHand"                         ItemName="ItemStaff2DustTier2#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadDustTier2"    />
+      <Slot Name="Torso"                           ItemName="ItemTorsoDustTier2"   />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#MercenaryEra6"        Model="1150126">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityEyelessOnes,Mercenary</PathPrerequisite>
+    <Tags>Era6</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemStaff2DustTier3#1" />
+      <Slot Name="OffHand"                         ItemName="ItemStaff2DustTier3#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadDustTier3"    />
+      <Slot Name="Torso"                           ItemName="ItemTorsoDustTier3"   />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+
+  <!-- Used by the Minor Faction converted tribes -->
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#ConvertedEra1"        Model="1150131" Hidden="true">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <Tags>ConvertedVillageUnit,Era1,EyelessOnes,Mercenary</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemStaff2IronTier1#1" />
+      <Slot Name="OffHand"                         ItemName="ItemStaff2IronTier1#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadIronTier1"    />
+      <Slot Name="Torso"                           ItemName="ItemTorsoIronTier1"   />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#ConvertedEra2"        Model="1150132" Hidden="true">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <Tags>ConvertedVillageUnit,Era2,EyelessOnes,Mercenary</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemStaff2IronTier2#1" />
+      <Slot Name="OffHand"                         ItemName="ItemStaff2IronTier2#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadIronTier2"    />
+      <Slot Name="Torso"                           ItemName="ItemTorsoIronTier2"   />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#ConvertedEra3"        Model="1150133" Hidden="true">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <Tags>ConvertedVillageUnit,Era3,EyelessOnes,Mercenary</Tags>
+   <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemStaff2IronTier3#1" />
+      <Slot Name="OffHand"                         ItemName="ItemStaff2IronTier3#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadIronTier3"    />
+      <Slot Name="Torso"                           ItemName="ItemTorsoIronTier3"   />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+     <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+     <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#ConvertedEra4"        Model="1150134" Hidden="true">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <Tags>ConvertedVillageUnit,Era4,EyelessOnes,Mercenary</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemStaff2DustTier1#1" />
+      <Slot Name="OffHand"                         ItemName="ItemStaff2DustTier1#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadDustTier1"    />
+      <Slot Name="Torso"                           ItemName="ItemTorsoDustTier1"   />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#ConvertedEra5"        Model="1150135" Hidden="true">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <Tags>ConvertedVillageUnit,Era5,EyelessOnes,Mercenary</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemStaff2DustTier2#1" />
+      <Slot Name="OffHand"                         ItemName="ItemStaff2DustTier2#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadDustTier2"    />
+      <Slot Name="Torso"                           ItemName="ItemTorsoDustTier2"   />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#ConvertedEra6"        Model="1150136" Hidden="true">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <Tags>ConvertedVillageUnit,Era6,EyelessOnes,Mercenary</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemStaff2DustTier3#1" />
+      <Slot Name="OffHand"                         ItemName="ItemStaff2DustTier3#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadDustTier3"    />
+      <Slot Name="Torso"                           ItemName="ItemTorsoDustTier3"   />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+
+  <!-- Used by Quests to spawn armies -->
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#Staff"                 Model="1150103">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../ClassEmpire,QuestNPC</PathPrerequisite>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"   ItemName="ItemStaff2IronTier1#1" />
+      <Slot Name="OffHand"    ItemName="ItemStaff2IronTier1#1" />
+      <Slot Name="Head"       ItemName="" />
+      <Slot Name="Torso"      ItemName="ItemTorsoIronTier1"    />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+
+  <!-- Default Unit Design proposed to Player when tutorial -->
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#Tutorial"             Model="1150104">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />    
+    <SimulationDescriptorReference Name="UnitTypeEyelessOnesCaecatorTutorial" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../ClassEmpire,EmpireTypeMajor,AffinityTutorial/EmpireTypeMinor,AffinityEyelessOnes</PathPrerequisite>
+  </UnitDesign>
+
+  <!-- Deprecated -->
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#MinorEmpire"          Model="1150101">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Minor,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityEyelessOnes</PathPrerequisite>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"   ItemName="ItemStaff2IronTier1#1" />
+      <Slot Name="OffHand"    ItemName="ItemStaff2IronTier1#1" />
+      <Slot Name="Head"       ItemName="" />
+      <Slot Name="Torso"      ItemName="ItemTorsoIronTier1"    />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignEyelessOnesCaecator#Mercenary"            Model="1150102">
+    <UnitBodyDefinitionReference Name="UnitBodyEyelessOnesCaecator" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityEyelessOnes,Mercenary</PathPrerequisite>
+  </UnitDesign>
+
+</Datatable>

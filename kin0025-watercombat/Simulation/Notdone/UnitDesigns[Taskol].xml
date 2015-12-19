@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- ################################################################################################################################################## -->
+  <!-- #########################################   PREMADE UNIT DESIGN WHICH CAN BE CALL BY OTHER XMLS  ################################################# -->
+  <!-- ########    - Those units can be useful for the Quest, and  Minor Faction. It still can be used to generate units from a city improvement ######## -->
+  <!-- ################################################################################################################################################## -->
+
+  <!-- ######################################################### -->
+  <!-- ########### TASKOL GOLEM VICTORY QUEST UNITS ############ -->
+  <!-- ######################################################### -->
+
+  <!-- Default Unit Design proposed to Player when unlocking the Body -->
+  <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#1"                       Model="1170100">
+    <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../ClassEmpire,EmpireTypeMajor/EmpireTypeMinor,AffinityTaskol</PathPrerequisite>
+  </UnitDesign>
+
+  <!-- Used by the Minor Faction tribes to create village armies and roaming armies -->
+  <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#MinorEmpireEra1"         Model="1170111">
+    <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Minor,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityTaskol</PathPrerequisite>
+    <Tags>Era1</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemHammer2IronTier1#1" />
+      <Slot Name="OffHand"                         ItemName="ItemHammer2IronTier1#1" />
+      <Slot Name="Head"                            ItemName=""      />
+      <Slot Name="Torso"                           ItemName=""     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#MinorEmpireEra2"         Model="1170112">
+    <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Minor,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityTaskol</PathPrerequisite>
+    <Tags>Era2</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemHammer2IronTier2#1" />
+      <Slot Name="OffHand"                         ItemName="ItemHammer2IronTier2#1" />
+      <Slot Name="Head"                            ItemName=""      />
+      <Slot Name="Torso"                           ItemName=""     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#MinorEmpireEra3"         Model="1170113">
+    <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Minor,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityTaskol</PathPrerequisite>
+    <Tags>Era3</Tags>
+   <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemHammer2IronTier3#1" />
+      <Slot Name="OffHand"                         ItemName="ItemHammer2IronTier3#1" />
+      <Slot Name="Head"                            ItemName=""      />
+      <Slot Name="Torso"                           ItemName=""     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+     <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+     <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#MinorEmpireEra4"         Model="1170114">
+    <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Minor,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityTaskol</PathPrerequisite>
+    <Tags>Era4</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemHammer2DustTier1#1" />
+      <Slot Name="OffHand"                         ItemName="ItemHammer2DustTier1#1" />
+      <Slot Name="Head"                            ItemName=""      />
+      <Slot Name="Torso"                           ItemName=""     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#MinorEmpireEra5"         Model="1170115">
+    <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Minor,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityTaskol</PathPrerequisite>
+    <Tags>Era5</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemClaw2Strategic6Tier1#1" />
+      <Slot Name="OffHand"                         ItemName="ItemClaw2Strategic6Tier1#1" />
+      <Slot Name="Head"                            ItemName=""/>
+      <Slot Name="Torso"                           ItemName=""/>
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName=""/>
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#MinorEmpireEra6"         Model="1170116">
+    <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Minor,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityTaskol</PathPrerequisite>
+    <Tags>Era6</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemHammer2DustTier3#1" />
+      <Slot Name="OffHand"                         ItemName="ItemHammer2DustTier3#1" />
+      <Slot Name="Head"                            ItemName=""      />
+      <Slot Name="Torso"                           ItemName=""     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+
+  <!-- Used by the Minor Faction neutral tribes to inject units through he Market Place -->
+  <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#MercenaryEra1"           Model="1170121">
+    <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityTaskol,Mercenary</PathPrerequisite>
+    <Tags>Era1</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemHammer2IronTier1#1" />
+      <Slot Name="OffHand"                         ItemName="ItemHammer2IronTier1#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadIronTier1"      />
+      <Slot Name="Torso"                           ItemName="ItemTorsoIronTier1"     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#MercenaryEra2"           Model="1170122">
+    <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityTaskol,Mercenary</PathPrerequisite>
+    <Tags>Era2</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemHammer2IronTier2#1" />
+      <Slot Name="OffHand"                         ItemName="ItemHammer2IronTier2#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadIronTier2"      />
+      <Slot Name="Torso"                           ItemName="ItemTorsoIronTier2"     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#MercenaryEra3"           Model="1170123">
+    <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityTaskol,Mercenary</PathPrerequisite>
+    <Tags>Era3</Tags>
+   <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemHammer2IronTier3#1" />
+      <Slot Name="OffHand"                         ItemName="ItemHammer2IronTier3#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadIronTier3"      />
+      <Slot Name="Torso"                           ItemName="ItemTorsoIronTier3"     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+     <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+     <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+   </UnitEquipmentSet>
+ </UnitDesign>
+ <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#MercenaryEra4"           Model="1170124">
+   <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+   <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityTaskol,Mercenary</PathPrerequisite>
+   <Tags>Era4</Tags>
+   <UnitEquipmentSet>
+     <Slot Name="MainHand"                        ItemName="ItemHammer2DustTier1#1" />
+     <Slot Name="OffHand"                         ItemName="ItemHammer2DustTier1#1" />
+     <Slot Name="Head"                            ItemName="ItemHeadDustTier1"      />
+     <Slot Name="Torso"                           ItemName="ItemTorsoDustTier1"     />
+     <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+     <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+     <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#MercenaryEra5"           Model="1170125">
+    <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityTaskol,Mercenary</PathPrerequisite>
+    <Tags>Era5</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemHammer2DustTier2#1" />
+      <Slot Name="OffHand"                         ItemName="ItemHammer2DustTier2#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadDustTier2"      />
+      <Slot Name="Torso"                           ItemName="ItemTorsoDustTier2"     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#MercenaryEra6"           Model="1170126">
+    <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityTaskol,Mercenary</PathPrerequisite>
+    <Tags>Era6</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemHammer2DustTier3#1" />
+      <Slot Name="OffHand"                         ItemName="ItemHammer2DustTier3#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadDustTier3"      />
+      <Slot Name="Torso"                           ItemName="ItemTorsoDustTier3"     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+
+  <!-- Used by the Minor Faction converted tribes -->
+  <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#ConvertedEra1"           Model="1170131" Hidden="true">
+    <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+    <Tags>ConvertedVillageUnit,Era1,Silics,Mercenary</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemHammer2IronTier1#1" />
+      <Slot Name="OffHand"                         ItemName="ItemHammer2IronTier1#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadIronTier1"      />
+      <Slot Name="Torso"                           ItemName="ItemTorsoIronTier1"     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#ConvertedEra2"           Model="1170132" Hidden="true">
+    <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+    <Tags>ConvertedVillageUnit,Era2,Silics,Mercenary</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemHammer2IronTier2#1" />
+      <Slot Name="OffHand"                         ItemName="ItemHammer2IronTier2#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadIronTier2"      />
+      <Slot Name="Torso"                           ItemName="ItemTorsoIronTier2"     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#ConvertedEra3"           Model="1170133" Hidden="true">
+    <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+    <Tags>ConvertedVillageUnit,Era3,Silics,Mercenary</Tags>
+   <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemHammer2IronTier3#1" />
+      <Slot Name="OffHand"                         ItemName="ItemHammer2IronTier3#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadIronTier3"      />
+      <Slot Name="Torso"                           ItemName="ItemTorsoIronTier3"     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+     <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+     <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#ConvertedEra4"           Model="1170134" Hidden="true">
+    <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+    <Tags>ConvertedVillageUnit,Era4,Silics,Mercenary</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemHammer2DustTier1#1" />
+      <Slot Name="OffHand"                         ItemName="ItemHammer2DustTier1#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadDustTier1"      />
+      <Slot Name="Torso"                           ItemName="ItemTorsoDustTier1"     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#ConvertedEra5"           Model="1170135" Hidden="true">
+    <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+    <Tags>ConvertedVillageUnit,Era5,Silics,Mercenary</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemHammer2DustTier2#1" />
+      <Slot Name="OffHand"                         ItemName="ItemHammer2DustTier2#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadDustTier2"      />
+      <Slot Name="Torso"                           ItemName="ItemTorsoDustTier2"     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+  <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#ConvertedEra6"           Model="1170136" Hidden="true">
+    <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+    <Tags>ConvertedVillageUnit,Era6,Silics,Mercenary</Tags>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemHammer2DustTier3#1" />
+      <Slot Name="OffHand"                         ItemName="ItemHammer2DustTier3#1" />
+      <Slot Name="Head"                            ItemName="ItemHeadDustTier3"      />
+      <Slot Name="Torso"                           ItemName="ItemTorsoDustTier3"     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+
+  <!-- Used by Quests to spawn armies -->
+  <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#Mace"                    Model="1170103">
+    <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../ClassEmpire,QuestNPC</PathPrerequisite>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemHammer2IronTier1#1" />
+      <Slot Name="OffHand"                         ItemName="ItemHammer2IronTier1#1" />
+      <Slot Name="Head"                            ItemName=""                       />
+      <Slot Name="Torso"                           ItemName="ItemTorsoIronTier1"     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+
+  <!-- Deprecated -->
+  <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#MinorEmpire"             Model="1170101">
+    <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Minor,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityTaskol</PathPrerequisite>
+    <UnitEquipmentSet>
+      <Slot Name="MainHand"                        ItemName="ItemHammer2IronTier1#1" />
+      <Slot Name="OffHand"                         ItemName="ItemHammer2IronTier1#1" />
+      <Slot Name="Head"                            ItemName=""                       />
+      <Slot Name="Torso"                           ItemName="ItemTorsoIronTier1"     />
+      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
+      <Slot Name="Accessory1" SlotType="Accessory" ItemName=""                     />
+      <Slot Name="Accessory2" SlotType="Accessory" ItemName=""                     />
+    </UnitEquipmentSet>
+  </UnitDesign>
+
+  <UnitDesign Name="UnitDesignTaskolGolemVictoryQuest#Mercenary"               Model="1170102">
+    <UnitBodyDefinitionReference Name="UnitBodyTaskolGolemVictoryQuest" />
+    <PathPrerequisite Flags="Prerequisite,Discard,Validity">.../ClassEmpire,EmpireTypeMinor,AffinityTaskol,Mercenary</PathPrerequisite>
+  </UnitDesign>
+
+</Datatable>
