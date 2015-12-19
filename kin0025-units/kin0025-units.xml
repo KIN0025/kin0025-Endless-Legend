@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <RuntimeModule Name="KIN0025" Type="Conversion">
+  <RuntimeModule Name="kin0025-units" Type="Expansion">
 
-    <Title>KIN0025's Mods</Title>
+    <Title>KIN0025's units/Title>
 	<Version Major="2" Minor="0" Revision="0" />
     <Author>KIN0025</Author>
-    <Description> Not balanced at all, and I would recommend that everyone play with a custom faction with this mod. It includes a new faction, the Drazari, that was added because I wanted to play with a faction that had the look of Drakkens but the gameplay of Vaulters/Mezari.
-I then decided to try adding faction traits that allowed you to add units from other factions.
-A building called the "Legal System" is also build able, and it decreases Expansion Disapproval, and costs 250 production. It requires a faction trait to apply to an empire.
-Custom factions also have their points increased to 150.</Description>
+    <Description>Core of kin0025's mods. Removes Endless winter, adds framework for drazari faction, increases faction traits to 200</Description>
 
 <Plugins>
   <DatabasePlugin DataType="Amplitude.Unity.Framework.AnimationCurve, Assembly-CSharp-firstpass">

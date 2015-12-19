@@ -12,7 +12,6 @@
     <Trait Name="FactionTraitMadFairies2"/>                                  <!-- Faction Tech:  Way of the Woodlands      -->
     <Trait Name="FactionTraitTechnologyFood0"/>                              <!-- Tech:          Seed Storage              -->
     <Trait Name="FactionTraitTechnologyApproval1"/>                          <!-- Tech:          Sewer System              -->
-	
   </Faction>
  
   <Faction Name="FactionBrokenLords"  Standard="true"   Author="AMPLITUDE Studios" Priority="110">
@@ -22,7 +21,6 @@
     <Trait Name="FactionTraitBuyOutPopulation"/>                            <!-- Trait:          Dustborn                  -->
     <Trait Name="FactionTraitTechnologyDust0"/>                             <!-- Tech:           Empire Mint               -->
     <Trait Name="FactionTraitTechnologyArmorCommonTier1"/>                  <!-- Tech:           Advanced Armor            -->
-	
   </Faction>
 
   <Faction Name="FactionVaulters"     Standard="true"   Author="AMPLITUDE Studios" Priority="120">
@@ -36,7 +34,7 @@
     <Trait Name="FactionTraitTechnologyScience0"/>                          <!-- Tech:           Public Library            -->
     <Trait Name="FactionTraitTechnologyLuxuryExtractionCommon"/>            <!-- Tech:           Open-Pit Mine             -->
     <Trait Name="FactionTraitVaultersMezari"/>                              <!-- Specifity:      Vaulters & Mezari         -->
-	
+
   </Faction>
 
   <Faction Name="FactionNecrophages"  Standard="true"   Author="AMPLITUDE Studios" Priority="130">
@@ -52,7 +50,7 @@
     <Trait Name="FactionTraitNecrophages8"/>                                <!-- Faction Tech:   Demanding Gods            -->
     <Trait Name="FactionTraitTechnologyStrategicExtractionCommon"  />       <!-- Tech:           Alchemist's Furnace       -->
     <Trait Name="FactionTraitTechnologyDefinitionNecrophagesUnit2" />       <!-- Tech:           Necrodrone                -->
-	
+
   </Faction>
 
   <Faction Name="FactionRageWizards"  Standard="true"   Author="AMPLITUDE Studios" Priority="140">
@@ -67,7 +65,7 @@
     <Trait Name="FactionTraitRageWizards15"/>                               <!-- Faction Tech:   Sacrificial Amplifiers    -->
     <Trait Name="FactionTraitTechnologyDefinitionRageWizards7"/>            <!-- Tech:           Arcana of Matter          -->
     <Trait Name="FactionTraitTechnologyDefinitionRageWizards8"/>            <!-- Tech:           Arcana of Agility         -->
-	
+
   </Faction>
 
   <Faction Name="FactionRovingClans"  Standard="true"   Author="AMPLITUDE Studios" Priority="150">
@@ -82,29 +80,26 @@
     <Trait Name="FactionTraitRovingClans13"/>                               <!-- Trait:          Brace Yourself            -->
     <Trait Name="FactionTraitTechnologyDefinitionMarketplaceResources"/>    <!-- Tech:           Marketplace : Resources   -->
     <Trait Name="FactionTraitTechnologyDefinitionMarketplaceMercenaries"/>  <!-- Tech:           Marketplace : Mercenaries -->
-	
   </Faction>
 
   <Faction Name="FactionDrakkens"     Standard="true"   Author="AMPLITUDE Studios" Priority="160">
     <Affinity Name="AffinityDrakkens"/>
     <AffinityMapping Name="AffinityMappingDrakkens"/>
-    <Trait Name="FactionTraitDrakkens7"/>                                    <!-- Trait:         Ancient Knowledge         -->
-    <Trait Name="FactionTraitDrakkens7Placeholder"/>                         <!-- Trait:         Ancient Knowledge         -->
-    <Trait Name="FactionTraitDrakkens8"/>                                    <!-- Trait:         Advanced Empire Plan      -->
-    <Trait Name="FactionTraitDrakkens9"/>                                    <!-- Trait:         Ancient Library           -->
-    <Trait Name="FactionTraitTechnologyDust0"/>                              <!-- Tech:          Empire Mint               -->
-    <Trait Name="FactionTraitTechnologyDefinitionMapActionParley"/>          <!-- Tech:          Language Square           -->
-	
+    <Trait Name="FactionTraitDrakkens7"/>                                   <!-- Trait:         Ancient Knowledge         -->
+    <Trait Name="FactionTraitDrakkens7Placeholder"/>                        <!-- Trait:         Ancient Knowledge         -->
+    <Trait Name="FactionTraitDrakkens8"/>                                   <!-- Trait:         Advanced Empire Plan      -->
+    <Trait Name="FactionTraitDrakkens9"/>                                   <!-- Trait:         Ancient Library           -->
+    <Trait Name="FactionTraitTechnologyDust0"/>                             <!-- Tech:          Empire Mint               -->
+    <Trait Name="FactionTraitTechnologyDefinitionMapActionParley"/>         <!-- Tech:          Language Square           -->
   </Faction>
 
   <Faction Name="FactionCultists"     Standard="true"   Author="AMPLITUDE Studios" Priority="170">
     <Affinity Name="AffinityCultists"/>
     <AffinityMapping Name="AffinityMappingCultists"/>
-    <Trait Name="FactionTraitCultists12"/>                                   <!-- Tech:          Destructive Analysis       -->
-    <Trait Name="FactionTraitCultists13"/>                                   <!-- Tech:          We are legion              -->
-    <Trait Name="FactionTraitTechnologyDefinitionMapActionParley"/>          <!-- Tech:          Language Square           -->
-    <Trait Name="FactionTraitTechnologyDefinitionDefense1"/>                 <!-- Tech:          Stronghold Architecture   -->
-	
+    <Trait Name="FactionTraitCultists12"/>                                  <!-- Tech:          Destructive Analysis      -->
+    <Trait Name="FactionTraitCultists13"/>                                  <!-- Tech:          We are legion             -->
+    <Trait Name="FactionTraitTechnologyDefinitionMapActionParley"/>         <!-- Tech:          Language Square           -->
+    <Trait Name="FactionTraitTechnologyDefinitionDefense1"/>                <!-- Tech:          Stronghold Architecture   -->
     <Trait Name="FactionTraitCultists9"/>
     <Trait Name="FactionTraitCultists11"/>
     <Trait Name="FactionTraitCultists14"/>
@@ -121,12 +116,12 @@
     <Trait Name="FactionTraitTechnologyScience0"/>                           <!-- Tech:           Public Library           -->
     <Trait Name="FactionTraitTechnologyLuxuryExtractionCommon"/>             <!-- Tech:           Open-Pit Mine            -->
     <Trait Name="FactionTraitVaultersMezari"/>                               <!-- Specifity:      Vaulters & Mezari        -->
-	
+
   </Faction>
- 
+
   <Faction Name="FactionDrazari"       Standard="true"   Author="KIN0025" Priority="122">
     <Affinity Name="AffinityDrazari"/>
-    <AffinityMapping Name="AffinityMappingDrakkens"/> 
+    <AffinityMapping Name="AffinityMappingDrakkens"/>
     <Trait Name="FactionTraitVaulters1"/>                                    <!-- Trait:          Knack for Knowledge      -->
     <Trait Name="FactionTraitVaulters5"/>                                    <!-- Trait:          Veins of Auriga          -->
     <Trait Name="FactionTraitVaulters2"/>                                    <!-- Faction Tech:   Deep Generator           -->
@@ -134,10 +129,23 @@
     <Trait Name="FactionTraitVaulters4"/>                                    <!-- Faction Tech:   Endless Recycling        -->
     <Trait Name="FactionTraitTechnologyScience0"/>                           <!-- Tech:           Public Library           -->
     <Trait Name="FactionTraitTechnologyLuxuryExtractionCommon"/>             <!-- Tech:           Open-Pit Mine            -->                             <!-- Specifity:      Vaulters & Mezari        -->
-	
-	    <Trait Name="FactionTraitVaultersMezari"/>   
+	  <Trait Name="FactionTraitVaultersMezari"/>   
   </Faction>
-  
+
+<Faction Name="FactionReplicants"   Standard="true"   Author="AMPLITUDE Studios" Priority="180">
+    <Affinity Name="AffinityReplicants"/>
+    <AffinityMapping Name="AffinityMappingReplicants"/>
+    <Trait Name="FactionTraitReplicants2"/>                                 <!-- Trait:          Loot from Villages       -->
+    <Trait Name="FactionTraitReplicants3"/>                                 <!-- Trait:          Improved Pillage         -->
+    <Trait Name="FactionTraitReplicants4"/>                                 <!-- Trait:          Technology Copy          -->
+    <Trait Name="FactionTraitReplicants5"/>                                 <!-- Faction Tech:   Learn from Others        -->
+    <Trait Name="FactionTraitReplicants6"/>                                 <!-- Faction Tech:   What’s Mine is Mine      -->
+    <Trait Name="FactionTraitReplicants7"/>                                 <!-- Faction Tech:   Advanced Guerrilla       -->
+    <Trait Name="FactionTraitReplicants12"/>                                <!-- Faction Tech:   Caudata Sanctuary        -->
+    <Trait Name="FactionTraitTechnologyDefinitionSearchBonus"/>             <!-- Tech:           Search Party             -->
+    <Trait Name="FactionTraitTechnologyDefinitionMapActionPillage"/>        <!-- Tech:           Map Action: Pillage      -->
+  </Faction>
+
   <Faction Name="FactionTutorial"     Standard="false"  Author="AMPLITUDE Studios">
     <Affinity Name="AffinityTutorial"/>
     <AffinityMapping Name="AffinityMappingMezari"/>
@@ -145,7 +153,7 @@
     <Trait Name="FactionTraitTechnologyStrategicExtractionCommon"  />        <!-- Tech:           Alchemist's Furnace      -->
     <Trait Name="FactionTraitTechnologyDefinitionMapActionParley"/>          <!-- Tech:           Language Square          -->
     <Trait Name="FactionTraitTechnologyDefinitionMezari1"/>                  <!-- Trait:          2 Units limit            -->
-	
+
   </Faction>
 
   <Faction Name="FactionRandom"       Standard="true"   Author="AMPLITUDE Studios" Priority="1000">
@@ -176,7 +184,7 @@
     <MercenaryUnitDesignReference Name="UnitDesignBosCentaur#MercenaryEra5"/>
     <MercenaryUnitDesignReference Name="UnitDesignBosCentaur#MercenaryEra6"/>
   </MinorFaction>
-  
+
   <MinorFaction Name="Ceratan"        Standard="false"  Author="AMPLITUDE Studios">
     <Affinity Name="AffinityCeratan"/>
     <AffinityMapping Name="AffinityMappingCeratan"/>
@@ -204,7 +212,7 @@
     <MercenaryUnitDesignReference Name="UnitDesignDelversDwarf#MercenaryEra5"/>
     <MercenaryUnitDesignReference Name="UnitDesignDelversDwarf#MercenaryEra6"/>
   </MinorFaction>
-  
+
   <MinorFaction Name="Erycis"         Standard="false"  Author="AMPLITUDE Studios">
     <Affinity Name="AffinityErycis"/>
     <AffinityMapping Name="AffinityMappingErycis"/>
@@ -232,7 +240,7 @@
     <MercenaryUnitDesignReference Name="UnitDesignHauntsSpecter#MercenaryEra5"/>
     <MercenaryUnitDesignReference Name="UnitDesignHauntsSpecter#MercenaryEra6"/>
   </MinorFaction>
-  
+
   <MinorFaction Name="Kazanji"        Standard="false"  Author="AMPLITUDE Studios">
     <Affinity Name="AffinityKazanji"/>
     <AffinityMapping Name="AffinityMappingKazanji"/>
@@ -253,7 +261,7 @@
     <Trait Name="TraitRandomizeFaction"/>
     <Trait Name="TraitMinorFaction"/>
   </MinorFaction>
-  
+
   <MinorFaction Name="Silics"         Standard="false"  Author="AMPLITUDE Studios">
     <Affinity Name="AffinitySilics"/>
     <AffinityMapping Name="AffinityMappingSilics"/>
@@ -281,7 +289,7 @@
     <MercenaryUnitDesignReference Name="UnitDesignSistersOfMercyJusticere#MercenaryEra5"/>
     <MercenaryUnitDesignReference Name="UnitDesignSistersOfMercyJusticere#MercenaryEra6"/>
   </MinorFaction>
-  
+
   <MinorFaction Name="Urces"          Standard="false"  Author="AMPLITUDE Studios">
     <Affinity Name="AffinityUrces"/>
     <AffinityMapping Name="AffinityMappingUrces"/>
@@ -295,7 +303,7 @@
     <MercenaryUnitDesignReference Name="UnitDesignUrcesGiantOgre#MercenaryEra5"/>
     <MercenaryUnitDesignReference Name="UnitDesignUrcesGiantOgre#MercenaryEra6"/>
   </MinorFaction>
-  
+
   <MinorFaction Name="Jotus"          Standard="false"  Author="AMPLITUDE Studios">
     <Affinity Name="AffinityJotus"/>
     <AffinityMapping Name="AffinityMappingJotus"/>
@@ -309,7 +317,7 @@
     <MercenaryUnitDesignReference Name="UnitDesignJotusEttin#MercenaryEra5"/>
     <MercenaryUnitDesignReference Name="UnitDesignJotusEttin#MercenaryEra6"/>
   </MinorFaction>
-  
+
   <MinorFaction Name="Hurnas"         Standard="false"  Author="AMPLITUDE Studios">
     <Affinity Name="AffinityHurnas"/>
     <AffinityMapping Name="AffinityMappingHurnas"/>
@@ -323,7 +331,7 @@
     <MercenaryUnitDesignReference Name="UnitDesignHurnasOrc#MercenaryEra5"/>
     <MercenaryUnitDesignReference Name="UnitDesignHurnasOrc#MercenaryEra6"/>
   </MinorFaction>
-  
+
   <MinorFaction Name="Gauran"         Standard="false"  Author="AMPLITUDE Studios">
     <Affinity Name="AffinityGauran"/>
     <AffinityMapping Name="AffinityMappingGauran"/>
@@ -380,7 +388,34 @@
     <MercenaryUnitDesignReference Name="UnitDesignEyelessOnesCaecator#MercenaryEra6"/>
   </MinorFaction>
 
+  <MinorFaction Name="Dorgeshi"      Standard="false"  Author="AMPLITUDE Studios">
+    <Affinity Name="AffinityDorgeshi"/>
+    <AffinityMapping Name="AffinityMappingDorgeshi"/>
+    <Trait Name="TraitMinorFaction"/>
+    <AssimilationTrait Name="AssimilationTraitDorgeshi"/>
+    <CityPacificationDescriptor Name="CityWithDorgeshiPacified"/>
+    <MercenaryUnitDesignReference Name="UnitDesignDorgeshiBurdeki#MercenaryEra1"/>
+    <MercenaryUnitDesignReference Name="UnitDesignDorgeshiBurdeki#MercenaryEra2"/>
+    <MercenaryUnitDesignReference Name="UnitDesignDorgeshiBurdeki#MercenaryEra3"/>
+    <MercenaryUnitDesignReference Name="UnitDesignDorgeshiBurdeki#MercenaryEra4"/>
+    <MercenaryUnitDesignReference Name="UnitDesignDorgeshiBurdeki#MercenaryEra5"/>
+    <MercenaryUnitDesignReference Name="UnitDesignDorgeshiBurdeki#MercenaryEra6"/>
+  </MinorFaction>
 
+  <MinorFaction Name="Taskol"         Standard="false"  Author="AMPLITUDE Studios">
+    <Affinity Name="AffinityTaskol"/>
+    <AffinityMapping Name="AffinityMappingTaskol"/>
+    <Trait Name="TraitMinorFaction"/>
+    <AssimilationTrait Name="AssimilationTraitTaskol"/>
+    <CityPacificationDescriptor Name="CityWithTaskolPacified"/>
+    <MercenaryUnitDesignReference Name="UnitDesignTaskolGolemVictoryQuest#MercenaryEra1"/>
+    <MercenaryUnitDesignReference Name="UnitDesignTaskolGolemVictoryQuest#MercenaryEra2"/>
+    <MercenaryUnitDesignReference Name="UnitDesignTaskolGolemVictoryQuest#MercenaryEra3"/>
+    <MercenaryUnitDesignReference Name="UnitDesignTaskolGolemVictoryQuest#MercenaryEra4"/>
+    <MercenaryUnitDesignReference Name="UnitDesignTaskolGolemVictoryQuest#MercenaryEra5"/>
+    <MercenaryUnitDesignReference Name="UnitDesignTaskolGolemVictoryQuest#MercenaryEra6"/>
+  </MinorFaction>
+  
 
   <!-- ########################################## -->
   <!-- ######        LESSER FACTIONS       ###### -->
