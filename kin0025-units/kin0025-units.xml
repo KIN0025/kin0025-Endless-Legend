@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <RuntimeModule Name="kin0025-units" Type="Expansion">
+  <RuntimeModule Name="kin0025units" Type="Extension">
 
-    <Title>KIN0025's units/Title>
+    <Title>KIN0025 units/Title>
 	<Version Major="2" Minor="0" Revision="0" />
     <Author>KIN0025</Author>
     <Description>Core of kin0025's mods. Removes Endless winter, adds framework for drazari faction, increases faction traits to 200</Description>

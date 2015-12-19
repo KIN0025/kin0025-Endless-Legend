@@ -70,7 +70,7 @@
   <!-- ########################################## -->
   <!-- ######         MAD FAIRIES          ###### -->
   <!-- ########################################## -->
-  
+
   <!-- MAD FAIRIES SETTLER -->
   <GuiElement Name="FactionAffinityUnitBodyMadFairiesSettler">
     <Title>%UnitSettlerTitle</Title>
@@ -90,7 +90,7 @@
       <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMadFairiesArcherLarge" />
     </Icons>
   </GuiElement>
-  
+
   <!-- MAD FAIRIES SHAMAN -->
   <GuiElement Name="FactionAffinityUnitBodyMadFairiesShaman">
     <Title>%UnitMadFairiesShamanTitle</Title>
@@ -288,7 +288,7 @@
       <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitVaultersSettlerLarge" />
     </Icons>
   </GuiElement>
-  
+
   <!-- VAULTERS MARINE -->
   <GuiElement Name="FactionAffinityUnitBodyVaultersMarine">
     <Title>%UnitVaultersMarineTitle</Title>
@@ -354,7 +354,7 @@
       <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitRovingClansSettlerLarge" />
     </Icons>
   </GuiElement>
-  
+
   <!-- ROVING CLANS DERVISH -->
   <GuiElement Name="FactionAffinityUnitBodyRovingClansDervish">
     <Title>%UnitRovingClansDervishTitle</Title>
@@ -609,8 +609,8 @@
     </Icons>
   </GuiElement>
 
-  
-  
+
+
   <!-- ########################################## -->
   <!-- ##########       MEZARI       ########## -->
   <!-- ########################################## -->
@@ -675,8 +675,8 @@
     </Icons>
   </GuiElement>
 
-  
-  
+
+
   <!-- ########################################## -->
   <!-- ##########       TUTORIAL       ########## -->
   <!-- ########################################## -->
