@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Drazari -->
+<FactionAffinity                  Name="AffinityDrazari"                       SubCategory="MajorFactionAffinity" Hidden="false" Cost="200">
+  <SimulationDescriptorReference  Name="AffinityDrazari"/>
+<DefaultAffinityMapping			Name="AffinityMappingDrakkens"/>
+  <Personality                    Name="PersonalityAffinityVaulters"/>
+  <SubTrait                       Name="FactionTraitDrazariMainQuest"        Hidden="true"/>
+  <SubTrait                       Name="FactionTraitMajorFaction"             Hidden="true"/>
+  <SubTrait                       Name="FactionTraitAffinityStrategic"/>-->		<!-- Affinity: Holy Resource -->
+<SubTrait                       Name="FactionTraitDrakkens6"/>
+<SubTrait                       Name="FactionTraitDrazariUnit1"/>
+  <SubTrait                       Name="FactionTraitDrazariUnit2"/>
+  <SubTrait                       Name="FactionTraitDrazariUnit3"/>
+    <SubTrait                       Name="FactionTraitVaultersMezari"           Hidden="true"/>
+  <Command                        Name="CreateArmy"                           Arguments="UnitProfileDrakkensHero1,UnitDesignDrakkensSettler#1,UnitDesignDrazariDrakkenling,UnitDesignDrazariDrakkenling"/>
+  <Command                        Name="TransferResources"                    Arguments="EmpireMoney,50"/>
+</FactionAffinity>-->
+
+</Datatable>

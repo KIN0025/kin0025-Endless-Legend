@@ -50,7 +50,7 @@
     <Command                        Name="TransferResources"                    Arguments="EmpireMoney,50"/>
   </FactionAffinity>
 
-  <!-- Rage Wizards -->  
+  <!-- Rage Wizards -->
   <FactionAffinity                  Name="AffinityRageWizards"                  SubCategory="MajorFactionAffinity" Hidden="false" Cost="200">
     <SimulationDescriptorReference  Name="AffinityRageWizards"/>
 	<DefaultAffinityMapping			Name="AffinityMappingRageWizards"/>
@@ -65,7 +65,7 @@
     <Command                        Name="TransferResources"                    Arguments="EmpireMoney,50"/>
   </FactionAffinity>
 
-  <!-- Vaulters -->  
+  <!-- Vaulters -->
   <FactionAffinity                  Name="AffinityVaulters"                     SubCategory="MajorFactionAffinity" Hidden="false" Cost="200">
     <SimulationDescriptorReference  Name="AffinityVaulters"/>
 	<DefaultAffinityMapping			Name="AffinityMappingVaulters"/>
@@ -80,7 +80,7 @@
     <Command                        Name="CreateArmy"                           Arguments="UnitProfileVaultersHero1,UnitDesignVaultersSettler#1,UnitDesignVaultersMarine#1,UnitDesignVaultersMarine#1"/>
     <Command                        Name="TransferResources"                    Arguments="EmpireMoney,50"/>
   </FactionAffinity>
-  
+
   <!-- Roving Clans -->
   <FactionAffinity                  Name="AffinityRovingClans"                  SubCategory="MajorFactionAffinity" Hidden="false" Cost="200">
     <SimulationDescriptorReference  Name="AffinityRovingClans"/>
@@ -95,7 +95,7 @@
     <Command                        Name="CreateArmy"                           Arguments="UnitProfileRovingClansHero1,UnitDesignRovingClansSettler#1,UnitDesignRovingClansDervish#1,UnitDesignRovingClansDervish#1"/>
     <Command                        Name="TransferResources"                    Arguments="EmpireMoney,50"/>
   </FactionAffinity>
-  
+
   <!-- Drakkens -->
   <FactionAffinity                  Name="AffinityDrakkens"                     SubCategory="MajorFactionAffinity" Hidden="false" Cost="200">
     <SimulationDescriptorReference  Name="AffinityDrakkens"/>
@@ -126,7 +126,7 @@
     <Command                        Name="TransferResources"                    Arguments="EmpireMoney,50"/>
   </FactionAffinity>
 
-  <!-- Mezari -->  
+  <!-- Mezari -->
   <FactionAffinity                  Name="AffinityMezari"                       SubCategory="MajorFactionAffinity" Hidden="false" Cost="200">
     <SimulationDescriptorReference  Name="AffinityMezari"/>
 	<DefaultAffinityMapping			Name="AffinityMappingMezari"/>
@@ -141,23 +141,7 @@
     <Command                        Name="CreateArmy"                           Arguments="UnitProfileMezariHero1,UnitDesignMezariSettler#1,UnitDesignMezariMarine#1,UnitDesignMezariMarine#1"/>
     <Command                        Name="TransferResources"                    Arguments="EmpireMoney,50"/>
   </FactionAffinity>-->
-  
-    <!-- Drazari -->  
-  <FactionAffinity                  Name="AffinityDrazari"                       SubCategory="MajorFactionAffinity" Hidden="false" Cost="200">
-    <SimulationDescriptorReference  Name="AffinityDrazari"/>
-	<DefaultAffinityMapping			Name="AffinityMappingDrakkens"/>
-    <Personality                    Name="PersonalityAffinityVaulters"/>
-    <SubTrait                       Name="FactionTraitDrazariMainQuest"        Hidden="true"/>
-    <SubTrait                       Name="FactionTraitMajorFaction"             Hidden="true"/>
-    <SubTrait                       Name="FactionTraitAffinityStrategic"/>-->		<!-- Affinity: Holy Resource -->
-	<SubTrait                       Name="FactionTraitDrakkens6"/>
-	<SubTrait                       Name="FactionTraitDrazariUnit1"/>
-    <SubTrait                       Name="FactionTraitDrazariUnit2"/>
-    <SubTrait                       Name="FactionTraitDrazariUnit3"/>
-	    <SubTrait                       Name="FactionTraitVaultersMezari"           Hidden="true"/>
-    <Command                        Name="CreateArmy"                           Arguments="UnitProfileDrakkensHero1,UnitDesignDrakkensSettler#1,UnitDesignDrazariDrakkenling,UnitDesignDrazariDrakkenling"/>
-    <Command                        Name="TransferResources"                    Arguments="EmpireMoney,50"/>
-  </FactionAffinity>-->
+
   
  <!-- Replicants -->
   <FactionAffinity                  Name="AffinityReplicants"                   SubCategory="MajorFactionAffinity"    Hidden="false" Cost="200">
@@ -201,14 +185,14 @@
   <!-- ########################################## -->
   <!-- ######        MINOR FACTIONS        ###### -->
   <!-- ########################################## -->
-  
+
   <FactionAffinity                  Name="AffinityBos"                          SubCategory="MinorFactionAffinity"    Hidden="true">
     <Personality                    Name="PersonalityAffinityBos"/>
     <Personality                    Name="PersonalityMinorFactionWeak"/>
     <SimulationDescriptorReference  Name="FactionTraitBos"/>
     <SimulationDescriptorReference  Name="AffinityBos"/>
   </FactionAffinity>
-  
+
   <FactionAffinity                  Name="AffinityCeratan"                      SubCategory="MinorFactionAffinity"    Hidden="true">
     <Personality                    Name="PersonalityAffinityCeratan"/>
     <Personality                    Name="PersonalityMinorFactionWeak"/>
@@ -243,7 +227,7 @@
     <SimulationDescriptorReference  Name="FactionTraitKazanji"/>
     <SimulationDescriptorReference  Name="AffinityKazanji"/>
   </FactionAffinity>
-  
+
   <FactionAffinity                  Name="AffinitySistersOfMercy"               SubCategory="MinorFactionAffinity"    Hidden="true">
     <Personality                    Name="PersonalityAffinitySistersOfMercy"/>
     <Personality                    Name="PersonalityMinorFactionWeak"/>
