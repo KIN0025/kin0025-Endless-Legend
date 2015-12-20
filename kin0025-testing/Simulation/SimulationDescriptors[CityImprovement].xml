@@ -13,16 +13,12 @@
     Value="500" Path="./ClassCity/ClassDistrict"/>
     <SimulationModifierDescriptor TargetProperty="CityExpansionDisapproval"
     Operation="Multiplication" Value="0" Path="./ClassCity"/>
-    </SimulationModifierDescriptors>
     <SimulationModifierDescriptor TargetProperty="CityExpansionDisapproval"
     Operation="Multiplication" Value="0" Path="./ClassCity"/>
-    </SimulationModifierDescriptors>
     <SimulationModifierDescriptor TargetProperty="CityScience"
     Operation="Addition" Value="100000" Path="./ClassCity"/>
-    </SimulationModifierDescriptors>
     <SimulationModifierDescriptor TargetProperty="CityInfluence"
     Operation="Addition" Value="100000" Path="./ClassCity"/>
-    </SimulationModifierDescriptors>
     <SimulationModifierDescriptor TargetProperty="CityDust"
     Operation="Addition" Value="100000" Path="./ClassCity"/>
     </SimulationModifierDescriptors>
