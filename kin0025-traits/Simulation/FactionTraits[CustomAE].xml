@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+  <!-- ########################################## -->
+  <!-- ######           POSITIVE           ###### -->
+  <!-- ########################################## -->
+
+  <!-- Agricultural Experts -->
+  <FactionTrait Name="AEPositive1"                   SubCategory="StandardTrait"        Family="Economy" Custom="true" Cost="30">
+    <SimulationDescriptorReference Name="AEPositive1"/>
+  </FactionTrait>
+  
+  <!-- Strategist -->
+  <FactionTrait Name="AEPositive2"                   SubCategory="StandardTrait"        Family="Military" Custom="true" Cost="15">
+    <SimulationDescriptorReference Name="AEPositive2"/>
+  </FactionTrait>
+
+    <!-- Educated Citizens -->
+  <FactionTrait Name="AEPositive3"                   SubCategory="StandardTrait"        Family="Economy" Custom="true" Cost="25">
+    <SimulationDescriptorReference Name="AEPositive3"/>
+  </FactionTrait>
+  
+    <!-- Influential Leader -->
+  <FactionTrait Name="AEPositive4"                   SubCategory="StandardTrait"        Family="Diplomacy" Custom="true" Cost="25">
+    <SimulationDescriptorReference Name="AEPositive4"/>
+  </FactionTrait>
+  
+    <!-- Diplomatic Roots -->
+  <FactionTrait Name="AEPositive5Level1"     SubCategory="CustomTrait" Family="Diplomacy" Root="AEPositive5" Level="1" Custom="true" Cost="8">
+    <SimulationDescriptorReference Name="AEPositive5Level1"/>
+  </FactionTrait>
+  <FactionTrait Name="AEPositive5Level2"     SubCategory="CustomTrait" Family="Diplomacy" Root="AEPositive5" Level="2" Custom="true" Cost="16">
+    <SimulationDescriptorReference Name="AEPositive5Level2"/>
+  </FactionTrait>
+  <FactionTrait Name="AEPositive5Level3"     SubCategory="CustomTrait" Family="Diplomacy" Root="AEPositive5" Level="3" Custom="true" Cost="24">
+    <SimulationDescriptorReference Name="AEPositive5Level3"/>
+  </FactionTrait>
+
+    <!-- Frugal Connections -->
+  <FactionTrait Name="AEPositive6Level1"     SubCategory="CustomTrait" Family="Economy" Root="AEPositive6" Level="1" Custom="true" Cost="10">
+    <SimulationDescriptorReference Name="AEPositive6Level1"/>
+  </FactionTrait>
+  <FactionTrait Name="AEPositive6Level2"     SubCategory="CustomTrait" Family="Economy" Root="AEPositive6" Level="2" Custom="true" Cost="20">
+    <SimulationDescriptorReference Name="AEPositive6Level2"/>
+  </FactionTrait>
+  
+    <!-- Tactician -->
+  <FactionTrait Name="AEPositive7Level1"     SubCategory="CustomTrait" Family="Military" Root="AEPositive7" Level="1" Custom="true" Cost="10">
+    <SimulationDescriptorReference Name="AEPositive7Level1"/>
+  </FactionTrait>
+  <FactionTrait Name="AEPositive7Level2"     SubCategory="CustomTrait" Family="Military" Root="AEPositive7" Level="2" Custom="true" Cost="15">
+    <SimulationDescriptorReference Name="AEPositive7Level2"/>
+  </FactionTrait>
+  <FactionTrait Name="AEPositive7Level3"     SubCategory="CustomTrait" Family="Military" Root="AEPositive7" Level="3" Custom="true" Cost="20">
+    <SimulationDescriptorReference Name="AEPositive7Level3"/>
+  </FactionTrait>  
+  
+    <!-- Great Explorers -->
+  <FactionTrait Name="AEPositive8"                   SubCategory="StandardTrait"        Family="Economy" Custom="true" Cost="20">
+    <SimulationDescriptorReference Name="AEPositive8"/>
+  </FactionTrait>  
+  
+    <!-- Observant -->
+  <FactionTrait Name="AEPositive9Level1"     SubCategory="CustomTrait" Family="Economy" Root="AEPositive9" Level="1" Custom="true" Cost="5">
+  <Prerequisites>!AENegative6Level1</Prerequisites>
+    <SimulationDescriptorReference Name="AEPositive9Level1"/>
+  </FactionTrait>
+  <FactionTrait Name="AEPositive9Level2"     SubCategory="CustomTrait" Family="Economy" Root="AEPositive9" Level="2" Custom="true" Cost="10">
+  <Prerequisites>!AENegative6Level1</Prerequisites>
+    <SimulationDescriptorReference Name="AEPositive9Level2"/>
+  </FactionTrait>
+
+    <!-- Great Builders -->
+  <FactionTrait Name="AEPositive10"                   SubCategory="StandardTrait"        Family="Economy" Custom="true" Cost="25">
+    <SimulationDescriptorReference Name="AEPositive10"/>
+  </FactionTrait>   
+  
+  
+  <!-- ########################################## -->
+  <!-- ######           NEGATIVE           ###### -->
+  <!-- ########################################## -->
+  
+    <!-- Brittle Walls -->
+  <FactionTrait Name="AENegative1"                   SubCategory="StandardTrait"        Family="Military" Custom="true" Cost="-10">
+    <SimulationDescriptorReference Name="AENegative1"/>
+  </FactionTrait>
+  
+    <!-- Tyrant -->
+  <FactionTrait Name="AENegative2Level1"     SubCategory="CustomTrait" Family="Economy" Root="AENegative2" Level="1" Custom="true" Cost="-5">
+    <SimulationDescriptorReference Name="AENegative2Level1"/>
+  </FactionTrait>
+  <FactionTrait Name="AENegative2Level2"     SubCategory="CustomTrait" Family="Economy" Root="AENegative2" Level="2" Custom="true" Cost="-10">
+    <SimulationDescriptorReference Name="AENegative2Level2"/>
+  </FactionTrait>
+  <FactionTrait Name="AENegative2Level3"     SubCategory="CustomTrait" Family="Economy" Root="AENegative2" Level="3" Custom="true" Cost="-15">
+    <SimulationDescriptorReference Name="AENegative2Level3"/>
+  </FactionTrait>
+  
+    <!-- Inexperienced Soldiers -->
+  <FactionTrait Name="AENegative3"                   SubCategory="StandardTrait"        Family="Military" Custom="true" Cost="-10">
+    <SimulationDescriptorReference Name="AENegative3"/>
+  </FactionTrait>
+
+    <!-- Fear of Anomalies -->
+  <FactionTrait Name="AENegative4"                   SubCategory="StandardTrait"        Family="Economy" Custom="true" Cost="-10">
+    <SimulationDescriptorReference Name="AENegative4"/>
+  </FactionTrait>
+  
+    <!-- Closed Cities -->
+  <FactionTrait Name="AENegative5"                   SubCategory="StandardTrait"        Family="Economy" Custom="true" Cost="-10">
+    <SimulationDescriptorReference Name="AENegative5"/>
+  </FactionTrait>
+  
+    <!-- Ignorant -->
+  <FactionTrait Name="AENegative6Level1"     SubCategory="CustomTrait" Family="Economy" Root="AENegative6" Level="1" Custom="true" Cost="-5">
+  <Prerequisites>!AEPositive9Level1</Prerequisites>  
+    <SimulationDescriptorReference Name="AENegative6Level1"/>
+  </FactionTrait>
+  <FactionTrait Name="AENegative6Level2"     SubCategory="CustomTrait" Family="Economy" Root="AENegative6" Level="2" Custom="true" Cost="-10">
+  <Prerequisites>!AEPositive9Level1</Prerequisites>  
+    <SimulationDescriptorReference Name="AENegative6Level2"/>
+  </FactionTrait>
+
+    <!-- Mercenary Discomforts -->
+  <FactionTrait Name="AENegative7"                   SubCategory="StandardTrait"        Family="Military" Custom="true" Cost="-10">
+    <SimulationDescriptorReference Name="AENegative7"/>
+  </FactionTrait>
+  
+    <!-- Cultural Aversion -->
+  <FactionTrait Name="AENegative8"                   SubCategory="StandardTrait"        Family="Diplomacy" Custom="true" Cost="-8">
+    <SimulationDescriptorReference Name="AENegative8"/>
+  </FactionTrait>
+  
+    <!-- Inept Builders -->
+  <FactionTrait Name="AENegative9"                   SubCategory="StandardTrait"        Family="Economy" Custom="true" Cost="-25">
+    <SimulationDescriptorReference Name="AENegative9"/>
+  </FactionTrait> 
+  
+  <!-- ########################################## -->
+  <!-- ######            UNIQUE            ###### -->
+  <!-- ########################################## -->  
+  
+    <!-- Offensive Reforms -->
+  <FactionTrait Name="AEUnique1"                   SubCategory="StandardTrait"        Family="Unique" Custom="true" Cost="10">
+	<Prerequisites>!AEUnique2,!AEUnique3,!AEUnique4,!AEUnique5,!AEUnique6,!AEUnique7,!AEUnique8</Prerequisites>
+    <SimulationDescriptorReference Name="AEUnique1"/>
+  </FactionTrait>
+
+    <!-- Defensive Reforms -->
+  <FactionTrait Name="AEUnique2"                   SubCategory="StandardTrait"        Family="Unique" Custom="true" Cost="10">
+    <Prerequisites>!AEUnique1,!AEUnique3,!AEUnique4,!AEUnique5,!AEUnique6,!AEUnique7,!AEUnique8</Prerequisites>
+    <SimulationDescriptorReference Name="AEUnique2"/>
+  </FactionTrait>
+
+    <!-- Industrialization -->
+  <FactionTrait Name="AEUnique3"                   SubCategory="StandardTrait"        Family="Unique" Custom="true" Cost="10">
+  <Prerequisites>!AEUnique1,!AEUnique2,!AEUnique4,!AEUnique5,!AEUnique6,!AEUnique7,!AEUnique8</Prerequisites>
+    <SimulationDescriptorReference Name="AEUnique3"/>
+  </FactionTrait>
+
+    <!-- Scientific Revolution -->
+  <FactionTrait Name="AEUnique4"                   SubCategory="StandardTrait"        Family="Unique" Custom="true" Cost="10">
+    <SimulationDescriptorReference Name="AEUnique4"/>
+    <Prerequisites>!AEUnique1,!AEUnique2,!AEUnique3,!AEUnique5,!AEUnique6,!AEUnique7,!AEUnique8</Prerequisites>
+  </FactionTrait>
+  
+    <!-- Zealous Fanaticism -->
+  <FactionTrait Name="AEUnique5"                   SubCategory="StandardTrait"        Family="Unique" Custom="true" Cost="10">
+    <Prerequisites>!AEUnique1,!AEUnique2,!AEUnique3,!AEUnique4,!AEUnique6,!AEUnique7,!AEUnique8</Prerequisites>
+    <SimulationDescriptorReference Name="AEUnique5"/>
+  </FactionTrait>
+  
+    <!-- Economical Empire -->
+  <FactionTrait Name="AEUnique6"                   SubCategory="StandardTrait"        Family="Unique" Custom="true" Cost="10">
+    <Prerequisites>!AEUnique1,!AEUnique2,!AEUnique3,!AEUnique4,!AEUnique5,!AEUnique7,!AEUnique8</Prerequisites>
+    <SimulationDescriptorReference Name="AEUnique6"/>
+  </FactionTrait>
+  
+    <!-- Warrior Society -->
+  <FactionTrait Name="AEUnique7"                   SubCategory="StandardTrait"        Family="Unique" Custom="true" Cost="10">
+    <Prerequisites>!AEUnique1,!AEUnique2,!AEUnique3,!AEUnique4,!AEUnique5,!AEUnique6,!AEUnique8</Prerequisites>
+    <SimulationDescriptorReference Name="AEUnique7"/>
+  </FactionTrait>
+  
+    <!-- Black Market -->
+  <FactionTrait Name="AEUnique8"                   SubCategory="StandardTrait"        Family="Unique" Custom="true" Cost="10">
+    <Prerequisites>!AEUnique1,!AEUnique2,!AEUnique3,!AEUnique4,!AEUnique5,!AEUnique6,!AEUnique7</Prerequisites>
+    <SimulationDescriptorReference Name="AEUnique8"/>
+  </FactionTrait>
+  
+</Datatable>

@@ -2,7 +2,7 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <!-- City Negotiations -->
-  
+
   <DiplomaticTermGuiElement Name="AllianceCityDeal">
     <Title>%DiplomaticTermNegotiationCityDealTitle</Title>
     <Description>%DiplomaticTermNegotiationCityDealDescription</Description>
@@ -20,7 +20,7 @@
     <PriceModifierCategory>Affinity</PriceModifierCategory>
     <PriceModifierCategory>RelationStateChaos</PriceModifierCategory>
   </DiplomaticTermGuiElement>
-  
+
   <DiplomaticTermGuiElement Name="AllianceToColdWarStart">
     <Title>%DiplomaticTermAllianceToColdWarTitle</Title>
     <Description>%DiplomaticTermAllianceToColdWarDescription</Description>
@@ -30,7 +30,7 @@
     <PriceModifierCategory>Affinity</PriceModifierCategory>
     <PriceModifierCategory>RelationStateChaos</PriceModifierCategory>
   </DiplomaticTermGuiElement>
-  
+
   <DiplomaticTermGuiElement Name="PeaceToWarStart">
     <Title>%DiplomaticTermPeaceToWarTitle</Title>
     <Description>%DiplomaticTermPeaceToWarDescription</Description>
@@ -40,7 +40,7 @@
     <PriceModifierCategory>Affinity</PriceModifierCategory>
     <PriceModifierCategory>RelationStateChaos</PriceModifierCategory>
   </DiplomaticTermGuiElement>
-  
+
   <DiplomaticTermGuiElement Name="AllianceToWarStart">
     <Title>%DiplomaticTermAllianceToWarTitle</Title>
     <Description>%DiplomaticTermAllianceToWarDescription</Description>

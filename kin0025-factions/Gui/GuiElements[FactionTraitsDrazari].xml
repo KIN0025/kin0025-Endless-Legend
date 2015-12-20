@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- Unit1: Drakkenling -->
+  <GuiElement Name="FactionTraitDrazariUnit1">
+    <Title>%UnitDrakkensDrakkenlingTitle</Title>
+    <Description>%UnitDrakkensDrakkenlingDescription</Description>
+  </GuiElement>
+
+  <!-- Unit2: Wyvern -->
+  <GuiElement Name="FactionTraitDrazariUnit2">
+    <Title>%UnitDrakkensWyvernTitle</Title>
+    <Description>%UnitDrakkensWyvernDescription</Description>
+  </GuiElement>
+
+  <!-- Unit3: Ancient Dragon -->
+  <GuiElement Name="FactionTraitDrazariUnit3">
+    <Title>%UnitDrakkensAncientDragonTitle</Title>
+    <Description>%UnitDrakkensAncientDragonDescription</Description>
+  </GuiElement>
+  <GuiElement Name="FactionTraitDrazariMainQuest">
+  <Title>%FactionTraitVaultersMainQuestTitle</Title>
+  <Description>%FactionTraitVaultersMainQuestDescription</Description>
+</GuiElement>
+</Datatable>

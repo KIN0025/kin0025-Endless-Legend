@@ -11,7 +11,7 @@
     </Icons>
     <TechnologyEraReference Name="TechnologyEraDefinition1" />
   </TechnologyGuiElement>
-  
+
   <!-- Empire bonus: Armour Common Tier 1 -->
   <TechnologyGuiElement Name="TechnologyDefinitionArmorCommonTier1" X="40" Y="-240">
     <Title>%TechnologyDefinitionArmorCommonTier1Title</Title>
@@ -23,7 +23,7 @@
     <TechnologyEraReference Name="TechnologyEraDefinition1" />
   </TechnologyGuiElement>
 
-  <!-- Era 2 -->  
+  <!-- Era 2 -->
     <!-- Empire bonus: Weapon Common Tier 2 -->
   <TechnologyGuiElement Name="TechnologyDefinitionWeaponCommonTier2" X="-40" Y="-240">
     <Title>%TechnologyDefinitionWeaponCommonTier2Title</Title>
@@ -45,7 +45,7 @@
     </Icons>
     <TechnologyEraReference Name="TechnologyEraDefinition2" />
   </TechnologyGuiElement>
-  
+
 <!-- Era 3 -->
   <!-- Empire bonus: Weapon Common Tier 3 -->
   <TechnologyGuiElement Name="TechnologyDefinitionWeaponCommonTier3" X="-120" Y="-200">
@@ -90,7 +90,7 @@
     </Icons>
     <TechnologyEraReference Name="TechnologyEraDefinition3" />
   </TechnologyGuiElement>
- 
+
 <!-- Era 4 -->
   <!-- Empire bonus: Weapon Uncommon Tier 2 -->
   <TechnologyGuiElement Name="TechnologyDefinitionWeaponUncommonTier2" X="-40" Y="-240">
@@ -113,7 +113,7 @@
     </Icons>
     <TechnologyEraReference Name="TechnologyEraDefinition4" />
   </TechnologyGuiElement>
- 
+
  <!-- Empire bonus: Weapon Rare Tier 1 -->
   <TechnologyGuiElement Name="TechnologyDefinitionWeaponRareTier1" X="-120" Y="-220">
     <Title>%TechnologyDefinitionWeaponRareTier1Title</Title>
@@ -135,7 +135,7 @@
     </Icons>
     <TechnologyEraReference Name="TechnologyEraDefinition4" />
   </TechnologyGuiElement>
- 
+
 <!-- Era 5 -->
   <!-- Empire bonus: Weapon Uncommon Tier 3 -->
   <TechnologyGuiElement Name="TechnologyDefinitionWeaponUncommonTier3" X="-120" Y="-200">
@@ -158,7 +158,7 @@
     </Icons>
     <TechnologyEraReference Name="TechnologyEraDefinition5" />
   </TechnologyGuiElement>
-  
+
   <!-- Empire bonus: Equipment Rare Tier 2 -->
   <TechnologyGuiElement Name="TechnologyDefinitionWeaponRareTier2" X="-40" Y="-240">
     <Title>%TechnologyDefinitionWeaponRareTier2Title</Title>
@@ -201,27 +201,7 @@
       <Icon Path="GUI/DynamicBitmaps/Improvements/Empire/TechnologyArmorRareTier3Large" Size="Large" />
     </Icons>
     <TechnologyEraReference Name="TechnologyEraDefinition6" />
-  </TechnologyGuiElement>  
+  </TechnologyGuiElement>
 
-   <!-- Drazari Faction unit#2 -->
-  <TechnologyGuiElement Name="TechnologyDefinitionDrazariUnit2" X="-40" Y="-100">
-    <Title>%UnitDrakkensWyvernTitle</Title>
-    <Description>%UnitDrakkensWyvernDescription</Description>
-    <Icons DefaultSize="">
-      <Icon Path="GUI/AtlasedBitmaps/Units/UnitDrakkensWyvernSmall" Size="Small" />
-      <Icon Path="GUI/DynamicBitmaps/Units/UnitDrakkensWyvernLarge" Size="Large" />
-    </Icons>
-    <TechnologyEraReference Name="TechnologyEraDefinition1" />
-  </TechnologyGuiElement>
-  <!-- Drazari Faction Unit #3 -->
-    <TechnologyGuiElement Name="TechnologyDefinitionDrazariUnit3" X="-40" Y="-100">
-    <Title>%UnitDrakkensAncientDragonTitle</Title>
-    <Description>%UnitDrakkensAncientDragonDescription</Description>
-    <Icons DefaultSize="">
-      <Icon Path="GUI/AtlasedBitmaps/Units/UnitDrakkensAncientDragonSmall" Size="Small" />
-      <Icon Path="GUI/DynamicBitmaps/Units/UnitDrakkensAncientDragonLarge" Size="Large" />
-    </Icons>
-    <TechnologyEraReference Name="TechnologyEraDefinition2" />
-  </TechnologyGuiElement>
- 
+
 </Datatable>

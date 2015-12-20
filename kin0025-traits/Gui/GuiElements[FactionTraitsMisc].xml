@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+    <GuiElement Name="FactionTraitExpansionApproval">
+      <Title>%FactionTraitExpansionApprovalTitle</Title>
+      <Description>%FactionTraitExpansionApprovalDescription</Description>
+    </GuiElement>
+    <GuiElement Name="FactionTraitStrategicPower">
+      <Title>%FactionTraitStrategicPowerTitle</Title>
+      <Description>%FactionTraitStrategicPowerDescription</Description>
+    </GuiElement>
+    <GuiElement Name="FactionTraitDiplomacyStart">
+      <Title>%FactionTraitDiplomacyStartTitle</Title>
+      <Description>%FactionTraitDiplomacyStartDescription</Description>
+    </GuiElement>
+   <!-- Family Filters -->
+      <GuiElement Name="CustomTraitFamilyFilterUnits">
+      <Title>%CustomTraitFamilyFilterUnitsTitle</Title>
+      <Description>%CustomTraitFamilyFilterUnitsDescription</Description>
+    </GuiElement>
+</Datatable>

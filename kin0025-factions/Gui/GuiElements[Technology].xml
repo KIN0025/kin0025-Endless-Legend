@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+     <!-- Drazari Faction unit#2 -->
+    <TechnologyGuiElement Name="TechnologyDefinitionDrazariUnit2" X="-40" Y="-100">
+      <Title>%UnitDrakkensWyvernTitle</Title>
+      <Description>%UnitDrakkensWyvernDescription</Description>
+      <Icons DefaultSize="">
+        <Icon Path="GUI/AtlasedBitmaps/Units/UnitDrakkensWyvernSmall" Size="Small" />
+        <Icon Path="GUI/DynamicBitmaps/Units/UnitDrakkensWyvernLarge" Size="Large" />
+      </Icons>
+      <TechnologyEraReference Name="TechnologyEraDefinition1" />
+    </TechnologyGuiElement>
+    <!-- Drazari Faction Unit #3 -->
+      <TechnologyGuiElement Name="TechnologyDefinitionDrazariUnit3" X="-40" Y="-100">
+      <Title>%UnitDrakkensAncientDragonTitle</Title>
+      <Description>%UnitDrakkensAncientDragonDescription</Description>
+      <Icons DefaultSize="">
+        <Icon Path="GUI/AtlasedBitmaps/Units/UnitDrakkensAncientDragonSmall" Size="Small" />
+        <Icon Path="GUI/DynamicBitmaps/Units/UnitDrakkensAncientDragonLarge" Size="Large" />
+      </Icons>
+      <TechnologyEraReference Name="TechnologyEraDefinition2" />
+    </TechnologyGuiElement>
+</Datatable>

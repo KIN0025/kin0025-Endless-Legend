@@ -146,43 +146,5 @@
     <Title>%UnitCultistsNamelessGuardTitle</Title>
     <Description>%UnitCultistsNamelessGuardDescription</Description>
   </GuiElement>
-  
-  <!-- Unit1: Drakkenling -->
-  <GuiElement Name="FactionTraitDrazariUnit1">
-    <Title>%UnitDrakkensDrakkenlingTitle</Title>
-    <Description>%UnitDrakkensDrakkenlingDescription</Description>
-  </GuiElement>
 
-  <!-- Unit2: Wyvern -->
-  <GuiElement Name="FactionTraitDrazariUnit2">
-    <Title>%UnitDrakkensWyvernTitle</Title>
-    <Description>%UnitDrakkensWyvernDescription</Description>
-  </GuiElement>
-
-  <!-- Unit3: Ancient Dragon -->
-  <GuiElement Name="FactionTraitDrazariUnit3">
-    <Title>%UnitDrakkensAncientDragonTitle</Title>
-    <Description>%UnitDrakkensAncientDragonDescription</Description>
-  </GuiElement>
-  <GuiElement Name="FactionTraitExpansionApproval">
-    <Title>%FactionTraitExpansionApprovalTitle</Title>
-    <Description>%FactionTraitExpansionApprovalDescription</Description>
-  </GuiElement>
-  <GuiElement Name="FactionTraitStrategicPower">
-    <Title>%FactionTraitStrategicPowerTitle</Title>
-    <Description>%FactionTraitStrategicPowerDescription</Description>
-  </GuiElement>
-    <GuiElement Name="FactionTraitDrazariMainQuest">
-    <Title>%FactionTraitVaultersMainQuestTitle</Title>
-    <Description>%FactionTraitVaultersMainQuestDescription</Description>
-  </GuiElement> 
-  <GuiElement Name="FactionTraitDiplomacyStart">
-    <Title>%FactionTraitDiplomacyStartTitle</Title>
-    <Description>%FactionTraitDiplomacyStartDescription</Description>
-  </GuiElement> 
- <!-- Family Filters -->  
-    <GuiElement Name="CustomTraitFamilyFilterUnits">
-    <Title>%CustomTraitFamilyFilterUnitsTitle</Title>
-    <Description>%CustomTraitFamilyFilterUnitsDescription</Description>
-  </GuiElement>
 </Datatable>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- ########################################## -->
+  <!-- ######          CATEGORIES          ###### -->
+  <!-- ########################################## -->
+  
+  <LocalizationPair Name="%CustomTraitFamilyFilterUniqueTitle">Unique</LocalizationPair>
+  <LocalizationPair Name="%CustomTraitFamilyFilterUniqueDescription">Powerful traits limited to one per Faction.</LocalizationPair>
+  <LocalizationPair Name="%CustomTraitFamilyFilterSeasonalTitle">Seasonal</LocalizationPair>
+  <LocalizationPair Name="%CustomTraitFamilyFilterSeasonalDescription">Traits which offer seasonal (dis)advantages.</LocalizationPair>
+
+
+  <!-- ########################################## -->
+  <!-- ######             MISC             ###### -->
+  <!-- ########################################## -->
+  
+  <LocalizationPair Name="%BattleMoraleTitle">Battle Morale</LocalizationPair>
+  <LocalizationPair Name="%MaximumNumberOfActionPointsTitle">Action Points</LocalizationPair>   
+
+</Datatable>

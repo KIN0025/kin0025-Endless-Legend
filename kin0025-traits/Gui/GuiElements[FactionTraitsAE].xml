@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- ########################################## -->
+  <!-- ######           POSITIVE           ###### -->
+  <!-- ########################################## -->
+
+  <!-- Agricultural Experts -->
+  <GuiElement Name="AEPositive1">
+    <Title>%AEPositive1Title</Title>
+    <Description>%AEPositive1Description</Description>
+  </GuiElement>
+  
+    <!-- Strategist -->
+	<GuiElement Name="AEPositive2">
+    <Title>%AEPositive2Title</Title>
+    <Description>%AEPositive2Description</Description>
+  </GuiElement>
+
+    <!-- Educated Citizens -->
+	<GuiElement Name="AEPositive3">
+    <Title>%AEPositive3Title</Title>
+    <Description>%AEPositive3Description</Description>
+  </GuiElement>
+
+    <!-- Influential Leader -->
+	<GuiElement Name="AEPositive4">
+    <Title>%AEPositive4Title</Title>
+    <Description>%AEPositive4Description</Description>
+  </GuiElement>
+
+    <!-- Diplomatic Roots -->
+  <GuiElement Name="AEPositive5Level1">
+    <Title>%AEPositive5Level1Title</Title>
+    <Description>%AEPositive5Level1Description</Description>
+  </GuiElement>
+  <GuiElement Name="AEPositive5Level2">
+    <Title>%AEPositive5Level1Title</Title>
+    <Description>%AEPositive5Level1Description</Description>
+  </GuiElement>
+  <GuiElement Name="AEPositive5Level3">
+    <Title>%AEPositive5Level1Title</Title>
+    <Description>%AEPositive5Level1Description</Description>
+  </GuiElement>
+
+    <!-- Frugal Connections -->
+  <GuiElement Name="AEPositive6Level1">
+    <Title>%AEPositive6Level1Title</Title>
+    <Description>%AEPositive6Level1Description</Description>
+  </GuiElement>
+  <GuiElement Name="AEPositive6Level2">
+    <Title>%AEPositive6Level1Title</Title>
+    <Description>%AEPositive6Level1Description</Description>
+  </GuiElement>
+  
+    <!-- Tactician -->
+  <GuiElement Name="AEPositive7Level1">
+    <Title>%AEPositive7Level1Title</Title>
+    <Description>%AEPositive7Level1Description</Description>
+  </GuiElement>
+  <GuiElement Name="AEPositive7Level2">
+    <Title>%AEPositive7Level1Title</Title>
+    <Description>%AEPositive7Level1Description</Description>
+  </GuiElement>
+  <GuiElement Name="AEPositive7Level3">
+    <Title>%AEPositive7Level1Title</Title>
+    <Description>%AEPositive7Level1Description</Description>
+  </GuiElement>
+
+    <!-- Great Explorers -->
+	<GuiElement Name="AEPositive8">
+    <Title>%AEPositive8Title</Title>
+    <Description>%AEPositive8Description</Description>
+  </GuiElement>
+  
+    <!-- Observant -->
+  <GuiElement Name="AEPositive9Level1">
+    <Title>%AEPositive9Level1Title</Title>
+    <Description>%AEPositive9Level1Description</Description>
+  </GuiElement>
+  <GuiElement Name="AEPositive9Level2">
+    <Title>%AEPositive9Level1Title</Title>
+    <Description>%AEPositive9Level1Description</Description>
+  </GuiElement>
+
+    <!-- Great Builders -->
+	<GuiElement Name="AEPositive10">
+    <Title>%AEPositive10Title</Title>
+    <Description>%AEPositive10Description</Description>
+  </GuiElement>  
+
+  
+  <!-- ########################################## -->
+  <!-- ######           NEGATIVE           ###### -->
+  <!-- ########################################## -->
+  
+    <!-- Brittle Walls -->
+	<GuiElement Name="AENegative1">
+    <Title>%AENegative1Title</Title>
+    <Description>%AENegative1Description</Description>
+  </GuiElement>
+
+    <!-- Tyrant -->
+  <GuiElement Name="AENegative2Level1">
+    <Title>%AENegative2Level1Title</Title>
+    <Description>%AENegative2Level1Description</Description>
+  </GuiElement>
+  <GuiElement Name="AENegative2Level2">
+    <Title>%AENegative2Level1Title</Title>
+    <Description>%AENegative2Level1Description</Description>
+  </GuiElement>
+  <GuiElement Name="AENegative2Level3">
+    <Title>%AENegative2Level1Title</Title>
+    <Description>%AENegative2Level1Description</Description>
+  </GuiElement>
+
+    <!-- Inexperienced Soldiers -->
+	<GuiElement Name="AENegative3">
+    <Title>%AENegative3Title</Title>
+    <Description>%AENegative3Description</Description>
+  </GuiElement>
+
+    <!-- Fear of Anomalies -->
+	<GuiElement Name="AENegative4">
+    <Title>%AENegative4Title</Title>
+    <Description>%AENegative4Description</Description>
+  </GuiElement>
+  
+    <!-- Closed Cities -->
+	<GuiElement Name="AENegative5">
+    <Title>%AENegative5Title</Title>
+    <Description>%AENegative5Description</Description>
+  </GuiElement>
+  
+    <!-- Ignorant -->
+  <GuiElement Name="AENegative6Level1">
+    <Title>%AENegative6Level1Title</Title>
+    <Description>%AENegative6Level1Description</Description>
+  </GuiElement>
+  <GuiElement Name="AENegative6Level2">
+    <Title>%AENegative6Level1Title</Title>
+    <Description>%AENegative6Level1Description</Description>
+  </GuiElement>
+  
+    <!-- Mercenary Discomforts -->
+	<GuiElement Name="AENegative7">
+    <Title>%AENegative7Title</Title>
+    <Description>%AENegative7Description</Description>
+  </GuiElement>
+
+    <!-- Cultural Aversion -->
+	<GuiElement Name="AENegative8">
+    <Title>%AENegative8Title</Title>
+    <Description>%AENegative8Description</Description>
+  </GuiElement>
+
+    <!-- Inept Builders -->
+	<GuiElement Name="AENegative9">
+    <Title>%AENegative9Title</Title>
+    <Description>%AENegative9Description</Description>
+  </GuiElement>
+
+
+  <!-- ########################################## -->
+  <!-- ######            UNIQUE            ###### -->
+  <!-- ########################################## -->   
+  
+    <!-- Offensive Reforms -->	
+	<GuiElement Name="AEUnique1">
+    <Title>%AEUnique1Title</Title>
+    <Description>%AEUnique1Description</Description>
+  </GuiElement>
+  
+    <!-- Defensive Reforms -->
+	<GuiElement Name="AEUnique2">
+    <Title>%AEUnique2Title</Title>
+    <Description>%AEUnique2Description</Description>
+  </GuiElement>
+
+    <!-- Industrialization -->	
+	<GuiElement Name="AEUnique3">
+    <Title>%AEUnique3Title</Title>
+    <Description>%AEUnique3Description</Description>
+  </GuiElement>
+  
+    <!-- Scientific Revolution -->
+	<GuiElement Name="AEUnique4">
+    <Title>%AEUnique4Title</Title>
+    <Description>%AEUnique4Description</Description>
+  </GuiElement>
+  
+    <!-- Zealous Fanaticism -->
+	<GuiElement Name="AEUnique5">
+    <Title>%AEUnique5Title</Title>
+    <Description>%AEUnique5Description</Description>
+  </GuiElement>
+
+    <!-- Economical Empire -->	
+	<GuiElement Name="AEUnique6">
+    <Title>%AEUnique6Title</Title>
+    <Description>%AEUnique6Description</Description>
+  </GuiElement>
+  
+    <!-- Warrior Society -->
+	<GuiElement Name="AEUnique7">
+    <Title>%AEUnique7Title</Title>
+    <Description>%AEUnique7Description</Description>
+  </GuiElement>
+  
+    <!-- Black Market -->
+	<GuiElement Name="AEUnique8">
+    <Title>%AEUnique8Title</Title>
+    <Description>%AEUnique8Description</Description>
+  </GuiElement>  
+
+  <!-- ########################################## -->
+  <!-- ######          CATEGORIES          ###### -->
+  <!-- ########################################## -->
+  
+  <!-- Filters -->
+  <GuiElement Name="CustomTraitFamilyFilterUnique">
+    <Title>%CustomTraitFamilyFilterUniqueTitle</Title>
+    <Description>%CustomTraitFamilyFilterUniqueDescription</Description>
+  </GuiElement>
+  <GuiElement Name="CustomTraitFamilyFilterSeasonal">
+    <Title>%CustomTraitFamilyFilterSeasonalTitle</Title>
+    <Description>%CustomTraitFamilyFilterSeasonalDescription</Description>
+  </GuiElement>
+  
+  <!-- ########################################## -->
+  <!-- ######             MISC             ###### -->
+  <!-- ########################################## -->
+  
+  <GuiElement Name="BattleMorale">
+    <Title>%BattleMoraleTitle</Title>
+  </GuiElement>  
+  <GuiElement Name="MaximumNumberOfActionPoints">
+    <Title>%MaximumNumberOfActionPointsTitle</Title>
+  </GuiElement>
+  
+</Datatable>

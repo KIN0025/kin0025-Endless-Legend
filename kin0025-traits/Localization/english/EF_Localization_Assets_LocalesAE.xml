@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- ########################################## -->
+  <!-- ######           POSITIVE           ###### -->
+  <!-- ########################################## -->
+  
+  <!-- Agricultural Experts --> 
+  <LocalizationPair Name="%AEPositive1Title">Agricultural Experts</LocalizationPair>
+  <LocalizationPair Name="%AEPositive1Description">Experienced farmers are able to better cultivate the Food grown from existing terrain.</LocalizationPair>
+	
+  <!-- Strategist -->
+	<LocalizationPair Name="%AEPositive2Title">Strategist</LocalizationPair>
+  <LocalizationPair Name="%AEPositive2Description">Move swift as the Wind and closely-formed as the Wood. Attack like the Fire and be still as the Mountain.</LocalizationPair>
+
+  <!-- Educated Citizens --> 
+  <LocalizationPair Name="%AEPositive3Title">Educated Citizens</LocalizationPair>
+  <LocalizationPair Name="%AEPositive3Description">During the many years spent underground, Vaulters educated their citizens with vast amounts of knowledge stored in libraries in hopes to prepare them when it was time to resurface.  </LocalizationPair>
+  
+  <!-- Influential Leader --> 
+  <LocalizationPair Name="%AEPositive4Title">Influential Leader</LocalizationPair>
+  <LocalizationPair Name="%AEPositive4Description">All of the great leaders have had one characteristic in common: it was the willingness to confront unequivocally the major anxiety of their people in their time. This, and not much else, is the essence of leadership.</LocalizationPair>
+  
+  <!-- Diplomatic Roots --> 
+  <LocalizationPair Name="%AEPositive5Level1Title">Diplomatic Roots</LocalizationPair>
+  <LocalizationPair Name="%AEPositive5Level1Description">Not many can claim a history rich of lore and prestige. However, the blood of the Drakken runs deep far beyond any other civilization and with it carries great respect.  </LocalizationPair>
+ 
+  <!-- Frugal Connections --> 
+  <LocalizationPair Name="%AEPositive6Level1Title">Frugal Connections</LocalizationPair>
+  <LocalizationPair Name="%AEPositive6Level1Description">Having the right connections can noticeably decrease the cost of buyouts.</LocalizationPair>
+
+  <!-- Tactician --> 
+  <LocalizationPair Name="%AEPositive7Level1Title">Tactician</LocalizationPair>
+  <LocalizationPair Name="%AEPositive7Level1Description">Speed is the essence of war. Take advantage of the enemy when unprepared, travel by unexpected routes and strike where there are no precautions.</LocalizationPair>
+
+  <!-- Great Explorers --> 
+  <LocalizationPair Name="%AEPositive8Title">Great Explorers</LocalizationPair>
+  <LocalizationPair Name="%AEPositive8Description">Love for adventure and discovery has led the people to reach places no others have achieved.</LocalizationPair>
+
+  <!-- Observant --> 
+  <LocalizationPair Name="%AEPositive9Level1Title">Observant</LocalizationPair>
+  <LocalizationPair Name="%AEPositive9Level1Description">A keen eye may reveal what most may not have seen.</LocalizationPair>
+
+  <!-- Great Builders --> 
+  <LocalizationPair Name="%AEPositive10Title">Great Builders</LocalizationPair>
+  <LocalizationPair Name="%AEPositive10Description">Understanding and learning from the Delvers amazing craftsmanship allows for impressive structures.</LocalizationPair>
+
+  
+  <!-- ########################################## -->
+  <!-- ######           NEGATIVE           ###### -->
+  <!-- ########################################## -->
+  
+  <!-- Brittle Walls -->
+  <LocalizationPair Name="%AENegative1Title">Brittle Walls</LocalizationPair>
+  <LocalizationPair Name="%AENegative1Description">Hastily constructed walls may not be the best form of defence. </LocalizationPair>
+  
+    <!-- Tyrant -->
+  <LocalizationPair Name="%AENegative2Level1Title">Tyrant</LocalizationPair>
+  <LocalizationPair Name="%AENegative2Level1Description">A clever tyrant avoids punishment.</LocalizationPair>
+  
+  <!-- Inexperienced Soldiers -->
+  <LocalizationPair Name="%AENegative3Title">Inexperienced Soldiers</LocalizationPair>
+  <LocalizationPair Name="%AENegative3Description">Untrained armies tend to falter in the heat of battle.</LocalizationPair>
+  
+    <!-- Fear of Anomalies -->
+  <LocalizationPair Name="%AENegative4Title">Fear of Anomalies</LocalizationPair>
+  <LocalizationPair Name="%AENegative4Description">Fear of the unknown can make the populous unhappy.</LocalizationPair>
+  
+    <!-- Closed Cities -->
+  <LocalizationPair Name="%AENegative5Title">Closed Cities</LocalizationPair>
+  <LocalizationPair Name="%AENegative5Description">Trade is unwelcome and gates shut to traders.</LocalizationPair>
+  
+    <!-- Ignorant -->
+  <LocalizationPair Name="%AENegative6Level1Title">Ignorant</LocalizationPair>
+  <LocalizationPair Name="%AENegative6Level1Description">Ignorance is bliss.</LocalizationPair>
+
+    <!-- Mercenary Discomforts -->
+  <LocalizationPair Name="%AENegative7Title">Mercenary Discomforts</LocalizationPair>
+  <LocalizationPair Name="%AENegative7Description">Sellswords and foreign militants are frowned upon thus making mercenaries less motivated to perform.</LocalizationPair>
+  
+    <!-- Cultural Aversion -->
+  <LocalizationPair Name="%AENegative8Title">Cultural Aversion</LocalizationPair>
+  <LocalizationPair Name="%AENegative8Description">Reduced influence on cities.</LocalizationPair>
+  
+    <!-- Inept Builders -->
+  <LocalizationPair Name="%AENegative9Title">Inept Builders</LocalizationPair>
+  <LocalizationPair Name="%AENegative9Description">Lowered city and district maximum level.</LocalizationPair>  
+
+  
+  <!-- ########################################## -->
+  <!-- ######            UNIQUE            ###### -->
+  <!-- ########################################## --> 
+  
+  <!-- Offensive Reforms -->
+  <LocalizationPair Name="%AEUnique1Title">Offensive Reforms</LocalizationPair>
+  <LocalizationPair Name="%AEUnique1Description">Changing the focus of the training regime can lead to the increase of offensive capabilities at the cost of survivability.</LocalizationPair>
+
+  <!-- Defensive Reforms -->
+  <LocalizationPair Name="%AEUnique2Title">Defensive Reforms</LocalizationPair>
+  <LocalizationPair Name="%AEUnique2Description">Changing the focus of the training regime can lead to the increase of survivability at the cost of offensive capabilities.</LocalizationPair>
+
+  <!-- Industrialization -->
+  <LocalizationPair Name="%AEUnique3Title">Industrialization</LocalizationPair>
+  <LocalizationPair Name="%AEUnique3Description">Ordering the mass construction of factories significantly increases productivity at the cost of polluting agriculture.</LocalizationPair>
+
+  <!-- Scientific Revolution -->
+  <LocalizationPair Name="%AEUnique4Title">Scientific Revolution</LocalizationPair>
+  <LocalizationPair Name="%AEUnique4Description">Blessed with brilliant scientists and geniuses, Science has become the main aspiration for the people while the Industry are for underachievers. </LocalizationPair>
+
+  <!-- Zealous Fanaticism -->
+  <LocalizationPair Name="%AEUnique5Title">Zealous Fanaticism</LocalizationPair>
+  <LocalizationPair Name="%AEUnique5Description">The devotion of the Cultists knows no bounds and fervent worshippers of the Queen place religion before their own lives as their bodies frail from endless hours of worship.</LocalizationPair>
+
+  <!-- Economical Empire -->
+  <LocalizationPair Name="%AEUnique6Title">Economical Empire</LocalizationPair>
+  <LocalizationPair Name="%AEUnique6Description">Wealth and trade are the backbone of the Empire. Peace and prosperity is preferred over war.</LocalizationPair>
+
+  <!-- Warrior Society -->
+  <LocalizationPair Name="%AEUnique7Title">Warrior Society</LocalizationPair>
+  <LocalizationPair Name="%AEUnique7Description">Born and bred of war, soldiers begin their training at a early age. Destined to be great warriors, they pride their armies over their economy.</LocalizationPair>
+
+  <!-- Black Market -->
+  <LocalizationPair Name="%AEUnique8Title">Black Market</LocalizationPair>
+  <LocalizationPair Name="%AEUnique8Description">Allowing illegal trades and black markets in your cities will bring in extra revenue at the cost of crime and unhappiness.</LocalizationPair>
+  
+</Datatable>

@@ -25,7 +25,7 @@
     </Icons>
   </GuiElement>
 
-  <!-- BROKEN LORDS INFANTRY -->  
+  <!-- BROKEN LORDS INFANTRY -->
   <GuiElement Name="FactionAffinityUnitDesignBrokenLordsInfantry">
     <Title>%UnitBrokenLordsInfantryTitle</Title>
     <Description>%UnitBrokenLordsInfantryDescription</Description>
@@ -45,7 +45,7 @@
     </Icons>
   </GuiElement>
 
-  <!-- BROKEN LORDS MILITIA ERA1 [HIDDEN] -->  
+  <!-- BROKEN LORDS MILITIA ERA1 [HIDDEN] -->
   <GuiElement Name="FactionAffinityUnitDesignBrokenLordsMilitiaEra1">
     <Title>%UnitMilitiaTitle</Title>
     <Description>%UnitMilitiaDescription</Description>
@@ -55,7 +55,7 @@
     </Icons>
   </GuiElement>
 
-  <!-- BROKEN LORDS MILITIA ERA2 [HIDDEN] -->  
+  <!-- BROKEN LORDS MILITIA ERA2 [HIDDEN] -->
   <GuiElement Name="FactionAffinityUnitDesignBrokenLordsMilitiaEra2">
     <Title>%UnitMilitiaTitle</Title>
     <Description>%UnitMilitiaDescription</Description>
@@ -110,8 +110,8 @@
   <!-- ################################################### -->
   <!-- ############### MAD FAIRIES UNITS ################# -->
   <!-- ################################################### -->
-  
-  <!--  MAD FAIRIES FOREST SPIRIT  -->  
+
+  <!--  MAD FAIRIES FOREST SPIRIT  -->
   <GuiElement Name="FactionAffinityUnitDesignMadFairiesForestSpirit">
     <Title>%UnitMadFairiesForestSpiritTitle</Title>
     <Description>%UnitMadFairiesForestSpiritDescription</Description>
@@ -200,7 +200,7 @@
       <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMadFairiesMilitiaLarge" />
     </Icons>
   </GuiElement>
-  
+
   <!-- MAD FAIRIES MILITIA ERA6 [HIDDEN] -->
   <GuiElement Name="FactionAffinityUnitDesignMadFairiesMilitiaEra6">
     <Title>%UnitMilitiaTitle</Title>
@@ -216,7 +216,7 @@
   <!-- ################################################### -->
   <!-- ############### RAGE WIZARDS UNITS ################ -->
   <!-- ################################################### -->
-  
+
   <!-- RAGE WIZARDS BATTLEMAGE -->
   <GuiElement Name="FactionAffinityUnitDesignRageWizardsBattleMage">
     <Title>%UnitRageWizardsBattleMageTitle</Title>
@@ -227,7 +227,7 @@
     </Icons>
   </GuiElement>
 
-  <!-- RAGE WIZARDS PHOENIX -->  
+  <!-- RAGE WIZARDS PHOENIX -->
   <GuiElement Name="FactionAffinityUnitDesignRageWizardsPhoenix">
     <Title>%UnitRageWizardsPhoenixTitle</Title>
     <Description>%UnitRageWizardsPhoenixDescription</Description>
@@ -322,7 +322,7 @@
   <!-- ################################################### -->
   <!-- ############### NECROPHAGES UNITS ################# -->
   <!-- ################################################### -->
-  
+
   <!-- NECROPHAGES NECROHUNTER -->
   <GuiElement Name="FactionAffinityUnitDesignNecrophagesNecrohunter">
     <Title>%UnitNecrophagesNecrohunterTitle</Title>
@@ -428,8 +428,8 @@
   <!-- ################################################### -->
   <!-- ################# VAULTERS UNITS ################## -->
   <!-- ################################################### -->
-  
-  <!-- VAULTERS MARINE --> 
+
+  <!-- VAULTERS MARINE -->
   <GuiElement Name="FactionAffinityUnitDesignVaultersMarine">
     <Title>%UnitVaultersMarineTitle</Title>
     <Description>%UnitVaultersMarineDescription</Description>
@@ -534,8 +534,8 @@
   <!-- ################################################### -->
   <!-- ############### ROVING CLANS UNITS ################ -->
   <!-- ################################################### -->
-  
-  <!-- ROVING CLANS DERVISH --> 
+
+  <!-- ROVING CLANS DERVISH -->
   <GuiElement Name="FactionAffinityUnitDesignRovingClansDervish">
     <Title>%UnitRovingClansDervishTitle</Title>
     <Description>%UnitRovingClansDervishDescription</Description>
@@ -650,7 +650,7 @@
   <!-- ################################################### -->
   <!-- ################# DRAKKENS UNITS ################## -->
   <!-- ################################################### -->
-  
+
   <!-- DRAKKENS DRAKKENLING -->
   <GuiElement Name="FactionAffinityUnitDesignDrakkensDrakkenling">
     <Title>%UnitDrakkensDrakkenlingTitle</Title>
@@ -756,7 +756,7 @@
   <!-- ################################################### -->
   <!-- ################# CULTISTS UNITS ################## -->
   <!-- ################################################### -->
-  
+
   <!-- CULTISTS PREACHER -->
   <GuiElement Name="FactionAffinityUnitDesignCultistsPreacher">
     <Title>%UnitCultistsPreacherTitle</Title>
@@ -857,7 +857,7 @@
     </Icons>
   </GuiElement>
 
-  
+
 
   <!-- ########################################## -->
   <!-- ##########       MEZARI       ########## -->
@@ -962,9 +962,9 @@
       <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitMezariMilitiaLarge" />
     </Icons>
   </GuiElement>
-  
-  
-  
+
+
+
   <!-- ################################################### -->
   <!-- ################ TUTORIAL UNITS ################### -->
   <!-- ################################################### -->
@@ -1083,7 +1083,7 @@
       <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitUrcesGiantOgreLarge" />
     </Icons>
   </GuiElement>
-  
+
   <GuiElement Name="FactionAffinityUnitDesignUrcesGiantOgre#Mace">
     <Title>%UnitUrcesGiantOgreTitle</Title>
     <Description>%UnitUrcesGiantOgreDescription</Description>
@@ -1120,7 +1120,7 @@
 
   <!-- ######################################################### -->
   <!-- ################## CERATAN DRIDER UNITS ################# -->
-  <!-- ######################################################### --> 
+  <!-- ######################################################### -->
 
   <GuiElement Name="FactionAffinityUnitDesignCeratanDrider">
     <Title>%UnitCeratanDriderTitle</Title>
@@ -1160,7 +1160,7 @@
   <!-- ############################################################# -->
   <!-- ##################### BOS CENTAUR UNITS ##################### -->
   <!-- ############################################################# -->
-  
+
   <GuiElement Name="FactionAffinityUnitDesignBosCentaur">
     <Title>%UnitBosCentaurTitle</Title>
     <Description>%UnitBosCentaurDescription</Description>
@@ -1362,7 +1362,7 @@
     </Icons>
   </GuiElement>
 
-  
+
   <!-- ############################################################# -->
   <!-- ############# TASKOL GOLEM VICTORY QUEST UNITS ############## -->
   <!-- ############################################################# -->
@@ -1384,109 +1384,6 @@
       <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitTaskolGolemLarge" />
     </Icons>
   </GuiElement>
-  <!-- ################################################### -->
-  <!-- ################# Drazari UNITS ################## -->
-  <!-- ################################################### -->
-  
-  <!-- Drazari DRAKKENLING -->
-  <GuiElement Name="UnitDesignDrazariDrakkenling">
-    <Title>%UnitDrakkensDrakkenlingTitle</Title>
-    <Description>%UnitDrakkensDrakkenlingDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensDrakkenlingSmall" />
-      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensDrakkenlingLarge" />
-    </Icons>
-  </GuiElement>
 
-  <!-- Drazari WYVERN -->
-  <GuiElement Name="UnitDesignDrazariWyvern">
-    <Title>%UnitDrakkensWyvernTitle</Title>
-    <Description>%UnitDrakkensWyvernDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensWyvernSmall" />
-      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensWyvernLarge" />
-    </Icons>
-  </GuiElement>
-
-  <!-- Drazari ANCIEN DRAGON -->
-  <GuiElement Name="UnitDesignDrazariAncientDragon">
-    <Title>%UnitDrakkensAncientDragonTitle</Title>
-    <Description>%UnitDrakkensAncientDragonDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensAncientDragonSmall" />
-      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensAncientDragonLarge" />
-    </Icons>
-  </GuiElement>
-
-  <!-- Drazari SETTLER -->
-  <GuiElement Name="UnitDesignDrazariSettler">
-    <Title>%UnitSettlerTitle</Title>
-    <Description>%UnitSettlerDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensSettlerSmall" />
-      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensSettlerLarge" />
-    </Icons>
-  </GuiElement>
-
-  <!-- Drazari MILITIA ERA1 [HIDDEN] -->
-  <GuiElement Name="UnitDesignDrazariMilitiaEra1">
-    <Title>%UnitMilitiaTitle</Title>
-    <Description>%UnitMilitiaDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensMilitiaSmall" />
-      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensMilitiaLarge" />
-    </Icons>
-  </GuiElement>
-
-  <!-- Drazari MILITIA ERA2 [HIDDEN] -->
-  <GuiElement Name="UnitDesignDrazariMilitiaEra2">
-    <Title>%UnitMilitiaTitle</Title>
-    <Description>%UnitMilitiaDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensMilitiaSmall" />
-      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensMilitiaLarge" />
-    </Icons>
-  </GuiElement>
-
-  <!-- Drazari MILITIA ERA3 [HIDDEN] -->
-  <GuiElement Name="UnitDesignDrazariMilitiaEra3">
-    <Title>%UnitMilitiaTitle</Title>
-    <Description>%UnitMilitiaDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensMilitiaSmall" />
-      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensMilitiaLarge" />
-    </Icons>
-  </GuiElement>
-
-  <!-- Drazari MILITIA ERA4 [HIDDEN] -->
-  <GuiElement Name="UnitDesignDrazariMilitiaEra4">
-    <Title>%UnitMilitiaTitle</Title>
-    <Description>%UnitMilitiaDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensMilitiaSmall" />
-      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensMilitiaLarge" />
-    </Icons>
-  </GuiElement>
-
-  <!-- Drazari MILITIA ERA5 [HIDDEN] -->
-  <GuiElement Name="UnitDesignDrazariMilitiaEra5">
-    <Title>%UnitMilitiaTitle</Title>
-    <Description>%UnitMilitiaDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensMilitiaSmall" />
-      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensMilitiaLarge" />
-    </Icons>
-  </GuiElement>
-
-  <!-- Drazari MILITIA ERA6 [HIDDEN] -->
-  <GuiElement Name="UnitDesignDrazariMilitiaEra6">
-    <Title>%UnitMilitiaTitle</Title>
-    <Description>%UnitMilitiaDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensMilitiaSmall" />
-      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensMilitiaLarge" />
-    </Icons>
-  </GuiElement>
 
 </Datatable>
-

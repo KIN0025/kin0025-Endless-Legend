@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- ########################################## -->
+  <!-- ######           Drazari           ###### -->
+  <!-- ########################################## -->
+
+  <!-- Drazari SETTLER -->
+  <GuiElement Name="UnitBodyDrazariSettler">
+    <Title>%UnitSettlerTitle</Title>
+    <Description>%UnitSettlerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensSettlerSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensSettlerLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Drazari DRAKKENLING -->
+  <GuiElement Name="UnitBodyDrazariDrakkenling">
+    <Title>%UnitDrakkensDrakkenlingTitle</Title>
+    <Description>%UnitDrakkensDrakkenlingDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensDrakkenlingSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensDrakkenlingLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Drazari WYVERN -->
+  <GuiElement Name="UnitBodyDrazariWyvern">
+    <Title>%UnitDrakkensWyvernTitle</Title>
+    <Description>%UnitDrakkensWyvernDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensWyvernSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensWyvernLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Drazari ANCIEN DRAGON -->
+  <GuiElement Name="UnitBodyDrazariAncientDragon">
+    <Title>%UnitDrakkensAncientDragonTitle</Title>
+    <Description>%UnitDrakkensAncientDragonDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensAncientDragonSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensAncientDragonLarge" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Drazari HERO -->
+  <GuiElement Name="UnitBodyDrazariHero">
+    <Title>%DeprecatedTitle</Title>
+    <Description>%DeprecatedDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/DynamicBitmaps/HeroPortraits/DrazariHero1Small" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/HeroPortraits/DrazariHero1Large" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Drazari MILITIA -->
+  <GuiElement Name="UnitBodyDrazariMilitia">
+    <Title>%UnitMilitiaTitle</Title>
+    <Description>%UnitMilitiaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="GUI/AtlasedBitmaps/Units/UnitDrakkensMilitiaSmall" />
+      <Icon Size="Large" Path="GUI/DynamicBitmaps/Units/UnitDrakkensMilitiaLarge" />
+    </Icons>
+  </GuiElement>
+
+
+</Datatable>
