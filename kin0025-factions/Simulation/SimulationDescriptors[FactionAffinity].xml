@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Datatable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-  <SimulationDescriptor Name="AffinityDrazari"    Type="Affinity">
-  </SimulationDescriptor>
+  <SimulationDescriptor Name="AffinityDrazari" Type="Affinity"></SimulationDescriptor>
 
 </Datatable>

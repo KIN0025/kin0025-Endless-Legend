@@ -1,33 +1,26 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Datatable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-
- <!-- MainQuest -->
-  <FactionTrait Name="FactionTraitDrazariMainQuest"        SubCategory="MainQuestTrait">
-  </FactionTrait>
- 
-
+  <!-- MainQuest -->
+  <FactionTrait Name="FactionTraitDrazariMainQuest" SubCategory="MainQuestTrait"></FactionTrait>
 
   <!-- ########################################## -->
   <!-- ######           Drazari           ###### -->
   <!-- ########################################## -->
 
-  
   <!-- Unit1: Drakkenling -->
-  <FactionTrait Name="FactionTraitDrazariUnit1"            SubCategory="UnitTrait">
-    <FactionTraitTooltipOverride Type="Constructible" OverrideName="UnitBodyDrazariDrakkenling"/>
+  <FactionTrait Name="FactionTraitDrazariUnit1" SubCategory="UnitTrait">
+    <FactionTraitTooltipOverride OverrideName="UnitBodyDrazariDrakkenling" Type="Constructible"/>
   </FactionTrait>
 
   <!-- Unit 2: Wyvern -->
-  <FactionTrait Name="FactionTraitDrazariUnit2"            SubCategory="UnitTrait">
-    <FactionTraitTooltipOverride Type="Constructible" OverrideName="UnitBodyDrazariWyvern"/>
+  <FactionTrait Name="FactionTraitDrazariUnit2" SubCategory="UnitTrait">
+    <FactionTraitTooltipOverride OverrideName="UnitBodyDrazariWyvern" Type="Constructible"/>
   </FactionTrait>
 
   <!-- Unit 3: AncientDragon -->
-  <FactionTrait Name="FactionTraitDrazariUnit3"            SubCategory="UnitTrait">
-    <FactionTraitTooltipOverride Type="Constructible" OverrideName="UnitBodyDrazariAncientDragon"/>
+  <FactionTrait Name="FactionTraitDrazariUnit3" SubCategory="UnitTrait">
+    <FactionTraitTooltipOverride OverrideName="UnitBodyDrazariAncientDragon" Type="Constructible"/>
   </FactionTrait>
-
-
 
 </Datatable>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Datatable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <!-- Improvement: Unit cost reduction 3 -->
-  <TechnologyDefinition  Name="TechnologyDefinitionUnitCostReduction3" Visibility="Visible">
+  <TechnologyDefinition Name="TechnologyDefinitionUnitCostReduction3" Visibility="Visible">
     <AIInfo>
       <InterpreterPrerequisite Flags="Forbidden">false</InterpreterPrerequisite>
     </AIInfo>
-    <SimulationDescriptorReference Name="TechnologyUnitCostReduction3" />
+    <SimulationDescriptorReference Name="TechnologyUnitCostReduction3"/>
     <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost)* $Property(EmpireTypeMajor/ClassResearch:Era6CostMultiplier)</CustomCost>
     <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra6</PathPrerequisite>
   </TechnologyDefinition>
 
   <!-- Empire bonus: Expansion disapproval 3 -->
-  <TechnologyDefinition  Name="TechnologyDefinitionExpansionDisapprovalReduction3" Visibility="Visible">
+  <TechnologyDefinition Name="TechnologyDefinitionExpansionDisapprovalReduction3" Visibility="Visible">
     <AIInfo>
       <InterpreterPrerequisite Flags="Forbidden">false</InterpreterPrerequisite>
     </AIInfo>
     <UnlockCategoryOverride Category="Empire" SubCategory="SubCategoryApproval"/>
-    <SimulationDescriptorReference Name="TechnologyExpansionDisapprovalReduction3" />
+    <SimulationDescriptorReference Name="TechnologyExpansionDisapprovalReduction3"/>
     <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost)* $Property(EmpireTypeMajor/ClassResearch:Era6CostMultiplier)</CustomCost>
     <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra6</PathPrerequisite>
   </TechnologyDefinition>

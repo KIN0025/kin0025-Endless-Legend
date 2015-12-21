@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Datatable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <!-- This file contains the definition of all the City Improvements (Region buildings, Boosters and Units are in other files) -->
 
-  <CityImprovementDefinition Name="CityImprovementTesting"                     SubCategory="SubCategoryFood">
+  <CityImprovementDefinition Name="CityImprovementTesting" SubCategory="SubCategoryFood">
     <Cost ResourceName="Production">1</Cost>
-	  <SimulationDescriptorReference Name="CityImprovementTesting" />
-    <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">../ClassCity/CityImprovementExpansionApproval</PathPrerequisite>
+    <SimulationDescriptorReference Name="CityImprovementTesting"/>
   </CityImprovementDefinition>
 </Datatable>

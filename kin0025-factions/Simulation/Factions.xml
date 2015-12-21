@@ -1,35 +1,52 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Datatable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <!-- ########################################## -->
   <!-- ######        MAJOR FACTIONS        ###### -->
   <!-- ########################################## -->
 
-    <Faction Name="FactionDrazari"       Standard="true"   Author="KIN0025" Priority="122">
-      <Affinity Name="AffinityDrazari"/>
-      <AffinityMapping Name="AffinityMappingDrakkens"/>
-      <Trait Name="FactionTraitVaulters1"/>                                    <!-- Trait:          Knack for Knowledge      -->
-      <Trait Name="FactionTraitVaulters5"/>                                    <!-- Trait:          Veins of Auriga          -->
-      <Trait Name="FactionTraitVaulters2"/>                                    <!-- Faction Tech:   Deep Generator           -->
-      <Trait Name="FactionTraitVaulters3"/>                                    <!-- Faction Tech:   Strength of the Vault    -->
-      <Trait Name="FactionTraitVaulters4"/>                                    <!-- Faction Tech:   Endless Recycling        -->
-      <Trait Name="FactionTraitTechnologyScience0"/>                           <!-- Tech:           Public Library           -->
-      <Trait Name="FactionTraitTechnologyLuxuryExtractionCommon"/>             <!-- Tech:           Open-Pit Mine            -->                             <!-- Specifity:      Vaulters & Mezari        -->
-  	  <Trait Name="FactionTraitVaultersMezari"/>
-    </Faction>
+  <Faction Author="KIN0025" Name="FactionDrazari" Priority="122" Standard="true">
+    <Affinity Name="AffinityDrazari"/>
+    <AffinityMapping Name="AffinityMappingDrakkens"/>
+    <Trait Name="FactionTraitVaulters1"/>
+    <!-- Trait:          Knack for Knowledge      -->
+    <Trait Name="FactionTraitVaulters5"/>
+    <!-- Trait:          Veins of Auriga          -->
+    <Trait Name="FactionTraitVaulters2"/>
+    <!-- Faction Tech:   Deep Generator           -->
+    <Trait Name="FactionTraitVaulters3"/>
+    <!-- Faction Tech:   Strength of the Vault    -->
+    <Trait Name="FactionTraitVaulters4"/>
+    <!-- Faction Tech:   Endless Recycling        -->
+    <Trait Name="FactionTraitTechnologyScience0"/>
+    <!-- Tech:           Public Library           -->
+    <Trait Name="FactionTraitTechnologyLuxuryExtractionCommon"/>
+    <!-- Tech:           Open-Pit Mine            -->
+    <!-- Specifity:      Vaulters & Mezari        -->
+    <Trait Name="FactionTraitVaultersMezari"/>
+  </Faction>
 
-  <Faction Name="FactionReplicants"   Standard="true"   Author="AMPLITUDE Studios" Priority="180">
-      <Affinity Name="AffinityReplicants"/>
-      <AffinityMapping Name="AffinityMappingReplicants"/>
-      <Trait Name="FactionTraitReplicants2"/>                                 <!-- Trait:          Loot from Villages       -->
-      <Trait Name="FactionTraitReplicants3"/>                                 <!-- Trait:          Improved Pillage         -->
-      <Trait Name="FactionTraitReplicants4"/>                                 <!-- Trait:          Technology Copy          -->
-      <Trait Name="FactionTraitReplicants5"/>                                 <!-- Faction Tech:   Learn from Others        -->
-      <Trait Name="FactionTraitReplicants6"/>                                 <!-- Faction Tech:   What’s Mine is Mine      -->
-      <Trait Name="FactionTraitReplicants7"/>                                 <!-- Faction Tech:   Advanced Guerrilla       -->
-      <Trait Name="FactionTraitReplicants12"/>                                <!-- Faction Tech:   Caudata Sanctuary        -->
-      <Trait Name="FactionTraitTechnologyDefinitionSearchBonus"/>             <!-- Tech:           Search Party             -->
-      <Trait Name="FactionTraitTechnologyDefinitionMapActionPillage"/>        <!-- Tech:           Map Action: Pillage      -->
-    </Faction>
-    
+  <Faction Author="AMPLITUDE Studios" Name="FactionReplicants" Priority="180" Standard="true">
+    <Affinity Name="AffinityReplicants"/>
+    <AffinityMapping Name="AffinityMappingReplicants"/>
+    <Trait Name="FactionTraitReplicants2"/>
+    <!-- Trait:          Loot from Villages       -->
+    <Trait Name="FactionTraitReplicants3"/>
+    <!-- Trait:          Improved Pillage         -->
+    <Trait Name="FactionTraitReplicants4"/>
+    <!-- Trait:          Technology Copy          -->
+    <Trait Name="FactionTraitReplicants5"/>
+    <!-- Faction Tech:   Learn from Others        -->
+    <Trait Name="FactionTraitReplicants6"/>
+    <!-- Faction Tech:   What’s Mine is Mine      -->
+    <Trait Name="FactionTraitReplicants7"/>
+    <!-- Faction Tech:   Advanced Guerrilla       -->
+    <Trait Name="FactionTraitReplicants12"/>
+    <!-- Faction Tech:   Caudata Sanctuary        -->
+    <Trait Name="FactionTraitTechnologyDefinitionSearchBonus"/>
+    <!-- Tech:           Search Party             -->
+    <Trait Name="FactionTraitTechnologyDefinitionMapActionPillage"/>
+    <!-- Tech:           Map Action: Pillage      -->
+  </Faction>
+
 </Datatable>

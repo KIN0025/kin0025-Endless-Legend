@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="ItemDefinitions.xsl"?>
+
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- ################################ -->
+  <!-- #######  ACCESSORIES     ####### -->
+  <!-- ################################ -->
+
+  <!-- #######     RING    ####### -->
+
+  <ItemDefinition Name="ItemRingIronTier3"                         SubCategory="SubCategoryRing">
+    <ConstructibleElementReferenceToInheritFrom Name="ItemAccessoryBaseTier1"/>
+    <SimulationDescriptorReference Name="ItemMaterialIron" />
+    <SimulationDescriptorReference Name="ItemAttributesRingIronTest" />
+    <Cost ResourceName="Production">1</Cost>
+    <UnitAbilityReference Name="UnitAbilityImprovedVision" Level="10"/>
+    <UnitAbilityReference Name="UnitAbilitySharpSense"     Level="2"/>
+  </ItemDefinition>
+
+
+  <ItemDefinition Name="ItemTalismanIronTier3"                     SubCategory="SubCategoryTalisman">
+    <ConstructibleElementReferenceToInheritFrom Name="ItemAccessoryBaseTier1"/>
+    <SimulationDescriptorReference Name="ItemMaterialIron" />
+    <SimulationDescriptorReference Name="ItemAttributesTalismanIronTest" />
+    <Cost ResourceName="Production">1</Cost>
+    <UnitAbilityReference Name="UnitAbilityImprovedMovement" Level="100"/>
+  </ItemDefinition>
+
+
+</Datatable>

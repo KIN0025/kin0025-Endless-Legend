@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Datatable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-
-
-  <SimulationDescriptor Name="FactionTraitDiplomacyStart"             Type="FactionTrait">
-    </SimulationDescriptor>
-  <SimulationDescriptor Name="FactionTraitExpansionApproval"             Type="FactionTrait">
-
+  <SimulationDescriptor Name="FactionTraitDiplomacyStart" Type="FactionTrait"></SimulationDescriptor>
+  <SimulationDescriptor Name="FactionTraitExpansionApproval" Type="FactionTrait">
+    <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity" TargetProperty="EmpireApproval" Value="20"/>
   </SimulationDescriptor>
-    <SimulationDescriptor Name="FactionTraitStrategicPower"             Type="FactionTrait">
-  <SimulationModifierDescriptors>
-	<SimulationModifierDescriptor TargetProperty="ResourceBonus"        Operation="Percent"  Value="2.00"     Path="EmpireTypeMajor/ClassCity/PointOfInterestTypeResourceDeposit,ResourceTypeStrategic"/>
-      <SimulationModifierDescriptor TargetProperty="NetAffinityStrategic" Operation="Percent"   Value="-2.00"  Path="EmpireTypeMajor,FactionTraitVaultersMezari/ClassCity"/>
-	  <SimulationModifierDescriptor TargetProperty="MaximumHealth" Operation="Percent" Value="2.00" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-	  <SimulationModifierDescriptor TargetProperty="AttributeDefense" Operation="Percent" Value="2.00" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="AttributeDefense" Operation="Percent" Value="2.00" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
+  <SimulationDescriptor Name="FactionTraitStrategicPower" Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity/PointOfInterestTypeResourceDeposit,ResourceTypeStrategic" TargetProperty="ResourceBonus" Value="2.00"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor,FactionTraitVaultersMezari/ClassCity" TargetProperty="NetAffinityStrategic" Value="-2.00"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="MaximumHealth" Value="2.00"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="AttributeDefense" Value="2.00"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="AttributeDefense" TooltipHidden="true" Value="2.00"/>
     </SimulationModifierDescriptors>
   </SimulationDescriptor>
 

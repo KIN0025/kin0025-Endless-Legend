@@ -5,7 +5,7 @@
     <Title>KIN0025 traits</Title>
 	<Version Major="2" Minor="0" Revision="0" />
     <Author>KIN0025</Author>
-    <Description>Core of kin0025's mods. Removes Endless winter, adds framework for drazari faction, increases faction traits to 200</Description>
+    <Description>kin0025's faction traits. Adds a structure that removes expansion dissaproval from cities, in exchange for a 20 unhappiness on empire</Description>
 
 <Plugins>
   <DatabasePlugin DataType="Amplitude.Unity.Framework.AnimationCurve, Assembly-CSharp-firstpass">

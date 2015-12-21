@@ -1,255 +1,255 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Datatable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <!-- Empire bonus: Weapon Common Tier 1 -->
-  <TechnologyDefinition  Name="TechnologyDefinitionWeaponCommonTier1">
+  <TechnologyDefinition Name="TechnologyDefinitionWeaponCommonTier1">
     <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
-    <SimulationDescriptorReference Name="TechnologyWeaponCommonTier1" />
-    <SimulationDescriptorReference Name="TechnologyUnlockWeaponCommonMaterial" />
-    <SimulationDescriptorReference Name="TechnologyUnlockWeaponTier1" />
-    <SimulationDescriptorReference Name="TechnologyMasteryCommonBonus1" />
-    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra1" />
+    <SimulationDescriptorReference Name="TechnologyWeaponCommonTier1"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockWeaponCommonMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockWeaponTier1"/>
+    <SimulationDescriptorReference Name="TechnologyMasteryCommonBonus1"/>
+    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra1"/>
     <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost) * $Property(EmpireTypeMajor/ClassResearch:Era1CostMultiplier)</CustomCost>
     <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra1</PathPrerequisite>
   </TechnologyDefinition>
 
   <!-- Empire bonus: Armor Common Tier 1 -->
-  <TechnologyDefinition  Name="TechnologyDefinitionArmorCommonTier1">
+  <TechnologyDefinition Name="TechnologyDefinitionArmorCommonTier1">
     <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryArmor"/>
-    <SimulationDescriptorReference Name="TechnologyArmorCommonTier1" />
-    <SimulationDescriptorReference Name="TechnologyUnlockArmorCommonMaterial" />
-    <SimulationDescriptorReference Name="TechnologyUnlockArmorTier1" />
-    <SimulationDescriptorReference Name="TechnologyAccessoryCommonTier1" />
-    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryCommonMaterial" />
-    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryTier1" />
-    <SimulationDescriptorReference Name="TechnologyMasteryCommonBonus2" />
-    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra1" />
+    <SimulationDescriptorReference Name="TechnologyArmorCommonTier1"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockArmorCommonMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockArmorTier1"/>
+    <SimulationDescriptorReference Name="TechnologyAccessoryCommonTier1"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryCommonMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryTier1"/>
+    <SimulationDescriptorReference Name="TechnologyMasteryCommonBonus2"/>
+    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra1"/>
     <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost) * $Property(EmpireTypeMajor/ClassResearch:Era1CostMultiplier)</CustomCost>
     <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra1</PathPrerequisite>
   </TechnologyDefinition>
- <!-- Empire bonus: Weapon Common Tier 2 -->
-  <TechnologyDefinition  Name="TechnologyDefinitionWeaponCommonTier2">
+  <!-- Empire bonus: Weapon Common Tier 2 -->
+  <TechnologyDefinition Name="TechnologyDefinitionWeaponCommonTier2">
     <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
-    <SimulationDescriptorReference Name="TechnologyWeaponCommonTier2" />
-    <SimulationDescriptorReference Name="TechnologyUnlockWeaponCommonMaterial" />
-    <SimulationDescriptorReference Name="TechnologyUnlockWeaponTier2" />
-    <SimulationDescriptorReference Name="TechnologyMasteryCommonBonus3" />
+    <SimulationDescriptorReference Name="TechnologyWeaponCommonTier2"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockWeaponCommonMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockWeaponTier2"/>
+    <SimulationDescriptorReference Name="TechnologyMasteryCommonBonus3"/>
     <SimulationDescriptorReference Name="TechnologyCountIncreaseEra2"/>
     <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost)* $Property(EmpireTypeMajor/ClassResearch:Era2CostMultiplier)</CustomCost>
     <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra2</PathPrerequisite>
-	<InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,"TechnologyDefinitionArmorCommonTier1") or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponCommonTier1)</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,"TechnologyDefinitionArmorCommonTier1") or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponCommonTier1)</InterpreterPrerequisite>
   </TechnologyDefinition>
 
   <!-- Empire bonus: Armor Common Tier 2 -->
-  <TechnologyDefinition  Name="TechnologyDefinitionArmorCommonTier2">
+  <TechnologyDefinition Name="TechnologyDefinitionArmorCommonTier2">
     <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryArmor"/>
-    <SimulationDescriptorReference Name="TechnologyArmorCommonTier2" />
-    <SimulationDescriptorReference Name="TechnologyUnlockArmorCommonMaterial" />
-    <SimulationDescriptorReference Name="TechnologyUnlockArmorTier2" />
+    <SimulationDescriptorReference Name="TechnologyArmorCommonTier2"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockArmorCommonMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockArmorTier2"/>
     <SimulationDescriptorReference Name="TechnologyCountIncreaseEra2"/>
-    <SimulationDescriptorReference Name="TechnologyAccessoryCommonTier2" />
-    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryCommonMaterial" />
-    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryTier2" />
-    <SimulationDescriptorReference Name="TechnologyMasteryCommonBonus4" />
+    <SimulationDescriptorReference Name="TechnologyAccessoryCommonTier2"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryCommonMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryTier2"/>
+    <SimulationDescriptorReference Name="TechnologyMasteryCommonBonus4"/>
     <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost)* $Property(EmpireTypeMajor/ClassResearch:Era2CostMultiplier)</CustomCost>
     <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra2</PathPrerequisite>
-	<InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorCommonTier1) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponCommonTier1)</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorCommonTier1) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponCommonTier1)</InterpreterPrerequisite>
   </TechnologyDefinition>
-  
-   <!-- Empire bonus: Weapon Common Tier 3 -->
-  <TechnologyDefinition  Name="TechnologyDefinitionWeaponCommonTier3" Visibility="Visible">
+
+  <!-- Empire bonus: Weapon Common Tier 3 -->
+  <TechnologyDefinition Name="TechnologyDefinitionWeaponCommonTier3" Visibility="Visible">
     <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
-    <SimulationDescriptorReference Name="TechnologyWeaponCommonTier3" />
-    <SimulationDescriptorReference Name="TechnologyUnlockWeaponCommonMaterial" />
-    <SimulationDescriptorReference Name="TechnologyUnlockWeaponTier3" />
-    <SimulationDescriptorReference Name="TechnologyMasteryCommonBonus5" />
-	<SimulationDescriptorReference Name="TechnologyCountIncreaseEra3" />
+    <SimulationDescriptorReference Name="TechnologyWeaponCommonTier3"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockWeaponCommonMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockWeaponTier3"/>
+    <SimulationDescriptorReference Name="TechnologyMasteryCommonBonus5"/>
+    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra3"/>
     <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost) * $Property(EmpireTypeMajor/ClassResearch:Era3CostMultiplier)</CustomCost>
-	<InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorCommonTier2) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponCommonTier2)</InterpreterPrerequisite>
-	<PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra3</PathPrerequisite>
+    <InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorCommonTier2) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponCommonTier2)</InterpreterPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra3</PathPrerequisite>
   </TechnologyDefinition>
 
   <!-- Empire bonus: Armor Common Tier 3 -->
-  <TechnologyDefinition  Name="TechnologyDefinitionArmorCommonTier3" Visibility="Visible">
+  <TechnologyDefinition Name="TechnologyDefinitionArmorCommonTier3" Visibility="Visible">
     <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryArmor"/>
-    <SimulationDescriptorReference Name="TechnologyArmorCommonTier3" />
-    <SimulationDescriptorReference Name="TechnologyUnlockArmorCommonMaterial" />
-    <SimulationDescriptorReference Name="TechnologyUnlockArmorTier3" />
-    <SimulationDescriptorReference Name="TechnologyAccessoryCommonTier3" />
-    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryCommonMaterial" />
-    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryTier3" />
-    <SimulationDescriptorReference Name="TechnologyMasteryCommonBonus6" />
-	<SimulationDescriptorReference Name="TechnologyCountIncreaseEra3" />
+    <SimulationDescriptorReference Name="TechnologyArmorCommonTier3"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockArmorCommonMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockArmorTier3"/>
+    <SimulationDescriptorReference Name="TechnologyAccessoryCommonTier3"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryCommonMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryTier3"/>
+    <SimulationDescriptorReference Name="TechnologyMasteryCommonBonus6"/>
+    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra3"/>
     <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost) * $Property(EmpireTypeMajor/ClassResearch:Era3CostMultiplier)</CustomCost>
-	<InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorCommonTier2) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponCommonTier2)</InterpreterPrerequisite>
-	    <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra3</PathPrerequisite>
+    <InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorCommonTier2) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponCommonTier2)</InterpreterPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra3</PathPrerequisite>
   </TechnologyDefinition>
   <!-- Empire bonus: Weapon Uncommon Tier 1 -->
-  <TechnologyDefinition  Name="TechnologyDefinitionWeaponUncommonTier1">
+  <TechnologyDefinition Name="TechnologyDefinitionWeaponUncommonTier1">
     <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
-    <SimulationDescriptorReference Name="TechnologyWeaponUncommonTier1" />
-    <SimulationDescriptorReference Name="TechnologyUnlockWeaponUncommonMaterial" />
-    <SimulationDescriptorReference Name="TechnologyMasteryUncommonBonus1" />
-    <SimulationDescriptorReference Name="TechnologyUnlockWeaponTier1" />
-    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra3" />
+    <SimulationDescriptorReference Name="TechnologyWeaponUncommonTier1"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockWeaponUncommonMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyMasteryUncommonBonus1"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockWeaponTier1"/>
+    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra3"/>
     <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost)* $Property(EmpireTypeMajor/ClassResearch:Era3CostMultiplier)</CustomCost>
     <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra3</PathPrerequisite>
   </TechnologyDefinition>
 
   <!-- Empire bonus: Armor Uncommon Tier 1 -->
-  <TechnologyDefinition  Name="TechnologyDefinitionArmorUncommonTier1">
+  <TechnologyDefinition Name="TechnologyDefinitionArmorUncommonTier1">
     <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryArmor"/>
-    <SimulationDescriptorReference Name="TechnologyArmorUncommonTier1" />
-    <SimulationDescriptorReference Name="TechnologyUnlockArmorUncommonMaterial" />
-    <SimulationDescriptorReference Name="TechnologyUnlockArmorTier1" />
-    <SimulationDescriptorReference Name="TechnologyAccessoryUncommonTier1" />
-    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryUncommonMaterial" />
-    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryTier1" />
-    <SimulationDescriptorReference Name="TechnologyMasteryUncommonBonus2" />
-    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra3" />
+    <SimulationDescriptorReference Name="TechnologyArmorUncommonTier1"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockArmorUncommonMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockArmorTier1"/>
+    <SimulationDescriptorReference Name="TechnologyAccessoryUncommonTier1"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryUncommonMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryTier1"/>
+    <SimulationDescriptorReference Name="TechnologyMasteryUncommonBonus2"/>
+    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra3"/>
     <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost)* $Property(EmpireTypeMajor/ClassResearch:Era3CostMultiplier)</CustomCost>
     <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra3</PathPrerequisite>
   </TechnologyDefinition>
- 
+
   <!-- Empire bonus: Weapon Uncommon Tier 2 -->
-  <TechnologyDefinition  Name="TechnologyDefinitionWeaponUncommonTier2">
+  <TechnologyDefinition Name="TechnologyDefinitionWeaponUncommonTier2">
     <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
-    <SimulationDescriptorReference Name="TechnologyWeaponUncommonTier2" />
-    <SimulationDescriptorReference Name="TechnologyUnlockWeaponUncommonMaterial" />
-    <SimulationDescriptorReference Name="TechnologyMasteryUncommonBonus3" />
-    <SimulationDescriptorReference Name="TechnologyUnlockWeaponTier2" />
-    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra4" />
-	<InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorUncommonTier1) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponUncommonTier1)</InterpreterPrerequisite>
+    <SimulationDescriptorReference Name="TechnologyWeaponUncommonTier2"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockWeaponUncommonMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyMasteryUncommonBonus3"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockWeaponTier2"/>
+    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra4"/>
+    <InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorUncommonTier1) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponUncommonTier1)</InterpreterPrerequisite>
     <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost)* $Property(EmpireTypeMajor/ClassResearch:Era4CostMultiplier)</CustomCost>
     <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra4</PathPrerequisite>
   </TechnologyDefinition>
 
   <!-- Empire bonus: Armor Uncommon Tier 2 -->
-  <TechnologyDefinition  Name="TechnologyDefinitionArmorUncommonTier2">
+  <TechnologyDefinition Name="TechnologyDefinitionArmorUncommonTier2">
     <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryArmor"/>
-    <SimulationDescriptorReference Name="TechnologyArmorUncommonTier2" />
-    <SimulationDescriptorReference Name="TechnologyUnlockArmorUncommonMaterial" />
-    <SimulationDescriptorReference Name="TechnologyUnlockArmorTier2" />
-    <SimulationDescriptorReference Name="TechnologyAccessoryUncommonTier2" />
-    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryUncommonMaterial" />
-    <SimulationDescriptorReference Name="TechnologyMasteryUncommonBonus4" />
-    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryTier2" />
-    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra4" />
-	<InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorUncommonTier1) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponUncommonTier1)</InterpreterPrerequisite>
+    <SimulationDescriptorReference Name="TechnologyArmorUncommonTier2"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockArmorUncommonMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockArmorTier2"/>
+    <SimulationDescriptorReference Name="TechnologyAccessoryUncommonTier2"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryUncommonMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyMasteryUncommonBonus4"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryTier2"/>
+    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra4"/>
+    <InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorUncommonTier1) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponUncommonTier1)</InterpreterPrerequisite>
     <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost)* $Property(EmpireTypeMajor/ClassResearch:Era4CostMultiplier)</CustomCost>
     <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra4</PathPrerequisite>
   </TechnologyDefinition>
-  
- <!-- Empire bonus: Weapon Uncommon Tier 3 -->
-  <TechnologyDefinition  Name="TechnologyDefinitionWeaponUncommonTier3" Visibility="Visible">
+
+  <!-- Empire bonus: Weapon Uncommon Tier 3 -->
+  <TechnologyDefinition Name="TechnologyDefinitionWeaponUncommonTier3" Visibility="Visible">
     <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
-    <SimulationDescriptorReference Name="TechnologyWeaponUncommonTier3" />
-    <SimulationDescriptorReference Name="TechnologyUnlockWeaponUncommonMaterial" />
-    <SimulationDescriptorReference Name="TechnologyMasteryUncommonBonus5" />
-    <SimulationDescriptorReference Name="TechnologyUnlockWeaponTier3" />
-	<SimulationDescriptorReference Name="TechnologyCountIncreaseEra5" />
+    <SimulationDescriptorReference Name="TechnologyWeaponUncommonTier3"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockWeaponUncommonMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyMasteryUncommonBonus5"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockWeaponTier3"/>
+    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra5"/>
     <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost) * $Property(EmpireTypeMajor/ClassResearch:Era5CostMultiplier)</CustomCost>
-	<InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorUncommonTier2) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponUncommonTier2)</InterpreterPrerequisite>
-	    <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra5</PathPrerequisite>
+    <InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorUncommonTier2) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponUncommonTier2)</InterpreterPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra5</PathPrerequisite>
   </TechnologyDefinition>
 
   <!-- Empire bonus: Armor Uncommon Tier 3 -->
-  <TechnologyDefinition  Name="TechnologyDefinitionArmorUncommonTier3" Visibility="Visible">
+  <TechnologyDefinition Name="TechnologyDefinitionArmorUncommonTier3" Visibility="Visible">
     <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryArmor"/>
-    <SimulationDescriptorReference Name="TechnologyArmorUncommonTier3" />
-    <SimulationDescriptorReference Name="TechnologyUnlockArmorUncommonMaterial" />
-    <SimulationDescriptorReference Name="TechnologyUnlockArmorTier3" />
-    <SimulationDescriptorReference Name="TechnologyAccessoryUncommonTier3" />
-    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryUncommonMaterial" />
-    <SimulationDescriptorReference Name="TechnologyMasteryUncommonBonus6" />
-    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryTier3" />
-	<SimulationDescriptorReference Name="TechnologyCountIncreaseEra5" />
+    <SimulationDescriptorReference Name="TechnologyArmorUncommonTier3"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockArmorUncommonMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockArmorTier3"/>
+    <SimulationDescriptorReference Name="TechnologyAccessoryUncommonTier3"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryUncommonMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyMasteryUncommonBonus6"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryTier3"/>
+    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra5"/>
     <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost) * $Property(EmpireTypeMajor/ClassResearch:Era5CostMultiplier)</CustomCost>
-	<InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorUncommonTier2) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponUncommonTier2)</InterpreterPrerequisite>
-	    <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra5</PathPrerequisite>
+    <InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorUncommonTier2) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponUncommonTier2)</InterpreterPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra5</PathPrerequisite>
   </TechnologyDefinition>
- 
-   <!-- Empire bonus: Weapon Rare Tier 1 -->
-  <TechnologyDefinition  Name="TechnologyDefinitionWeaponRareTier1">
+
+  <!-- Empire bonus: Weapon Rare Tier 1 -->
+  <TechnologyDefinition Name="TechnologyDefinitionWeaponRareTier1">
     <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
-    <SimulationDescriptorReference Name="TechnologyWeaponRareTier1" />
-    <SimulationDescriptorReference Name="TechnologyUnlockWeaponRareMaterial" />
-    <SimulationDescriptorReference Name="TechnologyMasteryRareBonus1" />
-    <SimulationDescriptorReference Name="TechnologyUnlockWeaponTier1" />
-    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra4" />
+    <SimulationDescriptorReference Name="TechnologyWeaponRareTier1"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockWeaponRareMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyMasteryRareBonus1"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockWeaponTier1"/>
+    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra4"/>
     <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost)* $Property(EmpireTypeMajor/ClassResearch:Era4CostMultiplier)</CustomCost>
     <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra4</PathPrerequisite>
   </TechnologyDefinition>
 
   <!-- Empire bonus: Armor Rare Tier 1 -->
-  <TechnologyDefinition  Name="TechnologyDefinitionArmorRareTier1">
+  <TechnologyDefinition Name="TechnologyDefinitionArmorRareTier1">
     <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryArmor"/>
-    <SimulationDescriptorReference Name="TechnologyArmorRareTier1" />
-    <SimulationDescriptorReference Name="TechnologyUnlockArmorRareMaterial" />
-    <SimulationDescriptorReference Name="TechnologyUnlockArmorTier1" />
-    <SimulationDescriptorReference Name="TechnologyAccessoryRareTier1" />
-    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryRareMaterial" />
-    <SimulationDescriptorReference Name="TechnologyMasteryRareBonus2" />
-    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryTier1" />
-    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra4" />
+    <SimulationDescriptorReference Name="TechnologyArmorRareTier1"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockArmorRareMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockArmorTier1"/>
+    <SimulationDescriptorReference Name="TechnologyAccessoryRareTier1"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryRareMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyMasteryRareBonus2"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryTier1"/>
+    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra4"/>
     <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost)* $Property(EmpireTypeMajor/ClassResearch:Era4CostMultiplier)</CustomCost>
     <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra4</PathPrerequisite>
   </TechnologyDefinition>
-  
-   <!-- Empire bonus: Weapon Rare Tier 2 -->
-  <TechnologyDefinition  Name="TechnologyDefinitionWeaponRareTier2" Visibility="Visible">
+
+  <!-- Empire bonus: Weapon Rare Tier 2 -->
+  <TechnologyDefinition Name="TechnologyDefinitionWeaponRareTier2" Visibility="Visible">
     <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
-    <SimulationDescriptorReference Name="TechnologyWeaponRareTier2" />
-    <SimulationDescriptorReference Name="TechnologyUnlockWeaponRareMaterial" />
-    <SimulationDescriptorReference Name="TechnologyMasteryRareBonus3" />
-    <SimulationDescriptorReference Name="TechnologyUnlockWeaponTier2" />
-	<SimulationDescriptorReference Name="TechnologyCountIncreaseEra5" />
+    <SimulationDescriptorReference Name="TechnologyWeaponRareTier2"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockWeaponRareMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyMasteryRareBonus3"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockWeaponTier2"/>
+    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra5"/>
     <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost) * $Property(EmpireTypeMajor/ClassResearch:Era5CostMultiplier)</CustomCost>
-	<InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorRareTier1) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponRareTier1)</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorRareTier1) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponRareTier1)</InterpreterPrerequisite>
     <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra5</PathPrerequisite>
   </TechnologyDefinition>
 
-  <TechnologyDefinition  Name="TechnologyDefinitionArmorRareTier2" Visibility="Visible">
+  <TechnologyDefinition Name="TechnologyDefinitionArmorRareTier2" Visibility="Visible">
     <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryArmor"/>
-    <SimulationDescriptorReference Name="TechnologyArmorRareTier2" />
-    <SimulationDescriptorReference Name="TechnologyUnlockArmorRareMaterial" />
-    <SimulationDescriptorReference Name="TechnologyUnlockArmorTier2" />
-    <SimulationDescriptorReference Name="TechnologyAccessoryRareTier2" />
-    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryRareMaterial" />
-    <SimulationDescriptorReference Name="TechnologyMasteryRareBonus4" />
-    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryTier2" />
-	<InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorRareTier1) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponRareTier1)</InterpreterPrerequisite>
-<SimulationDescriptorReference Name="TechnologyCountIncreaseEra5" />
+    <SimulationDescriptorReference Name="TechnologyArmorRareTier2"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockArmorRareMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockArmorTier2"/>
+    <SimulationDescriptorReference Name="TechnologyAccessoryRareTier2"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryRareMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyMasteryRareBonus4"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryTier2"/>
+    <InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorRareTier1) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponRareTier1)</InterpreterPrerequisite>
+    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra5"/>
     <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost) * $Property(EmpireTypeMajor/ClassResearch:Era5CostMultiplier)</CustomCost>
     <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra5</PathPrerequisite>
   </TechnologyDefinition>
 
-    <!-- Empire bonus: Weapon Rare Tier 3 -->
-  <TechnologyDefinition  Name="TechnologyDefinitionWeaponRareTier3" Visibility="Visible">
+  <!-- Empire bonus: Weapon Rare Tier 3 -->
+  <TechnologyDefinition Name="TechnologyDefinitionWeaponRareTier3" Visibility="Visible">
     <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryWeapon"/>
-    <SimulationDescriptorReference Name="TechnologyWeaponRareTier3" />
-    <SimulationDescriptorReference Name="TechnologyUnlockWeaponRareMaterial" />
-    <SimulationDescriptorReference Name="TechnologyMasteryRareBonus5" />
-    <SimulationDescriptorReference Name="TechnologyUnlockWeaponTier3" />
-	<SimulationDescriptorReference Name="TechnologyCountIncreaseEra6" />
+    <SimulationDescriptorReference Name="TechnologyWeaponRareTier3"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockWeaponRareMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyMasteryRareBonus5"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockWeaponTier3"/>
+    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra6"/>
     <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost) * $Property(EmpireTypeMajor/ClassResearch:Era6CostMultiplier)</CustomCost>
-	<InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorRareTier2) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponRareTier2)</InterpreterPrerequisite>
-	    <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra6</PathPrerequisite>
+    <InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorRareTier2) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponRareTier2)</InterpreterPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra6</PathPrerequisite>
   </TechnologyDefinition>
 
   <!-- Empire bonus: Armor Rare Tier 3 -->
-  <TechnologyDefinition  Name="TechnologyDefinitionArmorRareTier3" Visibility="Visible">
+  <TechnologyDefinition Name="TechnologyDefinitionArmorRareTier3" Visibility="Visible">
     <UnlockCategoryOverride Category="Item" SubCategory="SubCategoryArmor"/>
-    <SimulationDescriptorReference Name="TechnologyArmorRareTier3" />
-    <SimulationDescriptorReference Name="TechnologyUnlockArmorRareMaterial" />
-    <SimulationDescriptorReference Name="TechnologyUnlockArmorTier3" />
-    <SimulationDescriptorReference Name="TechnologyAccessoryRareTier3" />
-    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryRareMaterial" />
-    <SimulationDescriptorReference Name="TechnologyMasteryRareBonus6" />
-    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryTier3" />
-		<SimulationDescriptorReference Name="TechnologyCountIncreaseEra6" />
+    <SimulationDescriptorReference Name="TechnologyArmorRareTier3"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockArmorRareMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockArmorTier3"/>
+    <SimulationDescriptorReference Name="TechnologyAccessoryRareTier3"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryRareMaterial"/>
+    <SimulationDescriptorReference Name="TechnologyMasteryRareBonus6"/>
+    <SimulationDescriptorReference Name="TechnologyUnlockAccessoryTier3"/>
+    <SimulationDescriptorReference Name="TechnologyCountIncreaseEra6"/>
     <CustomCost ResourceName="EmpireResearch">$Property(EmpireTypeMajor/ClassResearch:TechnologyCost) * $Property(EmpireTypeMajor/ClassResearch:Era6CostMultiplier)</CustomCost>
-	<InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorRareTier2) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponRareTier2)</InterpreterPrerequisite>
-	    <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra6</PathPrerequisite>
+    <InterpreterPrerequisite Flags="TechnologyDependency">$Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionArmorRareTier2) or $Path(EmpireTypeMajor/ClassResearch,TechnologyDefinitionWeaponRareTier2)</InterpreterPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,TechnologyEra">EmpireTypeMajor/ClassResearch,TechnologyEra6</PathPrerequisite>
   </TechnologyDefinition>
 
 </Datatable>

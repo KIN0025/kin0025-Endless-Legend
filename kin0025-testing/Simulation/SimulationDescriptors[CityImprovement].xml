@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Datatable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <SimulationDescriptor Name="CityImprovementTesting" Type="CityImprovement">
     <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="EmpireExpansionDisapproval"       Operation="Percent"   Value="-1.00" Path="../ClassCity"/>
-           <SimulationModifierDescriptor TargetProperty="CityApproval"               Operation="Addition"  Value="10"  Path="./ClassCity"/>
-    <SimulationModifierDescriptor TargetProperty="CityFood" Operation="Addition"
-    Value="500000" Path="./ClassCity"/>
-    <SimulationModifierDescriptor TargetProperty="CityIndustry" Operation="Addition"
-    Value="100000" Path="./ClassCity"/>
-    <SimulationModifierDescriptor TargetProperty="VisionRange" Operation="Addition"
-    Value="500" Path="./ClassCity/ClassDistrict"/>
-    <SimulationModifierDescriptor TargetProperty="CityExpansionDisapproval"
-    Operation="Multiplication" Value="0" Path="./ClassCity"/>
-    <SimulationModifierDescriptor TargetProperty="CityExpansionDisapproval"
-    Operation="Multiplication" Value="0" Path="./ClassCity"/>
-    <SimulationModifierDescriptor TargetProperty="CityScience"
-    Operation="Addition" Value="100000" Path="./ClassCity"/>
-    <SimulationModifierDescriptor TargetProperty="CityInfluence"
-    Operation="Addition" Value="100000" Path="./ClassCity"/>
-    <SimulationModifierDescriptor TargetProperty="CityDust"
-    Operation="Addition" Value="100000" Path="./ClassCity"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="../ClassCity" TargetProperty="EmpireExpansionDisapproval" Value="-1.00"/>
+      <SimulationModifierDescriptor Operation="Addition" Path="./ClassCity" TargetProperty="CityApproval" Value="10"/>
+      <SimulationModifierDescriptor Operation="Addition" Path="./ClassCity" TargetProperty="CityFood" Value="5000"/>
+      <SimulationModifierDescriptor Operation="Addition" Path="./ClassCity" TargetProperty="CityIndustry" Value="9000"/>
+      <SimulationModifierDescriptor Operation="Addition" Path="./ClassCity/ClassDistrict" TargetProperty="VisionRange" Value="10"/>
+      <SimulationModifierDescriptor Operation="Addition" Path="./ClassCity" TargetProperty="CityScience" Value="1000"/>
+      <SimulationModifierDescriptor Operation="Addition" Path="./ClassCity" TargetProperty="CityDust" Value="1000"/>
     </SimulationModifierDescriptors>
   </SimulationDescriptor>
 

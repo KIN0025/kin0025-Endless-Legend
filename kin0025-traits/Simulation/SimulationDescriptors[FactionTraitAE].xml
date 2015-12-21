@@ -1,319 +1,317 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Datatable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <!-- ########################################## -->
   <!-- ######           POSITIVE           ###### -->
   <!-- ########################################## -->
 
-    <!-- Agricultural Experts -->
-  <SimulationDescriptor Name="AEPositive1"             Type="FactionTrait">
+  <!-- Agricultural Experts -->
+  <SimulationDescriptor Name="AEPositive1" Type="FactionTrait">
     <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="BaseFoodPerPopulation" Operation="Addition" Value="1" Path="EmpireTypeMajor/ClassCity"/>
-</SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/ClassCity" TargetProperty="BaseFoodPerPopulation" Value="1"/>
+    </SimulationModifierDescriptors>
   </SimulationDescriptor>
 
-    <!-- Strategist -->
-	<SimulationDescriptor Name="AEPositive2"             Type="FactionTrait">
+  <!-- Strategist -->
+  <SimulationDescriptor Name="AEPositive2" Type="FactionTrait">
     <SimulationModifierDescriptors>
-     <SimulationModifierDescriptor TargetProperty="MaximumNumberOfActionPoints" Operation="Addition" Value="1" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-</SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="MaximumNumberOfActionPoints" Value="1"/>
+    </SimulationModifierDescriptors>
   </SimulationDescriptor>
 
-    <!-- Educated Citizens -->
-  <SimulationDescriptor Name="AEPositive3"             Type="FactionTrait">
+  <!-- Educated Citizens -->
+  <SimulationDescriptor Name="AEPositive3" Type="FactionTrait">
     <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="BaseSciencePerPopulation" Operation="Addition" Value="1" Path="EmpireTypeMajor/ClassCity"/>
-</SimulationModifierDescriptors>
-  </SimulationDescriptor>
-  
-    <!-- Influential Leader -->
-  <SimulationDescriptor Name="AEPositive4"             Type="FactionTrait">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="BaseCityPointPerPopulation" Operation="Addition" Value="1" Path="EmpireTypeMajor/ClassCity"/>
-</SimulationModifierDescriptors>
-  </SimulationDescriptor>
-  
-    <!-- Diplomatic Roots -->
-<SimulationDescriptor Name="AEPositive5Level1"             Type="FactionTrait">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="DistrictCityPoint" Operation="Addition" Value="2" Path="EmpireTypeMajor/ClassCity"/>
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>
-<SimulationDescriptor Name="AEPositive5Level2"             Type="FactionTrait">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="DistrictCityPoint" Operation="Addition" Value="4" Path="EmpireTypeMajor/ClassCity"/>
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>
-<SimulationDescriptor Name="AEPositive5Level3"             Type="FactionTrait">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="DistrictCityPoint" Operation="Addition" Value="6" Path="EmpireTypeMajor/ClassCity"/>
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>
-  
-    <!-- Frugal Connections -->
-<SimulationDescriptor Name="AEPositive6Level1"             Type="FactionTrait">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="UnitBuyoutReduction" Operation="Addition" Value="0.1" Path="EmpireTypeMajor/ClassCity" TooltipHidden="true"/>
-    <SimulationModifierDescriptor TargetProperty="BuildingBuyoutReduction" Operation="Addition" Value="0.1" Path="EmpireTypeMajor/ClassCity"/>
-    <SimulationModifierDescriptor TargetProperty="UnitSettlerBuyoutReduction" Operation="Addition" Value="0.1" Path="EmpireTypeMajor/ClassCity" TooltipHidden="true"/>	
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>
-<SimulationDescriptor Name="AEPositive6Level2"             Type="FactionTrait">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="UnitBuyoutReduction" Operation="Addition" Value="0.2" Path="EmpireTypeMajor/ClassCity" TooltipHidden="true"/>
-    <SimulationModifierDescriptor TargetProperty="BuildingBuyoutReduction" Operation="Addition" Value="0.2" Path="EmpireTypeMajor/ClassCity"/>
-    <SimulationModifierDescriptor TargetProperty="UnitSettlerBuyoutReduction" Operation="Addition" Value="0.2" Path="EmpireTypeMajor/ClassCity" TooltipHidden="true"/>
-  </SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/ClassCity" TargetProperty="BaseSciencePerPopulation" Value="1"/>
+    </SimulationModifierDescriptors>
   </SimulationDescriptor>
 
-    <!-- Tactician -->
-<SimulationDescriptor Name="AEPositive7Level1"             Type="FactionTrait">
-  <SimulationModifierDescriptors>
-	<SimulationModifierDescriptor TargetProperty="AttributeInitiative" Operation="Addition" Value="4" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="AttributeInitiative" Operation="Addition" Value="4" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-	<SimulationModifierDescriptor TargetProperty="MaximumMovement" Operation="Addition" Value="1" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="MaximumMovement" Operation="Addition" Value="1" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>	  
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>
-<SimulationDescriptor Name="AEPositive7Level2"             Type="FactionTrait">
-  <SimulationModifierDescriptors>
-	<SimulationModifierDescriptor TargetProperty="AttributeInitiative" Operation="Addition" Value="8" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="AttributeInitiative" Operation="Addition" Value="8" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-	<SimulationModifierDescriptor TargetProperty="MaximumMovement" Operation="Addition" Value="1" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="MaximumMovement" Operation="Addition" Value="1" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>
-<SimulationDescriptor Name="AEPositive7Level3"             Type="FactionTrait">
-  <SimulationModifierDescriptors>
-	<SimulationModifierDescriptor TargetProperty="AttributeInitiative" Operation="Addition" Value="10" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="AttributeInitiative" Operation="Addition" Value="10" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-	<SimulationModifierDescriptor TargetProperty="MaximumMovement" Operation="Addition" Value="2" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="MaximumMovement" Operation="Addition" Value="2" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>
-
-    <!-- Great Explorers -->
-  <SimulationDescriptor Name="AEPositive8"             Type="FactionTrait">
+  <!-- Influential Leader -->
+  <SimulationDescriptor Name="AEPositive4" Type="FactionTrait">
     <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="VisionRange" Operation="Addition" Value="1" Path="EmpireTypeMajor/Garrison/ClassUnit"/>	
-	<SimulationModifierDescriptor TargetProperty="MaximumMovement" Operation="Addition" Value="1" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="Interact_OddsLootingNothing" Operation="Subtraction" Value="10" Path="EmpireTypeMajor/ClassArmy"/>
-</SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/ClassCity" TargetProperty="BaseCityPointPerPopulation" Value="1"/>
+    </SimulationModifierDescriptors>
   </SimulationDescriptor>
 
-    <!-- Observant -->
-<SimulationDescriptor Name="AEPositive9Level1"             Type="FactionTrait">
-  <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Interact_OddsLootingNothing" Operation="Subtraction" Value="5" Path="EmpireTypeMajor/ClassArmy"/>
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>
-<SimulationDescriptor Name="AEPositive9Level2"             Type="FactionTrait">
-  <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Interact_OddsLootingNothing" Operation="Subtraction" Value="10" Path="EmpireTypeMajor/ClassArmy"/>
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>
-  
-    <!-- Great Builders -->
-  <SimulationDescriptor Name="AEPositive10"             Type="FactionTrait">
+  <!-- Diplomatic Roots -->
+  <SimulationDescriptor Name="AEPositive5Level1" Type="FactionTrait">
     <SimulationModifierDescriptors>
-	<SimulationModifierDescriptor TargetProperty="MaximumDistrictLevel" Operation="Addition" Value="1" Path="EmpireTypeMajor/ClassCity"/>
-</SimulationModifierDescriptors>
-  </SimulationDescriptor>  
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/ClassCity" TargetProperty="DistrictCityPoint" Value="2"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AEPositive5Level2" Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/ClassCity" TargetProperty="DistrictCityPoint" Value="4"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AEPositive5Level3" Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/ClassCity" TargetProperty="DistrictCityPoint" Value="6"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
 
-  
+  <!-- Frugal Connections -->
+  <SimulationDescriptor Name="AEPositive6Level1" Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/ClassCity" TargetProperty="UnitBuyoutReduction" TooltipHidden="true" Value="0.1"/>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/ClassCity" TargetProperty="BuildingBuyoutReduction" Value="0.1"/>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/ClassCity" TargetProperty="UnitSettlerBuyoutReduction" TooltipHidden="true" Value="0.1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AEPositive6Level2" Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/ClassCity" TargetProperty="UnitBuyoutReduction" TooltipHidden="true" Value="0.2"/>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/ClassCity" TargetProperty="BuildingBuyoutReduction" Value="0.2"/>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/ClassCity" TargetProperty="UnitSettlerBuyoutReduction" TooltipHidden="true" Value="0.2"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <!-- Tactician -->
+  <SimulationDescriptor Name="AEPositive7Level1" Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="AttributeInitiative" Value="4"/>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="AttributeInitiative" TooltipHidden="true" Value="4"/>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="MaximumMovement" Value="1"/>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="MaximumMovement" TooltipHidden="true" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AEPositive7Level2" Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="AttributeInitiative" Value="8"/>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="AttributeInitiative" TooltipHidden="true" Value="8"/>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="MaximumMovement" Value="1"/>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="MaximumMovement" TooltipHidden="true" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AEPositive7Level3" Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="AttributeInitiative" Value="10"/>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="AttributeInitiative" TooltipHidden="true" Value="10"/>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="MaximumMovement" Value="2"/>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="MaximumMovement" TooltipHidden="true" Value="2"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <!-- Great Explorers -->
+  <SimulationDescriptor Name="AEPositive8" Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="VisionRange" Value="1"/>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="MaximumMovement" Value="1"/>
+      <SimulationModifierDescriptor Operation="Subtraction" Path="EmpireTypeMajor/ClassArmy" TargetProperty="Interact_OddsLootingNothing" Value="10"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <!-- Observant -->
+  <SimulationDescriptor Name="AEPositive9Level1" Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Subtraction" Path="EmpireTypeMajor/ClassArmy" TargetProperty="Interact_OddsLootingNothing" Value="5"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AEPositive9Level2" Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Subtraction" Path="EmpireTypeMajor/ClassArmy" TargetProperty="Interact_OddsLootingNothing" Value="10"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <!-- Great Builders -->
+  <SimulationDescriptor Name="AEPositive10" Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/ClassCity" TargetProperty="MaximumDistrictLevel" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
   <!-- ########################################## -->
   <!-- ######           NEGATIVE           ###### -->
   <!-- ########################################## -->
-  
-    <!-- Brittle Walls -->
-<SimulationDescriptor Name="AENegative1"             Type="FactionTrait">
+
+  <!-- Brittle Walls -->
+  <SimulationDescriptor Name="AENegative1" Type="FactionTrait">
     <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MaximumCityDefensePoint"    Operation="Subtraction"       Value="100"  Path="EmpireTypeMajor/ClassCity"/>
-</SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Subtraction" Path="EmpireTypeMajor/ClassCity" TargetProperty="MaximumCityDefensePoint" Value="100"/>
+    </SimulationModifierDescriptors>
   </SimulationDescriptor>
 
-    <!-- Tyrant	-->
-<SimulationDescriptor Name="AENegative2Level1"             Type="FactionTrait">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="CityApproval" Operation="Subtraction" Value="5" Path="EmpireTypeMajor/ClassCity"/>
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>
-<SimulationDescriptor Name="AENegative2Level2"             Type="FactionTrait">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="CityApproval" Operation="Subtraction" Value="10" Path="EmpireTypeMajor/ClassCity"/>
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>
-<SimulationDescriptor Name="AENegative2Level3"             Type="FactionTrait">
-  <SimulationModifierDescriptors>
-    <SimulationModifierDescriptor TargetProperty="CityApproval" Operation="Subtraction" Value="15" Path="EmpireTypeMajor/ClassCity"/>
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>
-  
-    <!-- Inexperienced Soldiers -->
-<SimulationDescriptor Name="AENegative3"             Type="FactionTrait">
+  <!-- Tyrant	-->
+  <SimulationDescriptor Name="AENegative2Level1" Type="FactionTrait">
     <SimulationModifierDescriptors>
-	<SimulationModifierDescriptor TargetProperty="BattleMorale" Operation="Percent" Value="-0.2" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-</SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Subtraction" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityApproval" Value="5"/>
+    </SimulationModifierDescriptors>
   </SimulationDescriptor>
-  
-    <!-- Fear of Anomalies -->
-<SimulationDescriptor Name="AENegative4"             Type="FactionTrait">
+  <SimulationDescriptor Name="AENegative2Level2" Type="FactionTrait">
     <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="DistrictScience"    Operation="Subtraction" Value="1" Path="EmpireTypeMajor/ClassCity/ClassDistrict,TerrainTagAnomaly"/>
-      <SimulationModifierDescriptor TargetProperty="DistrictDust"  Operation="Subtraction" Value="2" Path="EmpireTypeMajor/ClassCity/ClassDistrict,TerrainTagAnomaly"/>
-      <SimulationModifierDescriptor TargetProperty="CityApproval"  Operation="Subtraction" Value="3" Path="EmpireTypeMajor/ClassCity/ClassDistrict,TerrainTagAnomaly"/>
-</SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Subtraction" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityApproval" Value="10"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AENegative2Level3" Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Subtraction" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityApproval" Value="15"/>
+    </SimulationModifierDescriptors>
   </SimulationDescriptor>
 
-    <!-- Closed Cities -->
-<SimulationDescriptor Name="AENegative5"             Type="FactionTrait">
+  <!-- Inexperienced Soldiers -->
+  <SimulationDescriptor Name="AENegative3" Type="FactionTrait">
     <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MaximumNumberOfTradeRoutes" Operation="Subtraction" Value="1" Path="EmpireTypeMajor/ClassCity"/>
-      <SimulationModifierDescriptor TargetProperty="TradeRouteGain"   Operation="Percent"  Value="-0.25"  Path="EmpireTypeMajor/ClassCity/ClassTradeRoute"/>
-</SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="BattleMorale" Value="-0.2"/>
+    </SimulationModifierDescriptors>
   </SimulationDescriptor>
 
-    <!-- Ignorant -->
-<SimulationDescriptor Name="AENegative6Level1"             Type="FactionTrait">
-  <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Interact_OddsLootingNothing" Operation="Addition" Value="5" Path="EmpireTypeMajor/ClassArmy"/>
-  </SimulationModifierDescriptors>
-  </SimulationDescriptor>
-<SimulationDescriptor Name="AENegative6Level2"             Type="FactionTrait">
-  <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="Interact_OddsLootingNothing" Operation="Addition" Value="10" Path="EmpireTypeMajor/ClassArmy"/>
-  </SimulationModifierDescriptors>
+  <!-- Fear of Anomalies -->
+  <SimulationDescriptor Name="AENegative4" Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Subtraction" Path="EmpireTypeMajor/ClassCity/ClassDistrict,TerrainTagAnomaly" TargetProperty="DistrictScience" Value="1"/>
+      <SimulationModifierDescriptor Operation="Subtraction" Path="EmpireTypeMajor/ClassCity/ClassDistrict,TerrainTagAnomaly" TargetProperty="DistrictDust" Value="2"/>
+      <SimulationModifierDescriptor Operation="Subtraction" Path="EmpireTypeMajor/ClassCity/ClassDistrict,TerrainTagAnomaly" TargetProperty="CityApproval" Value="3"/>
+    </SimulationModifierDescriptors>
   </SimulationDescriptor>
 
-    <!-- Mercenary Discomforts -->
-<SimulationDescriptor Name="AENegative7"             Type="FactionTrait">
+  <!-- Closed Cities -->
+  <SimulationDescriptor Name="AENegative5" Type="FactionTrait">
     <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="MaximumHealth" Operation="Percent" Value="-0.5" Path="EmpireTypeMajor/Garrison/Mercenary"/>
-      <SimulationModifierDescriptor TargetProperty="MaximumMovement" Operation="Subtraction" Value="1" Path="EmpireTypeMajor/Garrison/Mercenary"/>
-      <SimulationModifierDescriptor TargetProperty="BattleMorale" Operation="Percent" Value="-0.2" Path="EmpireTypeMajor/Garrison/Mercenary"/>	  
-</SimulationModifierDescriptors>
-  </SimulationDescriptor>
-  
-    <!-- Cultural Aversion -->
-<SimulationDescriptor Name="AENegative8"             Type="FactionTrait">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="CityEmpirePoint" Operation="Subtraction" Value="2" Path="EmpireTypeMajor/ClassCity"/>
-</SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Subtraction" Path="EmpireTypeMajor/ClassCity" TargetProperty="MaximumNumberOfTradeRoutes" Value="1"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity/ClassTradeRoute" TargetProperty="TradeRouteGain" Value="-0.25"/>
+    </SimulationModifierDescriptors>
   </SimulationDescriptor>
 
-    <!-- Inept Builders -->
-<SimulationDescriptor Name="AENegative9"             Type="FactionTrait">
+  <!-- Ignorant -->
+  <SimulationDescriptor Name="AENegative6Level1" Type="FactionTrait">
     <SimulationModifierDescriptors>
-	<SimulationModifierDescriptor TargetProperty="MaximumDistrictLevel" Operation="Subtraction" Value="1" Path="EmpireTypeMajor/ClassCity"/>
-</SimulationModifierDescriptors>
-  </SimulationDescriptor>  
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/ClassArmy" TargetProperty="Interact_OddsLootingNothing" Value="5"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AENegative6Level2" Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Addition" Path="EmpireTypeMajor/ClassArmy" TargetProperty="Interact_OddsLootingNothing" Value="10"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
 
-  
+  <!-- Mercenary Discomforts -->
+  <SimulationDescriptor Name="AENegative7" Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/Mercenary" TargetProperty="MaximumHealth" Value="-0.5"/>
+      <SimulationModifierDescriptor Operation="Subtraction" Path="EmpireTypeMajor/Garrison/Mercenary" TargetProperty="MaximumMovement" Value="1"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/Mercenary" TargetProperty="BattleMorale" Value="-0.2"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <!-- Cultural Aversion -->
+  <SimulationDescriptor Name="AENegative8" Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Subtraction" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityEmpirePoint" Value="2"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <!-- Inept Builders -->
+  <SimulationDescriptor Name="AENegative9" Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Subtraction" Path="EmpireTypeMajor/ClassCity" TargetProperty="MaximumDistrictLevel" Value="1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
   <!-- ########################################## -->
   <!-- ######            UNIQUE            ###### -->
-  <!-- ########################################## --> 
-  
-    <!-- Offensive Reforms -->
-<SimulationDescriptor Name="AEUnique1"             Type="FactionTrait">
+  <!-- ########################################## -->
+
+  <!-- Offensive Reforms -->
+  <SimulationDescriptor Name="AEUnique1" Type="FactionTrait">
     <SimulationModifierDescriptors>
-	<SimulationModifierDescriptor TargetProperty="AttributeAttack" Operation="Percent" Value="0.4" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="AttributeAttack" Operation="Percent" Value="0.4" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-	<SimulationModifierDescriptor TargetProperty="AttributeDamage" Operation="Percent" Value="0.4" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="AttributeDamage" Operation="Percent" Value="0.4" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-	<SimulationModifierDescriptor TargetProperty="AttributeDefense" Operation="Percent" Value="-0.4" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="AttributeDefense" Operation="Percent" Value="-0.4" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-	<SimulationModifierDescriptor TargetProperty="MaximumHealth" Operation="Percent" Value="-0.4" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="MaximumHealth" Operation="Percent" Value="-0.4" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-</SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="AttributeAttack" Value="0.4"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="AttributeAttack" TooltipHidden="true" Value="0.4"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="AttributeDamage" Value="0.4"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="AttributeDamage" TooltipHidden="true" Value="0.4"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="AttributeDefense" Value="-0.4"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="AttributeDefense" TooltipHidden="true" Value="-0.4"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="MaximumHealth" Value="-0.4"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="MaximumHealth" TooltipHidden="true" Value="-0.4"/>
+    </SimulationModifierDescriptors>
   </SimulationDescriptor>
 
-    <!-- Defensive Reforms -->
-<SimulationDescriptor Name="AEUnique2"             Type="FactionTrait">
+  <!-- Defensive Reforms -->
+  <SimulationDescriptor Name="AEUnique2" Type="FactionTrait">
     <SimulationModifierDescriptors>
-	<SimulationModifierDescriptor TargetProperty="AttributeAttack" Operation="Percent" Value="-0.4" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="AttributeAttack" Operation="Percent" Value="-0.4" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-	<SimulationModifierDescriptor TargetProperty="AttributeDamage" Operation="Percent" Value="-0.4" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="AttributeDamage" Operation="Percent" Value="-0.4" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-	<SimulationModifierDescriptor TargetProperty="AttributeDefense" Operation="Percent" Value="0.4" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="AttributeDefense" Operation="Percent" Value="0.4" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-	<SimulationModifierDescriptor TargetProperty="MaximumHealth" Operation="Percent" Value="0.4" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="MaximumHealth" Operation="Percent" Value="0.4" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-</SimulationModifierDescriptors>
-  </SimulationDescriptor>
-  
-    <!-- Industrialization -->
-<SimulationDescriptor Name="AEUnique3"             Type="FactionTrait">
-    <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="CityProduction" Operation="Percent" Value="0.4" Path="EmpireTypeMajor/ClassCity"/>
-      <SimulationModifierDescriptor TargetProperty="CityGrowth" Operation="Percent" Value="-0.4" Path="EmpireTypeMajor/ClassCity"/>
-</SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="AttributeAttack" Value="-0.4"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="AttributeAttack" TooltipHidden="true" Value="-0.4"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="AttributeDamage" Value="-0.4"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="AttributeDamage" TooltipHidden="true" Value="-0.4"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="AttributeDefense" Value="0.4"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="AttributeDefense" TooltipHidden="true" Value="0.4"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="MaximumHealth" Value="0.4"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="MaximumHealth" TooltipHidden="true" Value="0.4"/>
+    </SimulationModifierDescriptors>
   </SimulationDescriptor>
 
-    <!-- Scientific Revolution -->
-<SimulationDescriptor Name="AEUnique4"             Type="FactionTrait">
+  <!-- Industrialization -->
+  <SimulationDescriptor Name="AEUnique3" Type="FactionTrait">
     <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="CityResearch" Operation="Percent" Value="0.4" Path="EmpireTypeMajor/ClassCity"/>
-      <SimulationModifierDescriptor TargetProperty="CityProduction" Operation="Percent" Value="-0.4" Path="EmpireTypeMajor/ClassCity"/>
-</SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityProduction" Value="0.4"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityGrowth" Value="-0.4"/>
+    </SimulationModifierDescriptors>
   </SimulationDescriptor>
 
-    <!-- Zealous Fanaticism -->
-<SimulationDescriptor Name="AEUnique5"             Type="FactionTrait">
+  <!-- Scientific Revolution -->
+  <SimulationDescriptor Name="AEUnique4" Type="FactionTrait">
     <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="CityEmpirePoint" Operation="Percent" Value="0.4" Path="EmpireTypeMajor/ClassCity"/>
-      <SimulationModifierDescriptor TargetProperty="CityGrowth" Operation="Percent" Value="-0.10" Path="EmpireTypeMajor/ClassCity"/>
-      <SimulationModifierDescriptor TargetProperty="CityProduction" Operation="Percent" Value="-0.10" Path="EmpireTypeMajor/ClassCity"/>
-      <SimulationModifierDescriptor TargetProperty="CityMoney" Operation="Percent" Value="-0.10" Path="EmpireTypeMajor/ClassCity"/>
-      <SimulationModifierDescriptor TargetProperty="CityResearch" Operation="Percent" Value="-0.10" Path="EmpireTypeMajor/ClassCity"/>
-	<SimulationModifierDescriptor TargetProperty="MaximumHealth" Operation="Percent" Value="-0.10" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="MaximumHealth" Operation="Percent" Value="-0.10" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-</SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityResearch" Value="0.4"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityProduction" Value="-0.4"/>
+    </SimulationModifierDescriptors>
   </SimulationDescriptor>
 
-    <!-- Economical Empire -->
-<SimulationDescriptor Name="AEUnique6"             Type="FactionTrait">
+  <!-- Zealous Fanaticism -->
+  <SimulationDescriptor Name="AEUnique5" Type="FactionTrait">
     <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="CityEmpirePoint" Operation="Percent" Value="0.3" Path="EmpireTypeMajor/ClassCity"/>
-      <SimulationModifierDescriptor TargetProperty="CityGrowth" Operation="Percent" Value="0.3" Path="EmpireTypeMajor/ClassCity"/>
-      <SimulationModifierDescriptor TargetProperty="CityProduction" Operation="Percent" Value="0.3" Path="EmpireTypeMajor/ClassCity"/>
-      <SimulationModifierDescriptor TargetProperty="CityMoney" Operation="Percent" Value="0.3" Path="EmpireTypeMajor/ClassCity"/>
-      <SimulationModifierDescriptor TargetProperty="CityResearch" Operation="Percent" Value="0.3" Path="EmpireTypeMajor/ClassCity"/>
-	<SimulationModifierDescriptor TargetProperty="AttributeAttack" Operation="Percent" Value="-0.3" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="AttributeAttack" Operation="Percent" Value="-0.3" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-	<SimulationModifierDescriptor TargetProperty="AttributeDamage" Operation="Percent" Value="-0.3" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="AttributeDamage" Operation="Percent" Value="-0.3" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-	<SimulationModifierDescriptor TargetProperty="AttributeDefense" Operation="Percent" Value="-0.3" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="AttributeDefense" Operation="Percent" Value="-0.3" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-	<SimulationModifierDescriptor TargetProperty="MaximumHealth" Operation="Percent" Value="-0.3" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="MaximumHealth" Operation="Percent" Value="-0.3" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-</SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityEmpirePoint" Value="0.4"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityGrowth" Value="-0.10"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityProduction" Value="-0.10"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityMoney" Value="-0.10"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityResearch" Value="-0.10"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="MaximumHealth" Value="-0.10"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="MaximumHealth" TooltipHidden="true" Value="-0.10"/>
+    </SimulationModifierDescriptors>
   </SimulationDescriptor>
 
-    <!-- Warrior Society -->
-<SimulationDescriptor Name="AEUnique7"             Type="FactionTrait">
+  <!-- Economical Empire -->
+  <SimulationDescriptor Name="AEUnique6" Type="FactionTrait">
     <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="CityEmpirePoint" Operation="Percent" Value="-0.3" Path="EmpireTypeMajor/ClassCity"/>
-      <SimulationModifierDescriptor TargetProperty="CityGrowth" Operation="Percent" Value="-0.3" Path="EmpireTypeMajor/ClassCity"/>
-      <SimulationModifierDescriptor TargetProperty="CityProduction" Operation="Percent" Value="-0.3" Path="EmpireTypeMajor/ClassCity"/>
-      <SimulationModifierDescriptor TargetProperty="CityMoney" Operation="Percent" Value="-0.3" Path="EmpireTypeMajor/ClassCity"/>
-      <SimulationModifierDescriptor TargetProperty="CityResearch" Operation="Percent" Value="-0.3" Path="EmpireTypeMajor/ClassCity"/>
-	<SimulationModifierDescriptor TargetProperty="AttributeAttack" Operation="Percent" Value="0.3" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="AttributeAttack" Operation="Percent" Value="0.3" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-	<SimulationModifierDescriptor TargetProperty="AttributeDamage" Operation="Percent" Value="0.3" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="AttributeDamage" Operation="Percent" Value="0.3" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-	<SimulationModifierDescriptor TargetProperty="AttributeDefense" Operation="Percent" Value="0.3" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="AttributeDefense" Operation="Percent" Value="0.3" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-	<SimulationModifierDescriptor TargetProperty="MaximumHealth" Operation="Percent" Value="0.3" Path="EmpireTypeMajor/Garrison/ClassUnit"/>
-      <SimulationModifierDescriptor TargetProperty="MaximumHealth" Operation="Percent" Value="0.3" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TooltipHidden="true"/>
-</SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityEmpirePoint" Value="0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityGrowth" Value="0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityProduction" Value="0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityMoney" Value="0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityResearch" Value="0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="AttributeAttack" Value="-0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="AttributeAttack" TooltipHidden="true" Value="-0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="AttributeDamage" Value="-0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="AttributeDamage" TooltipHidden="true" Value="-0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="AttributeDefense" Value="-0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="AttributeDefense" TooltipHidden="true" Value="-0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="MaximumHealth" Value="-0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="MaximumHealth" TooltipHidden="true" Value="-0.3"/>
+    </SimulationModifierDescriptors>
   </SimulationDescriptor>
 
-    <!-- Black Market -->
-<SimulationDescriptor Name="AEUnique8"             Type="FactionTrait">
+  <!-- Warrior Society -->
+  <SimulationDescriptor Name="AEUnique7" Type="FactionTrait">
     <SimulationModifierDescriptors>
-      <SimulationModifierDescriptor TargetProperty="CityMoney" Operation="Percent" Value="0.3" Path="EmpireTypeMajor/ClassCity"/>
-    <SimulationModifierDescriptor TargetProperty="CityApproval" Operation="Subtraction" Value="25" Path="EmpireTypeMajor/ClassCity"/>
-</SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityEmpirePoint" Value="-0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityGrowth" Value="-0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityProduction" Value="-0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityMoney" Value="-0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityResearch" Value="-0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="AttributeAttack" Value="0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="AttributeAttack" TooltipHidden="true" Value="0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="AttributeDamage" Value="0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="AttributeDamage" TooltipHidden="true" Value="0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="AttributeDefense" Value="0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="AttributeDefense" TooltipHidden="true" Value="0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/Garrison/ClassUnit" TargetProperty="MaximumHealth" Value="0.3"/>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity/Militia/ClassUnit" TargetProperty="MaximumHealth" TooltipHidden="true" Value="0.3"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <!-- Black Market -->
+  <SimulationDescriptor Name="AEUnique8" Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor Operation="Percent" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityMoney" Value="0.3"/>
+      <SimulationModifierDescriptor Operation="Subtraction" Path="EmpireTypeMajor/ClassCity" TargetProperty="CityApproval" Value="25"/>
+    </SimulationModifierDescriptors>
   </SimulationDescriptor>
 
 </Datatable>

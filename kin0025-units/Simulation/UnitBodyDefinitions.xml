@@ -1,12 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <!-- ########################################## -->
   <!-- ######         Tier 1               ###### -->
   <!-- ########################################## -->
 
-    <!-- BROKEN LORDS INFANTRY -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyBrokenLordsInfantry"     SubCategory="SubCategoryInfantry">
+  <!-- BROKEN LORDS INFANTRY -->
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyBrokenLordsInfantry" SubCategory="SubCategoryInfantry">
 
     <Tags></Tags>
 
@@ -14,57 +14,57 @@
     <UnitAbilityReference Name="UnitAbilityCannotRegen"/>
     <UnitAbilityReference Name="UnitAbilityCanRegenWithVillage"/>
     <UnitAbilityReference Name="UnitAbilitySoulLeech"/>
-    <UnitAbilityReference Name="UnitAbilityFast" Level="0"/>
+    <UnitAbilityReference Level="0" Name="UnitAbilityFast"/>
 
     <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomBrokenLordsUnit1</PathPrerequisite>
     <UnitDesignPrerequisites>
       <PathPrerequisite Flags="Prerequisite,Validity">.../EmpireTypeMajor,FactionTraitCustomBrokenLordsUnit1</PathPrerequisite>
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostCheaper) + $Property(../ClassEmpire:UnitProductionCostCheaper) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic1" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostCheaper) + $Property(../ClassEmpire:UnitProductionCostCheaper) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic1">5</Cost>
 
-   <SimulationDescriptorReference Name="AffinityBrokenLords" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyBrokenLordsInfantry" />
-    <SimulationDescriptorReference Name="UnitClassInfantry" />
-    <SimulationDescriptorReference Name="UnitSizeSmall" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotSword1" />
-    <SimulationDescriptorReference Name="ItemSlotShield1" />
-    <SimulationDescriptorReference Name="ItemSlotSword2" />
-    <SimulationDescriptorReference Name="ItemSlotHead" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotLegs" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityBrokenLords"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyBrokenLordsInfantry"/>
+    <SimulationDescriptorReference Name="UnitClassInfantry"/>
+    <SimulationDescriptorReference Name="UnitSizeSmall"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotSword1"/>
+    <SimulationDescriptorReference Name="ItemSlotShield1"/>
+    <SimulationDescriptorReference Name="ItemSlotSword2"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotLegs"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemSword1IronTier1#1"  />
-      <Slot Name="OffHand"                         ItemName="ItemShield1IronTier1#2" />
-      <Slot Name="Head"                            ItemName="" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Legs"                            ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemSword1IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemShield1IronTier1#2" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Legs"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="0.51">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
     <UnitBodyStance Name="#OffHandShield">
-      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassShield1" />
+      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassShield1"/>
       <Attachment Scale="0.51">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
       <Attachment Scale="0.51">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="OffHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="OffHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -86,63 +86,63 @@
     </UnitBodyBattleParameters>
 
   </UnitBodyDefinition>
-<!-- MAD FAIRIES ARCHER -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyMadFairiesArcher"        SubCategory="SubCategoryRanged">
+  <!-- MAD FAIRIES ARCHER -->
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyMadFairiesArcher" SubCategory="SubCategoryRanged">
 
     <Tags></Tags>
 
     <UnitAbilityReference Name="UnitAbilityHighRanged"/>
     <UnitAbilityReference Name="UnitAbilityForestRage"/>
 
-     <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomMadFairiesUnit1</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomMadFairiesUnit1</PathPrerequisite>
     <UnitDesignPrerequisites>
       <PathPrerequisite Flags="Prerequisite,Validity">.../EmpireTypeMajor,FactionTraitCustomMadFairiesUnit1</PathPrerequisite>
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostCheaper) + $Property(../ClassEmpire:UnitProductionCostCheaper)  * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic1" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostCheaper) + $Property(../ClassEmpire:UnitProductionCostCheaper) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic1">5</Cost>
 
-    <SimulationDescriptorReference Name="AffinityMadFairies" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyMadFairiesArcher" />
-    <SimulationDescriptorReference Name="UnitClassRanged" />
-    <SimulationDescriptorReference Name="UnitSizeSmall" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotBow2" />
-    <SimulationDescriptorReference Name="ItemSlotCrossbow1" />
-    <SimulationDescriptorReference Name="ItemSlotShield1" />
-    <SimulationDescriptorReference Name="ItemSlotHead" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotLegs" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityMadFairies"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyMadFairiesArcher"/>
+    <SimulationDescriptorReference Name="UnitClassRanged"/>
+    <SimulationDescriptorReference Name="UnitSizeSmall"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotBow2"/>
+    <SimulationDescriptorReference Name="ItemSlotCrossbow1"/>
+    <SimulationDescriptorReference Name="ItemSlotShield1"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotLegs"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemCrossbow1IronTier1#1" />
-      <Slot Name="OffHand"                         ItemName="ItemShield1IronTier1#2"   />
-      <Slot Name="Head"                            ItemName="" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Legs"                            ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemCrossbow1IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemShield1IronTier1#2" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Legs"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="0.45">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
     <UnitBodyStance Name="#OffHandShield">
-      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassShield1" />
+      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassShield1"/>
       <Attachment Scale="0.45">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
       <Attachment Scale="0.45">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="OffHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="OffHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -165,49 +165,49 @@
   </UnitBodyDefinition>
 
   <!-- RAGE WIZARDS BATTLEMAGE -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyRageWizardsBattleMage"   SubCategory="SubCategoryInfantry">
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyRageWizardsBattleMage" SubCategory="SubCategoryInfantry">
 
     <Tags></Tags>
 
     <UnitAbilityReference Name="UnitAbilityArdentFire"/>
-    <UnitAbilityReference Name="UnitAbilityFast" Level="0"/>
+    <UnitAbilityReference Level="0" Name="UnitAbilityFast"/>
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRageWizardsUnit1</PathPrerequisite>
 
     <UnitDesignPrerequisites>
-	<PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRageWizardsUnit1</PathPrerequisite>
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRageWizardsUnit1</PathPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostCheaper) + $Property(../ClassEmpire:UnitProductionCostCheaper) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic1" Instant="true">5</Cost>
-   <SimulationDescriptorReference Name="AffinityRageWizards" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyRageWizardsBattleMage" />
-    <SimulationDescriptorReference Name="UnitClassInfantry" />
-    <SimulationDescriptorReference Name="UnitSizeSmall" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotSpear2" />
-    <SimulationDescriptorReference Name="ItemSlotClaw2" />
-    <SimulationDescriptorReference Name="ItemSlotHead" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotLegs" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostCheaper) + $Property(../ClassEmpire:UnitProductionCostCheaper) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic1">5</Cost>
+    <SimulationDescriptorReference Name="AffinityRageWizards"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyRageWizardsBattleMage"/>
+    <SimulationDescriptorReference Name="UnitClassInfantry"/>
+    <SimulationDescriptorReference Name="UnitSizeSmall"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotSpear2"/>
+    <SimulationDescriptorReference Name="ItemSlotClaw2"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotLegs"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemClaw2IronTier1#1" />
-      <Slot Name="OffHand"                         ItemName="ItemClaw2IronTier1#1" />
-      <Slot Name="Head"                            ItemName="" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Legs"                            ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemClaw2IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemClaw2IronTier1#1" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Legs"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="0.5">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -231,7 +231,7 @@
   </UnitBodyDefinition>
 
   <!-- NECROPHAGES NECROHUNTER -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyNecrophagesNecrohunter"  SubCategory="SubCategoryInfantry">
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyNecrophagesNecrohunter" SubCategory="SubCategoryInfantry">
 
     <Tags></Tags>
 
@@ -241,52 +241,52 @@
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomNecrophagesUnit1</PathPrerequisite>
     <UnitDesignPrerequisites>
       <PathPrerequisite Flags="Prerequisite,Validity">.../EmpireTypeMajor,FactionTraitCustomNecrophagesUnit1</PathPrerequisite>
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostCheaper) + $Property(../ClassEmpire:UnitProductionCostCheaper) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic1" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostCheaper) + $Property(../ClassEmpire:UnitProductionCostCheaper) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic1">5</Cost>
 
-     <SimulationDescriptorReference Name="AffinityNecrophages" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyNecrophagesNecrohunter" />
-    <SimulationDescriptorReference Name="UnitClassInfantry" />
-    <SimulationDescriptorReference Name="UnitSizeSmall" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotAxe1" />
-    <SimulationDescriptorReference Name="ItemSlotShield1" />
-    <SimulationDescriptorReference Name="ItemSlotClaw2" />
-    <SimulationDescriptorReference Name="ItemSlotHead" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotLegs" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityNecrophages"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyNecrophagesNecrohunter"/>
+    <SimulationDescriptorReference Name="UnitClassInfantry"/>
+    <SimulationDescriptorReference Name="UnitSizeSmall"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotAxe1"/>
+    <SimulationDescriptorReference Name="ItemSlotShield1"/>
+    <SimulationDescriptorReference Name="ItemSlotClaw2"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotLegs"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemAxe1IronTier1#1"    />
-      <Slot Name="OffHand"                         ItemName="ItemShield1IronTier1#2" />
-      <Slot Name="Head"                            ItemName="" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Legs"                            ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemAxe1IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemShield1IronTier1#2" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Legs"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="0.5">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
     <UnitBodyStance Name="#OffHandShield">
-      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassShield1" />
+      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassShield1"/>
       <Attachment Scale="0.5">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
       <Attachment Scale="0.5">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="OffHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="OffHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -306,67 +306,65 @@
       <BattleTargetingUnitBehaviorWeightsReferences Name="UnitBehaviorMeleeHoldPosition"/>
     </UnitBodyBattleParameters>
 
-
   </UnitBodyDefinition>
 
   <!-- VAULTERS MARINE -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyVaultersMarine"          SubCategory="SubCategoryRanged">
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyVaultersMarine" SubCategory="SubCategoryRanged">
 
     <Tags></Tags>
 
-    <UnitAbilityReference Name="UnitAbilityRanged" />
-    <UnitAbilityReference Name="UnitAbilityTechnolover" />
-
+    <UnitAbilityReference Name="UnitAbilityRanged"/>
+    <UnitAbilityReference Name="UnitAbilityTechnolover"/>
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomVaultersUnit1</PathPrerequisite>
     <UnitDesignPrerequisites>
       <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomVaultersUnit1</PathPrerequisite>
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostCheap) + $Property(../ClassEmpire:UnitProductionCostCheap) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic1" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostCheap) + $Property(../ClassEmpire:UnitProductionCostCheap) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic1">5</Cost>
 
- <SimulationDescriptorReference Name="AffinityVaulters" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyVaultersMarine" />
-    <SimulationDescriptorReference Name="UnitClassRanged" />
-    <SimulationDescriptorReference Name="UnitSizeSmall" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotCrossbow1" />
-    <SimulationDescriptorReference Name="ItemSlotShield1" />
-    <SimulationDescriptorReference Name="ItemSlotBow2" />
-    <SimulationDescriptorReference Name="ItemSlotHead" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotLegs" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityVaulters"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyVaultersMarine"/>
+    <SimulationDescriptorReference Name="UnitClassRanged"/>
+    <SimulationDescriptorReference Name="UnitSizeSmall"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotCrossbow1"/>
+    <SimulationDescriptorReference Name="ItemSlotShield1"/>
+    <SimulationDescriptorReference Name="ItemSlotBow2"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotLegs"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemCrossbow1IronTier1#1" />
-      <Slot Name="OffHand"                         ItemName="ItemShield1IronTier1#2"   />
-      <Slot Name="Head"                            ItemName="" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Legs"                            ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemCrossbow1IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemShield1IronTier1#2" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Legs"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="0.51">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
     <UnitBodyStance Name="#OffHandShield">
-      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassShield1" />
+      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassShield1"/>
       <Attachment Scale="0.51">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
       <Attachment Scale="0.51">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="OffHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="OffHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -390,60 +388,60 @@
   </UnitBodyDefinition>
 
   <!-- ROVING CLANS DERVISH -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyRovingClansDervish"      SubCategory="SubCategoryCavalry">
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyRovingClansDervish" SubCategory="SubCategoryCavalry">
 
     <Tags></Tags>
 
-    <UnitAbilityReference Name="UnitAbilityCharge" Level="1"/>
-    <UnitAbilityReference Name="UnitAbilityFast" Level="0"/>
+    <UnitAbilityReference Level="1" Name="UnitAbilityCharge"/>
+    <UnitAbilityReference Level="0" Name="UnitAbilityFast"/>
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRovingClansUnit1</PathPrerequisite>
     <UnitDesignPrerequisites>
       <PathPrerequisite Flags="Prerequisite,Validity">.../EmpireTypeMajor,FactionTraitCustomRovingClansUnit1</PathPrerequisite>
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostCheap) + $Property(../ClassEmpire:UnitProductionCostCheap)  * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic1" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostCheap) + $Property(../ClassEmpire:UnitProductionCostCheap) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic1">5</Cost>
 
-    <SimulationDescriptorReference Name="AffinityRovingClans" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyRovingClansDervish" />
-    <SimulationDescriptorReference Name="UnitClassCavalry" />
-    <SimulationDescriptorReference Name="UnitSizeMedium" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotHammer1" />
-    <SimulationDescriptorReference Name="ItemSlotShield1" />
-    <SimulationDescriptorReference Name="ItemSlotSpear2" />
-    <SimulationDescriptorReference Name="ItemSlotHead" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityRovingClans"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyRovingClansDervish"/>
+    <SimulationDescriptorReference Name="UnitClassCavalry"/>
+    <SimulationDescriptorReference Name="UnitSizeMedium"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotHammer1"/>
+    <SimulationDescriptorReference Name="ItemSlotShield1"/>
+    <SimulationDescriptorReference Name="ItemSlotSpear2"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemHammer1IronTier1#1" />
-      <Slot Name="OffHand"                         ItemName="ItemShield1IronTier1#2" />
-      <Slot Name="Head"                            ItemName="" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemHammer1IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemShield1IronTier1#2" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="0.4">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
     <UnitBodyStance Name="#OffHandShield">
-      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassShield1" />
+      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassShield1"/>
       <Attachment Scale="0.4">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
       <Attachment Scale="0.4">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="OffHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="OffHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -465,9 +463,8 @@
     </UnitBodyBattleParameters>
   </UnitBodyDefinition>
 
-
   <!-- DRAKKENS DRAKKENLING -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyDrakkensDrakkenling"     SubCategory="SubCategoryInfantry">
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyDrakkensDrakkenling" SubCategory="SubCategoryInfantry">
 
     <Tags></Tags>
 
@@ -477,52 +474,52 @@
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomDrakkensUnit1</PathPrerequisite>
     <UnitDesignPrerequisites>
       <PathPrerequisite Flags="Prerequisite,Validity">.../EmpireTypeMajor,FactionTraitCustomDrakkensUnit1</PathPrerequisite>
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostLessThanAverage) + $Property(../ClassEmpire:UnitProductionCostLessThanAverage) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic1" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostLessThanAverage) + $Property(../ClassEmpire:UnitProductionCostLessThanAverage) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic1">5</Cost>
 
-      <SimulationDescriptorReference Name="AffinityDrakkens" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyDrakkensDrakkenling" />
-    <SimulationDescriptorReference Name="UnitClassInfantry" />
-    <SimulationDescriptorReference Name="UnitSizeMedium" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotSword1" />
-    <SimulationDescriptorReference Name="ItemSlotShield1" />
-    <SimulationDescriptorReference Name="ItemSlotSpear2" />
-    <SimulationDescriptorReference Name="ItemSlotHead" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotLegs" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityDrakkens"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyDrakkensDrakkenling"/>
+    <SimulationDescriptorReference Name="UnitClassInfantry"/>
+    <SimulationDescriptorReference Name="UnitSizeMedium"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotSword1"/>
+    <SimulationDescriptorReference Name="ItemSlotShield1"/>
+    <SimulationDescriptorReference Name="ItemSlotSpear2"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotLegs"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemSword1IronTier1#1" />
-      <Slot Name="OffHand"                         ItemName="ItemShield1IronTier1#1" />
-      <Slot Name="Head"                            ItemName="" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Legs"                            ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemSword1IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemShield1IronTier1#1" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Legs"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="0.4">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
     <UnitBodyStance Name="#OffHandShield">
-      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassShield1" />
+      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassShield1"/>
       <Attachment Scale="0.4">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
       <Attachment Scale="0.4">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="OffHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="OffHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -544,48 +541,47 @@
   </UnitBodyDefinition>
 
   <!-- CULTISTS PREACHER -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyCultistsPreacher"        SubCategory="SubCategorySupport">
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyCultistsPreacher" SubCategory="SubCategorySupport">
 
     <Tags/>
 
     <UnitAbilityReference Name="UnitAbilityRanged"/>
     <UnitAbilityReference Name="UnitAbilityUnleashedPotential"/>
 
-
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomCultistsUnit1</PathPrerequisite>
     <UnitDesignPrerequisites>
       <PathPrerequisite Flags="Prerequisite,Validity">.../EmpireTypeMajor,FactionTraitCustomCultistsUnit1</PathPrerequisite>
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostCheapest) + $Property(../ClassEmpire:UnitProductionCostCheapest)   * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic1" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostCheapest) + $Property(../ClassEmpire:UnitProductionCostCheapest) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic1">5</Cost>
 
-    <SimulationDescriptorReference Name="AffinityCultists" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyCultistsPreacher" />
-    <SimulationDescriptorReference Name="UnitClassSupport" />
-    <SimulationDescriptorReference Name="UnitSizeLarge" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotStaff2" />
-    <SimulationDescriptorReference Name="ItemSlotWand2" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotLegs" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityCultists"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyCultistsPreacher"/>
+    <SimulationDescriptorReference Name="UnitClassSupport"/>
+    <SimulationDescriptorReference Name="UnitSizeLarge"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotStaff2"/>
+    <SimulationDescriptorReference Name="ItemSlotWand2"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotLegs"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemStaff2IronTier1#1" />
-      <Slot Name="OffHand"                         ItemName="ItemStaff2IronTier1#1" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Legs"                            ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemStaff2IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemStaff2IronTier1#1" Name="OffHand"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Legs"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="0.49">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -607,64 +603,60 @@
       <BattleTargetingUnitBehaviorWeightsReferences Name="UnitBehaviorSupportHoldPosition"/>
     </UnitBodyBattleParameters>
 
-
   </UnitBodyDefinition>
 
-
-
-
-   <!-- ########################################## -->
+  <!-- ########################################## -->
   <!-- ######         Tier 2                ###### -->
   <!-- ########################################## -->
- <!-- BROKEN LORDS CAVALRY -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyBrokenLordsCavalry"      SubCategory="SubCategoryCavalry">
+  <!-- BROKEN LORDS CAVALRY -->
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyBrokenLordsCavalry" SubCategory="SubCategoryCavalry">
 
     <Tags></Tags>
 
     <UnitAbilityReference Name="UnitAbilityInstantHeal" Parameters="EmpireMoney"/>
     <UnitAbilityReference Name="UnitAbilityCannotRegen"/>
     <UnitAbilityReference Name="UnitAbilityCanRegenWithVillage"/>
-    <UnitAbilityReference Name="UnitAbilityCharge" Level="0"/>
-    <UnitAbilityReference Name="UnitAbilityLifeDrain" Level="0"/>
-    <UnitAbilityReference Name="UnitAbilitySlow" Level="0"/>
+    <UnitAbilityReference Level="0" Name="UnitAbilityCharge"/>
+    <UnitAbilityReference Level="0" Name="UnitAbilityLifeDrain"/>
+    <UnitAbilityReference Level="0" Name="UnitAbilitySlow"/>
 
     <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomBrokenLordsUnit2</PathPrerequisite>
     <UnitDesignPrerequisites>
       <PathPrerequisite Flags="Prerequisite,Validity">.../EmpireTypeMajor,FactionTraitCustomBrokenLordsUnit2</PathPrerequisite>
 
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostCheaper) + $Property(../ClassEmpire:UnitProductionCostCheaper) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic3" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostCheaper) + $Property(../ClassEmpire:UnitProductionCostCheaper) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic3">5</Cost>
 
-   <SimulationDescriptorReference Name="AffinityBrokenLords" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyBrokenLordsCavalry" />
-    <SimulationDescriptorReference Name="UnitClassCavalry" />
-    <SimulationDescriptorReference Name="UnitSizeMedium" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotHammer1" />
-    <SimulationDescriptorReference Name="ItemSlotSpear2" />
-    <SimulationDescriptorReference Name="ItemSlotHead" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotLegs" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityBrokenLords"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyBrokenLordsCavalry"/>
+    <SimulationDescriptorReference Name="UnitClassCavalry"/>
+    <SimulationDescriptorReference Name="UnitSizeMedium"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotHammer1"/>
+    <SimulationDescriptorReference Name="ItemSlotSpear2"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotLegs"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemHammer1IronTier1#1" />
-      <Slot Name="OffHand"                         ItemName="" />
-      <Slot Name="Head"                            ItemName="" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Legs"                            ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemHammer1IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Legs"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="0.5">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -686,55 +678,51 @@
     </UnitBodyBattleParameters>
   </UnitBodyDefinition>
 
-
-
-
-
   <!-- MAD FAIRIES SHAMAN -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyMadFairiesShaman"        SubCategory="SubCategorySupport">
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyMadFairiesShaman" SubCategory="SubCategorySupport">
 
     <Tags></Tags>
 
     <UnitAbilityReference Name="UnitAbilityRanged"/>
-    <UnitAbilityReference Name="UnitAbilityBarkSkin" Level="2"/>
+    <UnitAbilityReference Level="2" Name="UnitAbilityBarkSkin"/>
     <UnitAbilityReference Name="UnitAbilityForestRage"/>
 
-         <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomMadFairiesUnit2</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomMadFairiesUnit2</PathPrerequisite>
 
     <UnitDesignPrerequisites>
       <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomMadFairiesUnit2</PathPrerequisite>
 
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostCheapest) + $Property(../ClassEmpire:UnitProductionCostCheapest) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic3" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostCheapest) + $Property(../ClassEmpire:UnitProductionCostCheapest) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic3">5</Cost>
 
-    <SimulationDescriptorReference Name="AffinityMadFairies" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyMadFairiesShaman" />
-    <SimulationDescriptorReference Name="UnitClassSupport" />
-    <SimulationDescriptorReference Name="UnitSizeMedium" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotStaff2" />
-    <SimulationDescriptorReference Name="ItemSlotWand2" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotLegs" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityMadFairies"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyMadFairiesShaman"/>
+    <SimulationDescriptorReference Name="UnitClassSupport"/>
+    <SimulationDescriptorReference Name="UnitSizeMedium"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotStaff2"/>
+    <SimulationDescriptorReference Name="ItemSlotWand2"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotLegs"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemStaff2IronTier1#1" />
-      <Slot Name="OffHand"                         ItemName="ItemStaff2IronTier1#1" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Legs"                            ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemStaff2IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemStaff2IronTier1#1" Name="OffHand"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Legs"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="0.49">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -758,7 +746,7 @@
   </UnitBodyDefinition>
 
   <!-- NECROPHAGES ZOMBAT -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyNecrophagesZombat"       SubCategory="SubCategoryFlying">
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyNecrophagesZombat" SubCategory="SubCategoryFlying">
 
     <Tags></Tags>
 
@@ -769,38 +757,38 @@
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomNecrophagesUnit2</PathPrerequisite>
 
     <UnitDesignPrerequisites>
-    <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomNecrophagesUnit2</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomNecrophagesUnit2</PathPrerequisite>
 
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostMoreThanAverage) + $Property(../ClassEmpire:UnitProductionCostMoreThanAverage) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic3" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostMoreThanAverage) + $Property(../ClassEmpire:UnitProductionCostMoreThanAverage) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic3">5</Cost>
 
-   <SimulationDescriptorReference Name="AffinityNecrophages" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyNecrophagesZombat" />
-    <SimulationDescriptorReference Name="UnitClassFlying" />
-    <SimulationDescriptorReference Name="UnitSizeMedium" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotClaw2" />
-    <SimulationDescriptorReference Name="ItemSlotHead" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityNecrophages"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyNecrophagesZombat"/>
+    <SimulationDescriptorReference Name="UnitClassFlying"/>
+    <SimulationDescriptorReference Name="UnitSizeMedium"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotClaw2"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemClaw2IronTier1#1" />
-      <Slot Name="OffHand"                         ItemName="ItemClaw2IronTier1#1" />
-      <Slot Name="Head"                            ItemName="" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemClaw2IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemClaw2IronTier1#1" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="0.5">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -823,7 +811,7 @@
   </UnitBodyDefinition>
 
   <!-- RAGE WIZARDS WITCH -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyRageWizardsWitch"        SubCategory="SubCategoryRanged">
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyRageWizardsWitch" SubCategory="SubCategoryRanged">
 
     <Tags></Tags>
 
@@ -831,42 +819,42 @@
     <UnitAbilityReference Name="UnitAbilityArdentFire"/>
     <UnitAbilityReference Name="UnitAbilityFireRain"/>
 
-       <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRageWizardsUnit2</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRageWizardsUnit2</PathPrerequisite>
 
     <UnitDesignPrerequisites>
-          <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRageWizardsUnit2</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRageWizardsUnit2</PathPrerequisite>
 
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostCheaper) + $Property(../ClassEmpire:UnitProductionCostCheaper) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic3" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostCheaper) + $Property(../ClassEmpire:UnitProductionCostCheaper) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic3">5</Cost>
 
-<SimulationDescriptorReference Name="AffinityRageWizards" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyRageWizardsWitch" />
-    <SimulationDescriptorReference Name="UnitClassRanged" />
-    <SimulationDescriptorReference Name="UnitSizeMedium" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotStaff2" />
-    <SimulationDescriptorReference Name="ItemSlotWand2" />
-    <SimulationDescriptorReference Name="ItemSlotHead" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityRageWizards"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyRageWizardsWitch"/>
+    <SimulationDescriptorReference Name="UnitClassRanged"/>
+    <SimulationDescriptorReference Name="UnitSizeMedium"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotStaff2"/>
+    <SimulationDescriptorReference Name="ItemSlotWand2"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemStaff2IronTier1#1" />
-      <Slot Name="OffHand"                         ItemName="ItemStaff2IronTier1#1" />
-      <Slot Name="Head"                            ItemName="" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemStaff2IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemStaff2IronTier1#1" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="0.44">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -891,65 +879,65 @@
   </UnitBodyDefinition>
 
   <!-- VAULTERS DAWN OFFICER -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyVaultersDawnOfficer"     SubCategory="SubCategoryCavalry">
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyVaultersDawnOfficer" SubCategory="SubCategoryCavalry">
 
     <Tags></Tags>
 
-    <UnitAbilityReference Name="UnitAbilityCharge" Level="0"/>
-    <UnitAbilityReference Name="UnitAbilityFast" Level="1"/>
-    <UnitAbilityReference Name="UnitAbilityTechnolover" />
+    <UnitAbilityReference Level="0" Name="UnitAbilityCharge"/>
+    <UnitAbilityReference Level="1" Name="UnitAbilityFast"/>
+    <UnitAbilityReference Name="UnitAbilityTechnolover"/>
 
-   <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomVaultersUnit2</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomVaultersUnit2</PathPrerequisite>
 
     <UnitDesignPrerequisites>
       <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomVaultersUnit2</PathPrerequisite>
 
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostCheap) + $Property(../ClassEmpire:UnitProductionCostCheap) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic3" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostCheap) + $Property(../ClassEmpire:UnitProductionCostCheap) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic3">5</Cost>
 
-     <SimulationDescriptorReference Name="AffinityVaulters" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyVaultersDawnOfficer" />
-    <SimulationDescriptorReference Name="UnitClassCavalry" />
-    <SimulationDescriptorReference Name="UnitSizeMedium" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotAxe1" />
-    <SimulationDescriptorReference Name="ItemSlotShield1" />
-    <SimulationDescriptorReference Name="ItemSlotAxe2" />
-    <SimulationDescriptorReference Name="ItemSlotHead" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotLegs" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityVaulters"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyVaultersDawnOfficer"/>
+    <SimulationDescriptorReference Name="UnitClassCavalry"/>
+    <SimulationDescriptorReference Name="UnitSizeMedium"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotAxe1"/>
+    <SimulationDescriptorReference Name="ItemSlotShield1"/>
+    <SimulationDescriptorReference Name="ItemSlotAxe2"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotLegs"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemAxe1IronTier1#1"    />
-      <Slot Name="OffHand"                         ItemName="ItemShield1IronTier1#2" />
-      <Slot Name="Head"                            ItemName="" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Legs"                            ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemAxe1IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemShield1IronTier1#2" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Legs"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="0.4">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
     <UnitBodyStance Name="#OffHandShield">
-      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassShield1" />
+      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassShield1"/>
       <Attachment Scale="0.4">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
       <Attachment Scale="0.4">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="OffHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="OffHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -972,64 +960,63 @@
 
   </UnitBodyDefinition>
 
-
   <!-- ROVING CLANS KASSAI -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyRovingClansKassai"       SubCategory="SubCategoryRanged">
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyRovingClansKassai" SubCategory="SubCategoryRanged">
 
     <Tags></Tags>
 
-    <UnitAbilityReference Name="UnitAbilityRanged" />
-    <UnitAbilityReference Name="UnitAbilityFast" Level="1"/>
+    <UnitAbilityReference Name="UnitAbilityRanged"/>
+    <UnitAbilityReference Level="1" Name="UnitAbilityFast"/>
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRovingClansUnit2</PathPrerequisite>
 
     <UnitDesignPrerequisites>
       <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRovingClansUnit2</PathPrerequisite>
 
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostLessThanAverage) + $Property(../ClassEmpire:UnitProductionCostLessThanAverage) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic3" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostLessThanAverage) + $Property(../ClassEmpire:UnitProductionCostLessThanAverage) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic3">5</Cost>
 
-    <SimulationDescriptorReference Name="AffinityRovingClans" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyRovingClansKassai" />
-    <SimulationDescriptorReference Name="UnitClassRanged" />
-    <SimulationDescriptorReference Name="UnitSizeMedium" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotBow2" />
-    <SimulationDescriptorReference Name="ItemSlotCrossbow1" />
-    <SimulationDescriptorReference Name="ItemSlotShield1" />
-    <SimulationDescriptorReference Name="ItemSlotHead" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityRovingClans"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyRovingClansKassai"/>
+    <SimulationDescriptorReference Name="UnitClassRanged"/>
+    <SimulationDescriptorReference Name="UnitSizeMedium"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotBow2"/>
+    <SimulationDescriptorReference Name="ItemSlotCrossbow1"/>
+    <SimulationDescriptorReference Name="ItemSlotShield1"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemCrossbow1IronTier1#1" />
-      <Slot Name="OffHand"                         ItemName="ItemShield1IronTier1#2"   />
-      <Slot Name="Head"                            ItemName="" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemCrossbow1IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemShield1IronTier1#2" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="0.45">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
     <UnitBodyStance Name="#OffHandShield">
-      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassShield1" />
+      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassShield1"/>
       <Attachment Scale="0.45">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
       <Attachment Scale="0.45">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="OffHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="OffHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -1053,7 +1040,7 @@
   </UnitBodyDefinition>
 
   <!-- DRAKKENS WYVERN -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyDrakkensWyvern"          SubCategory="SubCategoryFlying">
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyDrakkensWyvern" SubCategory="SubCategoryFlying">
 
     <Tags></Tags>
 
@@ -1061,41 +1048,41 @@
     <UnitAbilityReference Name="UnitAbilityFastLearner"/>
     <UnitAbilityReference Name="UnitAbilityFast"/>
 
-   <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomDrakkensUnit2</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomDrakkensUnit2</PathPrerequisite>
 
     <UnitDesignPrerequisites>
-       <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomDrakkensUnit2</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomDrakkensUnit2</PathPrerequisite>
 
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostAverage) + $Property(../ClassEmpire:UnitProductionCostAverage) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic3" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostAverage) + $Property(../ClassEmpire:UnitProductionCostAverage) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic3">5</Cost>
 
-    <SimulationDescriptorReference Name="AffinityDrakkens" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyDrakkensWyvern" />
-    <SimulationDescriptorReference Name="UnitClassFlying" />
-    <SimulationDescriptorReference Name="UnitSizeLarge" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotClaw2" />
-    <SimulationDescriptorReference Name="ItemSlotHead" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityDrakkens"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyDrakkensWyvern"/>
+    <SimulationDescriptorReference Name="UnitClassFlying"/>
+    <SimulationDescriptorReference Name="UnitSizeLarge"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotClaw2"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemClaw2IronTier1#1" />
-      <Slot Name="OffHand"                         ItemName="ItemClaw2IronTier1#1" />
-      <Slot Name="Head"                            ItemName="" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemClaw2IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemClaw2IronTier1#1" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="0.5">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -1115,55 +1102,50 @@
       <BattleTargetingUnitBehaviorWeightsReferences Name="UnitBehaviorFlyingHoldPosition"/>
     </UnitBodyBattleParameters>
 
-
   </UnitBodyDefinition>
 
-
-
   <!-- CULTISTS FANATIC -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyCultistsFanatic"         SubCategory="SubCategoryCavalry">
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyCultistsFanatic" SubCategory="SubCategoryCavalry">
 
     <Tags></Tags>
 
-  <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomCultistsUnit2</PathPrerequisite>
-
+    <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomCultistsUnit2</PathPrerequisite>
 
     <UnitDesignPrerequisites>
-     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomCultistsUnit2</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomCultistsUnit2</PathPrerequisite>
 
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostCheap) + $Property(../ClassEmpire:UnitProductionCostCheap)  * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic3" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostCheap) + $Property(../ClassEmpire:UnitProductionCostCheap) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic3">5</Cost>
 
-       <SimulationDescriptorReference Name="AffinityCultists" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyCultistsFanatic" />
-    <SimulationDescriptorReference Name="UnitClassCavalry" />
-    <SimulationDescriptorReference Name="UnitSizeLarge" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotClaw2" />
-    <SimulationDescriptorReference Name="ItemSlotHead" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotLegs" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
-
+    <SimulationDescriptorReference Name="AffinityCultists"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyCultistsFanatic"/>
+    <SimulationDescriptorReference Name="UnitClassCavalry"/>
+    <SimulationDescriptorReference Name="UnitSizeLarge"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotClaw2"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotLegs"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemClaw2IronTier1#1" />
-      <Slot Name="OffHand"                         ItemName="ItemClaw2IronTier1#1" />
-      <Slot Name="Head"                            ItemName="" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Legs"                            ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemClaw2IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemClaw2IronTier1#1" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Legs"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="0.5">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -1185,12 +1167,12 @@
 
   </UnitBodyDefinition>
 
-   <!-- ########################################## -->
+  <!-- ########################################## -->
   <!-- ######         Tier 3                ###### -->
   <!-- ########################################## -->
 
   <!-- RAGE WIZARDS PHOENIX -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyRageWizardsPhoenix"      SubCategory="SubCategoryFlying">
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyRageWizardsPhoenix" SubCategory="SubCategoryFlying">
 
     <Tags></Tags>
 
@@ -1198,41 +1180,41 @@
     <UnitAbilityReference Name="UnitAbilityRevive"/>
     <UnitAbilityReference Name="UnitAbilityFly"/>
 
-      <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomRageWizardsUnit3</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomRageWizardsUnit3</PathPrerequisite>
 
     <UnitDesignPrerequisites>
-         <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomRageWizardsUnit3</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomRageWizardsUnit3</PathPrerequisite>
 
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostMostExpensive) + $Property(../ClassEmpire:UnitProductionCostMostExpensive) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic5" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostMostExpensive) + $Property(../ClassEmpire:UnitProductionCostMostExpensive) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic5">5</Cost>
 
-   <SimulationDescriptorReference Name="AffinityRageWizards" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyRageWizardsPhoenix" />
-    <SimulationDescriptorReference Name="UnitClassFlying" />
-    <SimulationDescriptorReference Name="UnitSizeLarge" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotClaw2" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotLegs" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityRageWizards"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyRageWizardsPhoenix"/>
+    <SimulationDescriptorReference Name="UnitClassFlying"/>
+    <SimulationDescriptorReference Name="UnitSizeLarge"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotClaw2"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotLegs"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemClaw2IronTier1#1" />
-      <Slot Name="OffHand"                         ItemName="ItemClaw2IronTier1#1" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Legs"                            ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemClaw2IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemClaw2IronTier1#1" Name="OffHand"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Legs"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="1">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -1255,7 +1237,7 @@
   </UnitBodyDefinition>
 
   <!-- NECROPHAGES LICHBUG -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyNecrophagesLichbug"      SubCategory="SubCategorySupport">
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyNecrophagesLichbug" SubCategory="SubCategorySupport">
 
     <Tags></Tags>
 
@@ -1266,39 +1248,39 @@
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomNecrophagesUnit3</PathPrerequisite>
 
     <UnitDesignPrerequisites>
-    <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomNecrophagesUnit3</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomNecrophagesUnit3</PathPrerequisite>
 
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostMoreThanAverage) + $Property(../ClassEmpire:UnitProductionCostMoreThanAverage) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic5" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostMoreThanAverage) + $Property(../ClassEmpire:UnitProductionCostMoreThanAverage) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic5">5</Cost>
 
-    <SimulationDescriptorReference Name="AffinityNecrophages" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyNecrophagesLichbug" />
-    <SimulationDescriptorReference Name="UnitClassSupport" />
-    <SimulationDescriptorReference Name="UnitSizeLarge" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotWand2" />
-    <SimulationDescriptorReference Name="ItemSlotClaw2" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotLegs" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityNecrophages"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyNecrophagesLichbug"/>
+    <SimulationDescriptorReference Name="UnitClassSupport"/>
+    <SimulationDescriptorReference Name="UnitSizeLarge"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotWand2"/>
+    <SimulationDescriptorReference Name="ItemSlotClaw2"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotLegs"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemClaw2IronTier1#1" />
-      <Slot Name="OffHand"                         ItemName="ItemClaw2IronTier1#1" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Legs"                            ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemClaw2IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemClaw2IronTier1#1" Name="OffHand"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Legs"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="1">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -1320,69 +1302,68 @@
       <BattleTargetingUnitBehaviorWeightsReferences Name="UnitBehaviorSupportHoldPosition"/>
     </UnitBodyBattleParameters>
 
-
   </UnitBodyDefinition>
 
   <!-- VAULTERS TITAN -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyVaultersTitan"           SubCategory="SubCategoryInfantry">
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyVaultersTitan" SubCategory="SubCategoryInfantry">
 
     <Tags></Tags>
 
     <UnitAbilityReference Name="UnitAbilityDefensiveImpulse"/>
-    <UnitAbilityReference Name="UnitAbilitySlow" Level="0"/>
-    <UnitAbilityReference Name="UnitAbilityTechnolover" />
+    <UnitAbilityReference Level="0" Name="UnitAbilitySlow"/>
+    <UnitAbilityReference Name="UnitAbilityTechnolover"/>
 
-      <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomVaultersUnit3</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomVaultersUnit3</PathPrerequisite>
 
     <UnitDesignPrerequisites>
-         <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomVaultersUnit3</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomVaultersUnit3</PathPrerequisite>
 
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostExpensive) + $Property(../ClassEmpire:UnitProductionCostExpensive)  * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic5" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostExpensive) + $Property(../ClassEmpire:UnitProductionCostExpensive) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic5">5</Cost>
 
-   <SimulationDescriptorReference Name="AffinityVaulters" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyVaultersTitan" />
-    <SimulationDescriptorReference Name="UnitClassInfantry" />
-    <SimulationDescriptorReference Name="UnitSizeLarge" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotSword1" />
-    <SimulationDescriptorReference Name="ItemSlotShield1" />
-    <SimulationDescriptorReference Name="ItemSlotClaw2" />
-    <SimulationDescriptorReference Name="ItemSlotHead" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotLegs" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityVaulters"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyVaultersTitan"/>
+    <SimulationDescriptorReference Name="UnitClassInfantry"/>
+    <SimulationDescriptorReference Name="UnitSizeLarge"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotSword1"/>
+    <SimulationDescriptorReference Name="ItemSlotShield1"/>
+    <SimulationDescriptorReference Name="ItemSlotClaw2"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotLegs"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemSword1IronTier1#1" />
-      <Slot Name="OffHand"                         ItemName="ItemShield1IronTier1#2" />
-      <Slot Name="Head"                            ItemName="" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Legs"                            ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemSword1IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemShield1IronTier1#2" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Legs"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="0.65">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
     <UnitBodyStance Name="#OffHandShield">
-      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassShield1" />
+      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassShield1"/>
       <Attachment Scale="0.65">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
       <Attachment Scale="0.65">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="OffHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="OffHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -1405,52 +1386,52 @@
   </UnitBodyDefinition>
 
   <!-- ROVING CLANS BERZERK -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyRovingClansBerzerk"      SubCategory="SubCategoryInfantry">
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyRovingClansBerzerk" SubCategory="SubCategoryInfantry">
 
     <Tags></Tags>
 
-    <UnitAbilityReference Name="UnitAbilityFast" Level="0"/>
+    <UnitAbilityReference Level="0" Name="UnitAbilityFast"/>
 
-     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRovingClansUnit3</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRovingClansUnit3</PathPrerequisite>
 
     <UnitDesignPrerequisites>
-        <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRovingClansUnit3</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRovingClansUnit3</PathPrerequisite>
 
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostExpensive) + $Property(../ClassEmpire:UnitProductionCostExpensive)  * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic5" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostExpensive) + $Property(../ClassEmpire:UnitProductionCostExpensive) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic5">5</Cost>
 
-    <SimulationDescriptorReference Name="AffinityRovingClans" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyRovingClansBerzerk" />
-    <SimulationDescriptorReference Name="UnitClassInfantry" />
-    <SimulationDescriptorReference Name="UnitSizeLarge" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotSpear2" />
-    <SimulationDescriptorReference Name="ItemSlotClaw2" />
-    <SimulationDescriptorReference Name="ItemSlotHead" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityRovingClans"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyRovingClansBerzerk"/>
+    <SimulationDescriptorReference Name="UnitClassInfantry"/>
+    <SimulationDescriptorReference Name="UnitSizeLarge"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotSpear2"/>
+    <SimulationDescriptorReference Name="ItemSlotClaw2"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemClaw2IronTier1#1" />
-      <Slot Name="OffHand"                         ItemName="ItemClaw2IronTier1#1" />
-      <Slot Name="Head"                            ItemName="" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemClaw2IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemClaw2IronTier1#1" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="0.5">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
       <Attachment Scale="0.5">
-        <Mapping Name="Item.RovingClansBerzerk" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.RovingClansBerzerk"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -1474,7 +1455,7 @@
   </UnitBodyDefinition>
 
   <!-- DRAKKENS ANCIENT DRAGON -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyDrakkensAncientDragon"   SubCategory="SubCategorySupport">
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyDrakkensAncientDragon" SubCategory="SubCategorySupport">
 
     <Tags></Tags>
 
@@ -1483,42 +1464,42 @@
     <UnitAbilityReference Name="UnitAbilityFastLearner"/>
     <UnitAbilityReference Name="UnitAbilitySharedWisdom"/>
 
-   <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomDrakkensUnit3</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomDrakkensUnit3</PathPrerequisite>
 
     <UnitDesignPrerequisites>
       <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomDrakkensUnit3</PathPrerequisite>
 
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostMoreThanAverage) + $Property(../ClassEmpire:UnitProductionCostMoreThanAverage) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic5" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostMoreThanAverage) + $Property(../ClassEmpire:UnitProductionCostMoreThanAverage) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic5">5</Cost>
 
-   <SimulationDescriptorReference Name="AffinityDrakkens" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyDrakkensAncientDragon" />
-    <SimulationDescriptorReference Name="UnitClassSupport" />
-    <SimulationDescriptorReference Name="UnitSizeLarge" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotClaw2" />
-    <SimulationDescriptorReference Name="ItemSlotWand2" />
-    <SimulationDescriptorReference Name="ItemSlotHead" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityDrakkens"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyDrakkensAncientDragon"/>
+    <SimulationDescriptorReference Name="UnitClassSupport"/>
+    <SimulationDescriptorReference Name="UnitSizeLarge"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotClaw2"/>
+    <SimulationDescriptorReference Name="ItemSlotWand2"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemClaw2IronTier1#1" />
-      <Slot Name="OffHand"                         ItemName="ItemClaw2IronTier1#1" />
-      <Slot Name="Head"                            ItemName="" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemClaw2IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemClaw2IronTier1#1" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="1">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -1542,63 +1523,63 @@
   </UnitBodyDefinition>
 
   <!-- CULTISTS NAMELESS GUARD -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyCultistsNamelessGuard"   SubCategory="SubCategoryRanged">
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyCultistsNamelessGuard" SubCategory="SubCategoryRanged">
 
     <Tags></Tags>
 
-    <UnitAbilityReference Name="UnitAbilityRanged" />
+    <UnitAbilityReference Name="UnitAbilityRanged"/>
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomCultistsUnit3</PathPrerequisite>
 
     <UnitDesignPrerequisites>
       <PathPrerequisite Flags="Prerequisite,Validity">.../EmpireTypeMajor,FactionTraitCustomCultistsUnit3</PathPrerequisite>
 
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostMoreThanAverage) + $Property(../ClassEmpire:UnitProductionCostMoreThanAverage)   * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic5" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostMoreThanAverage) + $Property(../ClassEmpire:UnitProductionCostMoreThanAverage) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic5">5</Cost>
 
-     <SimulationDescriptorReference Name="AffinityCultists" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyCultistsNamelessGuard" />
-    <SimulationDescriptorReference Name="UnitClassRanged" />
-    <SimulationDescriptorReference Name="UnitSizeSmall" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotBow2" />
-    <SimulationDescriptorReference Name="ItemSlotCrossbow1" />
-    <SimulationDescriptorReference Name="ItemSlotShield1" />
-    <SimulationDescriptorReference Name="ItemSlotHead" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotLegs" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityCultists"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyCultistsNamelessGuard"/>
+    <SimulationDescriptorReference Name="UnitClassRanged"/>
+    <SimulationDescriptorReference Name="UnitSizeSmall"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotBow2"/>
+    <SimulationDescriptorReference Name="ItemSlotCrossbow1"/>
+    <SimulationDescriptorReference Name="ItemSlotShield1"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotLegs"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemCrossbow1IronTier1#1" />
-      <Slot Name="OffHand"                         ItemName="ItemShield1IronTier1#2"   />
-      <Slot Name="Head"                            ItemName="" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Legs"                            ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemCrossbow1IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemShield1IronTier1#2" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Legs"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="0.45">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
     <UnitBodyStance Name="#OffHandShield">
-      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassShield1" />
+      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassShield1"/>
       <Attachment Scale="0.45">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
       <Attachment Scale="0.45">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="OffHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="OffHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -1622,7 +1603,7 @@
   </UnitBodyDefinition>
 
   <!-- BROKEN LORDS SUPPORT -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyBrokenLordsBlackBishop"  SubCategory="SubCategorySupport">
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyBrokenLordsBlackBishop" SubCategory="SubCategorySupport">
 
     <Tags></Tags>
 
@@ -1635,41 +1616,41 @@
     <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomBrokenLordsUnit3</PathPrerequisite>
 
     <UnitDesignPrerequisites>
-    <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomBrokenLordsUnit3</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomBrokenLordsUnit3</PathPrerequisite>
 
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostMoreThanAverage) + $Property(../ClassEmpire:UnitProductionCostMoreThanAverage)  * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic5" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostMoreThanAverage) + $Property(../ClassEmpire:UnitProductionCostMoreThanAverage) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic5">5</Cost>
 
-     <SimulationDescriptorReference Name="AffinityBrokenLords" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyBrokenLordsBlackBishop" />
-    <SimulationDescriptorReference Name="UnitClassSupport" />
-    <SimulationDescriptorReference Name="UnitSizeMedium" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotWand2" />
-    <SimulationDescriptorReference Name="ItemSlotScepter2" />
-    <SimulationDescriptorReference Name="ItemSlotHead" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotLegs" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityBrokenLords"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyBrokenLordsBlackBishop"/>
+    <SimulationDescriptorReference Name="UnitClassSupport"/>
+    <SimulationDescriptorReference Name="UnitSizeMedium"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotWand2"/>
+    <SimulationDescriptorReference Name="ItemSlotScepter2"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotLegs"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemScepter2IronTier1#1" />
-      <Slot Name="OffHand"                         ItemName="ItemScepter2IronTier1#1" />
-      <Slot Name="Head"                            ItemName="" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Legs"                            ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemScepter2IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemScepter2IronTier1#1" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Legs"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="0.51">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -1692,49 +1673,49 @@
     </UnitBodyBattleParameters>
 
   </UnitBodyDefinition>
- <!-- MAD FAIRIES FOREST SPIRIT -->
-  <UnitBodyDefinition Name="FactionAffinityUnitBodyMadFairiesForestSpirit"  SubCategory="SubCategoryInfantry">
+  <!-- MAD FAIRIES FOREST SPIRIT -->
+  <UnitBodyDefinition Name="FactionAffinityUnitBodyMadFairiesForestSpirit" SubCategory="SubCategoryInfantry">
 
     <Tags></Tags>
 
     <UnitAbilityReference Name="UnitAbilityForestRage"/>
 
-             <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomMadFairiesUnit3</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomMadFairiesUnit3</PathPrerequisite>
 
     <UnitDesignPrerequisites>
-                <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomMadFairiesUnit3</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomMadFairiesUnit3</PathPrerequisite>
 
-      <InterpreterPrerequisite Inverted="false" Flags="Prerequisite,SlotPrerequisite">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
 
-    <CustomCost ResourceName="Production" Instant="false">$Property(../ClassEmpire:UnitProductionCostExpensive) + $Property(../ClassEmpire:UnitProductionCostExpensive)  * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
-	<Cost ResourceName="Strategic5" Instant="true">5</Cost>
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostExpensive) + $Property(../ClassEmpire:UnitProductionCostExpensive) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic5">5</Cost>
 
-    <SimulationDescriptorReference Name="AffinityMadFairies" />
-    <SimulationDescriptorReference Name="CustomMappingUnitBodyMadFairiesForestSpirit" />
-    <SimulationDescriptorReference Name="UnitClassInfantry" />
-    <SimulationDescriptorReference Name="UnitSizeLarge" />
-    <SimulationDescriptorReference Name="MovementCapacityWalk" />
-    <SimulationDescriptorReference Name="ItemSlotAxe2" />
-    <SimulationDescriptorReference Name="ItemSlotClaw2" />
-    <SimulationDescriptorReference Name="ItemSlotTorso" />
-    <SimulationDescriptorReference Name="ItemSlotLegs" />
-    <SimulationDescriptorReference Name="ItemSlotAccessory" />
+    <SimulationDescriptorReference Name="AffinityMadFairies"/>
+    <SimulationDescriptorReference Name="CustomMappingUnitBodyMadFairiesForestSpirit"/>
+    <SimulationDescriptorReference Name="UnitClassInfantry"/>
+    <SimulationDescriptorReference Name="UnitSizeLarge"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotAxe2"/>
+    <SimulationDescriptorReference Name="ItemSlotClaw2"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotLegs"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
 
     <UnitEquipmentSet>
-      <Slot Name="MainHand"                        ItemName="ItemClaw2IronTier1#1" />
-      <Slot Name="OffHand"                         ItemName="ItemClaw2IronTier1#1" />
-      <Slot Name="Torso"                           ItemName="" />
-      <Slot Name="Legs"                            ItemName="" />
-      <Slot Name="Accessory0" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory1" SlotType="Accessory" ItemName="" />
-      <Slot Name="Accessory2" SlotType="Accessory" ItemName="" />
+      <Slot ItemName="ItemClaw2IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemClaw2IronTier1#1" Name="OffHand"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Legs"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
     </UnitEquipmentSet>
 
     <UnitBodyStance Name="#Default">
       <Attachment Scale="1">
-        <Mapping Name="Item.Generic" />
-        <Slot Name="MainHand" />
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
       </Attachment>
     </UnitBodyStance>
 
@@ -1755,6 +1736,5 @@
     </UnitBodyBattleParameters>
 
   </UnitBodyDefinition>
-
 
 </Datatable>

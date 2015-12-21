@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+<SimulationDescriptor Name="ItemAttributesRingIronTest" Type="ItemAttributes">
+  <SimulationModifierDescriptors>
+  </SimulationModifierDescriptors>
+</SimulationDescriptor>
+
+<SimulationDescriptor Name="ItemAttributesTalismanIronTest" Type="ItemAttributes">
+  <SimulationModifierDescriptors>
+  </SimulationModifierDescriptors>
+</SimulationDescriptor>
+</Datatable>

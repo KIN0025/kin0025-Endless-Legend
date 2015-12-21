@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Datatable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-
-
-   <FactionTrait Name="FactionTraitExpansionApproval"            SubCategory="CustomTrait" Family="Trait" Custom="true" Cost="10" >
-   <SimulationDescriptorReference Name="FactionTraitExpansionApproval"/>
+  <FactionTrait Cost="10" Custom="true" Family="Trait" Name="FactionTraitExpansionApproval" SubCategory="CustomTrait">
+    <SimulationDescriptorReference Name="FactionTraitExpansionApproval"/>
   </FactionTrait>
 
-     <FactionTrait Name="FactionTraitDiplomacyStart"            SubCategory="CustomTrait" Family="Trait" Custom="true" Cost="5" >
-   <SimulationDescriptorReference Name="FactionTraitDiplomacyStart"/>
+  <FactionTrait Cost="5" Custom="true" Family="Trait" Name="FactionTraitDiplomacyStart" SubCategory="CustomTrait">
+    <SimulationDescriptorReference Name="FactionTraitDiplomacyStart"/>
   </FactionTrait>
-<FactionTrait Name="FactionTraitStrategicPower"                   SubCategory="CustomTrait" Family="Trait" Custom="true" Cost="10">
+  <FactionTrait Cost="10" Custom="true" Family="Trait" Name="FactionTraitStrategicPower" SubCategory="CustomTrait">
     <Prerequisites>FactionTraitVaultersMezari</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitStrategicPower"/>
   </FactionTrait>

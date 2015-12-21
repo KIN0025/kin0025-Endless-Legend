@@ -1,77 +1,50 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SimulationDescriptor Name="FactionTraitCustomVaultersUnit1"       Type="FactionTrait" >
-      </SimulationDescriptor>
+<Datatable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SimulationDescriptor Name="FactionTraitCustomVaultersUnit1" Type="FactionTrait"></SimulationDescriptor>
 
-   <SimulationDescriptor Name="FactionTraitCustomVaultersUnit2"            Type="FactionTrait" >
-   </SimulationDescriptor>
+  <SimulationDescriptor Name="FactionTraitCustomVaultersUnit2" Type="FactionTrait"></SimulationDescriptor>
 
-   <SimulationDescriptor Name="FactionTraitCustomVaultersUnit3"            Type="FactionTrait" >
-    </SimulationDescriptor>\
+  <SimulationDescriptor Name="FactionTraitCustomVaultersUnit3" Type="FactionTrait"></SimulationDescriptor>\
 
-   <SimulationDescriptor Name="FactionTraitCustomMadFairiesUnit1"          Type="FactionTrait" >
-      </SimulationDescriptor>
+  <SimulationDescriptor Name="FactionTraitCustomMadFairiesUnit1" Type="FactionTrait"></SimulationDescriptor>
 
-   <SimulationDescriptor Name="FactionTraitCustomMadFairiesUnit2"          Type="FactionTrait" >
-     </SimulationDescriptor>
+  <SimulationDescriptor Name="FactionTraitCustomMadFairiesUnit2" Type="FactionTrait"></SimulationDescriptor>
 
+  <SimulationDescriptor Name="FactionTraitCustomMadFairiesUnit3" Type="FactionTrait"></SimulationDescriptor>
 
-   <SimulationDescriptor Name="FactionTraitCustomMadFairiesUnit3"          Type="FactionTrait" >
-   </SimulationDescriptor>
+  <SimulationDescriptor Name="FactionTraitCustomBrokenLordsUnit1" Type="FactionTrait"></SimulationDescriptor>
 
+  <SimulationDescriptor Name="FactionTraitCustomBrokenLordsUnit2" Type="FactionTrait"></SimulationDescriptor>
 
-   <SimulationDescriptor Name="FactionTraitCustomBrokenLordsUnit1"         Type="FactionTrait" >
-    </SimulationDescriptor>
+  <SimulationDescriptor Name="FactionTraitCustomBrokenLordsUnit3" Type="FactionTrait"></SimulationDescriptor>
 
+  <SimulationDescriptor Name="FactionTraitCustomNecrophagesUnit1" Type="FactionTrait"></SimulationDescriptor>
 
-   <SimulationDescriptor Name="FactionTraitCustomBrokenLordsUnit2"         Type="FactionTrait" >
-    </SimulationDescriptor>
+  <SimulationDescriptor Name="FactionTraitCustomNecrophagesUnit2" Type="FactionTrait"></SimulationDescriptor>
 
-   <SimulationDescriptor Name="FactionTraitCustomBrokenLordsUnit3"         Type="FactionTrait" >
-     </SimulationDescriptor>
+  <SimulationDescriptor Name="FactionTraitCustomNecrophagesUnit3" Type="FactionTrait"></SimulationDescriptor>
 
-   <SimulationDescriptor Name="FactionTraitCustomNecrophagesUnit1"         Type="FactionTrait" >
-    </SimulationDescriptor>
+  <SimulationDescriptor Name="FactionTraitCustomRageWizardsUnit1" Type="FactionTrait"></SimulationDescriptor>
 
-   <SimulationDescriptor Name="FactionTraitCustomNecrophagesUnit2"         Type="FactionTrait" >
-    </SimulationDescriptor>
+  <SimulationDescriptor Name="FactionTraitCustomRageWizardsUnit2" Type="FactionTrait"></SimulationDescriptor>
 
-   <SimulationDescriptor Name="FactionTraitCustomNecrophagesUnit3"         Type="FactionTrait" >
-      </SimulationDescriptor>
+  <SimulationDescriptor Name="FactionTraitCustomRageWizardsUnit3" Type="FactionTrait"></SimulationDescriptor>
 
-   <SimulationDescriptor Name="FactionTraitCustomRageWizardsUnit1"         Type="FactionTrait" >
-     </SimulationDescriptor>
+  <SimulationDescriptor Name="FactionTraitCustomRovingClansUnit1" Type="FactionTrait"></SimulationDescriptor>
 
-   <SimulationDescriptor Name="FactionTraitCustomRageWizardsUnit2"         Type="FactionTrait" >
-     </SimulationDescriptor>
+  <SimulationDescriptor Name="FactionTraitCustomRovingClansUnit2" Type="FactionTrait"></SimulationDescriptor>
 
-   <SimulationDescriptor Name="FactionTraitCustomRageWizardsUnit3"         Type="FactionTrait" >
-    </SimulationDescriptor>
+  <SimulationDescriptor Name="FactionTraitCustomRovingClansUnit3" Type="FactionTrait"></SimulationDescriptor>
 
-   <SimulationDescriptor Name="FactionTraitCustomRovingClansUnit1"         Type="FactionTrait" >
-    </SimulationDescriptor>
+  <SimulationDescriptor Name="FactionTraitCustomDrakkensUnit1" Type="FactionTrait"></SimulationDescriptor>
 
-   <SimulationDescriptor Name="FactionTraitCustomRovingClansUnit2"         Type="FactionTrait" >
-     </SimulationDescriptor>
+  <SimulationDescriptor Name="FactionTraitCustomDrakkensUnit2" Type="FactionTrait"></SimulationDescriptor>
 
-   <SimulationDescriptor Name="FactionTraitCustomRovingClansUnit3"         Type="FactionTrait" >
-    </SimulationDescriptor>
+  <SimulationDescriptor Name="FactionTraitCustomDrakkensUnit3" Type="FactionTrait"></SimulationDescriptor>
 
-   <SimulationDescriptor Name="FactionTraitCustomDrakkensUnit1"            Type="FactionTrait" >
-    </SimulationDescriptor>
+  <SimulationDescriptor Name="FactionTraitCustomCultistsUnit1" Type="FactionTrait"></SimulationDescriptor>
 
-   <SimulationDescriptor Name="FactionTraitCustomDrakkensUnit2"            Type="FactionTrait" >
-     </SimulationDescriptor>
+  <SimulationDescriptor Name="FactionTraitCustomCultistsUnit2" Type="FactionTrait"></SimulationDescriptor>
 
-   <SimulationDescriptor Name="FactionTraitCustomDrakkensUnit3"            Type="FactionTrait" >
-    </SimulationDescriptor>
-
-   <SimulationDescriptor Name="FactionTraitCustomCultistsUnit1"            Type="FactionTrait" >
-    </SimulationDescriptor>
-
-   <SimulationDescriptor Name="FactionTraitCustomCultistsUnit2"            Type="FactionTrait" >
-    </SimulationDescriptor>
-
-   <SimulationDescriptor Name="FactionTraitCustomCultistsUnit3"            Type="FactionTrait" >
-      </SimulationDescriptor> 
+  <SimulationDescriptor Name="FactionTraitCustomCultistsUnit3" Type="FactionTrait"></SimulationDescriptor>
 </Datatable>
