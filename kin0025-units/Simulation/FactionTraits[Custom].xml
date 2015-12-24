@@ -143,7 +143,7 @@
     <Prerequisites>!FactionTraitCultistsUnit3,!FactionTraitCustomMadFairiesUnit3,!FactionTraitCustomRovingClansUnit3,!FactionTraitCustomBrokenLordsUnit3,!FactionTraitCustomVaultersUnit3,!FactionTraitCustomNecrophagesUnit3,!FactionTraitCustomRageWizardsUnit3,!FactionTraitCustomDrakkensUnit3,!FactionTraitCustomReplicantsUnit3</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomCultistsUnit3"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyCultistsNamelessGuard" Type="Constructible"/>
-  </FactionTrait
+  </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomReplicantsUnit1" SubCategory="CustomTrait">
     <Prerequisites>!FactionTraitCultistsUnit1,!FactionTraitCustomMadFairiesUnit1,!FactionTraitCustomRovingClansUnit1,!FactionTraitCustomBrokenLordsUnit1,!FactionTraitCustomVaultersUnit1,!FactionTraitCustomNecrophagesUnit1,!FactionTraitCustomRageWizardsUnit1,!FactionTraitCustomDrakkensUnit1,!FactionTraitCustomCultistsUnit1</Prerequisites>
