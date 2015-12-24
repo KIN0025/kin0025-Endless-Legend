@@ -47,4 +47,10 @@
   <SimulationDescriptor Name="FactionTraitCustomCultistsUnit2" Type="FactionTrait"></SimulationDescriptor>
 
   <SimulationDescriptor Name="FactionTraitCustomCultistsUnit3" Type="FactionTrait"></SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitCustomReplicatorsUnit1" Type="FactionTrait"></SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitCustomReplicatorsUnit2" Type="FactionTrait"></SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitCustomReplicatorsUnit3" Type="FactionTrait"></SimulationDescriptor>
 </Datatable>

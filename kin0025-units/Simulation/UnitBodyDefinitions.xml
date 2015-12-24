@@ -17,6 +17,7 @@
     <UnitAbilityReference Level="0" Name="UnitAbilityFast"/>
 
     <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomBrokenLordsUnit1</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
       <PathPrerequisite Flags="Prerequisite,Validity">.../EmpireTypeMajor,FactionTraitCustomBrokenLordsUnit1</PathPrerequisite>
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
@@ -95,7 +96,9 @@
     <UnitAbilityReference Name="UnitAbilityForestRage"/>
 
     <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomMadFairiesUnit1</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Validity">.../EmpireTypeMajor,FactionTraitCustomMadFairiesUnit1</PathPrerequisite>
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
@@ -174,7 +177,9 @@
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRageWizardsUnit1</PathPrerequisite>
 
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRageWizardsUnit1</PathPrerequisite>
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
@@ -239,7 +244,9 @@
     <UnitAbilityReference Name="UnitAbilityDiseaseImmunity"/>
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomNecrophagesUnit1</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Validity">.../EmpireTypeMajor,FactionTraitCustomNecrophagesUnit1</PathPrerequisite>
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
@@ -317,7 +324,9 @@
     <UnitAbilityReference Name="UnitAbilityTechnolover"/>
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomVaultersUnit1</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomVaultersUnit1</PathPrerequisite>
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
@@ -396,7 +405,9 @@
     <UnitAbilityReference Level="0" Name="UnitAbilityFast"/>
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRovingClansUnit1</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Validity">.../EmpireTypeMajor,FactionTraitCustomRovingClansUnit1</PathPrerequisite>
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
@@ -472,7 +483,9 @@
     <UnitAbilityReference Name="UnitAbilityFast"/>
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomDrakkensUnit1</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Validity">.../EmpireTypeMajor,FactionTraitCustomDrakkensUnit1</PathPrerequisite>
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
@@ -549,7 +562,9 @@
     <UnitAbilityReference Name="UnitAbilityUnleashedPotential"/>
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomCultistsUnit1</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Validity">.../EmpireTypeMajor,FactionTraitCustomCultistsUnit1</PathPrerequisite>
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
     </UnitDesignPrerequisites>
@@ -621,7 +636,9 @@
     <UnitAbilityReference Level="0" Name="UnitAbilitySlow"/>
 
     <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomBrokenLordsUnit2</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Validity">.../EmpireTypeMajor,FactionTraitCustomBrokenLordsUnit2</PathPrerequisite>
 
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
@@ -689,7 +706,9 @@
 
     <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomMadFairiesUnit2</PathPrerequisite>
 
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomMadFairiesUnit2</PathPrerequisite>
 
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
@@ -756,7 +775,9 @@
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomNecrophagesUnit2</PathPrerequisite>
 
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomNecrophagesUnit2</PathPrerequisite>
 
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
@@ -821,7 +842,9 @@
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRageWizardsUnit2</PathPrerequisite>
 
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRageWizardsUnit2</PathPrerequisite>
 
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
@@ -889,7 +912,9 @@
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomVaultersUnit2</PathPrerequisite>
 
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomVaultersUnit2</PathPrerequisite>
 
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
@@ -970,7 +995,9 @@
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRovingClansUnit2</PathPrerequisite>
 
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRovingClansUnit2</PathPrerequisite>
 
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
@@ -1050,7 +1077,9 @@
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomDrakkensUnit2</PathPrerequisite>
 
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomDrakkensUnit2</PathPrerequisite>
 
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
@@ -1111,7 +1140,9 @@
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomCultistsUnit2</PathPrerequisite>
 
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomCultistsUnit2</PathPrerequisite>
 
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
@@ -1182,7 +1213,9 @@
 
     <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomRageWizardsUnit3</PathPrerequisite>
 
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomRageWizardsUnit3</PathPrerequisite>
 
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
@@ -1247,7 +1280,9 @@
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomNecrophagesUnit3</PathPrerequisite>
 
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomNecrophagesUnit3</PathPrerequisite>
 
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
@@ -1315,7 +1350,9 @@
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomVaultersUnit3</PathPrerequisite>
 
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomVaultersUnit3</PathPrerequisite>
 
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
@@ -1394,7 +1431,9 @@
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRovingClansUnit3</PathPrerequisite>
 
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomRovingClansUnit3</PathPrerequisite>
 
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
@@ -1466,7 +1505,9 @@
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomDrakkensUnit3</PathPrerequisite>
 
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomDrakkensUnit3</PathPrerequisite>
 
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
@@ -1531,7 +1572,9 @@
 
     <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomCultistsUnit3</PathPrerequisite>
 
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Validity">.../EmpireTypeMajor,FactionTraitCustomCultistsUnit3</PathPrerequisite>
 
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
@@ -1615,7 +1658,9 @@
 
     <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomBrokenLordsUnit3</PathPrerequisite>
 
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomBrokenLordsUnit3</PathPrerequisite>
 
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
@@ -1682,7 +1727,9 @@
 
     <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomMadFairiesUnit3</PathPrerequisite>
 
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
     <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
       <PathPrerequisite Flags="Prerequisite,Discard">.../EmpireTypeMajor,FactionTraitCustomMadFairiesUnit3</PathPrerequisite>
 
       <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
@@ -1737,4 +1784,250 @@
 
   </UnitBodyDefinition>
 
+  <!-- ########################################## -->
+  <!-- #####     REPLICANTS FACTION         ##### -->
+  <!-- ########################################## -->
+
+  <!-- REPLICANTS ASSASSIN -->
+  <UnitBodyDefinition Name="UnitBodyReplicantsAssassin" SubCategory="SubCategoryInfantry">
+
+    <Tags></Tags>
+
+    <UnitAbilityReference Name="UnitAbilityStealth"/>
+    <UnitAbilityReference Level="0" Name="UnitAbilityFast"/>
+    <UnitAbilityReference Name="UnitAbilityDualWield"/>
+    <UnitAbilityReference Name="UnitAbilityAcrobat"/>
+
+    <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomReplicantsUnit1</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
+    <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomReplicantsUnit1</PathPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+    </UnitDesignPrerequisites>
+
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostCheaper) + $Property(../ClassEmpire:UnitProductionCostCheaper) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic1">5</Cost>
+    <SimulationDescriptorReference Name="AffinityReplicants"/>
+    <SimulationDescriptorReference Name="UnitTypeReplicantsAssassin"/>
+    <SimulationDescriptorReference Name="UnitClassInfantry"/>
+    <SimulationDescriptorReference Name="UnitSizeMedium"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotSword1"/>
+    <SimulationDescriptorReference Name="ItemSlotAxe1"/>
+    <SimulationDescriptorReference Name="ItemSlotClaw2"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotLegs"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
+
+    <UnitEquipmentSet>
+      <Slot ItemName="ItemSword1IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemSword1IronTier1#2" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Legs"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
+    </UnitEquipmentSet>
+
+    <UnitBodyStance Name="#Default">
+      <Attachment Scale="0.51">
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
+      </Attachment>
+    </UnitBodyStance>
+
+    <UnitBodyStance Name="#DualWieldingSword1">
+      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassSword1"/>
+      <Attachment Scale="0.51">
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
+      </Attachment>
+      <Attachment Scale="0.51">
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="OffHand"/>
+        <Bone Name="Aux1"/>
+      </Attachment>
+    </UnitBodyStance>
+
+    <UnitBodyStance Name="#DualWielding+Axe1">
+      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassAxe1"/>
+      <Attachment Scale="0.51">
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
+      </Attachment>
+      <Attachment Scale="0.51">
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="OffHand"/>
+        <Bone Name="Aux1"/>
+      </Attachment>
+    </UnitBodyStance>
+
+    <UnitBodyBattleParameters>
+      <BattleActionUnitReference Name="BattleActionUnitAbilityHighGroundBonus"/>
+      <BattleActionUnitReference Name="BattleActionUnitMeleeDefaultAttack"/>
+      <BattleActionUnitReference Name="BattleActionUnitMeleeDefaultDefense"/>
+      <BattleActionUnitReference Name="BattleActionUnitCheckConfidence"/>
+      <BattleActionUnitReference Name="BattleActionUnitRetreat"/>
+      <BattleActionUnitReference Name="BattleActionUnitAttackResult"/>
+      <BattleActionUnitReference Name="BattleActionUnitAttackVisualSetting"/>
+      <BattleActionUnitReference Name="BattleActionUnitAbilityMinorSlayer"/>
+      <!-- for the AI -->
+      <BattleTargetingUnitBehaviorWeightsReferences Name="UnitBehaviorMeleeOffense"/>
+      <BattleTargetingUnitBehaviorWeightsReferences Name="UnitBehaviorMeleeDefense"/>
+      <BattleTargetingUnitBehaviorWeightsReferences Name="UnitBehaviorMeleeOpportunity"/>
+      <BattleTargetingUnitBehaviorWeightsReferences Name="UnitBehaviorMeleeHoldPosition"/>
+    </UnitBodyBattleParameters>
+
+  </UnitBodyDefinition>
+
+  <!-- REPLICANTS PREDATORE -->
+  <UnitBodyDefinition Name="UnitBodyReplicantsPredatore" SubCategory="SubCategoryRanged">
+
+    <Tags></Tags>
+
+    <UnitAbilityReference Name="UnitAbilityRanged"/>
+    <UnitAbilityReference Name="UnitAbilityStealth"/>
+    <UnitAbilityReference Name="UnitAbilityDualWield"/>
+    <UnitAbilityReference Name="UnitAbilityMarkOfThePredator"/>
+
+    <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomReplicantsUnit2</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
+    <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomReplicantsUnit2</PathPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+    </UnitDesignPrerequisites>
+
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostCheaper) + $Property(../ClassEmpire:UnitProductionCostCheaper) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic3">5</Cost>
+    <SimulationDescriptorReference Name="AffinityReplicants"/>
+    <SimulationDescriptorReference Name="UnitTypeReplicantsPredatore"/>
+    <SimulationDescriptorReference Name="UnitClassRanged"/>
+    <SimulationDescriptorReference Name="UnitSizeMedium"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotCrossbow1"/>
+    <SimulationDescriptorReference Name="ItemSlotBow2"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotLegs"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
+
+    <UnitEquipmentSet>
+      <Slot ItemName="ItemCrossbow1IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemCrossbow1IronTier1#2" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Legs"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
+    </UnitEquipmentSet>
+
+    <UnitBodyStance Name="#Default">
+      <Attachment Scale="0.51">
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
+      </Attachment>
+    </UnitBodyStance>
+
+    <UnitBodyStance Name="#DualWieldingCrossbow1">
+      <SimulationPathPrerequisite Path="ClassUnit/OffHand,ItemClassCrossbow1"/>
+      <Attachment Scale="0.51">
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
+      </Attachment>
+      <Attachment Scale="0.51">
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="OffHand"/>
+        <Bone Name="Aux1"/>
+      </Attachment>
+    </UnitBodyStance>
+
+    <UnitBodyBattleParameters>
+      <BattleActionUnitReference Name="BattleActionUnitAbilityHighGroundBonus"/>
+      <BattleActionUnitReference Name="BattleActionUnitRangeDefaultAttack"/>
+      <BattleActionUnitReference Name="BattleActionUnitRangeDefaultDefense"/>
+      <BattleActionUnitReference Name="BattleActionUnitReplicantsPredatorAttackDefense"/>
+      <BattleActionUnitReference Name="BattleActionUnitCheckSharpSense"/>
+      <BattleActionUnitReference Name="BattleActionUnitRetreat"/>
+      <BattleActionUnitReference Name="BattleActionUnitAttackResult"/>
+      <BattleActionUnitReference Name="BattleActionUnitAttackVisualSetting"/>
+      <BattleActionUnitReference Name="BattleActionUnitAbilityMinorSlayer"/>
+      <!-- for the AI -->
+      <BattleTargetingUnitBehaviorWeightsReferences Name="UnitBehaviorRangeOffense"/>
+      <BattleTargetingUnitBehaviorWeightsReferences Name="UnitBehaviorRangeDefense"/>
+      <BattleTargetingUnitBehaviorWeightsReferences Name="UnitBehaviorRangeOpportunity"/>
+      <BattleTargetingUnitBehaviorWeightsReferences Name="UnitBehaviorRangeHoldPosition"/>
+    </UnitBodyBattleParameters>
+
+  </UnitBodyDefinition>
+
+  <!-- REPLICANTS MYST -->
+  <UnitBodyDefinition Name="UnitBodyReplicantsMyst" SubCategory="SubCategoryFlying">
+
+    <Tags></Tags>
+
+    <UnitAbilityReference Name="UnitAbilityFly"/>
+    <UnitAbilityReference Name="UnitAbilityStealth"/>
+    <UnitAbilityReference Name="UnitAbilityFasterThanShadows"/>
+
+    <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomReplicantsUnit3</PathPrerequisite>
+    <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
+    <UnitDesignPrerequisites>
+      <PathPrerequisite Flags="Prerequisite,Discard">../ClassCity/CityImprovementCustomUnits</PathPrerequisite>
+      <PathPrerequisite Flags="Prerequisite,Discard,DiplomaticTradable">.../EmpireTypeMajor,FactionTraitCustomReplicantsUnit3</PathPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite,SlotPrerequisite" Inverted="false">($Property(ClassCity,Garrison:MaximumUnitSlotCount) - $Property(ClassCity,Garrison:UnitSlotCount)) ge 1</InterpreterPrerequisite>
+    </UnitDesignPrerequisites>
+
+    <CustomCost Instant="false" ResourceName="Production">$Property(../ClassEmpire:UnitProductionCostCheaper) + $Property(../ClassEmpire:UnitProductionCostCheaper) * $Property(../ClassEmpire:CostIncreaseFromEra)</CustomCost>
+    <Cost Instant="true" ResourceName="Strategic5">5</Cost>
+    <SimulationDescriptorReference Name="AffinityReplicants"/>
+    <SimulationDescriptorReference Name="UnitTypeReplicantsMyst"/>
+    <SimulationDescriptorReference Name="UnitClassFlying"/>
+    <SimulationDescriptorReference Name="UnitSizeMedium"/>
+    <SimulationDescriptorReference Name="MovementCapacityWalk"/>
+    <SimulationDescriptorReference Name="ItemSlotSpear2"/>
+    <SimulationDescriptorReference Name="ItemSlotClaw2"/>
+    <SimulationDescriptorReference Name="ItemSlotHead"/>
+    <SimulationDescriptorReference Name="ItemSlotTorso"/>
+    <SimulationDescriptorReference Name="ItemSlotAccessory"/>
+
+    <UnitEquipmentSet>
+      <Slot ItemName="ItemClaw2IronTier1#1" Name="MainHand"/>
+      <Slot ItemName="ItemClaw2IronTier1#1" Name="OffHand"/>
+      <Slot ItemName="" Name="Head"/>
+      <Slot ItemName="" Name="Torso"/>
+      <Slot ItemName="" Name="Accessory0" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory1" SlotType="Accessory"/>
+      <Slot ItemName="" Name="Accessory2" SlotType="Accessory"/>
+    </UnitEquipmentSet>
+
+    <UnitBodyStance Name="#Default">
+      <Attachment Scale="0.51">
+        <Mapping Name="Item.Generic"/>
+        <Slot Name="MainHand"/>
+      </Attachment>
+    </UnitBodyStance>
+
+    <UnitBodyBattleParameters>
+      <BattleActionUnitReference Name="BattleActionUnitAbilityHighGroundBonus"/>
+      <BattleActionUnitReference Name="BattleActionUnitFlyingDefaultAttack"/>
+      <BattleActionUnitReference Name="BattleActionUnitFlyingDefaultDefense"/>
+      <BattleActionUnitReference Name="BattleActionUnitCheckConfidence"/>
+      <BattleActionUnitReference Name="BattleActionUnitRetreat"/>
+      <BattleActionUnitReference Name="BattleActionUnitAttackResult"/>
+      <BattleActionUnitReference Name="BattleActionUnitAttackVisualSetting"/>
+      <BattleActionUnitReference Name="BattleActionUnitAbilityMinorSlayer"/>
+      <!-- for the AI -->
+      <BattleTargetingUnitBehaviorWeightsReferences Name="UnitBehaviorFlyingOffense"/>
+      <BattleTargetingUnitBehaviorWeightsReferences Name="UnitBehaviorFlyingDefense"/>
+      <BattleTargetingUnitBehaviorWeightsReferences Name="UnitBehaviorFlyingChainLightning"/>
+      <BattleTargetingUnitBehaviorWeightsReferences Name="UnitBehaviorFlyingOpportunity"/>
+      <BattleTargetingUnitBehaviorWeightsReferences Name="UnitBehaviorFlyingHoldPosition"/>
+    </UnitBodyBattleParameters>
+
+  </UnitBodyDefinition>
 </Datatable>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <SimulationDescriptor Name="EmpireWarUnhappiness" Type="EmpireType">
+    <SimulationModifierDescriptors>
+      <DiplomaticRelationStatePrerequisite Flags="Prerequisite,Discard">DiplomaticRelationStateWar</DiplomaticRelationStatePrerequisite>
+      <SimulationModifierDescriptor       TargetProperty="EmpireApproval"     Operation="Force"     Value="$(ApprovalAverage) * 0.5"    Priority="-1"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+</Datatable>

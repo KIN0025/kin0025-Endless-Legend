@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <WorldGeneratorScenarioDefinition Name="8 Player Balanced Symmetry" Continents="1">
+
+	<TmxMapName>MapCreationTutorial.tmx</TmxMapName>
+
+    <WorldGeneratorOptionDefinition Name="WorldSize"                     Default="Tiny"         Category="World" SubCategory="WorldSize"       GuiControlType="DropList">
+      <ItemDefinition Name="Large">
+        <OptionDefinitionConstraint OptionName="NumberOfMajorFactions" Type="Control">
+          <Key Name="8"/>
+        </OptionDefinitionConstraint>
+      </ItemDefinition>
+    </WorldGeneratorOptionDefinition>
+
+  </WorldGeneratorScenarioDefinition>
+
+</Datatable>

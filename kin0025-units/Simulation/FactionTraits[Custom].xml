@@ -2,147 +2,164 @@
 <Datatable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomVaultersUnit1" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitVaultersUnit1,!FactionTraitCustomMadFairiesUnit1,!FactionTraitCustomRovingClansUnit1,!FactionTraitCustomBrokenLordsUnit1,!FactionTraitCustomNecrophagesUnit1,!FactionTraitCustomRageWizardsUnit1,!FactionTraitCustomDrakkensUnit1,!FactionTraitCustomCultistsUnit1</Prerequisites>
+    <Prerequisites>!FactionTraitVaultersUnit1,!FactionTraitCustomMadFairiesUnit1,!FactionTraitCustomRovingClansUnit1,!FactionTraitCustomBrokenLordsUnit1,!FactionTraitCustomNecrophagesUnit1,!FactionTraitCustomRageWizardsUnit1,!FactionTraitCustomDrakkensUnit1,!FactionTraitCustomCultistsUnit1,!FactionTraitCustomReplicantsUnit1</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomVaultersUnit1"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyVaultersMarine" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomVaultersUnit2" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitVaultersUnit2,!FactionTraitCustomMadFairiesUnit2,!FactionTraitCustomRovingClansUnit2,!FactionTraitCustomBrokenLordsUnit2,!FactionTraitCustomNecrophagesUnit2,!FactionTraitCustomRageWizardsUnit2,!FactionTraitCustomDrakkensUnit2,!FactionTraitCustomCultistsUnit2</Prerequisites>
+    <Prerequisites>!FactionTraitVaultersUnit2,!FactionTraitCustomMadFairiesUnit2,!FactionTraitCustomRovingClansUnit2,!FactionTraitCustomBrokenLordsUnit2,!FactionTraitCustomNecrophagesUnit2,!FactionTraitCustomRageWizardsUnit2,!FactionTraitCustomDrakkensUnit2,!FactionTraitCustomCultistsUnit2,!FactionTraitCustomReplicantsUnit2</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomVaultersUnit2"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyVaultersDawnOfficer" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomVaultersUnit3" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitVaultersUnit3,!FactionTraitCustomMadFairiesUnit3,!FactionTraitCustomRovingClansUnit3,!FactionTraitCustomBrokenLordsUnit3,!FactionTraitCustomNecrophagesUnit3,!FactionTraitCustomRageWizardsUnit3,!FactionTraitCustomDrakkensUnit3,!FactionTraitCustomCultistsUnit3</Prerequisites>
+    <Prerequisites>!FactionTraitVaultersUnit3,!FactionTraitCustomMadFairiesUnit3,!FactionTraitCustomRovingClansUnit3,!FactionTraitCustomBrokenLordsUnit3,!FactionTraitCustomNecrophagesUnit3,!FactionTraitCustomRageWizardsUnit3,!FactionTraitCustomDrakkensUnit3,!FactionTraitCustomCultistsUnit3,!FactionTraitCustomReplicantsUnit3,!FactionTraitCustomReplicantsUnit2</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomVaultersUnit3"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyVaultersTitan" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomMadFairiesUnit1" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitMadFairiesUnit1,!FactionTraitCustomBrokenLordsUnit1,!FactionTraitCustomVaultersUnit1,!FactionTraitCustomNecrophagesUnit1,!FactionTraitCustomRageWizardsUnit1,!FactionTraitCustomDrakkensUnit1,!FactionTraitCustomCultistsUnit1</Prerequisites>
+    <Prerequisites>!FactionTraitMadFairiesUnit1,!FactionTraitCustomBrokenLordsUnit1,!FactionTraitCustomVaultersUnit1,!FactionTraitCustomNecrophagesUnit1,!FactionTraitCustomRageWizardsUnit1,!FactionTraitCustomDrakkensUnit1,!FactionTraitCustomCultistsUnit1,!FactionTraitCustomReplicantsUnit1</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomMadFairiesUnit1"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyMadFairiesArcher" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomMadFairiesUnit2" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitMadFairiesUnit2,!FactionTraitCustomBrokenLordsUnit2,!FactionTraitCustomVaultersUnit2,!FactionTraitCustomNecrophagesUnit2,!FactionTraitCustomRageWizardsUnit2,!FactionTraitCustomDrakkensUnit2,!FactionTraitCustomCultistsUnit2</Prerequisites>
+    <Prerequisites>!FactionTraitMadFairiesUnit2,!FactionTraitCustomBrokenLordsUnit2,!FactionTraitCustomVaultersUnit2,!FactionTraitCustomNecrophagesUnit2,!FactionTraitCustomRageWizardsUnit2,!FactionTraitCustomDrakkensUnit2,!FactionTraitCustomCultistsUnit2,!FactionTraitCustomReplicantsUnit2</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomMadFairiesUnit2"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyMadFairiesShaman" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomMadFairiesUnit3" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitMadFairiesUnit3,!FactionTraitCustomBrokenLordsUnit3,!FactionTraitCustomVaultersUnit3,!FactionTraitCustomNecrophagesUnit3,!FactionTraitCustomRageWizardsUnit3,!FactionTraitCustomDrakkensUnit3,!FactionTraitCustomCultistsUnit3</Prerequisites>
+    <Prerequisites>!FactionTraitMadFairiesUnit3,!FactionTraitCustomBrokenLordsUnit3,!FactionTraitCustomVaultersUnit3,!FactionTraitCustomNecrophagesUnit3,!FactionTraitCustomRageWizardsUnit3,!FactionTraitCustomDrakkensUnit3,!FactionTraitCustomCultistsUnit3,!FactionTraitCustomReplicantsUnit3</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomMadFairiesUnit3"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyMadFairiesForestSpirit" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomBrokenLordsUnit1" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitBrokenLordsUnit1,!FactionTraitCustomMadFairiesUnit1,!FactionTraitCustomRovingClansUnit1,!FactionTraitCustomVaultersUnit1,!FactionTraitCustomNecrophagesUnit1,!FactionTraitCustomRageWizardsUnit1,!FactionTraitCustomDrakkensUnit1,!FactionTraitCustomCultistsUnit1</Prerequisites>
+    <Prerequisites>!FactionTraitBrokenLordsUnit1,!FactionTraitCustomMadFairiesUnit1,!FactionTraitCustomRovingClansUnit1,!FactionTraitCustomVaultersUnit1,!FactionTraitCustomNecrophagesUnit1,!FactionTraitCustomRageWizardsUnit1,!FactionTraitCustomDrakkensUnit1,!FactionTraitCustomCultistsUnit1,!FactionTraitCustomReplicantsUnit1</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomBrokenLordsUnit1"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyBrokenLordsInfantry" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomBrokenLordsUnit2" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitBrokenLordsUnit2,!FactionTraitCustomMadFairiesUnit2,!FactionTraitCustomRovingClansUnit2,!FactionTraitCustomVaultersUnit2,!FactionTraitCustomNecrophagesUnit2,!FactionTraitCustomRageWizardsUnit2,!FactionTraitCustomDrakkensUnit2,!FactionTraitCustomCultistsUnit2</Prerequisites>
+    <Prerequisites>!FactionTraitBrokenLordsUnit2,!FactionTraitCustomMadFairiesUnit2,!FactionTraitCustomRovingClansUnit2,!FactionTraitCustomVaultersUnit2,!FactionTraitCustomNecrophagesUnit2,!FactionTraitCustomRageWizardsUnit2,!FactionTraitCustomDrakkensUnit2,!FactionTraitCustomCultistsUnit2,!FactionTraitCustomReplicantsUnit2</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomBrokenLordsUnit2"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyBrokenLordsCavalry" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomBrokenLordsUnit3" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitBrokenLordsUnit3,!FactionTraitCustomMadFairiesUnit3,!FactionTraitCustomRovingClansUnit3,!FactionTraitCustomVaultersUnit3,!FactionTraitCustomNecrophagesUnit3,!FactionTraitCustomRageWizardsUnit3,!FactionTraitCustomDrakkensUnit3,!FactionTraitCustomCultistsUnit3</Prerequisites>
+    <Prerequisites>!FactionTraitBrokenLordsUnit3,!FactionTraitCustomMadFairiesUnit3,!FactionTraitCustomRovingClansUnit3,!FactionTraitCustomVaultersUnit3,!FactionTraitCustomNecrophagesUnit3,!FactionTraitCustomRageWizardsUnit3,!FactionTraitCustomDrakkensUnit3,!FactionTraitCustomCultistsUnit3,!FactionTraitCustomReplicantsUnit3</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomBrokenLordsUnit3"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyBrokenLordsBlackBishop" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomNecrophagesUnit1" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitNecrophagesUnit1,!FactionTraitCustomMadFairiesUnit1,!FactionTraitCustomRovingClansUnit1,!FactionTraitCustomBrokenLordsUnit1,!FactionTraitCustomVaultersUnit1,!FactionTraitCustomRageWizardsUnit1,!FactionTraitCustomDrakkensUnit1,!FactionTraitCustomCultistsUnit1</Prerequisites>
+    <Prerequisites>!FactionTraitNecrophagesUnit1,!FactionTraitCustomMadFairiesUnit1,!FactionTraitCustomRovingClansUnit1,!FactionTraitCustomBrokenLordsUnit1,!FactionTraitCustomVaultersUnit1,!FactionTraitCustomRageWizardsUnit1,!FactionTraitCustomDrakkensUnit1,!FactionTraitCustomCultistsUnit1,!FactionTraitCustomReplicantsUnit1</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomNecrophagesUnit1"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyNecrophagesNecrohunter" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomNecrophagesUnit2" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitNecrophagesUnit2,!FactionTraitCustomMadFairiesUnit2,!FactionTraitCustomRovingClansUnit2,!FactionTraitCustomBrokenLordsUnit2,!FactionTraitCustomVaultersUnit2,!FactionTraitCustomRageWizardsUnit2,!FactionTraitCustomDrakkensUnit2,!FactionTraitCustomCultistsUnit2</Prerequisites>
+    <Prerequisites>!FactionTraitNecrophagesUnit2,!FactionTraitCustomMadFairiesUnit2,!FactionTraitCustomRovingClansUnit2,!FactionTraitCustomBrokenLordsUnit2,!FactionTraitCustomVaultersUnit2,!FactionTraitCustomRageWizardsUnit2,!FactionTraitCustomDrakkensUnit2,!FactionTraitCustomCultistsUnit2,!FactionTraitCustomReplicantsUnit2</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomNecrophagesUnit2"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyNecrophagesZombat" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomNecrophagesUnit3" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitNecrophagesUnit3,!FactionTraitCustomMadFairiesUnit3,!FactionTraitCustomRovingClansUnit3,!FactionTraitCustomBrokenLordsUnit3,!FactionTraitCustomVaultersUnit3,!FactionTraitCustomRageWizardsUnit3,!FactionTraitCustomDrakkensUnit3,!FactionTraitCustomCultistsUnit3</Prerequisites>
+    <Prerequisites>!FactionTraitNecrophagesUnit3,!FactionTraitCustomMadFairiesUnit3,!FactionTraitCustomRovingClansUnit3,!FactionTraitCustomBrokenLordsUnit3,!FactionTraitCustomVaultersUnit3,!FactionTraitCustomRageWizardsUnit3,!FactionTraitCustomDrakkensUnit3,!FactionTraitCustomCultistsUnit3,!FactionTraitCustomReplicantsUnit3</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomNecrophagesUnit3"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyNecrophagesLichbug" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomRageWizardsUnit1" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitRageWizardsUnit1,!FactionTraitCustomMadFairiesUnit1,!FactionTraitCustomRovingClansUnit1,!FactionTraitCustomBrokenLordsUnit1,!FactionTraitCustomVaultersUnit1,!FactionTraitCustomNecrophagesUnit1,!FactionTraitCustomDrakkensUnit1,!FactionTraitCustomCultistsUnit1</Prerequisites>
+    <Prerequisites>!FactionTraitRageWizardsUnit1,!FactionTraitCustomMadFairiesUnit1,!FactionTraitCustomRovingClansUnit1,!FactionTraitCustomBrokenLordsUnit1,!FactionTraitCustomVaultersUnit1,!FactionTraitCustomNecrophagesUnit1,!FactionTraitCustomDrakkensUnit1,!FactionTraitCustomCultistsUnit1,!FactionTraitCustomReplicantsUnit1</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomRageWizardsUnit1"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyRageWizardsBattleMage" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomRageWizardsUnit2" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitRageWizardsUnit2,!FactionTraitCustomMadFairiesUnit2,!FactionTraitCustomRovingClansUnit2,!FactionTraitCustomBrokenLordsUnit2,!FactionTraitCustomVaultersUnit2,!FactionTraitCustomNecrophagesUnit2,!FactionTraitCustomDrakkensUnit2,!FactionTraitCustomCultistsUnit2</Prerequisites>
+    <Prerequisites>!FactionTraitRageWizardsUnit2,!FactionTraitCustomMadFairiesUnit2,!FactionTraitCustomRovingClansUnit2,!FactionTraitCustomBrokenLordsUnit2,!FactionTraitCustomVaultersUnit2,!FactionTraitCustomNecrophagesUnit2,!FactionTraitCustomDrakkensUnit2,!FactionTraitCustomCultistsUnit2,!FactionTraitCustomReplicantsUnit2</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomRageWizardsUnit2"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyRageWizardsWitch" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomRageWizardsUnit3" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitRageWizardsUnit3,!FactionTraitCustomMadFairiesUnit3,!FactionTraitCustomRovingClansUnit3,!FactionTraitCustomBrokenLordsUnit3,!FactionTraitCustomVaultersUnit3,!FactionTraitCustomNecrophagesUnit3,!FactionTraitCustomDrakkensUnit3,!FactionTraitCustomCultistsUnit3</Prerequisites>
+    <Prerequisites>!FactionTraitRageWizardsUnit3,!FactionTraitCustomMadFairiesUnit3,!FactionTraitCustomRovingClansUnit3,!FactionTraitCustomBrokenLordsUnit3,!FactionTraitCustomVaultersUnit3,!FactionTraitCustomNecrophagesUnit3,!FactionTraitCustomDrakkensUnit3,!FactionTraitCustomCultistsUnit3,!FactionTraitCustomReplicantsUnit3</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomRageWizardsUnit3"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyRageWizardsPhoenix" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomRovingClansUnit1" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitRovingClansUnit1,!FactionTraitCustomMadFairiesUnit1,!FactionTraitCustomBrokenLordsUnit1,!FactionTraitCustomVaultersUnit1,!FactionTraitCustomNecrophagesUnit1,!FactionTraitCustomRageWizardsUnit1,!FactionTraitCustomDrakkensUnit1,!FactionTraitCustomCultistsUnit1</Prerequisites>
+    <Prerequisites>!FactionTraitRovingClansUnit1,!FactionTraitCustomMadFairiesUnit1,!FactionTraitCustomBrokenLordsUnit1,!FactionTraitCustomVaultersUnit1,!FactionTraitCustomNecrophagesUnit1,!FactionTraitCustomRageWizardsUnit1,!FactionTraitCustomDrakkensUnit1,!FactionTraitCustomCultistsUnit1,!FactionTraitCustomReplicantsUnit1</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomRovingClansUnit1"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyRovingClansDervish" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomRovingClansUnit2" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitRovingClansUnit2,!FactionTraitCustomMadFairiesUnit2,!FactionTraitCustomBrokenLordsUnit2,!FactionTraitCustomVaultersUnit2,!FactionTraitCustomNecrophagesUnit2,!FactionTraitCustomRageWizardsUnit2,!FactionTraitCustomDrakkensUnit2,!FactionTraitCustomCultistsUnit2</Prerequisites>
+    <Prerequisites>!FactionTraitRovingClansUnit2,!FactionTraitCustomMadFairiesUnit2,!FactionTraitCustomBrokenLordsUnit2,!FactionTraitCustomVaultersUnit2,!FactionTraitCustomNecrophagesUnit2,!FactionTraitCustomRageWizardsUnit2,!FactionTraitCustomDrakkensUnit2,!FactionTraitCustomCultistsUnit2,!FactionTraitCustomReplicantsUnit2</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomRovingClansUnit2"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyRovingClansKassai" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomRovingClansUnit3" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitRovingClansUnit3,!FactionTraitCustomMadFairiesUnit3,!FactionTraitCustomBrokenLordsUnit3,!FactionTraitCustomVaultersUnit3,!FactionTraitCustomNecrophagesUnit3,!FactionTraitCustomRageWizardsUnit3,!FactionTraitCustomDrakkensUnit3,!FactionTraitCustomCultistsUnit3</Prerequisites>
+    <Prerequisites>!FactionTraitRovingClansUnit3,!FactionTraitCustomMadFairiesUnit3,!FactionTraitCustomBrokenLordsUnit3,!FactionTraitCustomVaultersUnit3,!FactionTraitCustomNecrophagesUnit3,!FactionTraitCustomRageWizardsUnit3,!FactionTraitCustomDrakkensUnit3,!FactionTraitCustomCultistsUnit3,!FactionTraitCustomReplicantsUnit3</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomRovingClansUnit3"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyRovingClansBerzerk" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomDrakkensUnit1" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitDrakkensUnit1,!FactionTraitCustomMadFairiesUnit1,!FactionTraitCustomRovingClansUnit1,!FactionTraitCustomBrokenLordsUnit1,!FactionTraitCustomVaultersUnit1,!FactionTraitCustomNecrophagesUnit1,!FactionTraitCustomRageWizardsUnit1,!FactionTraitCustomCultistsUnit1</Prerequisites>
+    <Prerequisites>!FactionTraitDrakkensUnit1,!FactionTraitCustomMadFairiesUnit1,!FactionTraitCustomRovingClansUnit1,!FactionTraitCustomBrokenLordsUnit1,!FactionTraitCustomVaultersUnit1,!FactionTraitCustomNecrophagesUnit1,!FactionTraitCustomRageWizardsUnit1,!FactionTraitCustomCultistsUnit1,!FactionTraitCustomReplicantsUnit1</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomDrakkensUnit1"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyDrakkensDrakkenling" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomDrakkensUnit2" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitDrakkensUnit2,!FactionTraitCustomMadFairiesUnit2,!FactionTraitCustomRovingClansUnit2,!FactionTraitCustomBrokenLordsUnit2,!FactionTraitCustomVaultersUnit2,!FactionTraitCustomNecrophagesUnit2,!FactionTraitCustomRageWizardsUnit2,!FactionTraitCustomCultistsUnit2</Prerequisites>
+    <Prerequisites>!FactionTraitDrakkensUnit2,!FactionTraitCustomMadFairiesUnit2,!FactionTraitCustomRovingClansUnit2,!FactionTraitCustomBrokenLordsUnit2,!FactionTraitCustomVaultersUnit2,!FactionTraitCustomNecrophagesUnit2,!FactionTraitCustomRageWizardsUnit2,!FactionTraitCustomCultistsUnit2,!FactionTraitCustomReplicantsUnit2</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomDrakkensUnit2"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyDrakkensWyvern" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomDrakkensUnit3" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitDrakkensUnit3,!FactionTraitCustomMadFairiesUnit3,!FactionTraitCustomRovingClansUnit3,!FactionTraitCustomBrokenLordsUnit3,!FactionTraitCustomVaultersUnit3,!FactionTraitCustomNecrophagesUnit3,!FactionTraitCustomRageWizardsUnit3,!FactionTraitCustomCultistsUnit3</Prerequisites>
+    <Prerequisites>!FactionTraitDrakkensUnit3,!FactionTraitCustomMadFairiesUnit3,!FactionTraitCustomRovingClansUnit3,!FactionTraitCustomBrokenLordsUnit3,!FactionTraitCustomVaultersUnit3,!FactionTraitCustomNecrophagesUnit3,!FactionTraitCustomRageWizardsUnit3,!FactionTraitCustomCultistsUnit3,!FactionTraitCustomReplicantsUnit3</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomDrakkensUnit3"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyDrakkensAncientDragon" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomCultistsUnit1" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitCultistsUnit1,!FactionTraitCustomMadFairiesUnit1,!FactionTraitCustomRovingClansUnit1,!FactionTraitCustomBrokenLordsUnit1,!FactionTraitCustomVaultersUnit1,!FactionTraitCustomNecrophagesUnit1,!FactionTraitCustomRageWizardsUnit1,!FactionTraitCustomDrakkensUnit1,</Prerequisites>
+    <Prerequisites>!FactionTraitCultistsUnit1,!FactionTraitCustomMadFairiesUnit1,!FactionTraitCustomRovingClansUnit1,!FactionTraitCustomBrokenLordsUnit1,!FactionTraitCustomVaultersUnit1,!FactionTraitCustomNecrophagesUnit1,!FactionTraitCustomRageWizardsUnit1,!FactionTraitCustomDrakkensUnit1,!FactionTraitCustomReplicantsUnit1</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomCultistsUnit1"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyCultistsPreacher" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomCultistsUnit2" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitCultistsUnit2,!FactionTraitCustomMadFairiesUnit2,!FactionTraitCustomRovingClansUnit2,!FactionTraitCustomBrokenLordsUnit2,!FactionTraitCustomVaultersUnit2,!FactionTraitCustomNecrophagesUnit2,!FactionTraitCustomRageWizardsUnit2,!FactionTraitCustomDrakkensUnit2,</Prerequisites>
+    <Prerequisites>!FactionTraitCultistsUnit2,!FactionTraitCustomMadFairiesUnit2,!FactionTraitCustomRovingClansUnit2,!FactionTraitCustomBrokenLordsUnit2,!FactionTraitCustomVaultersUnit2,!FactionTraitCustomNecrophagesUnit2,!FactionTraitCustomRageWizardsUnit2,!FactionTraitCustomDrakkensUnit2,!FactionTraitCustomReplicantsUnit2</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomCultistsUnit2"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyCultistsFanatic" Type="Constructible"/>
   </FactionTrait>
 
   <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomCultistsUnit3" SubCategory="CustomTrait">
-    <Prerequisites>!FactionTraitCultistsUnit3,!FactionTraitCustomMadFairiesUnit3,!FactionTraitCustomRovingClansUnit3,!FactionTraitCustomBrokenLordsUnit3,!FactionTraitCustomVaultersUnit3,!FactionTraitCustomNecrophagesUnit3,!FactionTraitCustomRageWizardsUnit3,!FactionTraitCustomDrakkensUnit3,</Prerequisites>
+    <Prerequisites>!FactionTraitCultistsUnit3,!FactionTraitCustomMadFairiesUnit3,!FactionTraitCustomRovingClansUnit3,!FactionTraitCustomBrokenLordsUnit3,!FactionTraitCustomVaultersUnit3,!FactionTraitCustomNecrophagesUnit3,!FactionTraitCustomRageWizardsUnit3,!FactionTraitCustomDrakkensUnit3,!FactionTraitCustomReplicantsUnit3</Prerequisites>
     <SimulationDescriptorReference Name="FactionTraitCustomCultistsUnit3"/>
     <FactionTraitTooltipOverride OverrideName="UnitBodyCultistsNamelessGuard" Type="Constructible"/>
+  </FactionTrait
+
+  <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomReplicantsUnit1" SubCategory="CustomTrait">
+    <Prerequisites>!FactionTraitCultistsUnit1,!FactionTraitCustomMadFairiesUnit1,!FactionTraitCustomRovingClansUnit1,!FactionTraitCustomBrokenLordsUnit1,!FactionTraitCustomVaultersUnit1,!FactionTraitCustomNecrophagesUnit1,!FactionTraitCustomRageWizardsUnit1,!FactionTraitCustomDrakkensUnit1,!FactionTraitCustomCultistsUnit1</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitCustomReplicantsUnit1"/>
+    <FactionTraitTooltipOverride OverrideName="UnitBodyReplicantsAssassin" Type="Constructible"/>
   </FactionTrait>
 
+  <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomReplicantsUnit2" SubCategory="CustomTrait">
+    <Prerequisites>!FactionTraitCultistsUnit2,!FactionTraitCustomMadFairiesUnit2,!FactionTraitCustomRovingClansUnit2,!FactionTraitCustomBrokenLordsUnit2,!FactionTraitCustomVaultersUnit2,!FactionTraitCustomNecrophagesUnit2,!FactionTraitCustomRageWizardsUnit2,!FactionTraitCustomDrakkensUnit2,!FactionTraitCustomCultistsUnit2</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitCustomReplicantsUnit2"/>
+    <FactionTraitTooltipOverride OverrideName="UnitBodyReplicantsPredatore" Type="Constructible"/>
+  </FactionTrait>
+
+  <FactionTrait Cost="0" Custom="true" Family="Units" Name="FactionTraitCustomReplicantsUnit3" SubCategory="CustomTrait">
+    <Prerequisites>!FactionTraitCultistsUnit3,!FactionTraitCustomMadFairiesUnit3,!FactionTraitCustomRovingClansUnit3,!FactionTraitCustomBrokenLordsUnit3,!FactionTraitCustomVaultersUnit3,!FactionTraitCustomNecrophagesUnit3,!FactionTraitCustomRageWizardsUnit3,!FactionTraitCustomDrakkensUnit3,!FactionTraitCustomCultistsUnit3</Prerequisites>
+    <SimulationDescriptorReference Name="FactionTraitCustomReplicantsUnit3"/>
+    <FactionTraitTooltipOverride OverrideName="UnitBodyReplicantsMyst" Type="Constructible"/>
+  </FactionTrait>
 </Datatable>

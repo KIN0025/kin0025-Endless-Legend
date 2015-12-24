@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LocalizationPair Name="%WorldGeneratorScenarioMapCreationTutorialTitle">Map Creation Tutorial</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorScenarioMapCreationTutorialDescription">Map Creation Tutorial.</LocalizationPair>
+  <LocalizationPair Name="%WorldGeneratorScenarioMapCreationTutorialContent">Map Creation Tutorial.</LocalizationPair>
+  <LocalizationPair Name="%RegionName1">1</LocalizationPair>
+  <LocalizationPair Name="%RegionName2">2</LocalizationPair>
+  <LocalizationPair Name="%RegionName3">3</LocalizationPair>
+  <LocalizationPair Name="%RegionName4">4</LocalizationPair>
+  <LocalizationPair Name="%RegionName5">5</LocalizationPair>
+</Datatable>

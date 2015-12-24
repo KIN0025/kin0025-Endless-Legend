@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <RuntimeModule Name="kin0025maps" Type="Extension">
+    <Version Major="0" Minor="1" Revision="0" Serial="1"/>
+    <Tags>Maps</Tags>
+    <Author>kin0025</Author>
+    <Homepage></Homepage>
+    <Title>kin0025-maps</Title>
+    <Description>A bunch of custom maps made by kin0025</Description>
+    <ReleaseNotes/>
+    <PreviewImageFile>Resources/Images/Mod_MapCreationTutorial_Thumbnail.png</PreviewImageFile>
+
+    <Plugins>
+      <DatabasePlugin DataType="WorldGeneratorScenarioDefinition, Assembly-CSharp">
+        <FilePath>Public/Scenarios/*.xml</FilePath>
+      </DatabasePlugin>
+
+	  <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+        <FilePath>Public/Gui/GuiElements[MapCreationTutorial].xml</FilePath>
+      </DatabasePlugin>
+
+      <LocalizationPlugin>
+        <Directory>Public/Localization</Directory>
+      </LocalizationPlugin>
+    </Plugins>
+
+  </RuntimeModule>
+
+</Datatable>

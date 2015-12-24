@@ -153,4 +153,23 @@
     <UnitBodyDefinitionReference Name="FactionAffinityUnitBodyCultistsNamelessGuard"/>
   </UnitDesign>
 
+  <!-- ################################################### -->
+  <!-- ################ Replicants Units ################# -->
+  <!-- ################################################### -->
+
+  <!-- REPLICANTS PREDATORE -->
+  <UnitDesign Name="FactionAffinityUnitDesignReplicantsPredatore#1"               Model="0090100">
+    <UnitBodyDefinitionReference Name="FactionAffinityUnitBodyReplicantsPredatore" />
+  </UnitDesign>
+
+  <!-- REPLICANTS ASSASSIN -->
+  <UnitDesign Name="FactionAffinityUnitDesignReplicantsAssassin#1"                Model="0090200">
+    <UnitBodyDefinitionReference Name="FactionAffinityUnitBodyReplicantsAssassin" />
+  </UnitDesign>
+
+  <!-- REPLICANTS MYST -->
+  <UnitDesign Name="FactionAffinityUnitDesignReplicantsMyst#1"                    Model="0090300">
+    <UnitBodyDefinitionReference Name="FactionAffinityUnitBodyReplicantsMyst" />
+  </UnitDesign>
+
 </Datatable>

@@ -5,6 +5,11 @@
     <PathPrerequisite Flags="Prerequisite,Discard">ClassArmy/MovementCapacitySail</PathPrerequisite>
     <Cost ResourceName="ActionPoint" Instant="true">1</Cost>
   </ArmyAction_Attack>
-
+  <ArmyAction_Colonization Name="ArmyActionColonization" ExperienceReward="0">
+    <!--
+    <PathPrerequisite Flags="Prerequisite,Discard">ClassArmy/UnitAbilityColonizationDescriptor</PathPrerequisite>
+    <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologySettler</TechnologyPrerequisite>
+    -->
+  </ArmyAction_Colonization>
 
 </Datatable>
