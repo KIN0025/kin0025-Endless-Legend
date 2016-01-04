@@ -5,7 +5,7 @@
     <Title>KIN0025 units</Title>
 	<Version Major="2" Minor="0" Revision="0" />
     <Author>KIN0025</Author>
-    <Description>kin0025's custom faction units.</Description>
+    <Description>kin0025's custom faction units. Localisations and images not completed.</Description>
 
 <Plugins>
   <DatabasePlugin DataType="Amplitude.Unity.Framework.AnimationCurve, Assembly-CSharp-firstpass">
